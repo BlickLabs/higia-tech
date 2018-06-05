@@ -1,0 +1,714 @@
+.home
+  &-particles
+    &-container
+      background-color $hpinkLight
+      position relative
+
+    &-absolute
+      left 0
+      position absolute
+      right 0
+      top 0
+
+  &-cover
+    padding 150px 0 62px 0
+
+    &-title
+      font-size $fs25
+      letter-spacing -0.4px
+      line-height 49px
+
+    &-description
+      color $hblack
+      font-size $fs38
+      letter-spacing -0.2px
+      line-height 37px
+      text-align center
+
+      &-container
+        margin 15px 0 98px 0
+        width 550px
+
+    &-info
+      align-items center
+      display flex
+      flex-direction column
+
+    &-btn
+      &-container
+        margin-top 98px 0 103px 0
+
+  &-eva
+    background-image url("../img/backgrounds/bg-eva-1.png"), url("../img/backgrounds/bg-eva-2.png")
+    background-position top right, bottom left
+    background-repeat no-repeat
+    background-size 360px, 360px
+    align-items center
+    display flex
+    flex-direction column
+    padding 78px
+
+    &-logo
+      height 54px
+      width 172px
+
+      &-container
+        height 54px
+        margin 0 auto
+        width 172px
+
+    &-paragraph
+      color $hblack
+      letter-spacing 0.5px
+      line-height 27px
+      text-align center
+
+      &-container
+        margin 34px 0 70px 0
+        width 522px
+
+    &-infographi
+      background-attachment fixed
+      background-image url("../img/home/eva-infographi.png")
+      background-position bottom
+      background-size 62%
+      background-repeat no-repeat
+      height 500px
+      width 100%
+
+      &-img
+        display none
+
+    &-button
+      background-color $hwhite
+      border solid 2px $hpink
+      color $hpink
+
+      &:hover
+        background-color $hpink
+        color $hwhite
+
+      &-container
+        margin-top 94px
+
+        & a
+          margin 0 5px
+
+  &-founder
+    display flex
+    flex-direction row
+    height 554px
+
+    &-img
+      height 554px
+
+    &-info
+      background-color $hgrayLight
+      padding 60px 125px 0 125px
+
+    &-title
+      color $hgrayStrong
+      font-size $fs20
+
+    &-subtitle
+      font-size $fs45
+      color $hgrayStrong
+      letter-spacing -3px
+      line-height 31px
+
+      &-container
+        margin 15px 0 24px 0
+      
+    &-paragraph
+      color $hblack
+      font-size $fs17
+      letter-spacing 0.5px
+      line-height 26px
+
+      &-container
+        margin 0 0 25px 0
+
+    &-button
+      margin-top 10px
+
+  &-allies
+    background-image url("../img/backgrounds/bg-allies.jpg")
+    background-position center
+    background-size cover
+    background-repeat no-repeat
+    padding 75px 0 70px 0
+
+    &-content
+      align-items center
+      display flex
+      flex-direction column
+
+    &-title
+      color $hwhite
+      font-size $fs45
+      letter-spacing 0.4px
+      line-height 31px
+      text-align center
+
+    &-description
+      color $hwhite
+      font-size $fs19
+      letter-spacing 0.5px
+      line-height 25px
+      text-align center
+
+      &-container
+        margin 30px 0 15px 0
+        width 615px
+
+    &-carousel
+      margin 0 auto
+      position relative
+      width 150px
+
+      & .owl-prev,
+      & .owl-next
+        position absolute
+        top 84px
+
+      & .owl-prev
+        left -140px
+
+      & .owl-next
+        right -140px
+
+      & .owl-dots
+        margin-left -45px
+        text-align center
+        width 240px
+
+      & .owl-dot
+        background-color $hwhite !important
+        border solid 1px $hwhite !important
+        border-radius 100px
+        height 10px
+        margin 0 5px
+        width 10px
+
+      & .owl-dot.active
+        background-color transparent !important
+
+    &-navigation
+      height 22px
+      width auto
+
+    &-name
+      color $hwhite
+      font-size $fs17
+      letter-spacing 0.6px
+      text-align center
+
+    &-logo
+      height auto
+      width 149px !important
+
+      &-container
+        align-items center
+        display flex
+        height 192px
+
+    &-btn
+      &-container
+        margin-top 35px
+
+  &-awards
+    background-image url("../img/backgrounds/bg-awards.png")
+    background-position center
+    background-size cover
+    background-repeat no-repeat
+    padding 126px 0 109px 0
+
+    &-title
+      color $hgrayStrong
+      font-size $fs45
+      line-height 31px
+      text-align center
+
+      &-container
+        margin-bottom 57px
+
+    &-content
+      height 451px
+      width 863px
+
+    &-separator
+      background-color $hpink
+      height 1px
+      margin 20px 0
+      width 24px
+
+    &-carousel
+      margin 0 auto
+      width 863px
+
+      &-subtitle
+        color $hblack
+        font-size $fs12
+        line-height 13px
+
+      &-title
+        color $hblack
+        font-size $fs20
+        line-height 26px
+
+      &-description
+        color $hblack
+        font-size $fs15
+        line-height 15px
+        margin-bottom 6px
+
+      & .owl-prev,
+      & .owl-next
+        position absolute
+        top 220px
+
+      & .owl-prev
+        left -140px
+
+      & .owl-next
+        right -140px
+
+      & .owl-dots
+        margin-top 55px
+        text-align center
+
+      & .owl-dot
+        background-color $hgrayDots !important
+        border solid 1px $hgrayDots !important
+        border-radius 100px
+        height 10px
+        margin 0 5px
+        width 10px
+
+      & .owl-dot.active
+        background-color transparent !important
+
+    &-navigation
+      height 22px
+      width auto
+
+    &-img
+      background-position center
+      background-size cover
+      background-repeat no-repeat
+      height 247px
+      position relative
+
+    &-logo
+      &-container
+        position absolute
+        right 31px
+        top 38px
+
+        &-modified
+          align-items center
+          display flex
+          height 100%
+          justify-content center
+
+    &-info
+      background-color $hgrayLight
+      padding 42px 0 0 87px
+      height 204px
+
+  &-news
+    background-image url("../img/backgrounds/bg-news.jpg")
+    background-position center
+    background-size cover
+    background-repeat no-repeat
+    padding 90px 0 80px 0
+
+    &-title
+      color $hgrayStrong
+      font-size $fs45
+      text-align center
+
+    &-carousel
+      margin 60px auto 0 auto
+      width 969px
+
+      & .owl-prev,
+      & .owl-next
+        position absolute
+        top 130px
+
+      & .owl-prev
+        left -140px
+
+      & .owl-next
+        right -140px
+
+      & .owl-dots
+        text-align center
+
+      & .owl-dot
+        background-color $hgrayDots !important
+        border solid 1px $hgrayDots !important
+        border-radius 100px
+        height 10px
+        margin 0 5px
+        width 10px
+
+      & .owl-dot.active
+        background-color transparent !important
+
+    &-navigation
+      height 22px
+      width auto
+
+    &-separator
+      background-color $hgrayDots
+      height 1px
+      margin 30px 0 22px 0
+      width 48px
+
+    &-description
+      color $hgray
+      font-size $fs15
+      line-height 23px
+      text-align center
+
+      &-container
+        margin-bottom 15px
+
+    &-date
+      color $hgray
+      font-size $fs13
+
+    &-card
+      align-items center
+      background-color $hwhite
+      box-shadow 0 16px 23px 0 rgba(0, 0, 0, 0.28)
+      display flex
+      flex-direction column
+      height 290px
+      margin 0 0px 52px 0px
+      padding 65px 34px 0 34px
+      width 312px
+
+    &-logo
+      &-financiero
+        height 29px
+        width 216px !important
+
+      &-forbes
+        height 26px
+        width 100px !important
+
+      &-excelsior
+        height 24px
+        width 155px !important
+
+      &-guiding
+        height 37px
+        width 160px !important
+
+      &-bbc
+        height 42px
+        width 120px !important
+
+      &-expansion
+        height 29px
+        width 140px !important
+
+      &-universal
+        height 28px
+        width 215px !important
+
+    &-btn
+      &-container
+        margin-top 50px
+        text-align center
+
+.award
+  &-one
+    background-color $hwhite
+
+  &-two
+    background-image url("../img/home/award-two.png")
+
+  &-three
+    background-image url("../img/home/award-three.png")
+
+  &-four
+    background-color $hwhite
+
+  &-five
+    background-image url("../img/home/award-five.png")
+
+  &-six
+    background-color $hwhite
+
+  &-seven
+    background-color $hwhite
+
+  &-eight
+    background-color $hwhite
+
+.logo
+  &-crowd-lab
+    height auto
+    width 157px !important
+
+  &-everis
+    height auto
+    width 157px !important
+
+  &-eogsea
+    height auto
+    width 157px !important
+
+  &-mass-challenge
+    height auto
+    width 157px !important
+
+  &-mexico
+    height auto
+    width 157px !important
+
+  &-national-academy
+    height auto
+    width 157px !important
+
+  &-forbes
+    height auto
+    width 157px !important
+
+  &-sxsw
+    height auto
+    width 157px !important
+
+@media screen and (max-width 1300px)
+  .home
+    &-awards
+      &-carousel
+        & .owl-prev
+          left -45px
+
+        & .owl-next
+          right -45px
+      
+    &-news
+      &-carousel
+        & .owl-prev
+          left -45px
+
+        & .owl-next
+          right -45px
+
+@media screen and (max-width 1229px)
+  .home
+    &-eva
+      &-infographi
+        height 350px
+
+    &-founder
+      flex-direction column
+      height auto
+
+      &-info
+        padding-bottom 60px
+
+@media screen and (max-width 1100px)
+  .home
+    &-awards
+      &-carousel
+        width 642px
+
+      &-content
+        width 642px
+
+      &-info
+        padding 30px 0 0 45px
+
+    &-news
+      &-carousel
+        width 642px
+
+@media screen and (max-width 780px)
+  .home
+    &-cover
+      padding 80px 30px 40px 30px
+
+      &-title
+        font-size 23px
+
+      &-description
+        font-size 24px
+        line-height 25px
+
+        &-container
+          margin-bottom 60px
+          width 100%
+
+    &-eva
+      background-size 200px, 200px
+      padding 72px 30px 57px 30px
+
+      &-infographi
+        background-image initial
+        height auto
+
+        &-img
+          display block
+          width 100%
+
+      &-logo,
+      &-logo-container
+        height 40px
+        width 130px
+
+      &-paragraph
+        font-size 16px
+        line-height 22px
+
+        &-container
+          margin-top 27px
+          width 100%
+
+      &-button
+        &-container
+          display flex
+          flex-direction row
+
+    &-founder
+      &-img
+        display none
+
+        &-container
+          background-image url("../img/home/founder-lupita.jpg")
+          background-position top
+          background-size cover
+          background-repeat no-repeat
+          height 250px
+
+      &-info
+        padding 56px 60px
+
+      &-title
+        font-size 15px
+
+      &-subtitle
+        font-size 29px
+        letter-spacing -1.9px
+
+      &-paragraph
+        font-size 15px
+        line-height 23px
+        letter-spacing 0.4px
+
+    &-allies
+      background-image url("../img/backgrounds/bg-allies-mobile.jpg")
+      &-title
+        font-size 30px
+        letter-spacing 0.3px
+
+      &-description
+        font-size 15px
+        letter-spacing 0.4px
+        line-height 21px
+
+        &-container
+          margin-bottom 56px
+          padding 0 60px
+          width 100%
+
+      &-carousel
+        width 125px
+
+        & .owl-prev
+          left -80px
+
+        & .owl-next
+          right -80px
+
+        & .owl-dots
+          margin-left -58px
+
+      &-logo
+        width 125px !important
+
+    &-awards
+      padding 83px 0 160px 0
+
+      &-title
+        font-size 30px
+
+      &-info
+        height 260px
+        padding 23px 19px
+
+      &-carousel
+        padding 0 30px
+        width 100%
+
+        & .owl-dots
+          margin-top 25px
+
+        & .owl-nav
+          bottom -75px
+          left 0
+          margin 0 auto
+          position absolute
+          right 0
+          width 110px
+
+        & .owl-prev,
+        & .owl-next
+          margin 0 20px
+          position initial
+
+        &-title
+          font-size 19px
+
+        &-description
+          font-size 14px
+
+      &-content
+        width 100%
+
+      &-img
+        height 182px
+
+      &-logo
+        &-container
+          bottom 27px
+          left 18px
+          right initial
+          top initial
+      
+    &-news
+      background-color #FBFBFB
+      background-image url("../img/backgrounds/bg-news-1-mobile.png"), url("../img/backgrounds/bg-news-2-mobile.png")
+      background-position top right, bottom left
+      background-repeat no-repeat
+      background-size 242px, 242px
+      padding 77px 0 69px 0
+
+      &-title
+        font-size 30px
+
+      &-carousel
+        width 312px
+
+        & .owl-prev,
+        & .owl-next
+          margin 0 15px
+          position initial
+
+        & .owl-nav
+          bottom -75px
+          left 0
+          margin 0 auto
+          position absolute
+          right 0
+          width 90px
+
+      &-btn
+        &-container
+          margin-top 120px
