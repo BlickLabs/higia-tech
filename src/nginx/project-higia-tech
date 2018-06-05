@@ -1,0 +1,13 @@
+server {
+  listen 80;
+  listen [::]:80;
+
+  root /home/static/higia-tech;
+  index index.html index.htm;
+
+  server_name sandbox.higia-tech.getmore.mx;
+
+  location / {
+    try_files $uri $uri/ =404;
+  }
+}
