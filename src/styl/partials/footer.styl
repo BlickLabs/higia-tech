@@ -1,9 +1,114 @@
 .footer
-  background-color black
+  align-items center
+  background-image url("../img/backgrounds/bg-footer.png")
+  background-position center
+  background-repeat no-repeat
+  background-size cover
   bottom 0
   display flex
   flex-direction row
-  height 200px
+  height 173px
   justify-content space-between
+  padding 0 127px
   position absolute
   width 100%
+
+  &-logo
+    height 78px
+    width 126px
+
+  &-info
+    display flex
+    flex-direction row
+
+    &-text
+      display flex
+      flex-direction row
+
+    &-privacy
+      margin 0 130px
+
+  &-text
+    font-size $fs14
+    color $hwhite
+
+    &:hover
+      color $hpink
+
+  &-icon
+    background-position center
+    background-repeat no-repeat
+    background-size contain
+    height 16px
+
+    &-container
+      display flex
+      flex-direction row
+
+    &-link
+      margin 0 11px
+
+.icon
+  &-in
+    background-image url("../img/icons/icon-in.png")
+    width 17px
+
+    &:hover
+      background-image url("../img/icons/icon-in-pink.png")
+
+  &-twitter
+    background-image url("../img/icons/icon-twitter.png")
+    width 19px
+
+    &:hover
+      background-image url("../img/icons/icon-twitter-pink.png")
+
+  &-insta
+    background-image url("../img/icons/icon-insta.png")
+    width 17px
+
+    &:hover
+      background-image url("../img/icons/icon-insta-pink.png")
+
+  &-fb
+    background-image url("../img/icons/icon-fb.png")
+    width 10px
+
+    &:hover
+      background-image url("../img/icons/icon-fb-pink.png")
+
+@media screen and (max-width 1200px)
+  .footer
+    padding 0 50px
+
+    &-info
+      &-privacy
+        margin 0 60px
+
+@media screen and (max-width 900px)
+  .footer
+    flex-direction column
+    height 260px
+    justify-content center
+    padding 0
+
+    &-logo
+      height 41px
+      width 66px
+
+      &-container
+        margin-bottom 26px
+
+    &-icon
+      &-container
+        justify-content center
+        margin-bottom 16px
+
+    &-info
+      flex-direction column
+
+      &-text
+        flex-direction column
+
+      &-privacy
+        margin 0 auto 16px auto

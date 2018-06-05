@@ -1,0 +1,43 @@
+.btn
+  &-base
+    border solid 2px $hpink
+    background-color $hpink
+    color $hwhite
+    font-size $fs15
+    height 44px
+    transition 0.3s
+
+    &:hover
+      background-color $hwhite
+      border solid 2px $hpink
+      color $hpink
+      cursor pointer
+      transition 0.2s
+
+  &-sm
+    width 165px
+
+  &-md
+    width 204px
+
+  &-lg
+    width 269px
+
+.pink
+  color $hpink
+
+@media screen and (max-width 780px)
+  .btn
+    &-base
+      font-size $fs13
+      letter-spacing 0.9px
+      height 40px
+
+    &-sm
+      width 130px
+
+    &-md
+      width 140px
+
+    &-lg
+      width 222px

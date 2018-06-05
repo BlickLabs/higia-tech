@@ -14,7 +14,7 @@ html
 
 body
   font-size inherit
-  margin 70px 0 200px 0
+  margin 107px 0 173px 0
 
   &.noscroll
     overflow hidden
@@ -23,6 +23,10 @@ body
       content ' '
       opacity 1
       z-index 9
+
+@media screen and (max-width 900px)
+  body
+    margin 96px 0 260px 0
 
 a
   &, &:focus, &:hover, &:active
@@ -88,6 +92,9 @@ input, textarea, button, select
 textarea
   resize none
 // END FORMS //
+
+h1, h2, h3, h4, h5, h6, p
+  margin 0
 
 @import 'partials/navbar'
 
