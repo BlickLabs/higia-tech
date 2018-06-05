@@ -5,7 +5,9 @@ $(function(){
       window.location.pathname === '/higia-tech/' ||
       window.location.pathname === '/higia-tech/index.html' ||
       window.location.pathname === '/higia-tech/es/index.html' ||
-      window.location.pathname === '/es/index.html'
+      window.location.pathname === '/es/index.html' ||
+      window.location.pathname === '/higia-tech/en/index.html' ||
+      window.location.pathname === '/en/index.html'
     ) {
     indexLocation = true;
   }
