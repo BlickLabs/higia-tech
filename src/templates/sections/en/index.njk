@@ -3,7 +3,142 @@
 {% block title %}This{% endblock %}
 
 {% block content %}
-<div>
-  <h1>{{en.data}}</h1>
-</div>
+  <div class="home">
+    <div class="home-particles-container" id="home-particles-container">
+      <div class="home-particles-absolute" id="home-particles-absolute">
+        <div class="home-cover">
+          <div class="home-cover-info">
+            <h1 class="home-cover-title helvneue-light">{{en.coverTitle}} <span class="helvneue-bold pink">{{en.coverTitleSpan}}</span></h1>
+            <div class="home-cover-description-container">
+              <p class="home-cover-description helvneue-light"><span class="helvneue-bold">{{en.coverDescription[0]}} </span><span class="helvneue-bold pink">{{en.coverDescription[1]}}</span><span class="helvneue-bold">, </span>{{en.coverDescription[2]}}, <span class="helvneue-bold">{{en.coverDescription[3]}} </span>{{en.coverDescription[4]}} <span class="helvneue-bold">{{en.coverDescription[5]}}</span> {{en.coverDescription[6]}} <span class="pink helvneue-bold">{{en.coverDescription[7]}} </span>{{en.coverDescription[8]}}.</p>
+            </div>
+            <div class="home-cover-btn-container">
+              <a href="">
+                <button class="helvneue-medium btn-base btn-md">{{en.btnPreorder}}</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="home-eva">
+      <div>
+        <div class="home-eva-logo-container">
+          <img class="home-eva-logo" src="{{en.homeEva.logo}}" alt="EVA logo">
+        </div>
+        <div class="home-eva-paragraph-container">
+          <p class="home-eva-paragraph helvneue-light">
+            <span class="pink helvneue-medium">EVA</span> provides women with personalized and actionable information for early breast cancer assessment. <span class="pink helvneue-medium">Early breast cancer detection</span> substantially <span class="helvneue-medium">increase the probability of successful treatments.</span>
+          </p>
+        </div>
+      </div>
+      <div class="home-eva-infographi">
+        <img class="home-eva-infographi-img" src="/img/home/eva-infographi.png">
+      </div>
+      <div class="home-eva-button-container">
+        <a href="">
+          <button class="helvneue-medium btn-base btn-md">{{en.homeEva.firstButton}}</button>
+        </a>
+        <a href="">
+          <button class="helvneue-medium btn-base btn-md home-eva-button">{{en.homeEva.secondButton}}</button>
+        </a>
+      </div>
+    </div>
+
+    <div class="home-founder">
+      <div class="home-founder-img-container">
+        <img class="home-founder-img" src="{{en.founder}}">
+      </div>
+      <div class="home-founder-info">
+        <h1 class="home-founder-title helvneue-light">{{en.homeFounder.title}}</h1>
+        <div class="home-founder-subtitle-container">
+          <h2 class="home-founder-subtitle helvneue-bold">{{en.homeFounder.subtitle}}</h2>
+        </div>
+        <div class="home-founder-paragraph-container">
+          <p class="home-founder-paragraph helvneue-light">{{en.homeFounder.descriptionOne}}</p>
+        </div>
+        <div class="home-founder-paragraph-container">
+          <p class="home-founder-paragraph helvneue-medium">{{en.homeFounder.descriptionTwo}}</p>
+        </div>
+        <div class="home-founder-button">
+          <a href="">
+            <button class="helvneue-medium btn-base btn-sm">{{en.homeFounder.button}}</button>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="home-allies">
+      <div class="home-allies-content">
+        <h1 class="home-allies-title helvneue-bold">{{en.homeAllies.title}}</h1>
+        <div class="home-allies-description-container">
+          <p class="home-allies-description helvneue-light">{{en.homeAllies.description}}</p>
+        </div>
+        <div class="home-allies-carousel owl-carousel">
+          {% for logo in en.homeAllies.logos %}
+          <div class="home-allies-carousel-content">
+            <div class="home-allies-logo-container">
+              <img class="home-allies-logo" src="{{logo.img}}">
+            </div>
+            <h1 class="home-allies-name helvneue-medium">{{logo.title}}</h1>
+          </div>
+          {% endfor %}
+        </div>
+        <div class="home-allies-btn-container">
+          <a href="">
+            <button class="helvneue-medium btn-base btn-sm">{{en.homeAllies.btn}}</button>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="home-awards">
+      <div class="home-awards-title-container">
+        <h1 class="home-awards-title helvneue-bold">{{en.homeAwards.title}}</h1>
+      </div>
+      <div class="home-awards-carousel owl-carousel">
+        {% for award in en.homeAwards.carousel %}
+        <div class="home-awards-content">
+          <div class="home-awards-img {{award.img}}">
+            <div class="{{award.logoContainerClass}}">
+              <img class="{{award.logoClass}}" src="{{award.logo}}">
+            </div>
+          </div>
+          <div class="home-awards-info">
+            <h1 class="home-awards-carousel-title helvneue-bold">{{award.title}}</h1>
+            <div class="home-awards-separator"></div>
+            <h3 class="home-awards-carousel-description helvneue-light">{{award.description}} <i>{{award.descriptionItalic}}</i></h3>
+            <span class="home-awards-carousel-subtitle helvneue-lightitalic">{{award.year}}</span>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="home-news">
+      <h1 class="home-news-title helvneue-bold">{{en.homeNews.title}}</h1>
+      <div class="home-news-carousel owl-carousel">
+        {% for new in en.homeNews.carousel %}
+        <a href="{{new.link}}" target="_blank">
+          <div class="home-news-card">
+            <div>
+              <img class="{{new.logoClass}}" src="{{new.logo}}">
+            </div>
+            <div class="home-news-separator"></div>
+            <div class="home-news-description-container">
+              <p class="home-news-description helvneue-light">{{new.description}}</p>
+            </div>
+            <span class="home-news-date helvneue-bold">{{new.date}}</span>
+          </div>
+        </a>
+        {% endfor %}
+      </div>
+      <div class="home-news-btn-container">
+        <a href="">
+          <button class="helvneue-medium btn-base btn-lg">{{en.homeNews.btn}}</button>
+        </a>
+      </div>
+    </div>
+  </div>
 {% endblock %}
