@@ -46,12 +46,12 @@
     </div>
     <div class="navbar-lang-container">
       <div class="navbar-lang-content">
-        <a href="{% if section == 'en/index' %} /es/index.html {% endif %}">
-          <span class="navbar-lang {% if section == 'es/index' or section == 'index' %} helvneue-bold {% endif %}">ES</span>
+        <a href="{% if section == 'en/index' %} /es/index.html {% elif section == 'en/allies' %} /es/allies.html {% endif %}">
+          <span class="navbar-lang {% if section == 'es/index' or section == 'index' or section == 'es/allies' %} helvneue-bold {% endif %}">ES</span>
         </a>
       </div>
       <div class="navbar-lang-content">
-        <a href="{% if section == 'es/index' or section == 'index' %} /en/index.html {% endif %}">
+        <a href="{% if section == 'es/index' or section == 'index' %} /en/index.html {% elif section == 'es/allies' %} /en/allies.html {% endif %}">
           <span class="navbar-lang">EN</span>
         </a>
       </div>
@@ -107,7 +107,7 @@
         </div>
       </div>
       <div class="hamburger-text-container">
-        <a href="contacto.html" data-attribute="">
+        <a href="/es/allies.html" data-attribute="">
           <span class="hamburger-text {% if section == 'eva' %} hamburger-active {% endif %}">Aliados</span>
         </a>
         <div>
