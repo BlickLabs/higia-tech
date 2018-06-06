@@ -87,62 +87,62 @@
       "logos": [
         {
           "img": "/img/logos/logo-axxa.png",
-          "class": "home-allies-icon-axa",
+          "class": "home-allies-logo-axa",
           "title": "Axa"
         },
         {
           "img": "/img/logos/logo-imss.png",
-          "class": "home-allies-icon-axa",
+          "class": "home-allies-logo-imss",
           "title": "IMMS"
         },
         {
           "img": "/img/logos/logo-standford-medicine.png",
-          "class": "home-allies-icon-axa",
+          "class": "home-allies-logo-stanford",
           "title": "Stanford Medicine"
         },
         {
           "img": "/img/logos/logo-y-combinator.png",
-          "class": "home-allies-icon-axa",
+          "class": "home-allies-logo-ycombinator",
           "title": "Y Combinator"
         },
         {
           "img": "/img/logos/logo-kowa.png",
-          "class": "home-allies-icon-axa",
+          "class": "home-allies-logo-kowa",
           "title": "Kowa"
         },
         {
           "img": "/img/logos/logo-kio-networks.png",
-          "class": "home-allies-icon-axa",
+          "class": "home-allies-logo-kio",
           "title": "Kio Networks"
         },
         {
           "img": "/img/logos/logo-beeva.png",
-          "class": "home-allies-icon-axa",
+          "class": "home-allies-logo-beeva",
           "title": "BEEVA"
         },
         {
           "img": "/img/logos/logo-molex.png",
-          "class": "home-allies-icon-axa",
+          "class": "home-allies-logo-molex",
           "title": "Molex"
         },
         {
           "img": "/img/logos/logo-tomatelo-pecho.png",
-          "class": "home-allies-icon-axa",
+          "class": "home-allies-logo-tomatelopecho",
           "title": "Tómatelo a Pecho"
         },
         {
           "img": "/img/logos/logo-tepoz-rosa.png",
-          "class": "home-allies-icon-axa",
+          "class": "home-allies-logo-tepozrosa",
           "title": "Tepoz Rosa"
         },
         {
           "img": "/img/logos/logo-nsf.png",
-          "class": "home-allies-icon-axa",
+          "class": "home-allies-logo-nsf",
           "title": "National Science Foundation"
         },
         {
           "img": "/img/logos/logo-google.png",
-          "class": "home-allies-icon-axa",
+          "class": "home-allies-logo-google",
           "title": "Google"
         }
       ]
