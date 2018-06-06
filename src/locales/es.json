@@ -1,65 +1,52 @@
 {
   "es": {
-    "navIndex": "index",
     "navs": {
       "logo": "/img/logos/logo-navbar.png",
       "info": [
         {
           "section": "Inicio",
           "link": "/es/index.html",
-          "ifSection": "es/index",
-          "ifRoot": "index"
+          "viewName": "homepage",
+          "hamburgerIcon": "/img/icons/icon-navbar-arrow.svg"
         },
         {
           "section": "¿Quiénes somos?",
-          "link": "/es/about-us.html",
-          "ifSection": "es/about-us"
+          "link": "/es/who-are-we.html",
+          "viewName": "whoarewe",
+          "hamburgerIcon": "/img/icons/icon-navbar-arrow.svg"
         },
         {
           "section": "EVA",
           "link": "/es/eva.html",
-          "ifSection": "es/eva"
+          "viewName": "eva",
+          "hamburgerIcon": "/img/icons/icon-navbar-arrow.svg"
         },
         {
           "section": "Aliados",
           "link": "/es/allies.html",
-          "ifSection": "es/allies"
+          "viewName": "allies",
+          "hamburgerIcon": "/img/icons/icon-navbar-arrow.svg"
         },
         {
           "section": "Investigación",
           "link": "/es/investigation.html",
-          "ifSection": "es/investigation"
+          "viewName": "Research",
+          "hamburgerIcon": "/img/icons/icon-navbar-arrow.svg"
         },
         {
           "section": "Noticias",
           "link": "/es/news.html",
-          "ifSection": "es/news"
+          "viewName": "news",
+          "hamburgerIcon": "/img/icons/icon-navbar-arrow.svg"
         },
         {
           "section": "Contacto",
           "link": "/es/contact.html",
-          "ifSection": "es/contact"
+          "viewName": "contact",
+          "hamburgerIcon": "/img/icons/icon-navbar-arrow.svg"
         }
       ]
     },
-    "navSections": [
-      "Inicio",
-      "¿Quiénes somos?",
-      "EVA",
-      "Aliados",
-      "Investigación",
-      "Noticias",
-      "Contacto"
-    ],
-    "navLinks": [
-      "/es/index.html",
-      "/es/about-us.html",
-      "/es/eva.html",
-      "/es/allies.html",
-      "/es/investigation.html",
-      "/es/news.html",
-      "/es/contact.html"
-    ],
     "footerLogo": "/img/logos/logo-footer.png",
     "footerPrivacy": "Aviso de Privacidad",
     "footerCopyright": "© Copyright, Higia Technologies 2018",
