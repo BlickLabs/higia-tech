@@ -8,14 +8,14 @@
     {% block extra_css %}{% endblock %}
     <link rel="stylesheet" href="/css/{{ projectFilesName }}.libs.css">
     <link rel="stylesheet" href="/css/main.css">
-    <title>Change - {% block title %}{% endblock %}</title>
+    <title>Higia | {% block title %}{% endblock %}</title>
     <link runat="server" rel="shortcut icon" href="img/favicon/" type="image/x-icon"/>
     <link runat="server" rel="icon" href="img/favicon/" type="image/ico"/>
     {% include 'seo/facebookpixel.njk' %}
   </head>
   <body>
     <div id="page">
-      {% if section == 'es/index' or section == 'index' %}
+      {% if section == 'es/index' or section == 'index' or section == 'es/allies' %}
         {% include 'partials/navbar.njk' %}
       {% else %}
         {% include 'partials/navbar-en.njk' %}
