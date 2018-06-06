@@ -5,53 +5,25 @@
     </a>
   </div>
   <div class="navbar-option-container helvneue-light">
+    {% for nav in en.navs.info %}
     <div class="navbar-option-content">
-      <a href="{{en.navLinks[0]}}">
-        <span class="navbar-option {% if section == 'en/index' %} active {% endif %}">{{en.navSections[0]}}</span>
+      <a href="{{nav.link}}">
+        <span class="navbar-option {% if view_name == nav.viewName %} active {% endif %}">{{nav.section}}</span>
       </a>
     </div>
-    <div class="navbar-option-content">
-      <a href="{{en.navLinks[1]}}">
-        <span class="navbar-option">{{en.navSections[1]}}</span>
-      </a>
-    </div>
-    <div class="navbar-option-content">
-      <a href="{{en.navLinks[2]}}">
-        <span class="navbar-option">{{en.navSections[2]}}</span>
-      </a>
-    </div>
-    <div class="navbar-option-content">
-      <a href="{{en.navLinks[3]}}">
-        <span class="navbar-option">{{en.navSections[3]}}</span>
-      </a>
-    </div>
-    <div class="navbar-option-content">
-      <a href="{{en.navLinks[4]}}">
-        <span class="navbar-option">{{en.navSections[4]}}</span>
-      </a>
-    </div>
-    <div class="navbar-option-content">
-      <a href="{{en.navLinks[5]}}">
-        <span class="navbar-option">{{en.navSections[5]}}</span>
-      </a>
-    </div>
-    <div class="navbar-option-content">
-      <a href="{{en.navLinks[6]}}">
-        <span class="navbar-option">{{en.navSections[6]}}</span>
-      </a>
-    </div>
+    {% endfor %}
     <div class="navbar-separator-container">
       <div class="navbar-separator"></div>
     </div>
     <div class="navbar-lang-container">
       <div class="navbar-lang-content">
-        <a href="{% if section == 'en/index' %} /es/index.html {% elif section == 'en/allies' %} /es/allies.html {% endif %}">
+        <a href="{% if section == 'en/index' %} /es/index.html {% elif section == 'en/who-are-we' %} /es/who-are-we.html {% elif section == 'en/eva' %} /es/eva.html {% elif section == 'en/allies' %} /es/allies.html {% elif section == 'en/research' %} /es/research.html {% elif section == 'en/news' %} /es/news.html {% elif section == 'en/contact' %} /es/contact.html {% endif %}">
           <span class="navbar-lang">ES</span>
         </a>
       </div>
       <div class="navbar-lang-content">
-        <a href="{% if section == 'es/index' or section == 'index' %} /en/index.html {% elif section == 'es/allies' %} /en/allies.html {% endif %}">
-          <span class="navbar-lang {% if section == 'en/index' or section == 'en/allies' %} helvneue-bold {% endif %}">EN</span>
+        <a href="{% if section == 'es/index' or section == 'index' %} /en/index.html {% elif section == 'es/who-are-we' %} /en/who-are-we.html {% elif section == 'es/eva' %} /en/eva.html {% elif section == 'es/allies' %} /en/allies.html {% elif section == 'es/research' %} /en/research.html {% elif section == 'es/news' %} /en/news.html {% elif section == 'es/contact' %} /en/contact.html {% endif %}">
+          <span class="navbar-lang navbar-lang {% if section == 'en/index' or section == 'en/who-are-we' or section == 'en/eva' or section == 'en/allies' or section == 'en/research' or section == 'en/news' or section == 'en/contact' %} helvneue-bold {% endif %}">EN</span>
         </a>
       </div>
     </div>
@@ -66,13 +38,13 @@
     <div class="hamburger-menu-header" data-attribute="">
       <div class="navbar-lang-container">
         <div class="navbar-lang-content">
-          <a href="{% if section == 'en/index' %} /es/index.html {% endif %}" data-attribute="">
+          <a href="{% if section == 'en/index' %} /es/index.html {% elif section == 'en/who-are-we' %} /es/who-are-we.html {% elif section == 'en/eva' %} /es/eva.html {% elif section == 'en/allies' %} /es/allies.html {% elif section == 'en/research' %} /es/research.html {% elif section == 'en/news' %} /es/news.html {% elif section == 'en/contact' %} /es/contact.html {% endif %}" data-attribute="">
             <span class="navbar-lang">ES</span>
           </a>
         </div>
         <div class="navbar-lang-content">
-          <a href="{% if section == 'es/index' or section == 'index' %} /en/index.html {% endif %}" data-attribute="">
-            <span class="navbar-lang {% if section == 'en/index' %} helvneue-bold {% endif %}">EN</span>
+          <a href="{% if section == 'es/index' or section == 'index' %} /en/index.html {% elif section == 'es/who-are-we' %} /en/who-are-we.html {% elif section == 'es/eva' %} /en/eva.html {% elif section == 'es/allies' %} /en/allies.html {% elif section == 'es/research' %} /en/research.html {% elif section == 'es/news' %} /en/news.html {% elif section == 'es/contact' %} /en/contact.html {% endif %}" data-attribute="">
+            <span class="navbar-lang {% if section == 'en/index' or section == 'en/who-are-we' or section == 'en/eva' or section == 'en/allies' or section == 'en/research' or section == 'en/news' or section == 'en/contact' %} helvneue-bold {% endif %}">EN</span>
           </a>
         </div>
       </div>
@@ -81,62 +53,16 @@
       </div>
     </div>
     <div class="hamburger-menu-body helvneue-bold" data-attribute="">
-      <div class="hamburger-text-container {% if section == 'index' %} hamburger-active {% endif %}">
-        <a href="index.html" data-attribute="">
-          <span class="hamburger-text">Home</span>
+      {% for nav in en.navs.info %}
+      <div class="hamburger-text-container {% if view_name == nav.viewName %} hamburger-active {% endif %}">
+        <a href="{{nav.link}}" data-attribute="">
+          <span class="hamburger-text">{{nav.section}}</span>
         </a>
         <div>
-          <img class="hamburger-arrow" src="/img/icons/icon-navbar-arrow.svg">
+          <img class="hamburger-arrow" src="{{nav.hamburgerIcon}}">
         </div>
       </div>
-      <div class="hamburger-text-container">
-        <a href="nosotros.html" data-attribute="">
-          <span class="hamburger-text {% if section == 'about-us' %} hamburger-active {% endif %}">¿Quiénes somos?</span>
-        </a>
-        <div>
-          <img class="hamburger-arrow" src="/img/icons/icon-navbar-arrow.svg">
-        </div>
-      </div>
-      <div class="hamburger-text-container">
-        <a href="contacto.html" data-attribute="">
-          <span class="hamburger-text {% if section == 'eva' %} hamburger-active {% endif %}">EVA</span>
-        </a>
-        <div>
-          <img class="hamburger-arrow" src="/img/icons/icon-navbar-arrow.svg">
-        </div>
-      </div>
-      <div class="hamburger-text-container">
-        <a href="/en/allies.html" data-attribute="">
-          <span class="hamburger-text {% if section == 'eva' %} hamburger-active {% endif %}">Aliados</span>
-        </a>
-        <div>
-          <img class="hamburger-arrow" src="/img/icons/icon-navbar-arrow.svg">
-        </div>
-      </div>
-      <div class="hamburger-text-container">
-        <a href="contacto.html" data-attribute="">
-          <span class="hamburger-text {% if section == 'eva' %} hamburger-active {% endif %}">Investigación</span>
-        </a>
-        <div>
-          <img class="hamburger-arrow" src="/img/icons/icon-navbar-arrow.svg">
-        </div>
-      </div>
-      <div class="hamburger-text-container">
-        <a href="contacto.html" data-attribute="">
-          <span class="hamburger-text {% if section == 'eva' %} hamburger-active {% endif %}">Noticias</span>
-        </a>
-        <div>
-          <img class="hamburger-arrow" src="/img/icons/icon-navbar-arrow.svg">
-        </div>
-      </div>
-      <div class="hamburger-text-container">
-        <a href="contacto.html" data-attribute="">
-          <span class="hamburger-text {% if section == 'eva' %} hamburger-active {% endif %}">Contacto</span>
-        </a>
-        <div>
-          <img class="hamburger-arrow" src="/img/icons/icon-navbar-arrow.svg">
-        </div>
-      </div>
+      {% endfor %}
     </div>
   </div>
 </nav>
