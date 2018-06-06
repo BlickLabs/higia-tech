@@ -82,7 +82,7 @@
     &-button
       background-color $hwhite
       border solid 2px $hpink
-      color $hpink
+      color $hblack
 
       &:hover
         background-color $hpink
@@ -99,12 +99,16 @@
     flex-direction row
     height 554px
 
-    &-img
+    &-img,
+    &-img-container
       height 554px
 
     &-info
       background-color $hgrayLight
-      padding 60px 125px 0 125px
+      display flex
+      flex-direction column
+      justify-content center
+      padding 0 125px
 
     &-title
       color $hgrayStrong
@@ -136,7 +140,7 @@
     background-position center
     background-size cover
     background-repeat no-repeat
-    padding 75px 0 70px 0
+    padding 85px 0 80px 0
 
     &-content
       align-items center
@@ -162,9 +166,14 @@
         width 615px
 
     &-carousel
-      margin 0 auto
       position relative
-      width 150px
+
+      &-content
+        align-items center
+        display flex
+        flex-direction column
+        margin 0 auto
+        width 240px
 
       & .owl-prev,
       & .owl-next
@@ -178,8 +187,11 @@
         right -140px
 
       & .owl-dots
-        margin-left -45px
-        text-align center
+        bottom -35px
+        left 0
+        margin 0 auto
+        position absolute
+        right 0
         width 240px
 
       & .owl-dot
@@ -204,17 +216,63 @@
       text-align center
 
     &-logo
-      height auto
-      width 149px !important
 
       &-container
         align-items center
         display flex
         height 192px
 
+      &-axa
+        height 110px
+        width 110px !important
+
+      &-imss
+        height 113px
+        width 88px !important
+
+      &-stanford
+        height 42px
+        width 111px !important
+
+      &-ycombinator
+        height 38px
+        width 134px !important
+
+      &-kowa
+        height 52px
+        width 120px !important
+
+      &-kio
+        height 64px
+        width 111px !important
+
+      &-beeva
+        height 36px
+        width 144px !important
+
+      &-molex
+        height 88px
+        width 117px !important
+
+      &-tomatelopecho
+        height 81px
+        width 124px !important
+
+      &-tepozrosa
+        height 95px
+        width 110px !important
+
+      &-nsf
+        height 88px
+        width 88px !important
+
+      &-google
+        height 41px
+        width 110px !important
+
     &-btn
       &-container
-        margin-top 35px
+        margin-top 70px
 
   &-awards
     background-image url("../img/backgrounds/bg-awards.png")
@@ -331,6 +389,16 @@
     &-carousel
       margin 60px auto 0 auto
       width 969px
+
+      & .owl-stage-outer
+        overflow visible
+
+      & .owl-item
+        opacity 0
+        transition opacity 0.3s
+
+      & .owl-item.active
+        opacity 1
 
       & .owl-prev,
       & .owl-next
@@ -516,6 +584,7 @@
 
       &-info
         padding-bottom 60px
+        padding-top 60px
 
 @media screen and (max-width 1100px)
   .home
@@ -591,7 +660,7 @@
           height 250px
 
       &-info
-        padding 56px 60px
+        padding 56px 35px
 
       &-title
         font-size 15px
@@ -600,6 +669,9 @@
         font-size 29px
         letter-spacing -1.9px
 
+        &-container
+          margin-top 8px
+
       &-paragraph
         font-size 15px
         line-height 23px
@@ -607,6 +679,7 @@
 
     &-allies
       background-image url("../img/backgrounds/bg-allies-mobile.jpg")
+
       &-title
         font-size 30px
         letter-spacing 0.3px
@@ -622,16 +695,12 @@
           width 100%
 
       &-carousel
-        width 125px
 
         & .owl-prev
-          left -80px
+          left 40px
 
         & .owl-next
-          right -80px
-
-        & .owl-dots
-          margin-left -58px
+          right 40px
 
       &-logo
         width 125px !important
