@@ -1,0 +1,30 @@
+{% extends "partials/base.njk" %}
+
+{% block title %}Aliados{% endblock %}
+
+{% block content %}
+  <div class="allies">
+    <div class="allies-cover">
+      <div class="allies-cover-info">
+        <h1 class="allies-cover-title helvneue-bold">{{es.allies.cover.title}}</h1>
+        <div class="allies-cover-desc-container">
+          <p class="allies-cover-desc helvneue-light">{{es.allies.cover.descPt1}} <span class="helvneue">{{es.allies.cover.descBold}}</span> {{es.allies.cover.descPt2}}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="allies-cards">
+      {% for card in es.allies.cards %}
+      <div class="allies-cards-content">
+        <img class="{{card.logoClass}}" src="{{card.logo}}">
+        <div class="allies-cards-hover">
+          <div class="allies-cards-hover-content">
+            <h2 class="allies-cards-title">{{card.title}}</h2>
+            <p class="allies-cards-desc">{{card.desc}}</p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+{% endblock %}
