@@ -1,6 +1,6 @@
 {% extends "partials/base.njk" %}
 
-{% block title %}This{% endblock %}
+{% block title %}Home{% endblock %}
 
 {% set view_name = "homepage" %}
 
@@ -12,7 +12,7 @@
           <div class="home-cover-info">
             <h1 class="home-cover-title helvneue-light">{{en.coverTitle}} <span class="helvneue-bold pink">{{en.coverTitleSpan}}</span></h1>
             <div class="home-cover-description-container">
-              <p class="home-cover-description helvneue-light"><span class="helvneue-bold">{{en.coverDescription[0]}} </span><span class="helvneue-bold pink">{{en.coverDescription[1]}}</span><span class="helvneue-bold">, </span>{{en.coverDescription[2]}}, <span class="helvneue-bold">{{en.coverDescription[3]}} </span>{{en.coverDescription[4]}} <span class="helvneue-bold">{{en.coverDescription[5]}}</span> {{en.coverDescription[6]}} <span class="pink helvneue-bold">{{en.coverDescription[7]}} </span>{{en.coverDescription[8]}}.</p>
+              <p class="home-cover-description helvneue-light"><span class="helvneue-bold">{{en.coverDescription[0]}} </span><span class="helvneue-bold pink">{{en.coverDescription[1]}}</span><span class="helvneue-bold">, </span>{{en.coverDescription[2]}} <span class="helvneue-bold">{{en.coverDescription[3]}} </span>{{en.coverDescription[4]}} <span class="helvneue-bold">{{en.coverDescription[5]}}</span> {{en.coverDescription[6]}} <span class="pink helvneue-bold">{{en.coverDescription[7]}} </span>{{en.coverDescription[8]}}.</p>
             </div>
             <div class="home-cover-btn-container">
               <a href="">
@@ -35,8 +35,8 @@
           </p>
         </div>
       </div>
-      <div class="home-eva-infographi">
-        <img class="home-eva-infographi-img" src="/img/home/eva-infographi.png">
+      <div class="home-eva-infographi eva-bg-en">
+        <img class="home-eva-infographi-img" src="/img/home/eva-infographi-english.jpg">
       </div>
       <div class="home-eva-button-container">
         <a href="">
@@ -81,7 +81,7 @@
           {% for logo in en.homeAllies.logos %}
           <div class="home-allies-carousel-content">
             <div class="home-allies-logo-container">
-              <img class="home-allies-logo" src="{{logo.img}}">
+              <img class="{{logo.class}}" src="{{logo.img}}">
             </div>
             <h1 class="home-allies-name helvneue-medium">{{logo.title}}</h1>
           </div>
