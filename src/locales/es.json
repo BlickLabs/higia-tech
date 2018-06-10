@@ -50,7 +50,7 @@
     "footerLogo": "/img/logos/logo-footer.png",
     "footerPrivacy": "Aviso de Privacidad",
     "footerCopyright": "© Copyright, Higia Technologies 2018",
-    "coverTitle": "Hola, Somos",
+    "coverTitle": "Hola, somos",
     "coverTitleSpan": "Higia",
     "coverDescription": [
       "Estamos desarrollando a",
@@ -111,7 +111,7 @@
         {
           "img": "/img/logos/logo-kio-networks.png",
           "class": "home-allies-logo-kio",
-          "title": "Kio Networks"
+          "title": "KIO Networks"
         },
         {
           "img": "/img/logos/logo-beeva.png",
@@ -149,12 +149,21 @@
       "title": "Premios y reconocimientos",
       "carousel": [
         {
+          "img": "award-babson",
+          "logo": "/img/logos/logo-babson-black.png",
+          "logoContainerClass": "home-awards-logo-container-modified",
+          "logoClass": "logo-crowd-lab",
+          "title": "Babson College Innovation Challenge",
+          "description": "Primer Lugar",
+          "year": 2016
+        },
+        {
           "img": "award-one",
           "logo": "/img/logos/logo-harvard-black.png",
           "logoContainerClass": "home-awards-logo-container-modified",
           "logoClass": "logo-crowd-lab",
           "title": "Laboratorios de Innovación Harvard - MIT",
-          "description": "Conferencistas invitados.",
+          "description": "Conferencistas invitados",
           "year": 2017
         },
         {
@@ -163,7 +172,7 @@
           "logoClass": "logo-everis",
           "logoContainerClass": "home-awards-logo-container",
           "title": "Premio EVERIS Primera Edición",
-          "description": "Primer Lugar.",
+          "description": "Primer Lugar",
           "year": 2017
         },
         {
@@ -173,7 +182,7 @@
           "logoContainerClass": "home-awards-logo-container",
           "title": "Premio Global al Estudiante Emprendedor",
           "description": "Primer Lugar Nacional y Primer Lugar Internacional.",
-          "descriptionItalic": "Primera Startup Mexicana en ser reconocida con este premio.",
+          "descriptionItalic": "Primera Startup Mexicana en ser reconocida con este premio",
           "year": 2017
         },
         {
@@ -191,7 +200,7 @@
           "logoClass": "logo-mexico",
           "logoContainerClass": "home-awards-logo-container",
           "title": "Medalla Presidencial en Tecnología y Emprendimiento",
-          "description": "Otorgada por el presidente de México Lic. Enrique Peña Nieto.",
+          "description": "Otorgada por el presidente de México Lic. Enrique Peña Nieto",
           "year": 2017
         },
         {
@@ -218,7 +227,7 @@
           "logoClass": "logo-sxsw",
           "logoContainerClass": "home-awards-logo-container-modified",
           "title": "South by Southwest",
-          "description": "Pitch competition.",
+          "description": "Pitch competition",
           "year": 2018
         }
       ]
