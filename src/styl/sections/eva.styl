@@ -1,0 +1,281 @@
+.eva
+  &-cover
+    align-items center
+    background-color $hgrayLight
+    background-image url("../img/backgrounds/bg-eva-cover.png")
+    background-position right 10% top
+    background-repeat no-repeat
+    background-size contain
+    display flex
+    height 500px
+    padding-left 10%
+
+    &-content
+      max-width 645px
+      text-align center
+
+    &-logo
+      height 60px
+      width 191px
+
+    &-desc
+      color $hblack
+      font-size $fs25
+      margin 60px 0 70px 0
+
+  &-info
+    align-items center
+    align-items center
+    background-color $hgrayLight
+    background-image url("../img/backgrounds/bg-eva-info.png")
+    background-position left
+    background-repeat no-repeat
+    background-size cover
+    display flex
+    height 500px
+    justify-content flex-end
+    padding-right 10%
+
+    &-content
+      max-width 600px
+
+    &-desc
+      color $hblack
+      font-size $fs25
+      text-align right
+
+  &-steps
+    margin 90px 0
+
+    &-title
+      color $hblackLight
+      font-size $fs45
+      text-align center
+
+    &-container
+      display flex
+      flex-direction row
+      flex-wrap wrap
+      margin 40px auto 60px auto
+      width 1350px
+
+    &-content
+      align-items center
+      border-top solid 2px $hpink
+      border-bottom solid 2px $hpink
+      display flex
+      flex-direction column
+      height 280px
+      margin-bottom 15px
+      padding-top 30px
+      width 450px
+
+    &-number
+      color $hpink
+      font-size $fs20
+
+    &-desc
+      color $hblack
+      font-size $fs18
+      line-height 27px
+      text-align center
+
+    &-note
+      color $hblack
+      font-size $fs19
+      line-height 27px
+      margin -50px auto 0 auto
+      text-align center
+      max-width 900px
+
+    &-tool
+      color $hblack
+      font-size $fs19
+      line-height 27px
+      text-align center
+
+      &-container
+        border solid 2px $hpink
+        margin 50px auto 0 auto
+        max-width 1000px
+        padding 25px 50px
+
+    &-icon
+      &-container
+        align-items center
+        display flex
+        height 127px
+
+      &-get
+        &-1
+          height 127px
+          width 127px
+
+        &-2
+          height 66px
+          width 66px
+
+      &-work
+        &-1
+          height 75px
+          width 75px
+
+        &-3
+          height 90px
+          width 90px
+
+        &-4
+          height 65px
+          width 65px
+
+        &-5
+          height 58px
+          width 58px
+
+        &-6
+          height 57px
+          width 57px
+
+      &-getwork
+        height 71px
+        width 71px
+
+  &-proofs
+    background-image url("../img/backgrounds/bg-eva-proofs.png")
+    background-position right
+    background-repeat no-repeat
+    background-size cover
+    height 650px
+    padding 90px 0 0 10%
+
+    &-content
+      max-width 533px
+
+    &-title
+      color $hpink
+      font-size $fs45
+
+    &-percentages
+      color $hblack
+      font-size $fs25
+      letter-spacing 0.5px
+      line-height 32px
+
+      &-container
+        border solid 2px $hpink
+        margin 40px 0
+        padding 30px
+
+    &-desc
+      color $hblack
+      font-size $fs20
+      line-height 30px
+      margin-bottom 30px
+
+  &-founder
+    background-color $hgrayLight
+    padding 130px 0
+
+    &-carousel
+      margin 0 auto
+      position relative
+      width 1200px
+
+      & .owl-prev
+      & .owl-next
+        bottom 0
+        position absolute
+        top 0
+
+      & .owl-prev
+        left -80px
+
+      & .owl-next
+        right -80px
+
+    &-card
+      background-color $hwhite
+      display flex
+      flex-direction row
+      width 1200px
+
+    &-img
+      background-image url("../img/home/founder-lupita.jpg")
+      background-position center
+      background-repeat no-repeat
+      background-size cover
+      height 554px
+      width 574px
+
+    &-info
+      display flex
+      flex-direction column
+      justify-content center
+      padding 0 40px
+
+  &-questions
+    margin 60px 10% 90px 10%
+
+    &-title
+      color $hblack
+      font-size $fs45
+      text-align center
+
+    &-container
+      list-style none
+      margin 50px 0 0 0
+      padding 0
+
+    &-content
+      border-bottom solid 2px $hpink
+      border-top solid 2px $hpink
+      margin-bottom -2px
+
+    &-question
+      color $hblack
+      cursor pointer
+      display block
+      font-size $fs20
+      padding 25px 60px
+      position relative
+      transition background .3s ease
+      width 100%
+
+      &:after
+        bottom 0
+        background-image url("../img/icons/icon-faq-close.png")
+        background-repeat no-repeat
+        background-size cover
+        content ""
+        display block
+        height 24px
+        margin auto
+        position absolute
+        right 60px
+        top 0
+        width 24px
+
+      &:hover
+        color $hpink
+
+      &.active
+        color $hpink
+
+    &-answer
+      color $hblack
+      font-size $fs20
+      letter-spacing 1px
+      line-height 38px
+      padding-bottom 20px
+
+      &-container
+        color $hblack
+        display none
+        font-size $fs20
+        overflow hidden
+        padding 25px 60px
+      
+
+.border-dots
+  border-left dashed 1px $hblack
+  border-right dashed 1px $hblack
