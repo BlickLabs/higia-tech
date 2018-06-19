@@ -6,16 +6,16 @@
 
 {% block content %}
   <div class="allies">
-    <div class="allies-cover">
+    <section class="allies-cover">
       <div class="allies-cover-info">
         <h1 class="allies-cover-title helvneue-bold">{{en.allies.cover.title}}</h1>
         <div class="allies-cover-desc-container">
           <p class="allies-cover-desc helvneue-light">{{en.allies.cover.descPt1}} <span class="helvneue">{{en.allies.cover.descBold}}</span> {{en.allies.cover.descPt2}}</p>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="allies-cards">
+    <section class="allies-cards">
       {% for card in en.allies.cards %}
       <div class="allies-cards-content">
         <img class="{{card.logoClass}}" src="{{card.logo}}">
@@ -27,6 +27,53 @@
         </div>
       </div>
       {% endfor %}
-    </div>
+    </section>
+
+    <section class="allies-donors">
+      <h1 class="allies-donors-title helvneue-bold">{{en.homeAllies.donors.title}}</h1>
+      <p class="allies-donors-desc helvneue-regular">{{en.homeAllies.donors.desc}}<br><span class="helvneue-bold">{{en.homeAllies.donors.descBold}}</span></p>
+      <div class="allies-donors-container">
+        <div class="allies-donors-content">
+          {% for donor in es.homeAllies.donors.columnOne %}
+          <span class="allies-donors-name helvneue-lightitalic">{{donor.name}}</span>
+          {% endfor %}
+        </div>
+        <div class="allies-donors-content">
+          {% for donor in es.homeAllies.donors.columnTwo %}
+          <span class="allies-donors-name helvneue-lightitalic">{{donor.name}}</span>
+          {% endfor %}
+        </div>
+        <div class="allies-donors-content">
+          {% for donor in es.homeAllies.donors.columnThree %}
+          <span class="allies-donors-name helvneue-lightitalic">{{donor.name}}</span>
+          {% endfor %}
+        </div>
+        <div class="allies-donors-fadeout"></div>
+      </div>
+      <!-- Donors mobile version -->
+      <div class="allies-donors-carousel-container">
+        <div class="allies-donors-carousel owl-carousel">
+          <div class="allies-donors-content">
+            {% for donor in es.homeAllies.donors.columnOne %}
+            <span class="allies-donors-name helvneue-lightitalic">{{donor.name}}</span>
+            {% endfor %}
+          </div>
+          <div class="allies-donors-content">
+            {% for donor in es.homeAllies.donors.columnTwo %}
+            <span class="allies-donors-name helvneue-lightitalic">{{donor.name}}</span>
+            {% endfor %}
+          </div>
+          <div class="allies-donors-content">
+            {% for donor in es.homeAllies.donors.columnThree %}
+            <span class="allies-donors-name helvneue-lightitalic">{{donor.name}}</span>
+            {% endfor %}
+          </div>
+        </div>
+        <div class="allies-donors-fadeout"></div>
+      </div>
+      <div class="allies-donors-collapsible-container">
+        <div class="allies-donors-collapsible"></div>
+      </div>
+    </section>
   </div>
 {% endblock %}
