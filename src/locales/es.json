@@ -779,6 +779,176 @@
           }
         ]
       }
+    },
+    "eva": {
+      "cover": {
+        "logoTitle": "/img/logos/logo-eva.png",
+        "descPart1": "Es el",
+        "descPart2": "primer wearable inteligente, portátil y no invasivo,",
+        "descPart3": "diseñado para detectar anormalidades en los patrones térmicos de los senos, un indicador de la",
+        "descPart4": "posible presencia de cáncer de mama.",
+        "btnCover": "Preordena"
+      },
+      "info": {
+        "desc1": "EVA  está equipada con sensores que recopilan datos térmicos de la superficie del seno y con esto mapean los patrones térmicos dentro de la mama,",
+        "desc2": "haciendo posible la profesionalización de la autoexploración, ayudando a los métodos de diagnóstico y tamizaje convencionales."
+      },
+      "proofs": {
+        "title": "¿En qué estamos?",
+        "percentages": "Actualmente la Sensibilidad  de EVA es de 87.9% y su Especificidad de 81.7%",
+        "desc1": "Estos resultados han sido estimados mediante un proceso de validación cruzada en 153 mujeres, 33 de ellas con cáncer de mama confirmado mediante mamografía y biopsia.",
+        "desc2": "En Higia Technologies nos estamos preparando para continuar realizando pruebas clínicas en México y en el extranjero, junto con aliados como Stanford Medicine, el Instituto Mexicano del Seguro Social y AXA Seguros."
+      },
+      "steps": {
+        "titleGet": "¿Cómo obtener EVA?",
+        "titleWorks": "¿Cómo funciona EVA?",
+        "get": [
+          {
+            "number": "1",
+            "icon": "/img/icons/icon-eva-get-1.png",
+            "iconClass": "eva-steps-icon-get-1",
+            "descEmpashis": "Regístrate",
+            "desc": " para formar parte de la pre-venta de EVA."
+          },
+          {
+            "number": "2",
+            "icon": "/img/icons/icon-eva-get-2.png",
+            "iconClass": "eva-steps-icon-get-2",
+            "borderClass": "border-dots",
+            "desc": "Cuando EVA esté lista para comercialización te enviaremos la información para realizar tu pago."
+          },
+          {
+            "number": "3",
+            "icon": "/img/icons/icon-eva-getwork.png",
+            "iconClass": "eva-steps-icon-getwork",
+            "descEmpashis": "Una vez que recibas tu EVA, descarga la App",
+            "desc": "Disponible en App Store y Google Play."
+          }
+        ],
+        "work": [
+          {
+            "number": "1",
+            "icon": "/img/icons/icon-eva-work-1.png",
+            "iconClass": "eva-steps-icon-work-1",
+            "descEmpashis": "Coloca EVA",
+            "desc": "debajo de tu brasier deportivo."
+          },
+          {
+            "number": "2",
+            "icon": "/img/icons/icon-eva-getwork.png",
+            "iconClass": "eva-steps-icon-getwork",
+            "borderClass": "border-dots",
+            "descEmpashis": "Abre la App",
+            "desc": "y sigue las instrucciones para comenzar la exploración."
+          },
+          {
+            "number": "3",
+            "icon": "/img/icons/icon-eva-work-3.png",
+            "iconClass": "eva-steps-icon-work-3",
+            "descEmpashis": "Espera",
+            "desc": "a que los sensores de temperatura recopilen la información suficiente."
+          },
+          {
+            "number": "4",
+            "icon": "/img/icons/icon-eva-work-4.png",
+            "iconClass": "eva-steps-icon-work-4",
+            "descEmpashis": "Los datos se envían",
+            "desc": "a tu teléfono o tableta a través de Bluetooth."
+          },
+          {
+            "number": "5",
+            "icon": "/img/icons/icon-eva-work-5.png",
+            "iconClass": "eva-steps-icon-work-5",
+            "borderClass": "border-dots",
+            "descEmpashis": "Nuestros algoritmos de Inteligencia Artificial",
+            "desc": "analizan la información para generar una evaluación* en cuestión de minutos."
+          },
+          {
+            "number": "6",
+            "icon": "/img/icons/icon-eva-work-6.png",
+            "iconClass": "eva-steps-icon-work-6",
+            "descEmpashis": "En caso de detectar riesgo, EVA Health App",
+            "desc": "te ofrecerá un plan de acción para ponerte en contacto con un médico para realizar los análisis clínicos necesarios."
+          }
+        ],
+        "note": "*EVA emite una evaluación, no un diagnóstico pues este sólo puede ser emitido por un médico tras haber realizado los análisis clínicos pertinentes.",
+        "toolPart1": "EVA",
+        "toolPart2": "no reemplaza una mastografía, es una herramienta complementaria que profesionaliza la autoexploración de mama y pone a disposición de mujeres a partir de los 25 años de edad, un método seguro y confiable para monitorear la salud de sus senos."
+      },
+      "founder": [
+        {
+          "title": "Mujer fundadora",
+          "subtitle": "Lupita, 38 años",
+          "descriptionOne": "Mujeres Fundadoras es nuestro programa de pruebas internas, donde gracias a la participación de mujeres voluntarias podemos continuar mejorando el desarrollo de EVA a partir de la recolección de datos para entrenamiento del algoritmo de Inteligencia Artificial y de retroalimentación acerca de la experiencia de uso del producto.",
+          "descriptionTwo": "Conoce la historia de Lupita, sobreviviente de cáncer y voluntaria de nuestra campaña.",
+          "button": "Ver video"
+        },
+        {
+          "title": "Mujer fundadora",
+          "subtitle": "Lupita, 38 años",
+          "descriptionOne": "Mujeres Fundadoras es nuestro programa de pruebas internas, donde gracias a la participación de mujeres voluntarias podemos continuar mejorando el desarrollo de EVA a partir de la recolección de datos para entrenamiento del algoritmo de Inteligencia Artificial y de retroalimentación acerca de la experiencia de uso del producto.",
+          "descriptionTwo": "Conoce la historia de Lupita, sobreviviente de cáncer y voluntaria de nuestra campaña.",
+          "button": "Ver video"
+        }
+      ],
+      "questions": {
+        "title": "Preguntas Frecuentes",
+        "question": [
+          {
+            "title": "1. ¿Cuál es el costo de EVA?",
+            "answer": "Por el momento no tenemos un precio de venta definido, no obstante, trabajamos día tras día para que éste sea el más accesible posible y EVA pueda impactar positivamente la vida de un gran número de mujeres, sin importar su nivel socioeconómico."
+          },
+          {
+            "title": "2. ¿Dónde se puede comprar EVA?",
+            "answer": "Actualmente EVA no se encuentra a la venta, sin embargo, puedes registrarte aquí (se abre popup) para formar parte de nuestra campaña de preventa. Una vez registrada, entrarás a la lista de espera para adquirir el dispositivo cuando salga a la venta y recibirás actualizaciones relacionadas a la compañía por correo electrónico."
+          },
+          {
+            "title": "3. ¿Qué es la pre-orden?",
+            "answer": "Es un registro mediante el cual formarás parte de una lista de espera para ser de las primeras personas en comprar a EVA cuando esté lista para salir a la venta."
+          },
+          {
+            "title": "4. ¿Cuándo estará a la venta EVA en México?",
+            "answer": "En cuanto terminemos de realizar las pruebas y certificaciones correspondientes nos pondremos en contacto con las personas registradas en nuestra lista de espera. Esperamos que EVA esté disponible para finales del 2019."
+          },
+          {
+            "title": "5. ¿Cuándo estará a la venta fuera de México?",
+            "answer": "No contamos con fecha aún, pero estamos trabajando en ello."
+          },
+          {
+            "title": "6. ¿Cómo funciona EVA?",
+            "answer": "EVA es un dispositivo que está diseñado para detectar anormalidades en los patrones térmicos de la mama. Los parches recopilan datos que se envían al teléfono o tablet de la usuaria a través de la tecnología bluetooth, y nuestros algoritmos de Inteligencia Artificial producen una evaluación del riesgo en cuestión de minutos.",
+            "answerPart2": "Una gran número de tumores se rodean de vasos sanguíneos para crecer, de igual manera, los tumores emiten mayor calor por tener una tasa de reproducción celular elevada, esto provoca zonas de calor alrededor de los tumores que EVA analiza para producir una evaluación de riesgo a través de algoritmos de inteligencia artificial."
+          },
+          {
+            "title": "7. ¿A partir de qué edad se puede utilizar EVA?",
+            "answer": "Se puede empezar a utilizar EVA desde los 25 años."
+          },
+          {
+            "title": "8. ¿Cuál será el tiempo de vida útil de EVA?",
+            "answer": "Por ahora no tenemos un tiempo de vida útil exacto, este dependerá en gran medida de los ciclos de uso del producto, es decir, la frecuencia con la que se utilice, y del cuidado que la usuaria de al mismo. Estamos enfocados en hacer de EVA un producto que permanezca en la vida de las usuarias el mayor tiempo posible."
+          },
+          {
+            "title": "9. ¿Es la exploración dolorosa? / ¿Representa algún riesgo a mi salud?",
+            "answer": "La exploración con EVA es indolora, no invasiva y no representa un riesgo a la salud."
+          },
+          {
+            "title": "10. ¿Puedes meter a lavar tu EVA  The Auto-exploration Wearable?",
+            "answer": "Con la versión actual no es posible. Sin embargo, estamos trabajando para que EVA sea lavable."
+          },
+          {
+            "title": "11. ¿Se puede usar un mismo dispositivo EVA en más de una persona?",
+            "answer": "Estamos trabajando en una plataforma multiusuario para EVA. Aunque las usuarias adicionales no tendrán que pagar por el dispositivo, sí será necesario pagar por una membresía mensual por el uso de la aplicación móvil, almacenamiento de datos y atención médica personalizada."
+          },
+          {
+            "title": "12. ¿EVA emite algún tipo de radiación?",
+            "answer": "EVA no emite ningún tipo de radiación ionizante. EVA es un dispositivo no invasivo que no representa riesgo alguno a la salud de la usuaria."
+          },
+          {
+            "title": "13. ¿Cuál es el procedimiento si EVA  The Auto-exploration Wearable me detecta cáncer de mama?",
+            "answer": "EVA te vinculará inmediatamente con profesionales de la salud a través de alguna de nuestras plataformas. En cuanto nuestros algoritmos detecten anormalidades los médicos propondrán un plan de acción para dar atención inmediata y mitigar el posible riesgo."
+          }
+        ]
+      }
     }
   }
 }
