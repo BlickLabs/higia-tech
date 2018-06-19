@@ -145,7 +145,471 @@
           "class": "home-allies-logo-google",
           "title": "Google"
         }
-      ]
+      ],
+      "donors": {
+        "title": "First Donors",
+        "desc": "Our purpose began to come alive the day that the first people believed in our dream of revolutionizing breast cancer detection.",
+        "descBold": "Thank you to all our donors of our Inixar campaign.",
+        "columnOne": [
+          {
+            "name": "Abi Morgado"
+          },
+          {
+            "name": "Adair Navarro"
+          },
+          {
+            "name": "Aida Hernández"
+          },
+          {
+            "name": "Aidee Davila"
+          },
+          {
+            "name": "Ale Cornejo"
+          },
+          {
+            "name": "Alelu Moreno"
+          },
+          {
+            "name": "Alissia Hernández"
+          },
+          {
+            "name": "Alma San Miguel"
+          },
+          {
+            "name": "Amanda Ramirez"
+          },
+          {
+            "name": "Ana Gabriela Hernandez"
+          },
+          {
+            "name": "Ana GM"
+          },
+          {
+            "name": "Ana Teresa Rodriguez"
+          },
+          {
+            "name": "Ana Yael Vanoye García"
+          },
+          {
+            "name": "Anahí Martínez"
+          },
+          {
+            "name": "Anaid Lobato"
+          },
+          {
+            "name": "Anallely Escobar"
+          },
+          {
+            "name": "Fernando López Martínez"
+          },
+          {
+            "name": "Francisco Andrade Méndez"
+          },
+          {
+            "name": "Gabriel Pérez Kohler"
+          },
+          {
+            "name": "German Otalora"
+          },
+          {
+            "name": "Gladys V Vasquez"
+          },
+          {
+            "name": "Héctor Andrés González Cantú"
+          },
+          {
+            "name": "Helen Carvajal"
+          },
+          {
+            "name": "Indra Xynth"
+          },
+          {
+            "name": "Irene Martinez"
+          },
+          {
+            "name": "Iris Galvan"
+          },
+          {
+            "name": "Iris Gzz"
+          },
+          {
+            "name": "Ivón Cepeda"
+          },
+          {
+            "name": "Ixel González Ruíz"
+          },
+          {
+            "name": "Jaime Hernández Hagan"
+          },
+          {
+            "name": "Jess Gzz"
+          },
+          {
+            "name": "Jorge Correa"
+          },
+          {
+            "name": "Jorge G. Alvarado"
+          },
+          {
+            "name": "Juan Angel"
+          },
+          {
+            "name": "Juan Carlos Lavariega"
+          },
+          {
+            "name": "Juany Rocha"
+          },
+          {
+            "name": "Karen Medina"
+          },
+          {
+            "name": "Karina Fuentes"
+          },
+          {
+            "name": "Karina Liquiniana Matías"
+          },
+          {
+            "name": "Karla Gerardo"
+          },
+          {
+            "name": "Karla OC"
+          },
+          {
+            "name": "Kary Aranda"
+          },
+          {
+            "name": "Kaveena Maniam"
+          },
+          {
+            "name": "Laura Gonzalez"
+          },
+          {
+            "name": "Laura Hernandez"
+          },
+          {
+            "name": "Laura LG"
+          },
+          {
+            "name": "Laura QG"
+          },
+          {
+            "name": "LauraLet"
+          },
+          {
+            "name": "Leslie Gallardo"
+          },
+          {
+            "name": "Lesly Dominguez"
+          }
+        ],
+        "columnTwo": [
+          {
+            "name": "Anna Lee Mraz Bartra"
+          },
+          {
+            "name": "Antonio Dávila"
+          },
+          {
+            "name": "Areli Banda"
+          },
+          {
+            "name": "Arnoldo Velazquez"
+          },
+          {
+            "name": "Beatriz Hernandez"
+          },
+          {
+            "name": "Berenice Turrubiates"
+          },
+          {
+            "name": "Car VF"
+          },
+          {
+            "name": "Cari Navarro Halún"
+          },
+          {
+            "name": "Carmen Cuevas"
+          },
+          {
+            "name": "Carmen Zamora"
+          },
+          {
+            "name": "Carolina Beas Chavarin"
+          },
+          {
+            "name": "Clancy Espino"
+          },
+          {
+            "name": "Claudia Silva"
+          },
+          {
+            "name": "Claudia Stefanie Serna"
+          },
+          {
+            "name": "Coco Villarreal"
+          },
+          {
+            "name": "Dafne Díaz"
+          },
+          {
+            "name": "Leticia Lira"
+          },
+          {
+            "name": "Liz Lopez"
+          },
+          {
+            "name": "Lizeth Amador"
+          },
+          {
+            "name": "Lourdes Garduño"
+          },
+          {
+            "name": "Ma.Beatriz Vaqueiro González"
+          },
+          {
+            "name": "Marco Correa"
+          },
+          {
+            "name": "María Barboza Del Toro"
+          },
+          {
+            "name": "María Fernanda Alonso"
+          },
+          {
+            "name": "María Hernández"
+          },
+          {
+            "name": "María Rod"
+          },
+          {
+            "name": "Maria Valdez"
+          },
+          {
+            "name": "Mariana Eggertsson"
+          },
+          {
+            "name": "Marien Zapata"
+          },
+          {
+            "name": "Mario B. Juárez"
+          },
+          {
+            "name": "Mario Trujillo"
+          },
+          {
+            "name": "Mario Villanueva"
+          },
+          {
+            "name": "Marisol Comunica"
+          },
+          {
+            "name": "Marité Villar Zebadúa"
+          },
+          {
+            "name": "Maritza Castillo"
+          },
+          {
+            "name": "Maru Dupont"
+          },
+          {
+            "name": "Mavis M González"
+          },
+          {
+            "name": "Melissa L. Salinas"
+          },
+          {
+            "name": "Michelle Espinoza D'Mejia"
+          },
+          {
+            "name": "Miguel Rudich"
+          },
+          {
+            "name": "Millyanne HCvatn"
+          },
+          {
+            "name": "Mily Rodríguez Butron"
+          },
+          {
+            "name": "Mireya M. Montaño"
+          },
+          {
+            "name": "Mónica Late"
+          },
+          {
+            "name": "Mónica Otalora"
+          },
+          {
+            "name": "Nadia Jiménez"
+          },
+          {
+            "name": "Nalle Montiel"
+          },
+          {
+            "name": "Nallely Gallegos"
+          },
+          {
+            "name": "Nayelli Castillo"
+          },
+          {
+            "name": "Nide Zajur"
+          },
+          {
+            "name": "Norma Rodriguez"
+          }
+        ],
+        "columnThree": [
+          {
+            "name": "Dani Vazquez"
+          },
+          {
+            "name": "Daniela Aboytes"
+          },
+          {
+            "name": "Daniela Menendez"
+          },
+          {
+            "name": "Daniela Treviño Campoy"
+          },
+          {
+            "name": "Denisse Peña"
+          },
+          {
+            "name": "Diana Litzin Rubio"
+          },
+          {
+            "name": "Diana Meraz"
+          },
+          {
+            "name": "Dilian Patricia"
+          },
+          {
+            "name": "Dulce Palma"
+          },
+          {
+            "name": "Edgar Raúl Ramírez Zárate"
+          },
+          {
+            "name": "Efra Diez"
+          },
+          {
+            "name": "Elena Gutierrez"
+          },
+          {
+            "name": "Elena Gutierrez"
+          },
+          {
+            "name": "Felipe Navarro"
+          },
+          {
+            "name": "Fernanda Leroux"
+          },
+          {
+            "name": "Fernando Lara"
+          },
+          {
+            "name": "Olivia Elizabeth"
+          },
+          {
+            "name": "Olivia Hernández"
+          },
+          {
+            "name": "Oscar Martínez"
+          },
+          {
+            "name": "Oswaldo Pérez"
+          },
+          {
+            "name": "Patricia Martínez"
+          },
+          {
+            "name": "Paty Rodríguez"
+          },
+          {
+            "name": "Pau Hinojosa"
+          },
+          {
+            "name": "Paula Rodríguez"
+          },
+          {
+            "name": "Rachel Rodriguez"
+          },
+          {
+            "name": "Ramzda Torres"
+          },
+          {
+            "name": "Rasha Roshdy"
+          },
+          {
+            "name": "Raymundo González"
+          },
+          {
+            "name": "Rodríguez"
+          },
+          {
+            "name": "Rosario González"
+          },
+          {
+            "name": "Rubí Ríos"
+          },
+          {
+            "name": "Samuel Abarca Grajales"
+          },
+          {
+            "name": "Sandra CV"
+          },
+          {
+            "name": "Sandra Novelo"
+          },
+          {
+            "name": "Silvanna Velázquez"
+          },
+          {
+            "name": "Silvia Rdz Neaves"
+          },
+          {
+            "name": "Susana López"
+          },
+          {
+            "name": "Tere Diaz"
+          },
+          {
+            "name": "Topaqui D.C."
+          },
+          {
+            "name": "Treviño Isabel"
+          },
+          {
+            "name": "Unidas para Donar"
+          },
+          {
+            "name": "Uty Márquez"
+          },
+          {
+            "name": "Valeria Gómez Flores"
+          },
+          {
+            "name": "Valerie Andrade"
+          },
+          {
+            "name": "Vane Gaspar"
+          },
+          {
+            "name": "Vanesa Martinez Sandoval"
+          },
+          {
+            "name": "Vanessa Villarreal"
+          },
+          {
+            "name": "Vero Piñón"
+          },
+          {
+            "name": "Yanet Jimenez Montero"
+          },
+          {
+            "name": "Yeka Ruiz"
+          }
+        ]
+      }
     },
     "homeAwards": {
       "title": "Awards and recognitions",
