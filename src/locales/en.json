@@ -440,7 +440,7 @@
           "iconClass": "who-timeline-icon-cup",
           "month": "November",
           "desc": "Higia wins the National Student Entrepreneur Award.",
-          "descTwo": "nvestoVC and its union of angel investors make the first external investment in Higia."
+          "descTwo": "InvestoVC and its union of angel investors make the first external investment in Higia."
         },
         {
           "year": "2017",
@@ -768,17 +768,17 @@
             "title": "Frontend Software Engineer",
             "desc": "Estamos buscando un ingeniero que tenga la capacidad de analizar, diseñar, implementar, poner en producción y monitorear interfaces de usuario web, usando tecnologías frontend modernas.",
             "requirementsLink": "https://drive.google.com/file/d/11JFDJ1DsrWoJTbdKJYjKCRET4aHPOT71/view",
-            "btnRequirements": "Requisitos",
+            "btnRequirements": "Requirements",
             "emailAddress": "jobs@higia.tech",
-            "btnEmail": "Envíanos un correo"
+            "btnEmail": "Send us an email"
           },
           {
             "title": "Frontend Software Engineer",
             "desc": "Estamos buscando un ingeniero que tenga la capacidad de analizar, diseñar, implementar, poner en producción y monitorear interfaces de usuario web, usando tecnologías frontend modernas.",
             "requirementsLink": "https://drive.google.com/file/d/11JFDJ1DsrWoJTbdKJYjKCRET4aHPOT71/view",
-            "btnRequirements": "Requisitos",
+            "btnRequirements": "Requirements",
             "emailAddress": "jobs@higia.tech",
-            "btnEmail": "Envíanos un correo"
+            "btnEmail": "Send us an email"
           }
         ]
       }
