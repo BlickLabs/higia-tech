@@ -1,0 +1,141 @@
+{% extends "partials/base.njk" %}
+
+{% block title %}EVA{% endblock %}
+
+{% set view_name = "eva" %}
+
+{% block content %}
+  <div class="eva">
+    <section class="eva-cover">
+      <div class="eva-cover-content">
+        <img class="eva-cover-logo" src="{{en.eva.cover.logoTitle}}">
+        <p class="eva-cover-desc helvneue-light">{{en.eva.cover.descPart1}} <span class="helvneue-medium">{{en.eva.cover.descPart2}}</span> {{en.eva.cover.descPart3}} <span class="helvneue-medium">{{en.eva.cover.descPart4}}</span></p>
+        <a href="">
+          <button class="helvneue-medium btn-base btn-md">{{en.eva.cover.btnCover}}</button>
+        </a>
+      </div>
+    </section>
+
+    <section class="eva-info">
+      <div class="eva-info-content">
+        <p class="eva-info-desc helvneue-medium">{{en.eva.info.desc1}} <span class="helvneue-light">{{en.eva.info.desc2}}</span></p>
+      </div>
+    </section>
+
+    <section class="eva-steps">
+      <div>
+        <h1 class="eva-steps-title helvneue-bold">{{en.eva.steps.titleGet}}</h1>
+        <div class="eva-steps-container">
+          {% for get in en.eva.steps.get %}
+          <div class="eva-steps-content {{get.borderClass}}">
+            <span class="eva-steps-number helvneue-bold">{{get.number}}</span>
+            <div class="eva-steps-icon-container">
+              <img class="{{get.iconClass}}" src="{{get.icon}}">
+            </div>
+            <p class="eva-steps-desc helvneue-light">{% if get.descEmpashis %}<span class="helvneue-bold">{{get.descEmpashis}}</span><br> {% endif %}{{get.desc}}</p>
+          </div>
+          {% endfor %}
+        </div>
+        <!-- Mobile version -->
+        <div class="eva-steps-carousel-get owl-carousel">
+          {% for get in en.eva.steps.get %}
+          <div class="eva-steps-content {{get.borderClass}}">
+            <span class="eva-steps-number helvneue-bold">{{get.number}}</span>
+            <div class="eva-steps-icon-container">
+              <img class="{{get.iconClass}}" src="{{get.icon}}">
+            </div>
+            <p class="eva-steps-desc helvneue-light">{% if get.descEmpashis %}<span class="helvneue-bold">{{get.descEmpashis}}</span><br> {% endif %}{{get.desc}}</p>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div>
+        <h1 class="eva-steps-title helvneue-bold">{{en.eva.steps.titleWorks}}</h1>
+        <div class="eva-steps-container">
+          {% for work in en.eva.steps.work %}
+          <div class="eva-steps-content {{work.borderClass}}">
+            <span class="eva-steps-number helvneue-bold">{{work.number}}</span>
+            <div class="eva-steps-icon-container">
+              <img class="{{work.iconClass}}" src="{{work.icon}}">
+            </div>
+            <p class="eva-steps-desc helvneue-light">{% if work.descEmpashis %}<span class="helvneue-bold">{{work.descEmpashis}}</span><br> {% endif %}{{work.desc}}</p>
+          </div>
+          {% endfor %}
+        </div>
+        <!-- Mobile version -->
+        <div class="eva-steps-carousel-work owl-carousel">
+          {% for work in en.eva.steps.work %}
+          <div class="eva-steps-content {{work.borderClass}}">
+            <span class="eva-steps-number helvneue-bold">{{work.number}}</span>
+            <div class="eva-steps-icon-container">
+              <img class="{{work.iconClass}}" src="{{work.icon}}">
+            </div>
+            <p class="eva-steps-desc helvneue-light">{% if work.descEmpashis %}<span class="helvneue-bold">{{work.descEmpashis}}</span><br> {% endif %}{{work.desc}}</p>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      <p class="eva-steps-note helvneue-lightitalic">{{en.eva.steps.note}}</p>
+      <div class="eva-steps-tool-container">
+        <p class="eva-steps-tool helvneue-regular"><span class="helvneue-bold">{{en.eva.steps.toolPart1}}</span> {{en.eva.steps.toolPart2}}</p>
+      </div>
+    </section>
+
+    <section class="eva-proofs">
+      <div class="eva-proofs-content">
+        <h1 class="eva-proofs-title helvneue-bold">{{en.eva.proofs.title}}</h1>
+        <div class="eva-proofs-percentages-container">
+          <p class="eva-proofs-percentages helvneue-bold">{{en.eva.proofs.percentages}}</p>
+        </div>
+        <p class="eva-proofs-desc helvneue-light">{{en.eva.proofs.desc1}}</p>
+        <p class="eva-proofs-desc helvneue-light">{{en.eva.proofs.desc2}}</p>
+      </div>
+    </section>
+
+    <section class="eva-founder">
+      <div class="eva-founder-carousel owl-carousel">
+        {% for founder in en.eva.founder %}
+        <div class="eva-founder-card">
+          <div class="eva-founder-img-container">
+            <div class="eva-founder-img"></div>
+          </div>
+          <div class="eva-founder-info">
+            <h2 class="home-founder-title helvneue-light">{{founder.title}}</h2>
+            <div class="home-founder-subtitle-container">
+              <h3 class="home-founder-subtitle helvneue-bold">{{founder.subtitle}}</h3>
+            </div>
+            <div class="home-founder-paragraph-container">
+              <p class="home-founder-paragraph helvneue-light">{{founder.descriptionOne}}</p>
+            </div>
+            <div class="home-founder-paragraph-container">
+              <p class="home-founder-paragraph helvneue-medium">{{founder.descriptionTwo}}</p>
+            </div>
+            <div class="home-founder-button">
+              <a href="">
+                <button class="helvneue-medium btn-base btn-sm">{{founder.button}}</button>
+              </a>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </section>
+
+    <section class="eva-questions">
+      <h1 class="eva-questions-title helvneue-bold">{{en.eva.questions.title}}</h1>
+      <ul class="eva-questions-container">
+        {% for answer in en.eva.questions.question %}
+        <li class="eva-questions-content">
+          <span class="eva-questions-question helvneue-medium">{{answer.title}}</span>
+          <div class="eva-questions-answer-container">
+            <p class="eva-questions-answer helvneue-light">{{answer.answer}}</p>
+            {% if answer.answerPart2 %}
+            <p class="eva-questions-answer helvneue-light">{{answer.answerPart2}}</p>
+            {% endif %}
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
+    </section>
+  </div>
+{% endblock %}
