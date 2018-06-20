@@ -1246,6 +1246,176 @@
           }
         ]
       }
+    },
+    "eva": {
+      "cover": {
+        "logoTitle": "/img/logos/logo-eva.png",
+        "descPart1": "EVA is the",
+        "descPart2": "first intelligent, portable and non-invasive",
+        "descPart3": "wearable designed to detect abnormalities in the thermal patterns of the breast, an indicator for the",
+        "descPart4": "possible presence of breast cancer.",
+        "btnCover": "Preorder"
+      },
+      "info": {
+        "desc1": "EVA is equipped with sensors that collect thermal data of the surface of the breasts, with which the thermal patterns on the breast are mapped.",
+        "desc2": "This allows a professionalization of the auto-examination, complementing the conventional methods of diagnosis and screening."
+      },
+      "proofs": {
+        "title": "Where are we at?",
+        "percentages": "Currently, the sensibility of EVA is at 87.9% and its specificity is at 81.7%",
+        "desc1": "These results have been estimated through a process of cross-validation of 153 women, with 33 of them having breast cancer confirmed through a mammogram or biopsy.",
+        "desc2": "At Higia Technologies we are preparing to continue realizing clinical trials in Mexico and abroad, together with allies such as Stanford Medicine, the Mexican Institute for Social Security and AXA Insurances."
+      },
+      "steps": {
+        "titleGet": "How to acquire EVA?",
+        "titleWorks": "How does EVA work?",
+        "get": [
+          {
+            "number": "1",
+            "icon": "/img/icons/icon-eva-get-1.png",
+            "iconClass": "eva-steps-icon-get-1",
+            "descEmpashis": "Register",
+            "desc": "to be part of the presale of EVA."
+          },
+          {
+            "number": "2",
+            "icon": "/img/icons/icon-eva-get-2.png",
+            "iconClass": "eva-steps-icon-get-2",
+            "borderClass": "border-dots",
+            "desc": "As soon as EVA is ready for sale, we will send you information on how to purchase the device."
+          },
+          {
+            "number": "3",
+            "icon": "/img/icons/icon-eva-getwork.png",
+            "iconClass": "eva-steps-icon-getwork",
+            "descEmpashis": "Once you receive your EVA, download the App",
+            "desc": "available in the App Store and Google Play."
+          }
+        ],
+        "work": [
+          {
+            "number": "1",
+            "icon": "/img/icons/icon-eva-work-1.png",
+            "iconClass": "eva-steps-icon-work-1",
+            "descEmpashis": "Place EVA",
+            "desc": "beneath your sports bra."
+          },
+          {
+            "number": "2",
+            "icon": "/img/icons/icon-eva-getwork.png",
+            "iconClass": "eva-steps-icon-getwork",
+            "borderClass": "border-dots",
+            "descEmpashis": "Open the app",
+            "desc": "and follow the instructions to start the examination."
+          },
+          {
+            "number": "3",
+            "icon": "/img/icons/icon-eva-work-3.png",
+            "iconClass": "eva-steps-icon-work-3",
+            "descEmpashis": "Wait",
+            "desc": "for the temperature sensors to collect enough information."
+          },
+          {
+            "number": "4",
+            "icon": "/img/icons/icon-eva-work-4.png",
+            "iconClass": "eva-steps-icon-work-4",
+            "descEmpashis": "The data is sent",
+            "desc": "to your phone or tablet via Bluetooth."
+          },
+          {
+            "number": "5",
+            "icon": "/img/icons/icon-eva-work-5.png",
+            "iconClass": "eva-steps-icon-work-5",
+            "borderClass": "border-dots",
+            "descEmpashis": "Our Artificial Intelligence algorithms",
+            "desc": "analyze the information to the information to create an evaluation* in a matter of minutes."
+          },
+          {
+            "number": "6",
+            "icon": "/img/icons/icon-eva-work-6.png",
+            "iconClass": "eva-steps-icon-work-6",
+            "descEmpashis": "In case there was a risk detected, the EVA Health App",
+            "desc": "provides you with a plan of action to put you in contact with a doctor in order to perform the necessary clinical analysis."
+          }
+        ],
+        "note": "*EVA sends out an evaluation, not a diagnosis, this can only be expressed by a doctor after having performed an appropriate clinical analysis.",
+        "toolPart1": "EVA",
+        "toolPart2": "does not replace a mammography, it is a complementary tool that professionalizes the auto-examination of the breasts made available for women from the age of 25 years on. It is a safe and reliable method to monitor the health of your breasts."
+      },
+      "founder": [
+        {
+          "title": "Female Founder",
+          "subtitle": "Lupita, 38 years",
+          "descriptionOne": "Female Founders is our internal program for testing and get feedback on EVA. Thanks to the participation of voluntary women, we can continue to improve the development of EVA and compile data to train our artificial intelligence algorithms.",
+          "descriptionTwo": "Learn about the history of Lupita, a cancer survivor and volunteer for our campaign.",
+          "button": "Watch video"
+        },
+        {
+          "title": "Female Founder",
+          "subtitle": "Lupita, 38 years",
+          "descriptionOne": "Female Founders is our internal program for testing and get feedback on EVA. Thanks to the participation of voluntary women, we can continue to improve the development of EVA and compile data to train our artificial intelligence algorithms.",
+          "descriptionTwo": "Learn about the history of Lupita, a cancer survivor and volunteer for our campaign.",
+          "button": "Watch video"
+        }
+      ],
+      "questions": {
+        "title": "Frequently Asked Questions",
+        "question": [
+          {
+            "title": "1. What’s the cost of EVA?",
+            "answer": "At the moment we don't have a defined sales price, however, we are working day after day to make it as accessible as possible so that EVA can positively impact the lives of a large number of women, regardless of their socioeconomic status."
+          },
+          {
+            "title": "2. Where can I buy EVA?",
+            "answer": "Currently, EVA is not yet available for purchase. However, you can register here (se abre popup) to be part of our pre-sale campaign. Once you are registered, you will enter a waitlist to purchase the device when it’s available for sale and you will receive updates related to the company through email."
+          },
+          {
+            "title": "3. What is the pre-order?",
+            "answer": "It’s a register through which you will form part of a waitlist to be one of the first people to buy EVA when it is ready for sale."
+          },
+          {
+            "title": "4. When will be EVA be on sale in Mexico?",
+            "answer": "As soon as we finish performing the tests and the corresponding certifications we will be in touch with the registered people from our waitlist. We expect EVA to be available by the end of 2019."
+          },
+          {
+            "title": "5. When is EVA on sale outside of Mexico?",
+            "answer": "We don’t have any date yet, but we are working on this."
+          },
+          {
+            "title": "6. How does EVA work?",
+            "answer": "EVA is a device designed to detect abnormalities in the thermal patterns of the breast. The patches collect data that are sent to the phone or tablet of the user through Bluetooth technology. Our Artificial Intelligence algorithms, then, generate a risk evaluation in a matter of minutes.",
+            "answerPart2": "A great number of tumors surround themselves with blood vessels in order to grow. In the same way, the tumors emit a greater heat for having an elevated rate of cellular reproduction. This causes a hot zone around the tumor that EVA analyzes to generate a risk evaluation through Artificial Intelligence algorithms."
+          },
+          {
+            "title": "7. From which age on can I use EVA?",
+            "answer": "You can start using EVA from the age of 25 years on."
+          },
+          {
+            "title": "8. What will be the lifetime of EVA?",
+            "answer": "For now, we don’t have an exact lifetime. This will, to a great extent, depend on the cycle of use of the product, that is to say, the frequency with which EVA will be used and the care it will be given by its user. We are focused on making EVA a product that stays in the life of its user for the longest time possible."
+          },
+          {
+            "title": "9. Is the examination painful? / Does it present any risk to my health?",
+            "answer": "The examination with EVA is painless, non-invasive and doesn’t present any risk to your health."
+          },
+          {
+            "title": "10. Can I wash my EVA - The Auto-exploration Wearable?",
+            "answer": "With the current version, this is not possible. However, we are working on making EVA washable."
+          },
+          {
+            "title": "11. Is it possible to use the same device on more than one person?",
+            "answer": "We are working on a multi-user platform for EVA. Even though the additional users would not have to pay for the device, they would have to pay for a monthly membership for the use of the mobile application, data storage and personalized medical attention."
+          },
+          {
+            "title": "12. Does EVA emit any type of radiation?",
+            "answer": "EVA is a non-invasive device that doesn’t present any risk to the user’s health."
+          },
+          {
+            "title": "13. What is the procedure if EVA The Auto-exploration Wearable detects breast cancer?",
+            "answer": "EVA immediately connects you with health professionals through one of our platforms. As soon as our algorithms detect abnormalities, the doctors will propose a plan of action to give you immediate medical attention and mitigate the possible risk."
+          }
+        ]
+      }
     }
   }
 }
