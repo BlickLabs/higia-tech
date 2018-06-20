@@ -4,7 +4,7 @@ evaFounderCarousel.owlCarousel ({
   loop: false,
   nav: true,
   dots: true,
-  navText: ['<img class="who-card-navigation" src="/img/icons/black-arrow-left.png" />', '<img class="who-work-navigation" src="/img/icons/black-arrow-right.png" />'],
+  navText: ['<img class="eva-founder-carousel-navigation" src="/img/icons/black-arrow-left.png" />', '<img class="eva-founder-carousel-navigation" src="/img/icons/black-arrow-right.png" />'],
   margin: 50,
   responsive:{
     0:{
@@ -23,5 +23,5 @@ evaFounderCarousel.owlCarousel ({
 });
 
 evaFounderCarousel.each(function(index) {
-  $(this).find('.owl-nav, .owl-dots').wrapAll("<div class='eva-founder-controls'></div>");
+  $(this).find('.owl-nav, .owl-dots').wrapAll("<div class='eva-founder-carousel-controls'></div>");
 });
