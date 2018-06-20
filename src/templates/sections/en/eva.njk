@@ -36,22 +36,10 @@
           </div>
           {% endfor %}
         </div>
-        <!-- Mobile version -->
-        <div class="eva-steps-carousel-get owl-carousel">
-          {% for get in en.eva.steps.get %}
-          <div class="eva-steps-content {{get.borderClass}}">
-            <span class="eva-steps-number helvneue-bold">{{get.number}}</span>
-            <div class="eva-steps-icon-container">
-              <img class="{{get.iconClass}}" src="{{get.icon}}">
-            </div>
-            <p class="eva-steps-desc helvneue-light">{% if get.descEmpashis %}<span class="helvneue-bold">{{get.descEmpashis}}</span><br> {% endif %}{{get.desc}}</p>
-          </div>
-          {% endfor %}
-        </div>
       </div>
       <div>
         <h1 class="eva-steps-title helvneue-bold">{{en.eva.steps.titleWorks}}</h1>
-        <div class="eva-steps-container">
+        <div class="eva-steps-container eva-steps-container-work">
           {% for work in en.eva.steps.work %}
           <div class="eva-steps-content {{work.borderClass}}">
             <span class="eva-steps-number helvneue-bold">{{work.number}}</span>
