@@ -36,10 +36,34 @@
           </div>
           {% endfor %}
         </div>
+        <!-- Mobile version -->
+        <div class="eva-steps-carousel-get owl-carousel">
+          {% for get in es.eva.steps.get %}
+          <div class="eva-steps-content {{get.borderClass}}">
+            <span class="eva-steps-number helvneue-bold">{{get.number}}</span>
+            <div class="eva-steps-icon-container">
+              <img class="{{get.iconClass}}" src="{{get.icon}}">
+            </div>
+            <p class="eva-steps-desc helvneue-light">{% if get.descEmpashis %}<span class="helvneue-bold">{{get.descEmpashis}}</span><br> {% endif %}{{get.desc}}</p>
+          </div>
+          {% endfor %}
+        </div>
       </div>
       <div>
         <h1 class="eva-steps-title helvneue-bold">{{es.eva.steps.titleWorks}}</h1>
         <div class="eva-steps-container">
+          {% for work in es.eva.steps.work %}
+          <div class="eva-steps-content {{work.borderClass}}">
+            <span class="eva-steps-number helvneue-bold">{{work.number}}</span>
+            <div class="eva-steps-icon-container">
+              <img class="{{work.iconClass}}" src="{{work.icon}}">
+            </div>
+            <p class="eva-steps-desc helvneue-light">{% if work.descEmpashis %}<span class="helvneue-bold">{{work.descEmpashis}}</span><br> {% endif %}{{work.desc}}</p>
+          </div>
+          {% endfor %}
+        </div>
+        <!-- Mobile version -->
+        <div class="eva-steps-carousel-work owl-carousel">
           {% for work in es.eva.steps.work %}
           <div class="eva-steps-content {{work.borderClass}}">
             <span class="eva-steps-number helvneue-bold">{{work.number}}</span>
