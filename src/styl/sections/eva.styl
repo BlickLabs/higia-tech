@@ -16,7 +16,7 @@
 
     &-logo
       height 60px
-      width 191px
+      width 242px
 
     &-desc
       color $hblack
@@ -24,7 +24,6 @@
       margin 60px 0 70px 0
 
   &-info
-    align-items center
     align-items center
     background-color $hgrayLight
     background-image url("../img/backgrounds/bg-eva-info.png")
@@ -223,7 +222,7 @@
       padding 0 40px
 
   &-questions
-    margin 60px 10% 90px 10%
+    margin 60px 0 90px 0
 
     &-title
       color $hblack
@@ -232,7 +231,7 @@
 
     &-container
       list-style none
-      margin 50px 0 0 0
+      margin 50px 10% 0 10%
       padding 0
 
     &-content
@@ -335,31 +334,94 @@
 @media screen and (max-width 1060px)
   .eva
     &-steps
+      &-title
+        font-size $fs25
+
+      &-desc
+        text-align left
+
       &-container
-        display none !important
+        border-top solid 2px $hpink
+        border-bottom solid 2px $hpink
+        flex-direction column
+        margin 80px auto 110px auto
+        width 80%
+
+        &-work
+          display none !important
+
+      &-content
+        border none
+        flex-direction row
+        height 190px
+        margin-bottom 0
+        padding 0 15px
+        width 100%
+
+        &.border-dots
+          border-bottom dashed 1px $hblackLight
+          border-top dashed 1px $hblackLight
 
       &-carousel
         &-navigation
           width 20px
 
-        &-get,
         &-work
+          border-top solid 2px $hpink
           display block !important
-          margin 40px auto 60px auto
+          margin 80px auto 60px auto
           position relative
-          width 320px
+          width 80%
+
+          & .eva-steps-content.border-dots
+            border-bottom none
+            border-top none
+
+          &-controls
+            border-bottom solid 2px $hpink
+            border-top dashed 1px $hblackLight
+            height 220px
+            position relative
+
+          & .owl-dots
+            left 0
+            position absolute
+            right 0
+            text-align center
+            top 40px
+
+          & .owl-dot
+            border solid 1px $hgrayDots !important
+            background-color $hgrayDots !important
+            border-radius 100px
+            height 11px
+            margin 0 5px
+            width 11px
+
+          & .owl-dot.active
+            border solid 1px $hgrayBorder !important
+            background-color $hwhite !important
 
           & .owl-next,
           & .owl-prev
-            bottom -30px
+            bottom 60px
             margin 0 auto
             position absolute
+            width 20px
 
           & .owl-next
-            right 100px
+            left 100px
+            right 0
 
           & .owl-prev
-            left 100px
+            left 0
+            right 100px
+
+      &-icon
+        &-container
+          justify-content center
+          margin 0 50px 0 10px
+          min-width 110px
 
       &-note
         margin-top 60px
@@ -376,18 +438,14 @@
 
         & .owl-prev
         & .owl-next
-          bottom -60px
-          margin 0 auto
-          top initial
+          bottom -100px
           width 20px
 
         & .owl-prev
-          left 0
-          right 60px
+          left -15px
 
         & .owl-next
-          left 60px
-          right 0
+          right -15px
 
       &-card
         flex-direction column
@@ -399,9 +457,137 @@
         width 100%
 
       &-info
-        padding 40px
+        padding 40px 25px
         width 100%
 
-  .border-dots
-    border-left none
-    border-right none
+@media screen and (max-width 860px)
+  .eva
+    &-cover
+      align-items flex-start
+      background-position bottom right -30px
+      background-size 430px
+      height 670px
+      padding-left 0
+
+      &-content
+        margin 80px auto 0 auto
+        padding 0 30px
+
+      &-logo
+        height 40px
+        width 162px
+
+      &-desc
+        font-size $fs15
+        letter-spacing 0.2px
+        line-height 25px
+        margin 40px 0
+        max-width 322px
+
+    &-info
+      align-items flex-start
+      background-image url("../img/backgrounds/bg-eva-info-mobile.jpg")
+      background-position left bottom
+      height 400px
+      justify-content center
+      padding 70px 0 0 0
+
+      &-content
+        margin-left 0
+
+      &-desc
+        font-size $fs15
+        letter-spacing 0.2px
+        line-height 25px
+        max-width 285px
+        text-align center
+
+    &-steps
+      &-note
+        color $hblackLight
+        font-size $fs15
+        letter-spacing 0.2px
+        line-height 25px
+        width 80%
+
+      &-tool
+        color $hblackLight
+        font-size $fs15
+        letter-spacing 0.2px
+        line-height 25px
+
+        &-container
+          margin-left auto
+          margin-right auto
+          padding 25px
+          width 80%
+
+    &-proofs
+      background-image url("../img/backgrounds/bg-eva-proofs-mobile.png")
+      background-position left top
+      background-size contain
+      padding 80px 0 30px 0
+
+      &-title
+        font-size $fs25
+        padding-left 15px
+
+      &-content
+        margin 0 auto
+        max-width 370px
+        width 80%
+
+      &-percentages
+        font-size $fs18
+        letter-spacing 0.2px
+        line-height 27px
+
+        &-container
+          padding 10px 15px
+
+      &-desc
+        font-size $fs15
+        letter-spacing 0.2px
+        line-height 25px
+        padding 0 15px 0 15px
+
+    &-founder
+      padding 60px 0
+
+      &-carousel
+        width 80%
+
+    &-questions
+      &-title
+        font-size $fs25
+
+      &-question
+        font-size $fs15
+        letter-spacing 0.2px
+        line-height 21px
+        padding 25px 65px 25px 0
+
+        &:after
+          right 30px
+
+      &-answer
+        font-size $fs15
+        line-height 24px
+
+        &-container.show
+          padding 25px 65px 25px 0
+
+@media screen and (max-width 419px)
+  .eva
+    &-steps
+      &-content
+        flex-direction column
+        height auto
+        padding 20px 0
+
+      &-icon
+        &-container
+          margin 0
+
+      &-desc
+        text-align center
