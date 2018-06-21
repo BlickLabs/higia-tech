@@ -1,0 +1,204 @@
+.news
+  
+
+  &-top
+    align-items center
+    background-color $hgrayLight
+    display flex
+    flex-direction column
+    height 250px
+    justify-content center
+
+    &-title
+      color $hblackLight
+      font-size $fs45
+      margin-bottom 30px
+      text-align center
+
+    &-subtitle
+      color $hblack
+      font-size $fs20
+      text-align center
+      margin-bottom 5px
+
+    &-desc
+      color $hblack
+      font-size $fs20
+      text-align center
+
+  &-card
+    display flex
+    flex-wrap wrap
+    justify-content space-between
+    margin 100px auto 100px auto
+    width 1240px
+
+    &-container
+      margin-bottom 40px
+      width 400px
+
+    &-content
+      padding 20px 15px
+
+    &-img
+      width 400px
+
+    &-newspaper
+      color $hblack
+      font-size $fs20
+      margin-bottom 10px
+      text-align center
+
+    &-desc
+      color $hblack
+      font-size $fs19
+      margin-bottom 15px
+      text-align center
+
+    &-read
+      color $hpink
+      display block
+      font-size $fs19
+      text-align center
+
+  &-kit
+    background-color $hgrayLight
+    padding 60px 0 100px 0
+
+    &-title
+      color $hblackLight
+      font-size $fs45
+      text-align center
+
+    &-desc
+      color $hblack
+      font-size $fs20
+      margin 30px auto
+      max-width 770px
+      text-align center
+
+    &-form
+      align-items center
+      background-color $hwhite
+      display flex
+      flex-direction column
+      margin 0 auto
+      padding 60px 0
+      width 700px
+
+      & button
+        margin-top 40px
+
+    &-input
+      border solid 1px $hgrayDots
+      border-radius 6px
+      color $hblackLight
+      font-size $fs17
+      height 40px
+      margin-bottom 10px
+      padding 0 15px
+      width 450px
+
+      &::placeholder
+        color $hgrayDots
+
+#news-card-mobile
+  display none
+
+@media screen and (max-width 1280px)
+  .news
+    &-card
+      width 820px
+
+@media screen and (max-width 860px)
+  .news
+    &-card
+      width 400px
+
+      &-carousel
+        &-navigation
+          &-container
+            position relative
+
+        & .owl-nav
+          bottom -60px
+          display flex
+          justify-content space-between
+          left 0
+          margin 0 auto
+          position absolute
+          right 0
+          width 110px
+
+        & .owl-dots
+          left 0
+          position absolute
+          right 0
+          text-align center
+          top -25px
+
+        & .owl-dot
+          border solid 1px $hgrayDots !important
+          background-color $hgrayDots !important
+          border-radius 100px
+          height 11px
+          margin 0 5px
+          width 11px
+
+        & .owl-dot.active
+          border solid 1px $hgrayBorder !important
+          background-color $hwhite !important
+
+        & &-navigation
+          width 20px
+
+  #news-card-desktop
+    display none
+
+  #news-card-mobile
+    display block
+
+@media screen and (max-width 760px)
+  .news
+    &-top
+      &-subtitle
+        padding 0 30px
+
+    &-kit
+      &-desc
+        padding 0 30px
+
+      &-form,
+      &-input
+        width 80%
+
+@media screen and (max-width 440px)
+  .news
+    &-top
+      &-title
+        font-size $fs38
+
+      &-subtitle
+        font-size $fs15
+
+      &-desc
+        font-size $fs15
+
+    &-card
+      &-newspaper,
+      &-desc,
+      &-read
+        font-size $fs15
+
+      &-carousel,
+      &-container,
+      &-img
+        width 300px !important
+
+    &-kit
+      &-title
+        font-size $fs38
+
+      &-desc
+        font-size $fs15
+
