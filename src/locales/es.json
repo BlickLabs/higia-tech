@@ -1413,6 +1413,42 @@
           }
         ]
       }
+    },
+    "contact": {
+      "title": "Contacto",
+      "contactUs": {
+        "titlePart1": "Únete a la",
+        "titlePart2": "revolución",
+        "descPart1": "¿Estás interesado en conocer más sobre nosotros?",
+        "descPart2": "Envíanos un mensaje, ¡nos encantaría saber de ti!",
+        "follow": "Síguenos",
+        "thumbUpIcon": "/img/icons/icon-thumbup-pink.png",
+        "btnSend": "Enviar",
+        "socialNet": [
+          {
+            "icon": "/img/icons/icon-fb-circle-pink.png",
+            "path": "/HigiaTech"
+          },
+          {
+            "icon": "/img/icons/icon-twitter-circle-pink.png",
+            "path": "/Higia_Tech"
+          },
+          {
+            "icon": "/img/icons/icon-insta-circle-pink.png",
+            "path": "higiatech"
+          }
+        ]
+      },
+      "address": {
+        "title": "Encuéntranos en:",
+        "placePart1": "Higia",
+        "placePart2": "Technologies",
+        "address": "Av. Paseo de la Reforma 180 Col. Juárez, Del. Cuauhtémoc Cd. de México, C.P. 06600",
+        "telText": "Teléfono",
+        "telNumber": "+52 (81) 2321 1542",
+        "emailText": "Email",
+        "emailAddress": "contact@higia.tech"
+      }
     }
   }
 }
