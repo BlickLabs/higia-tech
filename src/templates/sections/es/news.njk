@@ -1,0 +1,55 @@
+{% extends "partials/base.njk" %}
+
+{% block title %}Noticias{% endblock %}
+
+{% set view_name = "news" %}
+
+{% block content %}
+  <div class="news">
+    <section class="news-top">
+      <h1 class="news-top-title helvneue-bold">{{es.news.title}}</h1>
+      <h3 class="news-top-subtitle helvneue-bold">{{es.news.subtitlePart1}} <span class="pink">{{es.news.subtitlePart2}}</span> {{es.news.subtitlePart3}} <span class="pink">{{es.news.subtitlePart4}}</span> {{es.news.subtitlePart5}}</h3>
+      <h4 class="news-top-desc helvneue-light">{{es.news.desc}}</h4>
+    </section>
+
+    <section class="news-card"  id="news-card-desktop">
+      {% for new in es.news.cards %}
+      <div class="news-card-container">
+        <img class="news-card-img" src="{{new.img}}">
+        <div class="news-card-content">
+          <h5 class="news-card-newspaper helvneue-bold">{{new.newspaper}} <span class="helvneue-medium">{{new.date}}</span></h5>
+          <p class="news-card-desc helvneue-lightitalic">{{new.desc}}</p>
+          <a href="{{new.noteLink}}" target="_blank">
+            <span class="news-card-read helvneue-medium">{{new.readNote}}</span>
+          </a>
+        </div>
+      </div>
+      {% endfor %}
+    </section>
+
+    <section class="news-card news-card-carousel owl-carousel"  id="news-card-mobile">
+      {% for new in es.news.cards %}
+      <div class="news-card-container">
+        <img class="news-card-img" src="{{new.img}}">
+        <div class="news-card-content">
+          <h5 class="news-card-newspaper helvneue-bold">{{new.newspaper}} <span class="helvneue-medium">{{new.date}}</span></h5>
+          <p class="news-card-desc helvneue-lightitalic">{{new.desc}}</p>
+          <a href="{{new.noteLink}}" target="_blank">
+            <span class="news-card-read helvneue-medium">{{new.readNote}}</span>
+          </a>
+        </div>
+      </div>
+      {% endfor %}
+    </section>
+
+    <section class="news-kit">
+      <h2 class="news-kit-title helvneue-bold">{{es.news.kitPress.title}}</h2>
+      <p class="news-kit-desc helvneue-light">{{es.news.kitPress.desc}}</p>
+      <form class="news-kit-form">
+        <input class="news-kit-input" type="text" name="email" placeholder="Correo electrónico">
+        <input class="news-kit-input" type="text" name="press" placeholder="Medio o prensa">
+        <button class="btn-base btn-lg helvneue-medium">{{es.news.kitPress.btnKit}}</button>
+      </form>
+    </section>
+  </div>
+{% endblock %}
