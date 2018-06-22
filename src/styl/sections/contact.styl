@@ -38,6 +38,9 @@
           font-size $fs15
           margin-bottom 20px
 
+      &-br
+        display none
+
     &-form
       align-items center
       display flex
@@ -178,17 +181,29 @@
         padding 50px 30px
       
         &-title
-          font-size $fs38
+          font-size $fs25
           text-align center
 
         &-desc
           &-1,
           &-2
+            font-size $fs15
             text-align center
+
+          &-1
+            margin 25px 0 15px 0
+            max-width 245px
+
+          &-2
+            margin-bottom 35px
+
+        &-br
+          display block
 
       &-social
         &-title
-          font-size $fs38
+          font-size $fs25
+          text-align center
 
       &-form
         width 100%
@@ -203,16 +218,22 @@
         padding 40px 30px
 
         & h3
-          font-size $fs38
+          font-size $fs25
+          text-align center
 
         & h5
           font-size $fs20
           margin-top 15px
+
+      &-address
+        max-width 245px
 
       &-place
           font-size $fs20
           margin-top 50px
 
       &-desc
-          font-size $fs15
-          line-height 30px
+        display block
+        font-size $fs15
+        line-height 22px
+        margin-top 6px
