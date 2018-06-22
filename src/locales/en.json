@@ -1422,8 +1422,9 @@
       "contactUs": {
         "titlePart1": "Join the",
         "titlePart2": "revolution",
-        "descPart1": "Are you interested in learning more about us?",
-        "descPart2": "Send us a message, we would love to hear from you!",
+        "desc1": "Are you interested in learning more about us?",
+        "desc2Part1": "Send us a message,",
+        "desc2Part2": "we would love to hear from you!",
         "follow": "Follow us",
         "thumbUpIcon": "/img/icons/icon-thumbup-pink.png",
         "btnSend": "Send",
