@@ -10,9 +10,9 @@
           "hamburgerIcon": "/img/icons/icon-navbar-arrow.svg"
         },
         {
-          "section": "Who are we",
-          "link": "/en/who-are-we.html",
-          "viewName": "whoarewe",
+          "section": "Higia",
+          "link": "/en/higia.html",
+          "viewName": "higia",
           "hamburgerIcon": "/img/icons/icon-navbar-arrow.svg"
         },
         {
@@ -22,27 +22,27 @@
           "hamburgerIcon": "/img/icons/icon-navbar-arrow.svg"
         },
         {
-          "section": "Allies",
-          "link": "/en/allies.html",
-          "viewName": "allies",
-          "hamburgerIcon": "/img/icons/icon-navbar-arrow.svg"
-        },
-        {
           "section": "Research",
           "link": "/en/research.html",
           "viewName": "Research",
           "hamburgerIcon": "/img/icons/icon-navbar-arrow.svg"
         },
         {
-          "section": "News",
-          "link": "/en/news.html",
-          "viewName": "news",
+          "section": "Allies",
+          "link": "/en/allies.html",
+          "viewName": "allies",
           "hamburgerIcon": "/img/icons/icon-navbar-arrow.svg"
         },
         {
           "section": "Contact",
           "link": "/en/contact.html",
           "viewName": "contact",
+          "hamburgerIcon": "/img/icons/icon-navbar-arrow.svg"
+        },
+        {
+          "section": "Preorder",
+          "link": "/es/preorder.html",
+          "viewName": "preorder",
           "hamburgerIcon": "/img/icons/icon-navbar-arrow.svg"
         }
       ]
@@ -624,7 +624,7 @@
           "year": 2016
         },
         {
-          "img": "award-one",
+          "img": "award-harvard",
           "logo": "/img/logos/logo-harvard-black.png",
           "logoContainerClass": "home-awards-logo-container-modified",
           "logoClass": "logo-crowd-lab",
@@ -633,7 +633,7 @@
           "year": 2017
         },
         {
-          "img": "award-two",
+          "img": "award-everis",
           "logo": "/img/logos/logo-everis.png",
           "logoClass": "logo-everis",
           "logoContainerClass": "home-awards-logo-container",
@@ -642,7 +642,7 @@
           "year": 2017
         },
         {
-          "img": "award-three",
+          "img": "award-eogsea",
           "logo": "/img/logos/logo-eogsea.png",
           "logoClass": "logo-eogsea",
           "logoContainerClass": "home-awards-logo-container",
@@ -652,7 +652,7 @@
           "year": 2017
         },
         {
-          "img": "award-four",
+          "img": "award-masschallenge",
           "logo": "/img/logos/logo-mass-challenge-black.png",
           "logoClass": "logo-mass-challenge",
           "logoContainerClass": "home-awards-logo-container-modified",
@@ -661,7 +661,7 @@
           "year": 2017
         },
         {
-          "img": "award-five",
+          "img": "award-presidential",
           "logo": "/img/logos/logo-mexico.png",
           "logoClass": "logo-mexico",
           "logoContainerClass": "home-awards-logo-container",
@@ -670,7 +670,7 @@
           "year": 2017
         },
         {
-          "img": "award-six",
+          "img": "award-academy",
           "logo": "/img/logos/logo-national-academy-black.png",
           "logoClass": "logo-national-academy",
           "logoContainerClass": "home-awards-logo-container-modified",
@@ -679,7 +679,7 @@
           "year": 2017
         },
         {
-          "img": "award-seven",
+          "img": "award-forbes",
           "logo": "/img/logos/logo-forbes-black.png",
           "logoClass": "logo-forbes",
           "logoContainerClass": "home-awards-logo-container-modified",
@@ -688,7 +688,7 @@
           "year": 2018
         },
         {
-          "img": "award-eight",
+          "img": "award-sxsw",
           "logo": "/img/logos/logo-sxsw-black.png",
           "logoClass": "logo-sxsw",
           "logoContainerClass": "home-awards-logo-container-modified",
@@ -989,93 +989,19 @@
         "modalClose": "/img/icons/icon-close-modal.png",
         "card": [
           {
-            "member": "Fernando",
-            "memberPink": "López Martínez",
-            "job": "Chief Software Engineer",
+            "member": "Julián",
+            "memberPink": "Ríos",
+            "job": "CEO & Co-Founder",
             "img": "/img/whoarewe/member-fake.png",
-            "category": "SOFTWARE",
+            "category": "BUSINESS DEVELOPMENT TEAM",
             "iconModal": "/img/icons/icon-open-modal.png",
-            "openModal": "data-modal-1",
-            "dataModal": "data-modal-1",
-            "openModalMobile": "data-modal-mobile-1",
-            "dataModalMobile": "data-modal-mobile-1",
-            "modalEmail": "fernando.lopez@higia.tech",
-            "modalDesc1": "Fernando is in charge of designing and coordinating the development of the software platforms of Higia Tech, incorporating the best technologies that allow the rest of the team an agile and scalable development. Thanks to his training as an Engineer of Computational Technology and his continuous restlessness to question ideas, Fernando leads his area to develop software focused on improving people’s quality of life.",
-            "modalDesc2": "\"I have always been interested in applying the knowledge of software development to products that improve people’s quality of life. The opportunity to work at Higia was extraordinary because it combines a positive impact with a focus on health through prevention using different technologies of different study fields\"."
-          },
-          {
-            "member": "José Antonio",
-            "memberPink": "Toussaint García",
-            "job": "Android Developer",
-            "img": "/img/whoarewe/member-fake.png",
-            "category": "SOFTWARE",
-            "iconModal": "/img/icons/icon-open-modal.png",
-            "openModal": "data-modal-2",
-            "dataModal": "data-modal-2",
-            "openModalMobile": "data-modal-mobile-2",
-            "dataModalMobile": "data-modal-mobile-2",
-            "modalDesc1": "José Antonio leads the development of the mobile applications of EVA for the platform Android, as well as the design of the user experience. Thanks to his passion for technology and his great creativity, Tony provides the Software team with different ideas and solutions for existing problems to receive new and better results. José Antonio has experience working with companies like Google in Mountain View, California.",
-            "modalDesc2": "\"I consider Higia’s future in the industry impressive and the simple fact of being able to be part of the history we’re writing is a feeling that fills me with happiness and inspiration. The team is growing so that every contribution has a big impact. Everything is a challenge which makes it more interesting\"."
-          },
-          {
-            "member": "Juan José",
-            "memberPink": "Leñero Lozano",
-            "job": "Back-end Developer",
-            "img": "/img/whoarewe/member-fake.png",
-            "category": "SOFTWARE",
-            "iconModal": "/img/icons/icon-open-modal.png",
-            "openModal": "data-modal-3",
-            "dataModal": "data-modal-3",
-            "openModalMobile": "data-modal-mobile-3",
-            "dataModalMobile": "data-modal-mobile-3",
-            "modalEmail": "juanjo.lenero@higia.tech",
-            "modalDesc1": "Engineer of Computational Technologies, specializing in backend developing and the integration of Amazon Web Services. Juan José focuses his strengths on laying the foundations of the technological infrastructure on which the solutions that allow us to achieve our goals, are built; therefore, as a team, we can succeed facing the challenges that present themselves and rebuild in order to adapt to the future.",
-            "modalDesc2": "\"The opportunity to contribute my skills and experiences to creating a solution that improves the well-being of women around the world brought me to Higia\"."
-          },
-          {
-            "member": "Victor Hugo",
-            "memberPink": "Serrano Ramirez",
-            "job": "Chief Hardware Engineer",
-            "img": "/img/whoarewe/member-fake.png",
-            "category": "HARDWARE",
-            "iconModal": "/img/icons/icon-open-modal.png",
-            "openModal": "data-modal-4",
-            "dataModal": "data-modal-4",
-            "openModalMobile": "data-modal-mobile-4",
-            "dataModalMobile": "data-modal-mobile-4",
-            "modalEmail": "victor.serrano@higia.tech",
-            "modalDesc1": "Electronic engineer, hardware design, firmware, and robotics. With 6 years of experience leading the hardware development of medical devices, Victor is in charge of developing the necessary technology so that EVA is able to detect abnormalities in the breasts and report those. Through research and experience in electronic development and programming, we can reduce the feeling of vulnerability and uncertainty of women that are facing the monitoring of their breast health As Chief Hardware Engineer, Victor is working with members of other areas to support, suggest and improve the ideas together, searching for the synergy of ideas to receive the best results.",
-            "modalDesc2": "\"Higia is a company with enormous potential, but above all, it is a company with a humanist and social vision. Here we can get professional and personal growth, and it’s a company that matches my values. I contribute my experience and vision to help position Higia as the global benchmark for technology devices that improve women’s quality of life\"."
-          },
-          {
-            "member": "José Ángel",
-            "memberPink": "Lavariega Gómez",
-            "job": "Research Leader",
-            "img": "/img/whoarewe/member-fake.png",
-            "category": "HARDWARE",
-            "iconModal": "/img/icons/icon-open-modal.png",
-            "openModal": "data-modal-5",
-            "dataModal": "data-modal-5",
-            "openModalMobile": "data-modal-mobile-5",
-            "dataModalMobile": "data-modal-mobile-5",
-            "modalEmail": "jose.lavariega@higia.tech",
-            "modalDesc1": "Student at Massachusetts Institute of Technology (MIT) Class of 2022 in Business Analytics (Sloan School of Management) and Aeronautical Engineering. As Research Leader, José is in charge of visualizing the long-term development of the company by means of searching for new technologies and their implementation in the development of Higia’s products. José executes the extensive research together with international researchers to identify areas of opportunity and growth for the future of the company.",
-            "modalDesc2": "\"It motivates me to work as part of Higia’s team to make accessible and improve the Mexican and global infrastructure of breast cancer\"."
-          },
-          {
-            "member": "Antonio",
-            "memberPink": "Torres",
-            "job": "Chief Technology Officer & Co-Founder",
-            "img": "/img/whoarewe/member-fake.png",
-            "category": "HARDWARE",
-            "iconModal": "/img/icons/icon-open-modal.png",
-            "openModal": "data-modal-6",
-            "dataModal": "data-modal-6",
-            "openModalMobile": "data-modal-mobile-6",
-            "dataModalMobile": "data-modal-mobile-6",
-            "modalEmail": "antonio.torres@higia.tech",
-            "modalDesc1": "Motivated by his grandmother’s fight against breast cancer as well as the technical challenge that represented the creation of EVA, Antonio joined Julián in the research and development that lead to the development of Higia Technologies.",
-            "modalDesc2": "As Chief Technology Officer, Antonio main role is to assure Higia Technologies relies on the correct tools to achieve the purpose of providing people with actionable insights about their health through technological innovations. Moreover, he leads the creation of the technology and the taking of risks to improve the development of the products within the different teams that form Higia. Antonio has been responsible for carrying the joint vision of the software and hardware development by means of experimentation, prototyping and analyzing the ideas that can accelerate the processes and improve the products of the company."
+            "openModal": "data-modal-14",
+            "dataModal": "data-modal-14",
+            "openModalMobile": "data-modal-mobile-14",
+            "dataModalMobile": "data-modal-mobile-14",
+            "modalEmail": "julian.rios@higia.tech",
+            "modalDesc1": "After watching his mother’s painful battle against breast cancer, Julián Ríos Cantú made his personal mission to make an impact through early detection of breast cancer. Currently, he is the CEO and co-founder of Higia Technologies.",
+            "modalDesc2": "Julián has been awarded the National Medal for Technology and Innovation of Mexico and the Vanguard Award from Minerva University for his research about breast cancer detection technology. He has been a guest professor at the National Congress of Medicine of the United States and at the Harvard University and MIT Innovation Laboratories. In May 2017, Julián became the first Mexican to win the Global Student Entrepreneur Award. Recently, Higia has been appointed one of the 30 most promising companies of Mexico for 2018 by Forbes and EVA as one of the principal medical innovations by the National Congress of Medicine of the United States."
           },
           {
             "member": "Raymundo",
@@ -1093,19 +1019,49 @@
             "modalDesc2": "\"With Higia I saw an opportunity to continue learning and improving my abilities in the field that interest me the most, to continue developing professionally and be part of a project that can have an impact on a great number of people, including saving lives. All this in a team of highly motivated and competent people\"."
           },
           {
-            "member": "José Martín",
-            "memberPink": "Urtiz Gutiérrez",
-            "job": "Artificial Intelligence Developer",
+            "member": "Antonio",
+            "memberPink": "Torres",
+            "job": "Chief Technology Officer & Co-Founder",
             "img": "/img/whoarewe/member-fake.png",
-            "category": "ARTIFICIAL INTELLIGENCE",
+            "category": "HARDWARE",
             "iconModal": "/img/icons/icon-open-modal.png",
-            "openModal": "data-modal-8",
-            "dataModal": "data-modal-8",
-            "openModalMobile": "data-modal-mobile-8",
-            "dataModalMobile": "data-modal-mobile-8",
-            "modalEmail": "martin.urtiz@higia.tech",
-            "modalDesc1": "Digital Data Engineer, Martín is in charge of guiding the development of Higia by means of novel technologies to reach excellence in the diagnosis of breast cancer. Thanks to his creativity and broad knowledge of Machine Learning, Martín motivates the team to find and implement solutions that are out of the ordinary, which help to improve our predictive algorithms. Martín has experience working with companies like Google in Mountain View, California.",
-            "modalDesc2": "\"It moves me to think that my work at Higia will have the impact of saving lives of a large number of people, thanks to a timely cancer diagnosis\"."
+            "openModal": "data-modal-6",
+            "dataModal": "data-modal-6",
+            "openModalMobile": "data-modal-mobile-6",
+            "dataModalMobile": "data-modal-mobile-6",
+            "modalEmail": "antonio.torres@higia.tech",
+            "modalDesc1": "Motivated by his grandmother’s fight against breast cancer as well as the technical challenge that represented the creation of EVA, Antonio joined Julián in the research and development that lead to the development of Higia Technologies.",
+            "modalDesc2": "As Chief Technology Officer, Antonio main role is to assure Higia Technologies relies on the correct tools to achieve the purpose of providing people with actionable insights about their health through technological innovations. Moreover, he leads the creation of the technology and the taking of risks to improve the development of the products within the different teams that form Higia. Antonio has been responsible for carrying the joint vision of the software and hardware development by means of experimentation, prototyping and analyzing the ideas that can accelerate the processes and improve the products of the company."
+          },
+          {
+            "member": "Fernando",
+            "memberPink": "López Martínez",
+            "job": "Chief Software Engineer",
+            "img": "/img/whoarewe/member-fake.png",
+            "category": "SOFTWARE",
+            "iconModal": "/img/icons/icon-open-modal.png",
+            "openModal": "data-modal-1",
+            "dataModal": "data-modal-1",
+            "openModalMobile": "data-modal-mobile-1",
+            "dataModalMobile": "data-modal-mobile-1",
+            "modalEmail": "fernando.lopez@higia.tech",
+            "modalDesc1": "Fernando is in charge of designing and coordinating the development of the software platforms of Higia Tech, incorporating the best technologies that allow the rest of the team an agile and scalable development. Thanks to his training as an Engineer of Computational Technology and his continuous restlessness to question ideas, Fernando leads his area to develop software focused on improving people’s quality of life.",
+            "modalDesc2": "\"I have always been interested in applying the knowledge of software development to products that improve people’s quality of life. The opportunity to work at Higia was extraordinary because it combines a positive impact with a focus on health through prevention using different technologies of different study fields\"."
+          },
+          {
+            "member": "Victor Hugo",
+            "memberPink": "Serrano Ramirez",
+            "job": "Chief Hardware Engineer",
+            "img": "/img/whoarewe/member-fake.png",
+            "category": "HARDWARE",
+            "iconModal": "/img/icons/icon-open-modal.png",
+            "openModal": "data-modal-4",
+            "dataModal": "data-modal-4",
+            "openModalMobile": "data-modal-mobile-4",
+            "dataModalMobile": "data-modal-mobile-4",
+            "modalEmail": "victor.serrano@higia.tech",
+            "modalDesc1": "Electronic engineer, hardware design, firmware, and robotics. With 6 years of experience leading the hardware development of medical devices, Victor is in charge of developing the necessary technology so that EVA is able to detect abnormalities in the breasts and report those. Through research and experience in electronic development and programming, we can reduce the feeling of vulnerability and uncertainty of women that are facing the monitoring of their breast health As Chief Hardware Engineer, Victor is working with members of other areas to support, suggest and improve the ideas together, searching for the synergy of ideas to receive the best results.",
+            "modalDesc2": "\"Higia is a company with enormous potential, but above all, it is a company with a humanist and social vision. Here we can get professional and personal growth, and it’s a company that matches my values. I contribute my experience and vision to help position Higia as the global benchmark for technology devices that improve women’s quality of life\"."
           },
           {
             "member": "Carlos",
@@ -1119,6 +1075,49 @@
             "openModalMobile": "data-modal-mobile-9",
             "dataModalMobile": "data-modal-mobile-9",
             "modalDesc1": "Carlos leads the Product Development team and with more than six years of experience in logistics and product development, from the concept’s creation to its manufacturing and distribution, he works closely with the Hardware team, anticipating the complexity and the challenges that represent the development of a product like EVA. Thanks to the versatility of the products that Carlos has developed, he provides a strategic vision to ask the right questions before making decisions, creating guidelines, understanding those and assuring that they are followed to be able to reach the final development of the product."
+          },
+          {
+            "member": "Alejandra",
+            "memberPink": "Perea Morales",
+            "job": "Business Development",
+            "img": "/img/whoarewe/member-fake.png",
+            "category": "BUSINESS DEVELOPMENT TEAM",
+            "iconModal": "/img/icons/icon-open-modal.png",
+            "openModal": "data-modal-16",
+            "dataModal": "data-modal-16",
+            "openModalMobile": "data-modal-mobile-16",
+            "dataModalMobile": "data-modal-mobile-16",
+            "modalDesc1": "Industrial Designer with a great interest in designing products, services and systems that positively affect the society. Ale works with Higia Technologies to continue developing a strong team, a solid organizational culture and tools for communication for EVA and Higia to be able to go further.",
+            "modalDesc2": "\"It fills me with excitement to form part of a company of young Mexican entrepreneurs, to which I can contribute a creative and analytical vision to work on solutions that allow us to improve women’s quality of life and, in the future, have a positive impact on the health of a great number of people\"."
+          },
+          {
+            "member": "Juan José",
+            "memberPink": "Leñero Lozano",
+            "job": "Back-end Developer",
+            "img": "/img/whoarewe/member-fake.png",
+            "category": "SOFTWARE",
+            "iconModal": "/img/icons/icon-open-modal.png",
+            "openModal": "data-modal-3",
+            "dataModal": "data-modal-3",
+            "openModalMobile": "data-modal-mobile-3",
+            "dataModalMobile": "data-modal-mobile-3",
+            "modalEmail": "juanjo.lenero@higia.tech",
+            "modalDesc1": "Engineer of Computational Technologies, specializing in backend developing and the integration of Amazon Web Services. Juan José focuses his strengths on laying the foundations of the technological infrastructure on which the solutions that allow us to achieve our goals, are built; therefore, as a team, we can succeed facing the challenges that present themselves and rebuild in order to adapt to the future.",
+            "modalDesc2": "\"The opportunity to contribute my skills and experiences to creating a solution that improves the well-being of women around the world brought me to Higia\"."
+          },
+          {
+            "member": "José Antonio",
+            "memberPink": "Toussaint García",
+            "job": "Android Developer",
+            "img": "/img/whoarewe/member-fake.png",
+            "category": "SOFTWARE",
+            "iconModal": "/img/icons/icon-open-modal.png",
+            "openModal": "data-modal-2",
+            "dataModal": "data-modal-2",
+            "openModalMobile": "data-modal-mobile-2",
+            "dataModalMobile": "data-modal-mobile-2",
+            "modalDesc1": "José Antonio leads the development of the mobile applications of EVA for the platform Android, as well as the design of the user experience. Thanks to his passion for technology and his great creativity, Tony provides the Software team with different ideas and solutions for existing problems to receive new and better results. José Antonio has experience working with companies like Google in Mountain View, California.",
+            "modalDesc2": "\"I consider Higia’s future in the industry impressive and the simple fact of being able to be part of the history we’re writing is a feeling that fills me with happiness and inspiration. The team is growing so that every contribution has a big impact. Everything is a challenge which makes it more interesting\"."
           },
           {
             "member": "María",
@@ -1147,6 +1146,21 @@
             "modalDesc1": "Industrial designer specialized in the design for manufacturing, as well as the examination and the application of materials in various fields of the production. Osmar promotes the constant experimentation within the development and the hardware team, suggesting materials, forms and processes to apply to the device that will assure to obtain a robust design and with the necessary characteristics for a production on a large scale."
           },
           {
+            "member": "José Ángel",
+            "memberPink": "Lavariega Gómez",
+            "job": "Research Leader",
+            "img": "/img/whoarewe/member-fake.png",
+            "category": "HARDWARE",
+            "iconModal": "/img/icons/icon-open-modal.png",
+            "openModal": "data-modal-5",
+            "dataModal": "data-modal-5",
+            "openModalMobile": "data-modal-mobile-5",
+            "dataModalMobile": "data-modal-mobile-5",
+            "modalEmail": "jose.lavariega@higia.tech",
+            "modalDesc1": "Student at Massachusetts Institute of Technology (MIT) Class of 2022 in Business Analytics (Sloan School of Management) and Aeronautical Engineering. As Research Leader, José is in charge of visualizing the long-term development of the company by means of searching for new technologies and their implementation in the development of Higia’s products. José executes the extensive research together with international researchers to identify areas of opportunity and growth for the future of the company.",
+            "modalDesc2": "\"It motivates me to work as part of Higia’s team to make accessible and improve the Mexican and global infrastructure of breast cancer\"."
+          },
+          {
             "member": "Gabriela",
             "memberPink": "Revilla Soriano",
             "job": "Graphic designer",
@@ -1162,33 +1176,19 @@
             "modalDesc2": "\"Being part of the team of Higia Technologies fills me with enthusiasm and motivation since I can contribute in a small way to this great company that surely will positively impact the world and the health of thousands of people. Being part of Higia is being part of a big challenge. We are motivated to be the best because lots of people will benefit from it\"."
           },
           {
-            "member": "Flavia",
-            "memberPink": "Tello",
-            "job": "Community Manager",
+            "member": "José Martín",
+            "memberPink": "Urtiz Gutiérrez",
+            "job": "Artificial Intelligence Developer",
             "img": "/img/whoarewe/member-fake.png",
-            "category": "COMMUNICATION & DESIGN",
+            "category": "ARTIFICIAL INTELLIGENCE",
             "iconModal": "/img/icons/icon-open-modal.png",
-            "openModal": "data-modal-13",
-            "dataModal": "data-modal-13",
-            "openModalMobile": "data-modal-mobile-13",
-            "dataModalMobile": "data-modal-mobile-13",
-            "modalDesc1": "Industrial designer focused on the operation of the communication through digital media. Flavia is the point of contact between Higia and the community of people that follow closely the development of EVA through social media, promoting transparent communication, empathy and proximity to the people.",
-            "modalDesc2": "\"I like Higia since it is a project that has a strong impact on our society, principally on us women. I consider the participation and commitment of every member of the team inspiring which, in turn, motivates me to be the same\"."
-          },
-          {
-            "member": "Julián",
-            "memberPink": "Ríos",
-            "job": "CEO & Co-Founder",
-            "img": "/img/whoarewe/member-fake.png",
-            "category": "BUSINESS DEVELOPMENT TEAM",
-            "iconModal": "/img/icons/icon-open-modal.png",
-            "openModal": "data-modal-14",
-            "dataModal": "data-modal-14",
-            "openModalMobile": "data-modal-mobile-14",
-            "dataModalMobile": "data-modal-mobile-14",
-            "modalEmail": "julian.rios@higia.tech",
-            "modalDesc1": "After watching his mother’s painful battle against breast cancer, Julián Ríos Cantú made his personal mission to make an impact through early detection of breast cancer. Currently, he is the CEO and co-founder of Higia Technologies.",
-            "modalDesc2": "Julián has been awarded the National Medal for Technology and Innovation of Mexico and the Vanguard Award from Minerva University for his research about breast cancer detection technology. He has been a guest professor at the National Congress of Medicine of the United States and at the Harvard University and MIT Innovation Laboratories. In May 2017, Julián became the first Mexican to win the Global Student Entrepreneur Award. Recently, Higia has been appointed one of the 30 most promising companies of Mexico for 2018 by Forbes and EVA as one of the principal medical innovations by the National Congress of Medicine of the United States."
+            "openModal": "data-modal-8",
+            "dataModal": "data-modal-8",
+            "openModalMobile": "data-modal-mobile-8",
+            "dataModalMobile": "data-modal-mobile-8",
+            "modalEmail": "martin.urtiz@higia.tech",
+            "modalDesc1": "Digital Data Engineer, Martín is in charge of guiding the development of Higia by means of novel technologies to reach excellence in the diagnosis of breast cancer. Thanks to his creativity and broad knowledge of Machine Learning, Martín motivates the team to find and implement solutions that are out of the ordinary, which help to improve our predictive algorithms. Martín has experience working with companies like Google in Mountain View, California.",
+            "modalDesc2": "\"It moves me to think that my work at Higia will have the impact of saving lives of a large number of people, thanks to a timely cancer diagnosis\"."
           },
           {
             "member": "Angie",
@@ -1206,18 +1206,18 @@
             "modalDesc2": "\"A team filled with passion for solving a very important problem. I particularly like the vision for the future and their drive to make this work\"."
           },
           {
-            "member": "Alejandra",
-            "memberPink": "Perea Morales",
-            "job": "Business Development",
+            "member": "Flavia",
+            "memberPink": "Tello",
+            "job": "Community Manager",
             "img": "/img/whoarewe/member-fake.png",
-            "category": "BUSINESS DEVELOPMENT TEAM",
+            "category": "COMMUNICATION & DESIGN",
             "iconModal": "/img/icons/icon-open-modal.png",
-            "openModal": "data-modal-16",
-            "dataModal": "data-modal-16",
-            "openModalMobile": "data-modal-mobile-16",
-            "dataModalMobile": "data-modal-mobile-16",
-            "modalDesc1": "Industrial Designer with a great interest in designing products, services and systems that positively affect the society. Ale works with Higia Technologies to continue developing a strong team, a solid organizational culture and tools for communication for EVA and Higia to be able to go further.",
-            "modalDesc2": "\"It fills me with excitement to form part of a company of young Mexican entrepreneurs, to which I can contribute a creative and analytical vision to work on solutions that allow us to improve women’s quality of life and, in the future, have a positive impact on the health of a great number of people\"."
+            "openModal": "data-modal-13",
+            "dataModal": "data-modal-13",
+            "openModalMobile": "data-modal-mobile-13",
+            "dataModalMobile": "data-modal-mobile-13",
+            "modalDesc1": "Industrial designer focused on the operation of the communication through digital media. Flavia is the point of contact between Higia and the community of people that follow closely the development of EVA through social media, promoting transparent communication, empathy and proximity to the people.",
+            "modalDesc2": "\"I like Higia since it is a project that has a strong impact on our society, principally on us women. I consider the participation and commitment of every member of the team inspiring which, in turn, motivates me to be the same\"."
           }
         ]
       },
