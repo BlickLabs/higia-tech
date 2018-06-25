@@ -8,7 +8,7 @@
     {% for nav in en.navs.info %}
     <div class="navbar-option-content">
       <a href="{{nav.link}}">
-        <span class="navbar-option {% if view_name == nav.viewName %} active {% endif %}">{{nav.section}}</span>
+        <span class="navbar-option {% if view_name == nav.viewName %}active{% endif %} {% if nav.section == 'Preorder' %}navbar-btn helvneue-medium{% endif %}">{{nav.section}}</span>
       </a>
     </div>
     {% endfor %}
@@ -17,13 +17,13 @@
     </div>
     <div class="navbar-lang-container">
       <div class="navbar-lang-content">
-        <a href="{% if section == 'en/index' %} /es/index.html {% elif section == 'en/who-are-we' %} /es/who-are-we.html {% elif section == 'en/eva' %} /es/eva.html {% elif section == 'en/allies' %} /es/allies.html {% elif section == 'en/research' %} /es/research.html {% elif section == 'en/news' %} /es/news.html {% elif section == 'en/contact' %} /es/contact.html {% endif %}">
+        <a href="{% if section == 'en/index' %} /es/index.html {% elif section == 'higia' %} /es/who-are-we.html {% elif section == 'en/eva' %} /es/eva.html {% elif section == 'en/allies' %} /es/allies.html {% elif section == 'en/research' %} /es/research.html {% elif section == 'en/news' %} /es/news.html {% elif section == 'en/contact' %} /es/contact.html {% endif %}">
           <span class="navbar-lang">ES</span>
         </a>
       </div>
       <div class="navbar-lang-content">
-        <a href="{% if section == 'es/index' or section == 'index' %} /en/index.html {% elif section == 'es/who-are-we' %} /en/who-are-we.html {% elif section == 'es/eva' %} /en/eva.html {% elif section == 'es/allies' %} /en/allies.html {% elif section == 'es/research' %} /en/research.html {% elif section == 'es/news' %} /en/news.html {% elif section == 'es/contact' %} /en/contact.html {% endif %}">
-          <span class="navbar-lang navbar-lang {% if section == 'en/index' or section == 'en/who-are-we' or section == 'en/eva' or section == 'en/allies' or section == 'en/research' or section == 'en/news' or section == 'en/contact' %} helvneue-bold {% endif %}">EN</span>
+        <a href="{% if section == 'es/index' or section == 'index' %} /en/index.html {% elif section == 'es/who-are-we' %} /higia.html {% elif section == 'es/eva' %} /en/eva.html {% elif section == 'es/allies' %} /en/allies.html {% elif section == 'es/research' %} /en/research.html {% elif section == 'es/news' %} /en/news.html {% elif section == 'es/contact' %} /en/contact.html {% endif %}">
+          <span class="navbar-lang navbar-lang {% if section == 'en/index' or section == 'higia' or section == 'en/eva' or section == 'en/allies' or section == 'en/research' or section == 'en/contact' %} helvneue-bold {% endif %}">EN</span>
         </a>
       </div>
     </div>
@@ -38,13 +38,13 @@
     <div class="hamburger-menu-header" data-attribute="">
       <div class="navbar-lang-container">
         <div class="navbar-lang-content">
-          <a href="{% if section == 'en/index' %} /es/index.html {% elif section == 'en/who-are-we' %} /es/who-are-we.html {% elif section == 'en/eva' %} /es/eva.html {% elif section == 'en/allies' %} /es/allies.html {% elif section == 'en/research' %} /es/research.html {% elif section == 'en/news' %} /es/news.html {% elif section == 'en/contact' %} /es/contact.html {% endif %}" data-attribute="">
+          <a href="{% if section == 'en/index' %} /es/index.html {% elif section == 'higia' %} /es/who-are-we.html {% elif section == 'en/eva' %} /es/eva.html {% elif section == 'en/allies' %} /es/allies.html {% elif section == 'en/research' %} /es/research.html {% elif section == 'en/news' %} /es/news.html {% elif section == 'en/contact' %} /es/contact.html {% endif %}" data-attribute="">
             <span class="navbar-lang">ES</span>
           </a>
         </div>
         <div class="navbar-lang-content">
-          <a href="{% if section == 'es/index' or section == 'index' %} /en/index.html {% elif section == 'es/who-are-we' %} /en/who-are-we.html {% elif section == 'es/eva' %} /en/eva.html {% elif section == 'es/allies' %} /en/allies.html {% elif section == 'es/research' %} /en/research.html {% elif section == 'es/news' %} /en/news.html {% elif section == 'es/contact' %} /en/contact.html {% endif %}" data-attribute="">
-            <span class="navbar-lang {% if section == 'en/index' or section == 'en/who-are-we' or section == 'en/eva' or section == 'en/allies' or section == 'en/research' or section == 'en/news' or section == 'en/contact' %} helvneue-bold {% endif %}">EN</span>
+          <a href="{% if section == 'es/index' or section == 'index' %} /en/index.html {% elif section == 'es/who-are-we' %} /higia.html {% elif section == 'es/eva' %} /en/eva.html {% elif section == 'es/allies' %} /en/allies.html {% elif section == 'es/research' %} /en/research.html {% elif section == 'es/news' %} /en/news.html {% elif section == 'es/contact' %} /en/contact.html {% endif %}" data-attribute="">
+            <span class="navbar-lang {% if section == 'en/index' or section == 'higia' or section == 'en/eva' or section == 'en/allies' or section == 'en/research' or section == 'en/contact' %} helvneue-bold {% endif %}">EN</span>
           </a>
         </div>
       </div>
@@ -54,13 +54,15 @@
     </div>
     <div class="hamburger-menu-body helvneue-bold" data-attribute="">
       {% for nav in en.navs.info %}
-      <div class="hamburger-text-container {% if view_name == nav.viewName %} hamburger-active {% endif %}">
+      <div class="hamburger-text-container {% if view_name == nav.viewName %} hamburger-active {% endif %} {% if nav.section == 'Preordena' %} hamburger-btn-container{% endif %}">
         <a href="{{nav.link}}" data-attribute="">
-          <span class="hamburger-text">{{nav.section}}</span>
+          <span class="{% if nav.section != 'Preorder' %}hamburger-text{% endif %} {% if nav.section == 'Preorder' %}navbar-btn helvneue-medium{% endif %}">{{nav.section}}</span>
         </a>
+        {% if nav.section != 'Preordena' %}
         <div>
           <img class="hamburger-arrow" src="{{nav.hamburgerIcon}}">
         </div>
+        {% endif %}
       </div>
       {% endfor %}
     </div>
