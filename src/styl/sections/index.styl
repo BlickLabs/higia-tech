@@ -2,6 +2,7 @@
   &-particles
     &-container
       background-color $hpinkLight
+      height 566px
       position relative
 
     &-absolute
@@ -69,15 +70,70 @@
         width 522px
 
     &-infographi
-      background-attachment fixed
-      background-position center
-      background-size 900px
-      background-repeat no-repeat
-      height 450px
-      width 100%
+      display flex
+      flex-direction row
+      margin-left -188px
+      position relative
 
-      &-img
-        display none
+      &-text
+        color $hblackVariant
+        font-size $fs17
+
+        &-bold
+          font-size $fs20
+
+    &-info
+      &-iphone-1,
+      &-iphone-2,
+      &-iwatch,
+      &-eva
+        align-items center
+        display flex
+        flex-direction column
+        position absolute
+
+      &-iphone
+        &-1
+          left -109px
+          text-align center
+          top 180px
+          width 210px
+
+        &-2
+          bottom 80px
+          left -100px
+
+      &-iwatch
+        right -230px
+        top 95px
+
+      &-eva
+        right -170px
+        top 95px
+        
+
+    &-img
+      &-eva
+        height 340px
+        width auto
+
+        &-container
+          bottom -18px
+          position absolute
+          right -155px
+
+      &-iphone
+        height 500px
+        width auto
+
+      &-iwatch
+        height 240px
+        width auto
+
+        &-container
+          position absolute
+          right 40px
+          top 26px
 
     &-button
       background-color $hwhite
