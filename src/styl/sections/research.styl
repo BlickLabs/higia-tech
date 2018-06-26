@@ -1,0 +1,221 @@
+.research
+  position relative
+
+  &-container
+    margin-bottom 100px
+
+  & section
+    margin 0 10%
+
+  &-cover
+    align-items center
+    background-color $hgrayLight
+    display flex
+    height 200px
+    justify-content center
+
+    &-title
+      color $hblackLight
+      font-size $fs45
+
+  &-subtitle
+    color $hpink
+    font-size $fs25
+    letter-spacing 1px
+    margin-bottom 35px
+
+  &-desc
+    color $hblack
+    font-size $fs20
+    letter-spacing 0.1px
+    line-height 30px
+    margin-bottom 30px
+    text-align justify
+
+  &-density
+    &-img
+      border-top solid 2px $hpink
+      height auto
+      padding-top 20px
+      width 100%
+
+      &-container
+        margin 40px 0
+
+    &-graphic
+      display block
+      margin 0 auto
+      width 70%
+
+      &-container
+        border-top solid 2px $hpink
+        margin 45px 0 30px 0
+
+  &-infrastructure
+    border-bottom solid 2px $hpink
+    border-top solid 2px $hpink
+    margin-bottom 50px !important
+    padding 60px 0 15px 0
+
+    &-container
+      display flex
+      flex-direction row
+      margin-bottom 50px
+
+    &-img
+      height 100%
+      margin-right 32px
+      width 35%
+
+  &-literature,
+  &-references
+    & ul
+      list-style none
+
+    & ul li
+      margin-bottom 10px
+      position relative
+
+      &:before
+        background-color $hpink
+        border-radius 100px
+        content ""
+        display block
+        height 10px
+        left -24px
+        position absolute
+        top 11px
+        width 10px
+
+    & ul li a
+      color $hblack
+      font-size $fs20
+      letter-spacing 0.1px
+      line-height 30px
+      position relative
+
+      &:after
+        background-color $hblack
+        bottom 0
+        content ""
+        display block
+        height 1px
+        position absolute
+        width 103%
+
+      &:hover
+        &:after
+          background-color transparent
+
+  &-cases,
+  &-literature
+    border-bottom solid 2px $hpink
+    margin-bottom 50px !important
+
+  &-cases
+    padding-bottom 15px
+
+  &-literature
+    padding-bottom 25px
+
+  &-references
+    &-title
+      color $hblackLight
+      font-size $fs17
+
+    & ul li
+
+      &:before
+        height 7px
+        top 12px
+        width 7px
+
+    & ul li a
+      font-size $fs17
+
+      &:after
+        width 100%
+
+  &-fadeout
+    bottom 0
+    display none
+    height 85px
+    background: linear-gradient(
+      rgba(244, 244, 244, 0) 0%,
+      rgba(244, 244, 244, 1) 100%)
+    position absolute
+    width 100%
+
+  &-collapsible
+    background-image url("/img/icons/icon-circle-arrow.png")
+    background-repeat no-repeat
+    background-size cover
+    cursor pointer
+    display none
+    height 30px
+    width 30px
+
+    &-container
+      margin 50px auto 0 auto
+      width 30px
+
+.subtitle
+  &:before
+    border-top solid 3px $hpink
+    content ""
+    display block
+    padding-bottom 10px
+    width 13px
+
+@media screen and (max-width 720px)
+  .research
+    height 500px
+    overflow hidden
+
+    & section
+      margin 0 7%
+
+    &-subtitle
+      font-size $fs20
+
+    &-desc
+      font-size $fs15
+      line-height 24px
+
+    &-cover
+      height 100px
+
+      &-title
+        font-size $fs25
+
+    &-density
+      &-graphic
+        width 100%
+
+    &-infrastructure
+      &-container
+        flex-direction column
+
+      &-img
+        margin-bottom 50px
+        width 50%
+
+    &-literature
+      & ul li:before
+        top 8px
+
+      & ul li a
+        font-size $fs15
+        line-height 22px
+
+    &-references
+      & ul li:before
+        top 8px
+
+      & ul li a
+        font-size $fs13
+        line-height 20px
+
+    &-collapsible,
+    &-fadeout
+      display block

@@ -1,0 +1,82 @@
+{% extends "partials/base.njk" %}
+
+{% block title %}Research{% endblock %}
+
+{% set view_name = "research" %}
+
+{% block content %}
+  <div class="research-container">
+    <div class="research">
+      <section class="research-cover">
+        <h1 class="research-cover-title helvneue-bold">{{en.research.title}}</h1>
+      </section>
+
+      <section class="research-density">
+        <div class="research-density-img-container">
+          <img class="research-density-img" src="{{en.research.density.img}}">
+        </div>
+        <h2 class="research-subtitle helvneue-bold">{{en.research.density.title}}</h2>
+        <p class="research-desc helvneue-light">{{en.research.density.desc}}</p>
+        <h2 class="research-subtitle helvneue-medium subtitle">{{en.research.density.subtitle}}</h2>
+        <p class="research-desc helvneue-light">{{en.research.density.descTwo}}</p>
+        <div class="research-density-graphic-container">
+          <img class="research-density-graphic" src="{{en.research.density.imgTwo}}">
+        </div>
+      </section>
+
+      <section class="research-neglected">
+        <h2 class="research-subtitle helvneue-bold">{{en.research.neglected.title}}</h2>
+        <p class="research-desc helvneue-light">{{en.research.neglected.descOne}}</p>
+        <p class="research-desc helvneue-light">{{en.research.neglected.descTwo}}</p>
+        <h3 class="research-subtitle subtitle helvneue-medium">{{en.research.neglected.subtitle}}</h3>
+        <p class="research-desc helvneue-light">{{en.research.neglected.descThree}}</p>
+      </section>
+
+      <section class="research-infrastructure">
+        <div class="research-infrastructure-container">
+          <img class="research-infrastructure-img" src="{{en.research.infrastructure.img}}">
+          <div>
+            <h2 class="research-subtitle helvneue-bold">{{en.research.infrastructure.title}}</h2>
+            <p class="research-desc helvneue-light">{{en.research.infrastructure.descOne}}</p>
+            <p class="research-desc helvneue-light">{{en.research.infrastructure.descTwo}}</p>
+          </div>
+        </div>
+        <h3 class="research-subtitle subtitle helvneue-medium">{{en.research.infrastructure.subtitle}}</h3>
+        {% for solution in en.research.infrastructure.solutions %}
+        <p class="research-desc helvneue-light"><span class="helvneue-bold">{{solution.title}}</span>&nbsp;{{solution.desc}}</p>
+        {% endfor %}
+      </section>
+
+      <section class="research-cases">
+        <h2 class="research-subtitle helvneue-bold">{{en.research.cases.title}}</h2>
+        <p class="research-desc helvneue-light">{{en.research.cases.desc}}</p>
+      </section>
+
+      <section class="research-literature">
+        <h2 class="research-subtitle helvneue-bold">{{en.research.literature.title}}</h2>
+        <ul>
+          {% for literature in en.research.literature.list %}
+          <li class="helvneue-light">
+            <a href="{{literature.link}}" target="_blank">{{literature.title}}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </section>
+
+      <section class="research-references">
+        <h2 class="research-references-title helvneue-bold">{{en.research.references.title}}</h2>
+        <ul>
+          {% for reference in en.research.references.list %}
+          <li class="helvneue-light">
+            <a href="{{reference.link}}" target="_blank">{{reference.title}}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </section>
+      <div class="research-fadeout"></div>
+    </div>
+    <div class="research-collapsible-container">
+      <div class="research-collapsible"></div>
+    </div>
+  </div>
+{% endblock %}

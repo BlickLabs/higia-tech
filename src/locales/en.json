@@ -1541,6 +1541,87 @@
         "desc": "We’d like to thank you for your interest in sharing our story! To download our Press Kit, we invite you to fill out the following form.",
         "btnKit": "Download press kit"
       }
+    },
+    "research": {
+      "title": "Current medical gaps",
+      "density": {
+        "img": "/img/research/research-density-en.png",
+        "title": "High breast density",
+        "desc": "40% of the female population in the USA and 80% of the female population in Asian countries have high breast density, which means that they have from 2 to 6 times more likelihood of developing breast cancer throughout their lifetime. Furthermore, dense tissue \"masks\" tumors in the breast by making it harder for physicians to differentiate between healthy tissue and abnormal masses. Likewise, a study conducted with more than 70,000 patients in the Netherlands showed that the sensitivity of the mammogram was reduced by 29% in women with high breast density. Also, studies have shown that tumors in dense breast tissue might progress more rapidly than those in fatty breasts. In conclusion, there are 23.1 million women in the US alone that 1) have a higher risk of developing breast cancer and 2) tumors would grow more aggressively in their breasts and are the ones least likely to benefit from a mammogram.",
+        "subtitle": "How we aim to solve this",
+        "descTwo": "The detection of breast cancer through the analysis of thermal patterns inside the breast has proven to be agnostic to tissue density. This means that a device like EVA can detect tumors with the same sensitivity and specificity in women with high breast density as in those with fatty breast tissue. EVA can become an important adjunctive tool for breast cancer screening in populations with high breast density. Studies have shown that thermographic screening methods combined with mammogram tests can lead to a joint sensitivity of 95%.",
+        "imgTwo": "/img/research/research-graph-en.png"
+      },
+      "neglected": {
+        "title": "Neglected populations",
+        "descOne": "According to the American Cancer Society, women aged 40 to 44 should have the choice to start screening annually for breast cancer with mammograms if they wish to do so and women aged 45 to 54 should get mammograms every year. It's important to clarify that the mammogram has not been shown to be clinically beneficial or cost-effective in the evaluation of breast symptoms in women under the age of 35. This means that just in the US, 51.6 million women aged 25 to 40 do not have access to the only method that has been clinically proven to reduce breast cancer mortality rates, in other words, they are excluded from the breast cancer screening guidelines.",
+        "descTwo": "Early breast cancer detection in young women remains one of the main challenges for effectively fighting this disease. The World Health Organization predicts that the incidence of breast cancer in young women will increase by 50% by 2035, and reports that, currently, 7% of breast cancer cases are women younger than 40 years of age. Young women are more likely to have high breast density, be diagnosed at more advanced stages, have a survival rate of less than 5 years, and have no access to a reliable method of breast cancer screening.",
+        "subtitle": "How we aim to solve this",
+        "descThree": "The mammogram is not available for young women due to concerns relating to prolonged exposure to radiation and its low sensitivity with the high breast density common in this age group. Contrary to the mammogram, EVA does not emit any type of ionizing radiation nor compress the mammary gland in any form, as well as being non-invasive and completely pain-free. This allows us to be an age-agnostic adjunctive screening technique that can be used by any woman since age 20."
+      },
+      "infrastructure": {
+        "img": "/img/research/research-infrastructure.jpg",
+        "title": "Infrastructure costs",
+        "descOne": "Breast cancer is a disease that affects both the rich and the poor. Nonetheless, suffering due to breast cancer mainly impacts the poor. Low socioeconomic status is a consistent marker of mammogram underuse: 70% of breast cancer cases in developing countries like Mexico are in stage III and IV, which are stages that reduce the survival rate to just 25%. This can be explained by the fact that breast cancer in young women is more common in developing countries (accounting for 35% of all cases) and since there is no reliable method for breast cancer screening, only 5-10% of the diagnostics occur in the early stages.",
+        "descTwo": "Women above 40 years of age in developing countries rarely have access to quality mammograms due to high infrastructure costs and lack of access to cost-effective transportation to hospitals and clinics with the adequate equipment.",
+        "subtitle": "How we aim to solve this",
+        "solutions": [
+          {
+            "title": "Costs:",
+            "desc": "The infrastructure costs of EVA are close to zero when compared to the costs of common screening techniques."
+          },
+          {
+            "title": "A tool for young populations:",
+            "desc": "Developing countries have the difficult task of fighting breast cancer in young women, and until now there was no screening method for this particular population. EVA has the opportunity to become the gold standard screening technique for women between the age of 25 and 40."
+          },
+          {
+            "title": "Cultural barriers:",
+            "desc": "One of the reasons why low socioeconomic status is a consistent marker for mammography underuse is the fact that this population has an erroneous bad impression of the risks associated with the mammogram and the physical exposure it requires. Since EVA is a radiation-free device for personal use and does not require physical exposure, it might have a higher acceptance rate within rural and marginalized communities."
+          }
+        ]
+      },
+      "cases": {
+        "title": "Cases for additional use",
+        "desc": "In some cases, treatment with chemotherapy, targeted therapy, or hormone therapy may be given before breast surgery. This is called neoadjuvant therapy and has the purpose of shrinking a cancer tumor before surgical intervention. EVA can be used as an accessible and personal tool for tracking the effectiveness of neoadjuvant therapy by assessing if a tumor is indeed being reduced in size week-by-week through the analysis of its thermal footprint."
+      },
+      "literature": {
+        "title": "Selected medical literature",
+        "list": [
+          {
+            "title": "A comparative review of thermography",
+            "link": "http://journals.sagepub.com/doi/pdf/10.1177/1534735408326171"
+          },
+          {
+            "title": "A review of thermography",
+            "link": "https://drive.google.com/open?id=1ZMJhklk3wBXjy3ZiyQybFp0L9zFucioD"
+          }
+        ]
+      },
+      "references": {
+        "title": "References",
+        "list": [
+          {
+            "title": "Effect of mammographic breast density on breast cancer screening performance: a study in Nijmegen, The Netherlands",
+            "link": "http://jech.bmj.com/content/52/4/267.short"
+          },
+          {
+            "title": "American Cancer Society Guidelines for the Early Detection of Cancer",
+            "link": "https://www.cancer.org/healthy/find-cancer-early/cancer-screening-guidelines/american-cancer-society-guidelines-for-the-early-detection-of-cancer.html"
+          },
+          {
+            "title": "Personalizing Mammography by Breast Density and Other Risk Factors for Breast Cancer: Analysis of Health Benefits and Cost-Effectiveness",
+            "link": "http://annals.org/aim/article-abstract/747009/personalizing-mammography-breast-density-other-risk-factors-breast-cancer-analysis"
+          },
+          {
+            "title": "Quantitative Assessment of Mammographic Breast Density: Relationship with Breast Cancer Risk",
+            "link": "https://pubs.rsna.org/doi/pdf/10.1148/radiol.2301020870"
+          },
+          {
+            "title": "Breast cancer in young women",
+            "link": "https://breast-cancer-research.biomedcentral.com/articles/10.1186/bcr2647"
+          }
+        ]
+      }
     }
   }
 }
