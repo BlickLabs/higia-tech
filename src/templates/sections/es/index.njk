@@ -35,8 +35,27 @@
           </p>
         </div>
       </div>
-      <div class="home-eva-infographi eva-bg-es">
-        <img class="home-eva-infographi-img" src="/img/home/eva-infographi.png">
+      <div class="home-eva-infographi">
+        {% for infographi in es.home.eva.infographi %}
+        <div class="{{infographi.imgContainer}}">
+          <img class="{{infographi.imgClass}}" src="{{infographi.img}}" data-aos="{{infographi.imgAOS}}" data-aos-duration="{{infographi.infoAOSDuration}}">
+          <div class="{{infographi.infoClass}}" data-aos="{{infographi.infoAOS}}" data-aos-duration="{{infographi.infoAOSDuration}}" data-aos-delay="{{infographi.infoAOSDelay}}">
+            {% if infographi.infoText %}<span class="">{{infographi.infoText}}</span>{% endif %}
+            <div>
+              <span class="helvneue-bold pink">{{infographi.infoPink}}&nbsp;</span>{% if infographi.infoBlack %}<span class="helvneue-bold">{{infographi.infoBlack}}</span>{% endif %}
+            </div>
+            {% if infographi.infoText2 %}<span>{{infographi.infoText2}}</span>{% endif %}
+          </div>
+          {% if infographi.infoClass2 %}
+          <div class="{{infographi.infoClass2}}" data-aos="{{infographi.infoAOS}}" data-aos-duration="{{infographi.infoAOSDuration}}" data-aos-delay="{{infographi.infoAOSDelay2}}">
+            <div>
+              <span class="helvneue-bold">{{infographi.info2Black}}&nbsp;</span><span class="helvneue-bold pink">{{infographi.info2Pink}}</span>
+            </div>
+            <span>{{infographi.info2Text}}</span>
+          </div>
+          {% endif %}
+        </div>
+        {% endfor %}
       </div>
       <div class="home-eva-button-container">
         <a href="">

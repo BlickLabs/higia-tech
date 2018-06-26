@@ -11,6 +11,7 @@
     <title>Higia | {% block title %}{% endblock %}</title>
     <link runat="server" rel="shortcut icon" href="/img/favicon/favicon-higia.png" type="image/x-icon"/>
     <link runat="server" rel="icon" href="/img/favicon/favicon-higia.png" type="image/ico"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     {% include 'seo/facebookpixel.njk' %}
   </head>
   <body>
@@ -37,5 +38,10 @@
     <script src="/js/{{ projectFilesName }}.js"></script>
     {% block js_inline %}
     {% endblock %}
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

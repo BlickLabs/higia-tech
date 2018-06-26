@@ -72,6 +72,58 @@
       "firstButton": "Preordena",
       "secondButton": "Conoce más"
     },
+    "home": {
+      "eva": {
+        "infographi": [
+          {
+            "img": "/img/home/home-iphone-img.png",
+            "imgClass": "home-eva-img-iphone",
+            "imgAOS": "fade-up",
+            "imgAOSDuration": 1400,
+            "infoClass": "home-eva-info-iphone-1",
+            "infoClass2": "home-eva-info-iphone-2",
+            "infoAOS": "fade",
+            "infoAOSDuration": 800,
+            "infoAOSDelay": 600,
+            "infoAOSDelay2": 1000,
+            "infoPink": "ALGORITMOS DE INTELIGENCIA ARTIFICIAL",
+            "infoText2": "para evaluar el riesgo de cáncer de mama",
+            "info2Black": "APLICACIÓN",
+            "info2Pink": "DE ACOMPAÑAMIENTO",
+            "info2Text": "para guiar al paciente"
+          },
+          {
+            "imgContainer": "home-eva-img-iwatch-container",
+            "img": "/img/home/home-iwatch-img.png",
+            "imgClass": "home-eva-img-iwatch",
+            "imgAOS": "fade-up",
+            "imgAOSDuration": 1400,
+            "infoClass": "home-eva-info-iwatch",
+            "infoAOS": "fade",
+            "infoAOSDuration": 800,
+            "infoAOSDelay": 1400,
+            "infoText": "Incríble",
+            "infoPink": "EXPERIENCIA",
+            "infoBlack": "DE USUARIO",
+            "infoText2": "e integración con App"
+          },
+          {
+            "imgContainer": "home-eva-img-eva-container",
+            "img": "/img/home/home-eva-img.png",
+            "imgClass": "home-eva-img-eva",
+            "imgAOS": "fade-up",
+            "imgAOSDuration": 1400,
+            "infoClass": "home-eva-info-eva",
+            "infoAOS": "fade",
+            "infoAOSDuration": 800,
+            "infoAOSDelay": 1800,
+            "infoText": "Tecnología",
+            "infoPink": "PORTATIL",
+            "infoBlack": "NO INVASIVA"
+          }
+        ]
+      }
+    },
     "homeFounder": {
       "title": "Mujer fundadora",
       "subtitle": "Lupita, 38 años",
