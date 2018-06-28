@@ -62,21 +62,18 @@
         <div class="who-card-content">
           <div class="who-card">
             <img class="who-card-img" src="{{card.img}}">
-            <div class="who-card-hover">
-              <h3 class="who-card-category">{{card.category}}</h3>
-              <a href="#{{card.openModal}}" data-modal>
+            <a href="#{{card.openModal}}" data-modal>
+              <div class="who-card-hover">
+                <h3 class="who-card-category">{{card.category}}</h3>
                 <img class="who-card-icon" src="{{card.iconModal}}">
-              </a>
-            </div>
+              </div>
+            </a>
           </div>
           <h3 class="who-card-member helvneue-bold">{{card.member}} <span class="pink">{{card.memberPink}}</span></h3>
           <h4 class="who-card-job helvneue">{{card.job}}</h4>
         </div>
         <div id="{{card.dataModal}}" class="modal">
           <div class="who-modal-content">
-            <!-- <div class="who-modal-close-container">
-              <img class="who-modal-close" data-close="{{card.dataModal}}" src="{{es.whoarewe.team.modalClose}}">
-            </div> -->
             <div class="who-modal-header">
               <h2 class="who-modal-header-title helvneue-bold">{{card.category}}</h2>
             </div>
@@ -103,21 +100,18 @@
           <div class="who-card-content">
             <div class="who-card">
               <img class="who-card-img" src="{{card.img}}">
-              <div class="who-card-hover">
-                <h3 class="who-card-category">{{card.category}}</h3>
-                <a  href="#{{card.openModalMobile}}" data-modal>
-                  <img class="who-card-icon" src="{{card.iconModal}}">
-                </a>
-              </div>
+              <a  href="#{{card.openModalMobile}}" data-modal>
+                <div class="who-card-hover">
+                  <h3 class="who-card-category">{{card.category}}</h3>
+                    <img class="who-card-icon" src="{{card.iconModal}}">
+                </div>
+              </a>
             </div>
             <h3 class="who-card-member helvneue-bold">{{card.member}} <span class="pink">{{card.memberPink}}</span></h3>
             <h4 class="who-card-job helvneue">{{card.job}}</h4>
           </div>
           <div id="{{card.dataModalMobile}}" class="modal">
             <div class="who-modal-content">
-              <!-- <div class="who-modal-close-container">
-                <img class="who-modal-close" data-close="{{card.dataModalMobile}}" src="{{es.whoarewe.team.modalClose}}">
-              </div> -->
               <div class="who-modal-header">
                 <h2 class="who-modal-header-title helvneue-bold">{{card.category}}</h2>
               </div>
