@@ -1402,7 +1402,9 @@
           },
           {
             "title": "2. ¿Dónde se puede comprar EVA?",
-            "answer": "Actualmente EVA no se encuentra a la venta, sin embargo, puedes registrarte aquí (se abre popup) para formar parte de nuestra campaña de preventa. Una vez registrada, entrarás a la lista de espera para adquirir el dispositivo cuando salga a la venta y recibirás actualizaciones relacionadas a la compañía por correo electrónico."
+            "answer": "Actualmente EVA no se encuentra a la venta, sin embargo, puedes registrarte",
+            "answerLink": "aquí",
+            "answerContinuation": "para formar parte de nuestra campaña de preventa. Una vez registrada, entrarás a la lista de espera para adquirir el dispositivo cuando salga a la venta y recibirás actualizaciones relacionadas a la compañía por correo electrónico."
           },
           {
             "title": "3. ¿Qué es la pre-orden?",
