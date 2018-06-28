@@ -616,18 +616,18 @@
       "carousel": [
         {
           "img": "award-babson",
-          "logo": "/img/logos/logo-babson-black.png",
-          "logoContainerClass": "home-awards-logo-container-modified",
-          "logoClass": "logo-crowd-lab",
+          "logo": "/img/logos/logo-babson-white.png",
+          "logoContainerClass": "home-awards-logo-container",
+          "logoClass": "logo-babson",
           "title": "Babson College Innovation Challenge",
           "description": "First Place",
           "year": 2016
         },
         {
           "img": "award-harvard",
-          "logo": "/img/logos/logo-harvard-black.png",
-          "logoContainerClass": "home-awards-logo-container-modified",
-          "logoClass": "logo-crowd-lab",
+          "logo": "/img/logos/logo-harvard-white.png",
+          "logoContainerClass": "home-awards-logo-container",
+          "logoClass": "logo-harvard",
           "title": "Harvard University and MIT Innovation Laboratories",
           "description": "Invited speakers",
           "year": 2017
@@ -653,9 +653,9 @@
         },
         {
           "img": "award-masschallenge",
-          "logo": "/img/logos/logo-mass-challenge-black.png",
+          "logo": "/img/logos/logo-mass-challenge.png",
           "logoClass": "logo-mass-challenge",
-          "logoContainerClass": "home-awards-logo-container-modified",
+          "logoContainerClass": "home-awards-logo-container",
           "title": "MassChallenge",
           "description": "Incubated Company",
           "year": 2017
@@ -670,28 +670,28 @@
           "year": 2017
         },
         {
-          "img": "award-academy",
-          "logo": "/img/logos/logo-national-academy-black.png",
+          "img": "award-national-academy",
+          "logo": "/img/logos/logo-national-academy.png",
           "logoClass": "logo-national-academy",
-          "logoContainerClass": "home-awards-logo-container-modified",
+          "logoContainerClass": "home-awards-logo-container",
           "title": "Congress of Future Medical Leaders",
           "description": "Invited speakers",
           "year": 2017
         },
         {
           "img": "award-forbes",
-          "logo": "/img/logos/logo-forbes-black.png",
+          "logo": "/img/logos/logo-forbes-white.png",
           "logoClass": "logo-forbes",
-          "logoContainerClass": "home-awards-logo-container-modified",
+          "logoContainerClass": "home-awards-logo-container",
           "title": "Forbes 30 Most Promising Companies",
           "description": "",
           "year": 2018
         },
         {
           "img": "award-sxsw",
-          "logo": "/img/logos/logo-sxsw-black.png",
+          "logo": "/img/logos/logo-sxsw.png",
           "logoClass": "logo-sxsw",
-          "logoContainerClass": "home-awards-logo-container-modified",
+          "logoContainerClass": "home-awards-logo-container",
           "title": "South by Southwest",
           "description": "First Place pitch competition Casa Mexico",
           "year": 2018
