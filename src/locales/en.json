@@ -777,13 +777,13 @@
       },
       "cards": [
         {
-          "logo": "/img/logos/logo-axa-black.png",
+          "logo": "/img/logos/logo-axxa-gray.png",
           "logoClass": "allies-logo-axa",
           "title": "Research, test campaigns, marketing strategies",
           "desc": "In collaboration with AXA we have realized test campaigns such as Mujeres Fundadoras (Female Founders) and we are working on developing marketing strategies that allow EVA to reach a greater number of women."
         },
         {
-          "logo": "/img/logos/logo-imss-black.png",
+          "logo": "/img/logos/logo-imss-gray.png",
           "logoClass": "allies-logo-imss",
           "title": "Clinical tests",
           "desc": "Thanks to IMSS, we will perform clinical trials in Mexico with more than 600 women."
@@ -807,7 +807,7 @@
           "desc": "In collaboration with Kowa we are starting to explore ways for EVA to reach more women around the world."
         },
         {
-          "logo": "/img/logos/logo-kio-black.png",
+          "logo": "/img/logos/logo-kio-gray.png",
           "logoClass": "allies-logo-kio",
           "title": "Data hosting, IT Services",
           "desc": "Thanks to KIO Networks, the clinical data of our patients are protected in the cloud."
@@ -825,13 +825,13 @@
           "desc": "In collaboration with Molex we work to perfect the electronics and the manufacturing processes behind EVA."
         },
         {
-          "logo": "/img/logos/logo-tomatelo-pecho-black.png",
+          "logo": "/img/logos/logo-tomatelopecho-gray.png",
           "logoClass": "allies-logo-tomatelopecho",
           "title": "Research",
           "desc": "Together, Higia and Tómatelo a Pecho are fighting breast cancer, accelerating the development of EVA through mentors of the medical field."
         },
         {
-          "logo": "/img/logos/logo-tepoz-rosa-black.png",
+          "logo": "/img/logos/logo-tepozrosa-gray.png",
           "logoClass": "allies-logo-tepozrosa",
           "title": "Test campaigns",
           "desc": "Together, Higia and Tepoz Rosa fight to deliver screening and early diagnostic tools to rural communities."
