@@ -30,6 +30,9 @@
     margin 132px auto 138px auto
     width 1041px
 
+    &-carousel
+      display none !important
+
     &-content
       align-items center
       box-shadow 0 11px 56px 0 rgba(0, 0, 0, 0.19)
@@ -270,10 +273,71 @@
 
     &-cards
       width 367px
+      display none
+
+      &-carousel
+        display block !important
+        margin 50px auto
+        position relative
+        width 230px
+
+        & .owl-stage-outer
+          overflow visible
+
+        & .owl-item
+          opacity 0
+          transition opacity 0.3s
+
+        & .owl-item.active
+          opacity 1
+          visibility visible
+
+        & .owl-item
+          visibility hidden
+
+        &-navigation
+          height 30px
+          width 20px
+
+        & .owl-prev,
+        & .owl-next
+          bottom 0
+          height 30px
+          margin auto
+          position absolute
+          top 0
+
+        & .owl-prev
+          left -35px
+
+        & .owl-next
+          right -35px
+
+        & .owl-dots
+          bottom -10px
+          display flex
+          justify-content center
+          left 0
+          position absolute
+          right 0
+
+        & .owl-dot
+          background-color $hgrayDots !important
+          border solid 1px $hgrayDots !important
+          border-radius 100px
+          height 9px
+          margin 0 5px
+          width 9px
+
+        & .owl-dot.active
+          border solid 1px $hgrayBorder !important
+          background-color transparent !important
+          height 10px
+          width 10px
 
       &-content
-        height 152px
-        width 171px
+        height 215px
+        width 230px
 
       &-hover
         padding 20px
@@ -285,51 +349,51 @@
     &-logo
       &-axa
         height 70px
-        width 70px
+        width 70px !important
 
       &-imss
         height 80px
-        width 68px
+        width 68px !important
 
       &-stanford
         height 45px
-        width 96px
+        width 96px !important
 
       &-ycombinator
         height 26px
-        width 125px
+        width 125px !important
 
       &-kowa
         height 42px
-        width 88px
+        width 88px !important
 
       &-kio
         height 60px
-        width 79px
+        width 79px !important
 
       &-beeva
         height 60px
-        width 89px
+        width 89px !important
 
       &-molex
         height 43px
-        width 92px
+        width 92px !important
 
       &-tomatelopecho
         height 67px
-        width 103px
+        width 103px !important
 
       &-tepozrosa
         height 72px
-        width 98px
+        width 98px !important
 
       &-nsf
         height 75px
-        width 78px
+        width 78px !important
 
       &-google
         height 30px
-        width 89px
+        width 89px !important
 
 @media screen and (max-width 449px)
   .allies
