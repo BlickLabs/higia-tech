@@ -29,6 +29,20 @@
       {% endfor %}
     </section>
 
+    <section class="allies-cards-carousel owl-carousel">
+      {% for card in es.allies.cards %}
+      <div class="allies-cards-content">
+        <img class="{{card.logoClass}}" src="{{card.logo}}">
+        <div class="allies-cards-hover">
+          <div class="allies-cards-hover-content">
+            <h2 class="allies-cards-title">{{card.title}}</h2>
+            <p class="allies-cards-desc">{{card.desc}}</p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </section>
+
     <section class="allies-donors">
       <h1 class="allies-donors-title helvneue-bold">{{es.homeAllies.donors.title}}</h1>
       <p class="allies-donors-desc helvneue-regular">{{es.homeAllies.donors.desc}}<br><span class="helvneue-bold">{{es.homeAllies.donors.descBold}}</span></p>
