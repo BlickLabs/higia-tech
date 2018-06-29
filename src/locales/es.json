@@ -826,13 +826,13 @@
       },
       "cards": [
         {
-          "logo": "/img/logos/logo-axa-black.png",
+          "logo": "/img/logos/logo-axxa-gray.png",
           "logoClass": "allies-logo-axa",
           "title": "Investigación, campañas de prueba, estrategias de comercialización",
           "desc": "En colaboración con AXA hemos realizado campañas de pruebas como Mujeres Fundadoras y trabajamos para desarrollar estrategias de comercialización que permitan que EVA llegue a un mayor número de mujeres."
         },
         {
-          "logo": "/img/logos/logo-imss-black.png",
+          "logo": "/img/logos/logo-imss-gray.png",
           "logoClass": "allies-logo-imss",
           "title": "Pruebas clínicas",
           "desc": "Gracias a IMSS llevaremos a cabo las pruebas clínicas con más de 600 mujeres mexicanas."
@@ -856,7 +856,7 @@
           "desc": "En colaboración con Kowa comenzamos a explorar caminos para llevar EVA a más mujeres en todo el mundo."
         },
         {
-          "logo": "/img/logos/logo-kio-black.png",
+          "logo": "/img/logos/logo-kio-gray.png",
           "logoClass": "allies-logo-kio",
           "title": "Servicios de IT",
           "desc": "Gracias a KIO Networks los datos clínicos de nuestros pacientes se encuentran resguardados en la nube."
@@ -874,13 +874,13 @@
           "desc": "En colaboración con Molex trabajamos para perfeccionar la electrónica y procesos de manufactura detrás de EVA."
         },
         {
-          "logo": "/img/logos/logo-tomatelo-pecho-black.png",
+          "logo": "/img/logos/logo-tomatelopecho-gray.png",
           "logoClass": "allies-logo-tomatelopecho",
           "title": "Investigación",
           "desc": "Juntos Higia y Tómatelo a Pecho luchamos para combatir el cáncer de mama, acelerando el desarrollo de EVA por medio de mentores en el área médica."
         },
         {
-          "logo": "/img/logos/logo-tepoz-rosa-black.png",
+          "logo": "/img/logos/logo-tepozrosa-gray.png",
           "logoClass": "allies-logo-tepozrosa",
           "title": "Campañas de pruebas",
           "desc": "Juntos Higia y Tepoz Rosa luchamos para llevar herramientas de tamizaje y diagnóstico temprano a comunidades rurales."
