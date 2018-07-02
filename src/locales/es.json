@@ -1468,15 +1468,18 @@
         "socialNet": [
           {
             "icon": "/img/icons/icon-fb-circle-pink.png",
-            "path": "/HigiaTech"
+            "path": "/HigiaTech",
+            "link": "https://www.facebook.com/HigiaTech"
           },
           {
             "icon": "/img/icons/icon-twitter-circle-pink.png",
-            "path": "/Higia_Tech"
+            "path": "/Higia_Tech",
+            "link": "https://twitter.com/Higia_Tech"
           },
           {
             "icon": "/img/icons/icon-insta-circle-pink.png",
-            "path": "higiatech"
+            "path": "higiatech",
+            "link": "https://www.instagram.com/higiatech/"
           }
         ]
       },
