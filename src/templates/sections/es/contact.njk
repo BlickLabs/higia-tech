@@ -30,7 +30,7 @@
           ">{{es.contact.contactUs.followPink}}</span></h3>
         <div class="contact-social-networks">
           {% for social in es.contact.contactUs.socialNet %}
-          <a href="" class="contact-social-networks-content">
+          <a href="{{social.link}}" class="contact-social-networks-content" target="_blank">
             <img class="contact-social-icon" src="{{social.icon}}">
             <span class="contact-social-path helvneue-light">{{social.path}}</span>
           </a>
