@@ -1413,8 +1413,8 @@
         "desc1": "Are you interested in learning more about us?",
         "desc2Part1": "Send us a message,",
         "desc2Part2": "we would love to hear from you!",
-        "follow": "Follow us",
-        "thumbUpIcon": "/img/icons/icon-thumbup-pink.png",
+        "follow": "Be part of the community",
+        "followPink": "Higia",
         "btnSend": "Send",
         "socialNet": [
           {
@@ -1440,6 +1440,11 @@
         "telNumber": "+52 (81) 2321 1542",
         "emailText": "Email",
         "emailAddress": "contact@higia.tech"
+      },
+      "newsletter": {
+        "title": "Do you want to receive our newsletter?",
+        "subtitle": "Leave us your comments",
+        "btnSend": "Send"
       }
     },
     "news": {
