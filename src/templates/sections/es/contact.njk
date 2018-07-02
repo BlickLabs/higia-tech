@@ -19,28 +19,29 @@
           <input class="contact-us-input" type="text" name="name" placeholder="Nombre">
           <input class="contact-us-input" type="email" name="email" placeholder="Correo electrónico">
           <textarea class="contact-us-textarea" type="text" name="message" placeholder="Mensaje..."></textarea>
-          <button class="btn-base btn-sm" type="submit">{{es.contact.contactUs.btnSend}}</button>
+          <button class="btn-base btn-sm helvneue-medium" type="submit">{{es.contact.contactUs.btnSend}}</button>
         </form>
       </div>
-      <div class="contact-us-social">
-        <div class="contact-us-social-content">
-          <img class="contact-us-social-thumbup" src="{{es.contact.contactUs.thumbUpIcon}}">
-          <h3 class="contact-us-social-title helvneue-bold">{{es.contact.contactUs.follow}}</h3>
-          <div class="contact-us-social-networks">
-            {% for social in es.contact.contactUs.socialNet %}
-            <a href="" class="contact-us-social-networks-content">
-              <img class="contact-us-social-icon" src="{{social.icon}}">
-              <span class="contact-us-social-path helvneue-light">{{social.path}}</span>
-            </a>
-            {% endfor %}
-          </div>
+    </section>
+
+    <section class="contact-social">
+      <div class="contact-social-content">
+        <h3 class="contact-social-title helvneue-bold">{{es.contact.contactUs.follow}} <span class="pink
+          ">{{es.contact.contactUs.followPink}}</span></h3>
+        <div class="contact-social-networks">
+          {% for social in es.contact.contactUs.socialNet %}
+          <a href="" class="contact-social-networks-content">
+            <img class="contact-social-icon" src="{{social.icon}}">
+            <span class="contact-social-path helvneue-light">{{social.path}}</span>
+          </a>
+          {% endfor %}
         </div>
       </div>
     </section>
 
     <section class="contact-address">
       <div class="contact-address-map-container">
-        <iframe class="contact-address-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2237.2600935389414!2d-99.16203488766251!3d19.429336642734818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff330c50e217%3A0xc9a83072f3f8d27!2sPaseo+de+la+Reforma+180%2C+Ju%C3%A1rez%2C+06600+Ciudad+de+M%C3%A9xico%2C+CDMX!5e0!3m2!1ses-419!2smx!4v1529591572152" width="100%" height="550" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <iframe class="contact-address-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2237.2600935389414!2d-99.16203488766251!3d19.429336642734818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff330c50e217%3A0xc9a83072f3f8d27!2sPaseo+de+la+Reforma+180%2C+Ju%C3%A1rez%2C+06600+Ciudad+de+M%C3%A9xico%2C+CDMX!5e0!3m2!1ses-419!2smx!4v1529591572152" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
       </div>
       <div class="contact-address-info">
         <div class="contact-address-info-content">
@@ -57,6 +58,16 @@
           </div>
         </div>
       </div>
+    </section>
+
+    <section class="contact-newsl">
+      <h3 class="contact-newsl-title helvneue-medium">{{es.contact.newsletter.title}}</h3>
+      <h4 class="contact-newsl-subtitle helvneue">{{es.contact.newsletter.subtitle}}</h4>
+      <form class="contact-newsl-form helvneue-light">
+        <input class="contact-us-input" type="text" name="name" placeholder="Nombre">
+        <input class="contact-us-input" type="email" name="email" placeholder="Correo electrónico">
+        <button class="btn-base btn-sm helvneue-medium" type="submit">{{es.contact.newsletter.btnSend}}</button>
+      </form>
     </section>
   </div>
 {% endblock %}
