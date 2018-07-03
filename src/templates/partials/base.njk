@@ -16,7 +16,7 @@
   </head>
   <body>
     <div id="page">
-      {% if section == 'es/index' or section == 'index' or section == 'es/higia' or section == 'es/eva' or section == 'es/allies' or section == 'es/research' or section == 'es/news' or section == 'es/contact' %}
+      {% if section == 'es/index' or section == 'index' or section == 'es/higia' or section == 'es/eva' or section == 'es/allies' or section == 'es/research' or section == 'es/news' or section == 'es/contact' or section == 'es/privacy-notice' %}
         {% include 'partials/navbar.njk' %}
       {% else %}
         {% include 'partials/navbar-en.njk' %}
@@ -24,7 +24,7 @@
       <main>
         {% block content %}{% endblock %}
       </main>
-      {% if section == 'es/index' or section == 'index' or section == 'es/higia' or section == 'es/eva' or section == 'es/allies' or section == 'es/research' or section == 'es/news' or section == 'es/contact' %}
+      {% if section == 'es/index' or section == 'index' or section == 'es/higia' or section == 'es/eva' or section == 'es/allies' or section == 'es/research' or section == 'es/news' or section == 'es/contact' or section == 'es/privacy-notice' %}
         {% include 'partials/footer.njk' %}
       {% else %}
         {% include 'partials/footer-en.njk' %}
