@@ -703,6 +703,20 @@
       "btn": "Read all",
       "carousel": [
         {
+          "link": "http://www.bbc.com/news/world-latin-america-39802629",
+          "logo": "/img/logos/logo-bbc.png",
+          "logoClass": "home-news-logo-bbc",
+          "description": "\"Could this bra detect breast cancer?\"",
+          "date": "BBC Latin America | 4 de mayo 2017"
+        },
+        {
+          "link": "https://www.guidingtech.com/66967/higia-eva-bra-breast-cancer-detection/",
+          "logo": "/img/logos/logo-guiding-tech.png",
+          "logoClass": "home-news-logo-guiding",
+          "description": "\"Teenager Develops Bra to Detect Breast Cancer\"",
+          "date": "Guiding Tech | 5 de mayo 2017"
+        },
+        {
           "link": "http://elfinanciero.com.mx/bloomberg-businessweek/el-joven-que-hallo-en-una-terrible-noticia-una-idea-para-prevenir-el-cancer-de-mama",
           "logo": "/img/logos/logo-financiero.png",
           "logoClass": "home-news-logo-financiero",
@@ -736,20 +750,6 @@
           "logoClass": "home-news-logo-forbes",
           "description": "\"A sus 18 años, un mexicano puede revolucionar la detección del cáncer de mama\"",
           "date": "Forbes |  30 de marzo 2017"
-        },
-        {
-          "link": "https://www.guidingtech.com/66967/higia-eva-bra-breast-cancer-detection/",
-          "logo": "/img/logos/logo-guiding-tech.png",
-          "logoClass": "home-news-logo-guiding",
-          "description": "\"Teenager Develops Bra to Detect Breast Cancer\"",
-          "date": "Guiding Tech | 5 de mayo 2017"
-        },
-        {
-          "link": "http://www.bbc.com/news/world-latin-america-39802629",
-          "logo": "/img/logos/logo-bbc.png",
-          "logoClass": "home-news-logo-bbc",
-          "description": "\"Could this bra detect breast cancer?\"",
-          "date": "BBC Latin America | 4 de mayo 2017"
         },
         {
           "link": "https://expansion.mx/emprendedores/2017/03/29/wearable-mexicano-que-detecta-cancer-de-mama-sera-probado-en-el-imss",
