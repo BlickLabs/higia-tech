@@ -1618,6 +1618,93 @@
           }
         ]
       }
+    },
+    "privacy": {
+      "introduction": {
+        "title": "PRIVACY NOTICE",
+        "desc1": "HIGIA, INC, (hereinafter “HIGIA, INC”), with address in Frenos 118, Santa Engracia, San Pedro Garza Garcia. Monterrey N.L. México, provides this Privacy Notice for the protection on personal data (hereinafter the “Privacy Notice”) for present or future users, clients, suppliers, service providers and third parties (Hereinafter the “Owner”), in compliance with the provisions of the “Federal Law on Protection of Personal Data Held by Private Parties” (hereinafter the “Law”) and the specifications and parameters set forth on the “Regulations to the Federal Law on Protection of Personal Data Held by Private Parties” (hereinafter the “Regulation”).",
+        "desc2": "HIGIA, INC., is the responsible for the use and protection of the personal data collected by us."
+      },
+      "purposes": {
+        "title": "PURPOSE OF THE GATHERED INFORMATION",
+        "desc": "All personal data requested by HIGIA, INC., will have the following purposes:",
+        "list": [
+          {
+            "item": "to fulfill the offered service, which includes the purchase transaction on the product offered by HIGIA, INC., through our website www.higia.tech; the home delivery of your products, as well as to inform you and/or contact you regarding the status of your purchase;"
+          },
+          {
+            "item": "the return of the product and/or change of products;"
+          },
+          {
+            "item": "the issuance of invoices;"
+          },
+          {
+            "item": "to inform you about your diagnosis;"
+          },
+          {
+            "item": "for scientific investigation and statistics purposes"
+          },
+          {
+            "item": "for the exchange of information through electronic media"
+          },
+          {
+            "item": "to send our publicity"
+          },
+          {
+            "item": "to evaluate the quality of our product, as well as to conduct satisfaction surveys"
+          },
+          {
+            "item": "to give assistance on any doubt, clarification, claims or complaints"
+          },
+          {
+            "item": "to process job applications and fulfill our process of recruitment"
+          },
+          {
+            "item": "to remind debts or pending payments;"
+          },
+          {
+            "item": "to integrate the data file in order to be able to make future enquiries and revisions."
+          }
+        ]
+      },
+      "personalInfo": {
+        "title": "COLLECTED PERSONAL DATA",
+        "desc1": "HIGIA, INC., can partially or totally request the following general identification and contact data: Full name, date and place of birth, nationality, age, gender, home address, phone number, email address, Unique Population Registry Code (CURP from its Spanish acronym), passport or any other official identification, marital status, criminal record, resume, act of birth, proof of address, recommendation letters, level of education and educational background, professional title, signature.",
+        "desc2": "HIGIA, INC., can partially or totally request the following financial data: tax identification number, bank accounts, standardized bank code (CLABE from its Spanish acronym), advanced electronic signature and credit history.",
+        "desc3": "HIGIA, INC., can collect sensitive personal data such as, present or future health status, sexual preference, diseases, or any other information related to clinical data of the woman that uses the product, which will be treated with a strict procedure of extreme security in order to guarantee the trust and intimacy of the personal data owner. When any information of this kind is requested, the owner will be notified; the express consent of the personal data owner will be required, and the data will be protected with extreme confidentiality."
+      },
+      "confidentiality": {
+        "title": "CONFIDENTIALITY AND LIMITATIONS TO THE USE AND/OR DISCLOSURE OF YOUR PERSONAL DATA",
+        "desc1": "You can limit the use of your personal data, in case you do not wish that your data is treated for some of the mentioned purposes, or if you wish to stop receiving information about publicity, by sending your request to the e-mail privacy@higia.tech.",
+        "desc2": "HIGIA, INC., will develop all the administrative, technic and physical safety measures in order to protect your information with extreme confidentiality, through the implementation of privacy politics and control of the information, which will be performed in compliance with the parameters of the Law and its Regulation, as well as the assumptions stipulated by the “National Institute of Transparency and Access to Information and Protection of Personal Data” (INAI from its Spanish acronym), and other applicable regulation, the same parameters are required to third parties to whom your data is transferred.",
+        "desc3": "When the data becomes unnecessary for the fulfillment of the purposes set forth in this Privacy Notice and the applicable legal provisions, these will be canceled."
+      },
+      "dataTransfer": {
+        "title": "TRANSFERENCE OF PERSONAL DATA",
+        "desc1": "HIGIA, INC., can transfer your data inside and outside the country, for the purposes stated in the present Privacy Notice to online payment service providers; government authorities; subsidiaries, holding companies or those belonging to the same economic group; health authorities, or private and public entities of health services as well as third parties related to the mentioned purposes.",
+        "desc2": "By accepting the terms of this Privacy Notice, you also consent the transfer of your data, and you can always express your refusal to such transfer, through the procedures herein indicated.",
+        "desc3": "HIGIA, INC, is committed to establish the necessary mechanisms so that third parties to whom your personal data is transferred give the proper use and total safeguarding of the information, and that these be used according to the purpose for what they were collected.",
+        "desc4": "Likewise, your data may be transferred without previous notification in the following cases: when the transference is provided in any law or Treaty; when it is necessary for the prevention or medical diagnosis; when it is transferred to any company belonging to the same economic group and operates under the same processes and internal policies; when necessary by virtue of an agreement executed in the interest of the owner, celebrated between HIGIA, INC., and a third party; when it is required for the safeguarding of a public interest; when necessary for the exercise or defense of a right in a judicial process and when necessary for the maintenance or compliance of a legal relationship between HIGIA, INC., and the Owner of de Data."
+      },
+      "arcoRight": {
+        "title": "ARCO RIGHTS (ACCESS, RECTIFICATION, CANCELLATION AND OPPOSITION)",
+        "desc1": "In order to exercise the rights of Access, Rectification, Cancellation and Opposition with regards to your personal data, you or your legal representative duly accredited will be enabled to initiate the ARCO rights procedure in order to access to your personal data information; to rectify the information; to oppose to the treatment of your data, to limit the transference with certain legal or natural persons, as well as to request the end of treatment of your information. The ARCO rights proceeding is enforceable in writing by the Owner of the data, whether in person or in our address indicated at the beginning of the preset Notice, or by sending an e-mail to the address privacy@higia.tech or communicating to the telephone +52(81)23211542.",
+        "desc2": "HIGIA, INC., will communicate the decision within a period of 20 labor days, starting to count from the receipt date of the application. The application should include the following: I. Name of owner and address or other means to communicate the response to the application; II. The documents that prove the identity or the legal representation of the owner, as the case be; III. A clear and precise description of the personal data on which one seeks to exercise the previously mentioned rights; and IV. Any other element or document that facilitates the location of the personal data.",
+        "desc3": ""
+      },
+      "revocation": {
+        "title": "REVOCATION OF CONSENT",
+        "desc1": "In the event that you wish to revoke the consent that you have given to us for the treatment of your personal data, you might contact us by sending an email to the address privacy@higia.tech, where you will be informed about the procedure to follow.",
+        "desc2": "In the absence of and expressed and written opposition to HIGIA. INC., under the terms established in this Privacy Notice, it will be understood that you accept the conditions of the treatment described therein."
+      },
+      "attention": {
+        "title": "ASSISTANCE ON DOUBTS AND COMPLAINTS",
+        "desc": "In order to assist you on doubts or complaints related to your personal data; as well as the monitoring of the ARCO rights procedure, you may contact HIGIA, INC., by sending an email to the address privacy@higia.tech, through our offices located in Frenos 118, Santa Engracia, San Pedro Garza Garcia. Monterrey N.L. México; or by calling to the telephone +52(81)23211542."
+      },
+      "modifications": {
+        "title": "MODIFICATIONS TO THE PRIVACY NOTICE",
+        "desc": "The present Privacy Notice may be modified or updated at any time, thus HIGIA, INC., will make available the updated version of the Privacy Notice, through its website www.higia.tech."
+      }
     }
   }
 }
