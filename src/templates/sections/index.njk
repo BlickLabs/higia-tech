@@ -38,20 +38,27 @@
       <div class="home-eva-infographi">
         {% for infographi in es.home.eva.infographi %}
         <div class="{{infographi.imgContainer}}">
+          <div class="mask-base {{infographi.maskClass}}"></div>
           <img class="{{infographi.imgClass}}" src="{{infographi.img}}" data-aos="{{infographi.imgAOS}}" data-aos-duration="{{infographi.imgAOSDuration}}">
           <div class="{{infographi.infoClass}}" data-aos="{{infographi.infoAOS}}" data-aos-duration="{{infographi.infoAOSDuration}}" data-aos-delay="{{infographi.infoAOSDelay}}">
-            {% if infographi.infoText %}<span class="home-eva-infographi-text helvneue-thin">{{infographi.infoText}}</span>{% endif %}
-            <div>
-              <span class="home-eva-infographi-text-bold bebasneue-bold pink">{{infographi.infoPink}}&nbsp;</span>{% if infographi.infoBlack %}<span class="home-eva-infographi-text-bold bebasneue-bold">{{infographi.infoBlack}}</span>{% endif %}
+            <img class="home-eva-infographi-bullet {{infographi.infoBulletClass}}" src="{{infographi.infoBullet}}">
+            <div class="home-eva-infographi-text-container">
+              {% if infographi.infoText %}<span class="home-eva-infographi-text helvneue-thin">{{infographi.infoText}}</span>{% endif %}
+              <div>
+                <span class="home-eva-infographi-text-bold bebasneue-bold pink">{{infographi.infoPink}}&nbsp;</span>{% if infographi.infoBlack %}<span class="home-eva-infographi-text-bold bebasneue-bold">{{infographi.infoBlack}}</span>{% endif %}
+              </div>
+              {% if infographi.infoText2 %}<span class="home-eva-infographi-text helvneue-thin">{{infographi.infoText2}}</span>{% endif %}
             </div>
-            {% if infographi.infoText2 %}<span class="home-eva-infographi-text helvneue-thin">{{infographi.infoText2}}</span>{% endif %}
           </div>
           {% if infographi.infoClass2 %}
           <div class="{{infographi.infoClass2}}" data-aos="{{infographi.infoAOS}}" data-aos-duration="{{infographi.infoAOSDuration}}" data-aos-delay="{{infographi.infoAOSDelay2}}">
-            <div>
-              <span class="home-eva-infographi-text-bold bebasneue-bold">{{infographi.info2Black}}&nbsp;</span><span class="home-eva-infographi-text-bold bebasneue-bold pink">{{infographi.info2Pink}}</span>
+            <img class="home-eva-infographi-bullet {{infographi.infoBulletClass}}" src="{{infographi.infoBullet}}">
+            <div class="home-eva-infographi-text-container">
+              <div>
+                <span class="home-eva-infographi-text-bold bebasneue-bold">{{infographi.info2Black}}&nbsp;</span><span class="home-eva-infographi-text-bold bebasneue-bold pink">{{infographi.info2Pink}}</span>
+              </div>
+              <span class="home-eva-infographi-text helvneue-thin">{{infographi.info2Text}}</span>
             </div>
-            <span class="home-eva-infographi-text helvneue-thin">{{infographi.info2Text}}</span>
           </div>
           {% endif %}
         </div>
