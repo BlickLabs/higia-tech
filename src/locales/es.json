@@ -1594,6 +1594,89 @@
         "btnKit": "Descargar press kit"
       }
     },
+    "research": {
+      "title": "Lagunas presentes en el conocimiento médico",
+      "density": {
+        "img": "/img/research/research-density-es.png",
+        "title": "Alta densidad mamaria",
+        "desc": "40% de la población femenina de los Estados Unidos y 80% de la población femenina de países asiáticos tiene alta densidad mamaria, lo cual implica una probabilidad 2 a 6 veces mayor de desarrollar cáncer de mama durantes sus vidas. El tejido denso además “oculta” los tumores en la mama, dificultando que los médicos diferencien entre tejido sano y masas anormales. Un estudio con más de 70,000 pacientes en los Países Bajos mostró que la sensibilidad de la mastografía se reduce por 29% en mujeres que poseen alta densidad mamaria. Otros estudios también han mostrado que en tejido mamario denso los tumores crecen más rápido que en senos grasos. En conclusión, en tan solo los Estados Unidos hay 23.1 millones de mujeres que 1) corren mayor riesgo de desarrollar cáncer de mama y 2) los tumores crecen más agresivamente en sus senos, al mismo tiempo que son las pacientes que menos son beneficiadas por el uso de una mastografía.",
+        "subtitle": "¿Cómo esperamos resolver esto?",
+        "descTwo": "La detección de cáncer de mama a través del análisis de patrones térmicos en el seno ha demostrado ser imparcial y agnóstica a la densidad mamaria. Esto significa que una herramienta como EVA puede detectar tumores con la misma sensibilidad y especificidad en mujeres con alta densidad mamaria que en mujeres con tejido mamario graso. Por lo tanto, EVA se puede volver una herramienta adjuntiva importante para el cribado de cáncer de mama en poblaciones con alta densidad mamaria. Los estudios han demostrado que métodos de cribaje termográficos, en combinación con mastografía, puede resultar en una sensibilidad total de 95%.",
+        "imgTwo": "/img/research/research-graph-es.png"
+      },
+      "neglected": {
+        "title": "Poblaciones ignoradas",
+        "descOnePart1": "Según la Sociedad Americana del Cáncer, las mujeres entre 40 y 44 años de edad deberían tener la posibilidad de empezar a examinarse anualmente a través de la mastografía en búsqueda de señales de cáncer de mama, si es que ellas desean hacerlo, mientras que las mujeres entre 45 y 54 años de edad",
+        "descOnePart2": "deberían",
+        "descOnePart3": "realizarse una mastografía anualmente. Es importante clarificar que la mastografía no ha mostrado ser clínicamente beneficiosa ni rentable para la evaluación de síntomas mamarios en mujeres menores de 35 años. Esto significa que, tan solo en los Estados Unidos, 51.6 millones de mujeres entre la edad de 25 y 40 años no tienen acceso al único método que ha demostrado clínicamente una reducción en el índice de mortalidad del cáncer de mama. En otras palabras, estas mujeres están siendo marginadas de los lineamientos para el cribado del cáncer de mama.",
+        "descTwo": "La detección temprana del cáncer de mama en mujeres jóvenes sigue siendo uno de los desafíos principales en la lucha efectiva contra esta enfermedad. La Organización Mundial de la Salud predice que la incidencia del cáncer de mama en mujeres jóvenes incrementará 50% para el año 2035, y reporta que en el presente, 7% de los casos de cáncer de mama involucran mujeres menores de 40 años. Es más probable que las mujeres jóvenes tengan alta densidad mamaria, sean diagnosticadas en etapas más avanzadas, tengan una tasa de supervivencia de menos de 5 años y no tengan acceso a un método confiable de cribado contra el cáncer de mama.",
+        "subtitle": "¿Cómo esperamos resolver esto?",
+        "descThree": "La mastografía no está disponible para mujeres jóvenes por razones relacionadas con los riesgos causados por la exposición prolongada a la radiación, y también por su baja sensibilidad con la alta densidad mamaria que es común en la población de esta edad. A diferencia de la mastografía, EVA no emite ningún tipo de radiación ionizante ni comprime la mama de ninguna forma, además de ser no invasiva y completamente indolora. Esto significa que EVA es un método secundario de cribado agnóstico a la edad de la paciente que puede ser utilizado por cualquier mujer a partir de los 20 años."
+      },
+      "infrastructure": {
+        "img": "/img/research/research-infrastructure.jpg",
+        "title": "Costos de infraestructura",
+        "descOne": "El cáncer de mama es una enfermedad que afecta a los ricos y a los pobres. Sin embargo, el sufrimiento ocasionado por el cáncer de mama afecta principalmente a los pobres. Pertenecer a un nivel socioeconómico bajo es un indicador consistente de la falta de uso de la mastografía: 70% de los casos de cáncer de mama en países en desarrollo, como México, están en las etapas III y IV, que son aquellas que reducen el índice de supervivencia a solo 25%. Esto se puede explicar por el hecho de que el cáncer de mama en mujeres jóvenes es más común en países en desarrollo, representando un 35% de todos los casos. Ya que no hay un método confiable de cribado del cáncer de mama accesible a este segmento de la población, solo 5 a 10% de los diagnósticos ocurren en las etapas tempranas.",
+        "descTwo": "Mujeres mayores de 40 años en países en desarrollo rara vez tienen acceso a mastografía de calidad, ya que los costos de infraestructura son elevados y existe una falta de transportación rentable a hospitales y clínicas con el equipo correcto para realizar mastografías.",
+        "subtitle": "¿Cómo esperamos resolver esto?",
+        "solutions": [
+          {
+            "title": "Costos:",
+            "desc": "Los costos de infraestructura de EVA son casi nulos cuando se comparan con los costos de los métodos de cribado más comunes."
+          },
+          {
+            "title": "Una herramienta para poblaciones jóvenes:",
+            "desc": "Los países en desarrollo tienen la tarea difícil de combatir el cáncer de mama en las mujeres jóvenes, pero hasta ahora no existía un método de cribado para esta población específica. EVA tiene la oportunidad de volverse el estándar de oro de los métodos de cribado para mujeres entre 25 y 40 años de edad."
+          },
+          {
+            "title": "Barreras culturales:",
+            "desc": "Una de las razones por las cuales un bajo nivel socioeconómico es un indicador consistente de la falta de uso de la mastografía es que esta población tiene una impresión errónea de los riesgos asociados con la mastografía y la exposición física que este método requiere. Ya que EVA es una herramienta sin radiación para uso personal y no requiere exposición física, puede tener una mayor aceptación en comunidades rurales y marginadas."
+          }
+        ]
+      },
+      "cases": {
+        "title": "Casos para uso adicional",
+        "desc": "En algunos casos de mujeres diagnosticadas con cáncer de mama, se puede dar tratamiento con quimioterapia, terapia dirigida o terapia hormonal antes de una cirugía mamaria. Esto se llama terapia neoadyuvante y tiene el objetivo de reducir el tamaño de un tumor antes de una intervención quirúrgica. EVA se puede utilizar como una herramienta accesible y personal para rastrear la efectividad de la terapia neoadyuvante al evaluar si el tumor está reduciendo su tamaño al analizar su marca térmica semanalmente."
+      },
+      "literature": {
+        "title": "Literatura médica seleccionada",
+        "list": [
+          {
+            "title": "Un repaso comparativo de la termografía",
+            "link": "http://journals.sagepub.com/doi/pdf/10.1177/1534735408326171"
+          },
+          {
+            "title": "Una reseña de la termografía",
+            "link": "https://drive.google.com/open?id=1ZMJhklk3wBXjy3ZiyQybFp0L9zFucioD"
+          }
+        ]
+      },
+      "references": {
+        "title": "Referencias",
+        "list": [
+          {
+            "title": "Efecto de la densidad mamaria sobre el funcionamiento de escrutinio sobre cáncer de mama: un estudio en Nijmegen, Países Bajos",
+            "link": "http://jech.bmj.com/content/52/4/267.short"
+          },
+          {
+            "title": "Guías de la Sociedad Americana del Cáncer para la detección temprana",
+            "link": "https://www.cancer.org/healthy/find-cancer-early/cancer-screening-guidelines/american-cancer-society-guidelines-for-the-early-detection-of-cancer.html"
+          },
+          {
+            "title": "Personalizar la mamografía por densidad de mama y otros factores de riesgo para el cáncer de mama: análisis de los beneficios de salud y costo",
+            "link": "http://annals.org/aim/article-abstract/747009/personalizing-mammography-breast-density-other-risk-factors-breast-cancer-analysis"
+          },
+          {
+            "title": "Valoración cuantitativa de densidad mamográfica del seno: relación con riesgo de cáncer de mama",
+            "link": "https://pubs.rsna.org/doi/pdf/10.1148/radiol.2301020870"
+          },
+          {
+            "title": "Cáncer de mama en mujeres jóvenes",
+            "link": "https://breast-cancer-research.biomedcentral.com/articles/10.1186/bcr2647"
+          }
+        ]
+      }
+    },
     "privacy": {
       "introduction": {
         "title": "AVISO DE PRIVACIDAD",
