@@ -1,0 +1,70 @@
+{% extends "partials/base.njk" %}
+
+{% block title %}Aviso de privacidad{% endblock %}
+
+{% set view_name = "privacy-notice" %}
+
+{% block content %}
+  <div class="privacy helvneue">
+    <section>
+      <h1>{{es.privacy.introduction.title}}</h1>
+      <p>{{es.privacy.introduction.desc1}}</p>
+      <p>{{es.privacy.introduction.desc2}}</p>
+    </section>
+
+    <section>
+      <h2>{{es.privacy.purposes.title}}</h2>
+      <p>{{es.privacy.purposes.desc}}</p>
+      <ol>
+        {% for purpose in es.privacy.purposes.list %}
+        <li>{{purpose.item}}</li>
+        {% endfor %}
+      </ol>
+    </section>
+
+    <section>
+      <h2>{{es.privacy.personalInfo.title}}</h2>
+      <p>{{es.privacy.personalInfo.desc1}}</p>
+      <p>{{es.privacy.personalInfo.desc2}}</p>
+      <p>{{es.privacy.personalInfo.desc3}}</p>
+    </section>
+
+    <section>
+      <h2>{{es.privacy.confidentiality.title}}</h2>
+      <p>{{es.privacy.confidentiality.desc1}}</p>
+      <p>{{es.privacy.confidentiality.desc2}}</p>
+      <p>{{es.privacy.confidentiality.desc3}}</p>
+    </section>
+
+    <section>
+      <h2>{{es.privacy.dataTransfer.title}}</h2>
+      <p>{{es.privacy.dataTransfer.desc1}}</p>
+      <p>{{es.privacy.dataTransfer.desc2}}</p>
+      <p>{{es.privacy.dataTransfer.desc3}}</p>
+      <p>{{es.privacy.dataTransfer.desc4}}</p>
+    </section>
+
+    <section>
+      <h2>{{es.privacy.arcoRight.title}}</h2>
+      <p>{{es.privacy.arcoRight.desc1}}</p>
+      <p>{{es.privacy.arcoRight.desc2}}</p>
+      <p>{{es.privacy.arcoRight.desc3}}</p>
+    </section>
+
+    <section>
+      <h2>{{es.privacy.revocation.title}}</h2>
+      <p>{{es.privacy.revocation.desc2}}</p>
+      <p>{{es.privacy.revocation.desc3}}</p>
+    </section>
+
+    <section>
+      <h2>{{es.privacy.attention.title}}</h2>
+      <p>{{es.privacy.attention.desc}}</p>
+    </section>
+
+    <section>
+      <h2>{{es.privacy.modifications.title}}</h2>
+      <p>{{es.privacy.modifications.desc}}</p>
+    </section>
+  </div>
+{% endblock %}

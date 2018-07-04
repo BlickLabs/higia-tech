@@ -50,7 +50,7 @@
         {% endfor %}
       </div>
       <div class="who-timeline-collapsible-container">
-        <img class="who-timeline-collapsible" src="/img/icons/icon-circle-arrow.png">
+        <div class="who-timeline-collapsible"></div>
       </div>
     </section>
     
@@ -62,21 +62,18 @@
         <div class="who-card-content">
           <div class="who-card">
             <img class="who-card-img" src="{{card.img}}">
-            <div class="who-card-hover">
-              <h3 class="who-card-category">{{card.category}}</h3>
-              <a href="#{{card.openModal}}" data-modal>
+            <a href="#{{card.openModal}}" data-modal>
+              <div class="who-card-hover">
+                <h3 class="who-card-category">{{card.category}}</h3>
                 <img class="who-card-icon" src="{{card.iconModal}}">
-              </a>
-            </div>
+              </div>
+            </a>
           </div>
           <h3 class="who-card-member helvneue-bold">{{card.member}} <span class="pink">{{card.memberPink}}</span></h3>
           <h4 class="who-card-job helvneue">{{card.job}}</h4>
         </div>
         <div id="{{card.dataModal}}" class="modal">
           <div class="who-modal-content">
-            <!-- <div class="who-modal-close-container">
-              <img class="who-modal-close" data-close="{{card.dataModal}}" src="{{es.whoarewe.team.modalClose}}">
-            </div> -->
             <div class="who-modal-header">
               <h2 class="who-modal-header-title helvneue-bold">{{card.category}}</h2>
             </div>
@@ -85,7 +82,7 @@
                 <img class="who-card-img" src="{{card.img}}">
                 <h3 class="who-card-member helvneue-bold">{{card.member}} <span class="pink">{{card.memberPink}}</span></h3>
                 <h4 class="who-card-job helvneue">{{card.job}}</h4>
-                <span class="who-card-email helvneue-medium">{{card.modalEmail}}</span>
+                <span class="who-card-email helvneue-light">{{card.modalEmail}}</span>
               </div>
               <div class="who-modal-desc-container">
                 <p class="who-modal-desc helvneue-light">{{card.modalDesc1}}</p>
@@ -103,21 +100,18 @@
           <div class="who-card-content">
             <div class="who-card">
               <img class="who-card-img" src="{{card.img}}">
-              <div class="who-card-hover">
-                <h3 class="who-card-category">{{card.category}}</h3>
-                <a  href="#{{card.openModalMobile}}" data-modal>
-                  <img class="who-card-icon" src="{{card.iconModal}}">
-                </a>
-              </div>
+              <a  href="#{{card.openModalMobile}}" data-modal>
+                <div class="who-card-hover">
+                  <h3 class="who-card-category">{{card.category}}</h3>
+                    <img class="who-card-icon" src="{{card.iconModal}}">
+                </div>
+              </a>
             </div>
             <h3 class="who-card-member helvneue-bold">{{card.member}} <span class="pink">{{card.memberPink}}</span></h3>
             <h4 class="who-card-job helvneue">{{card.job}}</h4>
           </div>
           <div id="{{card.dataModalMobile}}" class="modal">
             <div class="who-modal-content">
-              <!-- <div class="who-modal-close-container">
-                <img class="who-modal-close" data-close="{{card.dataModalMobile}}" src="{{es.whoarewe.team.modalClose}}">
-              </div> -->
               <div class="who-modal-header">
                 <h2 class="who-modal-header-title helvneue-bold">{{card.category}}</h2>
               </div>
@@ -126,7 +120,7 @@
                   <img class="who-card-img" src="{{card.img}}">
                   <h3 class="who-card-member helvneue-bold">{{card.member}} <span class="pink">{{card.memberPink}}</span></h3>
                   <h4 class="who-card-job helvneue">{{card.job}}</h4>
-                  <span class="who-card-email helvneue-medium">{{card.modalEmail}}</span>
+                  <span class="who-card-email helvneue-light">{{card.modalEmail}}</span>
                 </div>
                 <div class="who-modal-desc-container">
                   <p class="who-modal-desc helvneue-light">{{card.modalDesc1}}</p>

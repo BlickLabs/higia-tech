@@ -116,7 +116,7 @@
         <li class="eva-questions-content">
           <span class="eva-questions-question helvneue-medium">{{answer.title}}</span>
           <div class="eva-questions-answer-container">
-            <p class="eva-questions-answer helvneue-light">{{answer.answer}}</p>
+            <p class="eva-questions-answer helvneue-light">{{answer.answer}} {% if answer.answerLink %}<a class="eva-questions-link" href="">{{answer.answerLink}}</a>{% endif %} {% if answer.answerContinuation %}<span>{{answer.answerContinuation}}</span>{% endif %}</p>
             {% if answer.answerPart2 %}
             <p class="eva-questions-answer helvneue-light">{{answer.answerPart2}}</p>
             {% endif %}

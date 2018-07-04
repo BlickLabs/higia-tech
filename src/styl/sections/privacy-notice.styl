@@ -1,0 +1,51 @@
+.privacy
+  margin 100px 10%
+
+  h1
+    color $hblackLight
+    font-size 45px
+    margin-bottom 50px
+    text-align center
+
+  h2
+    color $hpink
+    font-size $fs25
+    letter-spacing 1px
+    margin 35px 0
+
+  p, ol
+    color $hblack
+    font-size 20px
+    letter-spacing 0.1px
+    line-height 30px
+    text-align justify
+
+  p
+    margin-bottom 30px
+
+  ol
+    counter-reset list
+
+  ol > li
+    list-style none;
+    position relative
+
+  ol > li:before
+    content counter(list, lower-alpha) ") "
+    counter-increment list
+    left -1.4em
+    position absolute
+
+@media screen and (max-width 550px)
+  .privacy
+    margin 50px 10%
+
+    h1
+      font-size $fs25
+
+    h2
+      font-size $fs20
+
+    p, ol
+      font-size $fs15
+      line-height 24px

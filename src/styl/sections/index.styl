@@ -61,6 +61,7 @@
 
     &-paragraph
       color $hblack
+      font-size $fs17
       letter-spacing 0.5px
       line-height 27px
       text-align center
@@ -75,9 +76,21 @@
       margin-left -188px
       position relative
 
+      &-bullet
+        position absolute
+        top -40px
+
       &-text
         color $hblackVariant
         font-size $fs17
+
+        &-container
+          text-align center
+          transition 0.3s
+
+          &:hover
+            transform scale(1.1)
+            transition 0.2s
 
         &-bold
           font-size $fs20
@@ -101,7 +114,7 @@
 
         &-2
           bottom 80px
-          left -100px
+          left -58px
 
       &-iwatch
         right -230px
@@ -420,15 +433,12 @@
 
     &-logo
       &-container
+        align-items center
+        bottom 0
+        display flex
         position absolute
         right 31px
-        top 38px
-
-        &-modified
-          align-items center
-          display flex
-          height 100%
-          justify-content center
+        top 0
 
     &-info
       background-color $hgrayLight
@@ -599,13 +609,17 @@
     background-image url("../img/home/award-sxsw.jpg")
 
 .logo
-  &-crowd-lab
+  &-babson
     height auto
-    width 157px !important
+    width 120px !important
+
+  &-harvard
+    height auto
+    width 140px !important
 
   &-everis
     height auto
-    width 157px !important
+    width 138px !important
 
   &-eogsea
     height auto
@@ -613,7 +627,7 @@
 
   &-mass-challenge
     height auto
-    width 157px !important
+    width 110px !important
 
   &-mexico
     height auto
@@ -621,15 +635,56 @@
 
   &-national-academy
     height auto
-    width 157px !important
+    width 156px !important
 
   &-forbes
     height auto
-    width 157px !important
+    width 130px !important
 
   &-sxsw
     height auto
-    width 157px !important
+    width 90px !important
+
+.bullet-left
+  left 100px
+
+.bullet-right
+  right 71px
+
+.mask
+  &-base
+    position absolute
+    z-index 11
+
+  &-iphone
+    height 442px
+    width 160px
+    transform rotate(-28deg)
+    right 172px
+    top 12px
+
+  &-iwatch
+    height 200px
+    width 140px
+    transform rotate(-29deg)
+    right 31px
+    top 10px
+
+  &-eva
+    height 260px
+    width 194px
+    transform rotate(-28deg)
+    right 47px
+    top 21px
+
+  &-iphone,
+  &-iwatch,
+  &-eva
+    &:hover + .home-eva-img-iphone,
+    &:hover + .home-eva-img-iwatch,
+    &:hover + .home-eva-img-eva
+      transform scale(1.1) !important
+      transition 0.6s !important
 
 @media screen and (max-width 1300px)
   .home
@@ -651,13 +706,13 @@
 
 @media screen and (max-width 1229px)
   .home
-    &-eva
-      &-infographi
-        height 350px
-
     &-founder
       flex-direction column
       height auto
+
+      &-img
+        &-container
+          background-color $hgrayLight
 
       &-info
         padding-bottom 60px
@@ -678,6 +733,63 @@
     &-news
       &-carousel
         width 642px
+
+@media screen and (max-width 1000px)
+  .home
+    &-eva
+      &-img
+        &-iphone
+          height 386px
+
+        &-iwatch
+          height 173px
+
+        &-eva
+          height 250px
+
+          &-container
+            bottom -10px
+            right -115px
+
+      &-info
+        &-iphone-1
+          top 140px
+
+        &-iphone-2
+          left -48px
+
+        &-iwatch
+          right -174px
+          top 59px
+
+        &-eva
+          right -115px
+          top 70px
+
+      &-infographi
+        margin-left -136px
+
+        &-bullet
+          height 22px
+
+  .mask
+    &-iphone
+      height 343px
+      width 120px
+      right 136px
+      top 7px
+
+    &-iwatch
+      height 145px
+      width 102px
+      right 21px
+      top 7px
+
+    &-eva
+      height 194px
+      width 144px
+      right 35px
+      top 14px
 
 @media screen and (max-width 780px)
   .home
@@ -702,10 +814,53 @@
       &-infographi
         background-image initial
         height auto
+        margin-left -37px
 
         &-img
           display block
           width 100%
+
+        &-bullet
+          display none
+
+        &-text
+          font-size $fs15
+
+          &-bold
+            font-size $fs17
+
+      &-info
+        &-iphone
+          &-1
+            left 161px
+            top 5px
+            width 145px
+
+          &-2
+            bottom 51px
+            left -4px
+            width 132px
+
+        &-eva
+          bottom -34px
+          right 0px
+          top initial
+          width 72px
+
+      &-img
+        &-iphone
+          height 295px
+
+        &-iwatch
+          &-container
+            display none
+
+        &-eva
+          height 180px
+
+          &-container
+            bottom 38px
+            right -20px
 
       &-logo,
       &-logo-container
@@ -822,13 +977,12 @@
         width 100%
 
       &-img
-        height 182px
+        height 150px
 
       &-logo
         &-container
-          bottom 27px
-          left 18px
-          right initial
+          bottom 20px
+          right 20px
           top initial
       
     &-news
@@ -857,3 +1011,44 @@
       &-btn
         &-container
           margin-top 120px
+
+  .award
+    &-presidential
+      background-position left
+
+  .logo
+    &-babson
+      height auto
+      width 90px !important
+
+    &-harvard
+      height auto
+      width 114px !important
+
+    &-everis
+      height auto
+      width 110px !important
+
+    &-eogsea
+      height auto
+      width 120px !important
+
+    &-mass-challenge
+      height auto
+      width 80px !important
+
+    &-mexico
+      height auto
+      width 110px !important
+
+    &-national-academy
+      height auto
+      width 110px !important
+
+    &-forbes
+      height auto
+      width 95px !important
+
+    &-sxsw
+      height auto
+      width 60px !important

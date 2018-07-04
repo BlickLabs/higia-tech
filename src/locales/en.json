@@ -48,7 +48,7 @@
       ]
     },
     "footerLogo": "/img/logos/logo-footer.png",
-    "footerPrivacy": "Privacy policy",
+    "footerPrivacy": "Privacy notice",
     "footerCopyright": "© Copyright, Higia Technologies 2018",
     "coverTitle": "Hi, we are",
     "coverTitleSpan": "Higia",
@@ -82,18 +82,18 @@
     },
     "homeAllies": {
       "title": "Our allies",
-      "description": "In our fight to revolutionize early breast cancer detection, we count on key allies that push us and support Higia Technologies in various areas of its daily operation.",
+      "description": "In our fight to revolutionize early breast cancer detection, we count on key allies that boost us and support Higia Technologies in various areas of its daily operation.",
       "btn": "Learn more",
       "logos": [
         {
           "img": "/img/logos/logo-axxa.png",
           "class": "home-allies-logo-axa",
-          "title": "Axa"
+          "title": "AXA"
         },
         {
           "img": "/img/logos/logo-imss.png",
           "class": "home-allies-logo-imss",
-          "title": "IMMS"
+          "title": "IMSS"
         },
         {
           "img": "/img/logos/logo-standford-medicine.png",
@@ -540,10 +540,7 @@
             "name": "Rasha Roshdy"
           },
           {
-            "name": "Raymundo González"
-          },
-          {
-            "name": "Rodríguez"
+            "name": "Raymundo González Rodríguez"
           },
           {
             "name": "Rosario González"
@@ -616,18 +613,18 @@
       "carousel": [
         {
           "img": "award-babson",
-          "logo": "/img/logos/logo-babson-black.png",
-          "logoContainerClass": "home-awards-logo-container-modified",
-          "logoClass": "logo-crowd-lab",
+          "logo": "/img/logos/logo-babson-white.png",
+          "logoContainerClass": "home-awards-logo-container",
+          "logoClass": "logo-babson",
           "title": "Babson College Innovation Challenge",
           "description": "First Place",
           "year": 2016
         },
         {
           "img": "award-harvard",
-          "logo": "/img/logos/logo-harvard-black.png",
-          "logoContainerClass": "home-awards-logo-container-modified",
-          "logoClass": "logo-crowd-lab",
+          "logo": "/img/logos/logo-harvard-white.png",
+          "logoContainerClass": "home-awards-logo-container",
+          "logoClass": "logo-harvard",
           "title": "Harvard University and MIT Innovation Laboratories",
           "description": "Invited speakers",
           "year": 2017
@@ -653,9 +650,9 @@
         },
         {
           "img": "award-masschallenge",
-          "logo": "/img/logos/logo-mass-challenge-black.png",
+          "logo": "/img/logos/logo-mass-challenge.png",
           "logoClass": "logo-mass-challenge",
-          "logoContainerClass": "home-awards-logo-container-modified",
+          "logoContainerClass": "home-awards-logo-container",
           "title": "MassChallenge",
           "description": "Incubated Company",
           "year": 2017
@@ -670,28 +667,28 @@
           "year": 2017
         },
         {
-          "img": "award-academy",
-          "logo": "/img/logos/logo-national-academy-black.png",
+          "img": "award-national-academy",
+          "logo": "/img/logos/logo-national-academy.png",
           "logoClass": "logo-national-academy",
-          "logoContainerClass": "home-awards-logo-container-modified",
+          "logoContainerClass": "home-awards-logo-container",
           "title": "Congress of Future Medical Leaders",
           "description": "Invited speakers",
           "year": 2017
         },
         {
           "img": "award-forbes",
-          "logo": "/img/logos/logo-forbes-black.png",
+          "logo": "/img/logos/logo-forbes-white.png",
           "logoClass": "logo-forbes",
-          "logoContainerClass": "home-awards-logo-container-modified",
+          "logoContainerClass": "home-awards-logo-container",
           "title": "Forbes 30 Most Promising Companies",
           "description": "",
           "year": 2018
         },
         {
           "img": "award-sxsw",
-          "logo": "/img/logos/logo-sxsw-black.png",
+          "logo": "/img/logos/logo-sxsw.png",
           "logoClass": "logo-sxsw",
-          "logoContainerClass": "home-awards-logo-container-modified",
+          "logoContainerClass": "home-awards-logo-container",
           "title": "South by Southwest",
           "description": "First Place pitch competition Casa Mexico",
           "year": 2018
@@ -702,6 +699,20 @@
       "title": "News",
       "btn": "Read all",
       "carousel": [
+        {
+          "link": "http://www.bbc.com/news/world-latin-america-39802629",
+          "logo": "/img/logos/logo-bbc.png",
+          "logoClass": "home-news-logo-bbc",
+          "description": "\"Could this bra detect breast cancer?\"",
+          "date": "BBC Latin America | 4 de mayo 2017"
+        },
+        {
+          "link": "https://www.guidingtech.com/66967/higia-eva-bra-breast-cancer-detection/",
+          "logo": "/img/logos/logo-guiding-tech.png",
+          "logoClass": "home-news-logo-guiding",
+          "description": "\"Teenager Develops Bra to Detect Breast Cancer\"",
+          "date": "Guiding Tech | 5 de mayo 2017"
+        },
         {
           "link": "http://elfinanciero.com.mx/bloomberg-businessweek/el-joven-que-hallo-en-una-terrible-noticia-una-idea-para-prevenir-el-cancer-de-mama",
           "logo": "/img/logos/logo-financiero.png",
@@ -738,20 +749,6 @@
           "date": "Forbes |  30 de marzo 2017"
         },
         {
-          "link": "https://www.guidingtech.com/66967/higia-eva-bra-breast-cancer-detection/",
-          "logo": "/img/logos/logo-guiding-tech.png",
-          "logoClass": "home-news-logo-guiding",
-          "description": "\"Teenager Develops Bra to Detect Breast Cancer\"",
-          "date": "Guiding Tech | 5 de mayo 2017"
-        },
-        {
-          "link": "http://www.bbc.com/news/world-latin-america-39802629",
-          "logo": "/img/logos/logo-bbc.png",
-          "logoClass": "home-news-logo-bbc",
-          "description": "\"Could this bra detect breast cancer?\"",
-          "date": "BBC Latin America | 4 de mayo 2017"
-        },
-        {
           "link": "https://expansion.mx/emprendedores/2017/03/29/wearable-mexicano-que-detecta-cancer-de-mama-sera-probado-en-el-imss",
           "logo": "/img/logos/logo-expansion.png",
           "logoClass": "home-news-logo-expansion",
@@ -777,13 +774,13 @@
       },
       "cards": [
         {
-          "logo": "/img/logos/logo-axa-black.png",
+          "logo": "/img/logos/logo-axxa-gray.png",
           "logoClass": "allies-logo-axa",
           "title": "Research, test campaigns, marketing strategies",
           "desc": "In collaboration with AXA we have realized test campaigns such as Mujeres Fundadoras (Female Founders) and we are working on developing marketing strategies that allow EVA to reach a greater number of women."
         },
         {
-          "logo": "/img/logos/logo-imss-black.png",
+          "logo": "/img/logos/logo-imss-gray.png",
           "logoClass": "allies-logo-imss",
           "title": "Clinical tests",
           "desc": "Thanks to IMSS, we will perform clinical trials in Mexico with more than 600 women."
@@ -807,7 +804,7 @@
           "desc": "In collaboration with Kowa we are starting to explore ways for EVA to reach more women around the world."
         },
         {
-          "logo": "/img/logos/logo-kio-black.png",
+          "logo": "/img/logos/logo-kio-gray.png",
           "logoClass": "allies-logo-kio",
           "title": "Data hosting, IT Services",
           "desc": "Thanks to KIO Networks, the clinical data of our patients are protected in the cloud."
@@ -825,13 +822,13 @@
           "desc": "In collaboration with Molex we work to perfect the electronics and the manufacturing processes behind EVA."
         },
         {
-          "logo": "/img/logos/logo-tomatelo-pecho-black.png",
+          "logo": "/img/logos/logo-tomatelopecho-gray.png",
           "logoClass": "allies-logo-tomatelopecho",
           "title": "Research",
           "desc": "Together, Higia and Tómatelo a Pecho are fighting breast cancer, accelerating the development of EVA through mentors of the medical field."
         },
         {
-          "logo": "/img/logos/logo-tepoz-rosa-black.png",
+          "logo": "/img/logos/logo-tepozrosa-gray.png",
           "logoClass": "allies-logo-tepozrosa",
           "title": "Test campaigns",
           "desc": "Together, Higia and Tepoz Rosa fight to deliver screening and early diagnostic tools to rural communities."
@@ -978,13 +975,13 @@
           "icon": "/img/icons/icon-ycombinator.png",
           "iconClass": "who-timeline-icon-ycombinator",
           "month": "May",
-          "desc": "Higia Tech moves to Silicon Valley for YCombinator accelerator."
+          "desc": "Higia Tech moves to Silicon Valley for Y Combinator accelerator."
         }
       ],
       "team": {
         "title": "#Team",
         "titlePink": "Higia",
-        "desc": "We are a group of Mexicans working in Artificial Intelligence, Software and Hardware from Mexico City, Puebla and Monterrey.",
+        "desc": "We are a group of Mexicans working in Artificial Intelligence, Software and Hardware from Mexico City, Puebla, Monterrey and Silicon Valley.",
         "modalTitle": "BUSINESS DEVELOPMENT TEAM",
         "modalClose": "/img/icons/icon-close-modal.png",
         "card": [
@@ -992,7 +989,7 @@
             "member": "Julián",
             "memberPink": "Ríos",
             "job": "CEO & Co-Founder",
-            "img": "/img/whoarewe/member-fake.png",
+            "img": "/img/whoarewe/member-julian.jpg",
             "category": "BUSINESS DEVELOPMENT TEAM",
             "iconModal": "/img/icons/icon-open-modal.png",
             "openModal": "data-modal-14",
@@ -1007,7 +1004,7 @@
             "member": "Raymundo",
             "memberPink": "González Leal",
             "job": "Chief of Artificial Intelligence & Co-Founder",
-            "img": "/img/whoarewe/member-fake.png",
+            "img": "/img/whoarewe/member-ray.jpg",
             "category": "ARTIFICIAL INTELLIGENCE",
             "iconModal": "/img/icons/icon-open-modal.png",
             "openModal": "data-modal-7",
@@ -1022,7 +1019,7 @@
             "member": "Antonio",
             "memberPink": "Torres",
             "job": "Chief Technology Officer & Co-Founder",
-            "img": "/img/whoarewe/member-fake.png",
+            "img": "/img/whoarewe/member-antonio.jpg",
             "category": "HARDWARE",
             "iconModal": "/img/icons/icon-open-modal.png",
             "openModal": "data-modal-6",
@@ -1037,7 +1034,7 @@
             "member": "Fernando",
             "memberPink": "López Martínez",
             "job": "Chief Software Engineer",
-            "img": "/img/whoarewe/member-fake.png",
+            "img": "/img/whoarewe/member-fer.jpg",
             "category": "SOFTWARE",
             "iconModal": "/img/icons/icon-open-modal.png",
             "openModal": "data-modal-1",
@@ -1052,7 +1049,7 @@
             "member": "Victor Hugo",
             "memberPink": "Serrano Ramirez",
             "job": "Chief Hardware Engineer",
-            "img": "/img/whoarewe/member-fake.png",
+            "img": "/img/whoarewe/member-victor.jpg",
             "category": "HARDWARE",
             "iconModal": "/img/icons/icon-open-modal.png",
             "openModal": "data-modal-4",
@@ -1067,7 +1064,7 @@
             "member": "Carlos",
             "memberPink": "Pendás",
             "job": "Chief Product Developer",
-            "img": "/img/whoarewe/member-fake.png",
+            "img": "/img/whoarewe/member-carlos.jpg",
             "category": "PRODUCT DEVELOPMENT",
             "iconModal": "/img/icons/icon-open-modal.png",
             "openModal": "data-modal-9",
@@ -1080,7 +1077,7 @@
             "member": "Alejandra",
             "memberPink": "Perea Morales",
             "job": "Business Development",
-            "img": "/img/whoarewe/member-fake.png",
+            "img": "/img/whoarewe/member-ale.jpg",
             "category": "BUSINESS DEVELOPMENT TEAM",
             "iconModal": "/img/icons/icon-open-modal.png",
             "openModal": "data-modal-16",
@@ -1094,7 +1091,7 @@
             "member": "Juan José",
             "memberPink": "Leñero Lozano",
             "job": "Back-end Developer",
-            "img": "/img/whoarewe/member-fake.png",
+            "img": "/img/whoarewe/member-juanjo.jpg",
             "category": "SOFTWARE",
             "iconModal": "/img/icons/icon-open-modal.png",
             "openModal": "data-modal-3",
@@ -1109,7 +1106,7 @@
             "member": "José Antonio",
             "memberPink": "Toussaint García",
             "job": "Android Developer",
-            "img": "/img/whoarewe/member-fake.png",
+            "img": "/img/whoarewe/member-tony.jpg",
             "category": "SOFTWARE",
             "iconModal": "/img/icons/icon-open-modal.png",
             "openModal": "data-modal-2",
@@ -1123,7 +1120,7 @@
             "member": "María",
             "memberPink": "Franco",
             "job": "UX designer",
-            "img": "/img/whoarewe/member-fake.png",
+            "img": "/img/whoarewe/member-marycarmen.jpg",
             "category": "PRODUCT DEVELOPMENT",
             "iconModal": "/img/icons/icon-open-modal.png",
             "openModal": "data-modal-10",
@@ -1136,7 +1133,7 @@
             "member": "Osmar",
             "memberPink": "Martínez",
             "job": "Product Developer",
-            "img": "/img/whoarewe/member-fake.png",
+            "img": "/img/whoarewe/member-osmar.jpg",
             "category": "PRODUCT DEVELOPMENT",
             "iconModal": "/img/icons/icon-open-modal.png",
             "openModal": "data-modal-11",
@@ -1149,7 +1146,7 @@
             "member": "José Ángel",
             "memberPink": "Lavariega Gómez",
             "job": "Research Leader",
-            "img": "/img/whoarewe/member-fake.png",
+            "img": "/img/whoarewe/member-jose.jpg",
             "category": "HARDWARE",
             "iconModal": "/img/icons/icon-open-modal.png",
             "openModal": "data-modal-5",
@@ -1164,7 +1161,7 @@
             "member": "Gabriela",
             "memberPink": "Revilla Soriano",
             "job": "Graphic designer",
-            "img": "/img/whoarewe/member-fake.png",
+            "img": "/img/whoarewe/member-gaby.jpg",
             "category": "COMMUNICATION & DESIGN",
             "iconModal": "/img/icons/icon-open-modal.png",
             "openModal": "data-modal-12",
@@ -1179,7 +1176,7 @@
             "member": "José Martín",
             "memberPink": "Urtiz Gutiérrez",
             "job": "Artificial Intelligence Developer",
-            "img": "/img/whoarewe/member-fake.png",
+            "img": "/img/whoarewe/member-martin.jpg",
             "category": "ARTIFICIAL INTELLIGENCE",
             "iconModal": "/img/icons/icon-open-modal.png",
             "openModal": "data-modal-8",
@@ -1204,20 +1201,6 @@
             "modalEmail": "angie.carrillo@higia.tech",
             "modalDesc1": "Expert in developing businesses and passionate about the use of exponential technologies to have a positive impact on the world. Alumni of Tecnológico de Monterrey, UC Berkeley, Draper University and Singularity University, Angie currently works with Higia Technologies as an advisor on topics related to investment strategy.",
             "modalDesc2": "\"A team filled with passion for solving a very important problem. I particularly like the vision for the future and their drive to make this work\"."
-          },
-          {
-            "member": "Flavia",
-            "memberPink": "Tello",
-            "job": "Community Manager",
-            "img": "/img/whoarewe/member-fake.png",
-            "category": "COMMUNICATION & DESIGN",
-            "iconModal": "/img/icons/icon-open-modal.png",
-            "openModal": "data-modal-13",
-            "dataModal": "data-modal-13",
-            "openModalMobile": "data-modal-mobile-13",
-            "dataModalMobile": "data-modal-mobile-13",
-            "modalDesc1": "Industrial designer focused on the operation of the communication through digital media. Flavia is the point of contact between Higia and the community of people that follow closely the development of EVA through social media, promoting transparent communication, empathy and proximity to the people.",
-            "modalDesc2": "\"I like Higia since it is a project that has a strong impact on our society, principally on us women. I consider the participation and commitment of every member of the team inspiring which, in turn, motivates me to be the same\"."
           }
         ]
       },
@@ -1230,7 +1213,7 @@
         "card": [
           {
             "title": "Frontend Software Engineer",
-            "desc": "Estamos buscando un ingeniero que tenga la capacidad de analizar, diseñar, implementar, poner en producción y monitorear interfaces de usuario web, usando tecnologías frontend modernas.",
+            "desc": "We are searching for a developer that has the ability to analyze, design, implement, put into production and monitor the web and mobile user interfaces using modern frontend technologies.",
             "requirementsLink": "https://drive.google.com/file/d/11JFDJ1DsrWoJTbdKJYjKCRET4aHPOT71/view",
             "btnRequirements": "Requirements",
             "emailAddress": "jobs@higia.tech",
@@ -1238,7 +1221,7 @@
           },
           {
             "title": "Frontend Software Engineer",
-            "desc": "Estamos buscando un ingeniero que tenga la capacidad de analizar, diseñar, implementar, poner en producción y monitorear interfaces de usuario web, usando tecnologías frontend modernas.",
+            "desc": "We are searching for a developer that has the ability to analyze, design, implement, put into production and monitor the web and mobile user interfaces using modern frontend technologies.",
             "requirementsLink": "https://drive.google.com/file/d/11JFDJ1DsrWoJTbdKJYjKCRET4aHPOT71/view",
             "btnRequirements": "Requirements",
             "emailAddress": "jobs@higia.tech",
@@ -1367,7 +1350,9 @@
           },
           {
             "title": "2. Where can I buy EVA?",
-            "answer": "Currently, EVA is not yet available for purchase. However, you can register here (se abre popup) to be part of our pre-sale campaign. Once you are registered, you will enter a waitlist to purchase the device when it’s available for sale and you will receive updates related to the company through email."
+            "answer": "Currently, EVA is not yet available for purchase. However, you can register",
+            "answerLink": "here",
+            "answerContinuation": "to be part of our pre-sale campaign. Once you are registered, you will enter a waitlist to purchase the device when it’s available for sale and you will receive updates related to the company through email."
           },
           {
             "title": "3. What is the pre-order?",
@@ -1411,7 +1396,7 @@
             "answer": "EVA is a non-invasive device that doesn’t present any risk to the user’s health."
           },
           {
-            "title": "13. What is the procedure if EVA The Auto-exploration Wearable detects breast cancer?",
+            "title": "13. What is the procedure if EVA The Auto-exploration Wearable indicates the possible presence of breast cancer?",
             "answer": "EVA immediately connects you with health professionals through one of our platforms. As soon as our algorithms detect abnormalities, the doctors will propose a plan of action to give you immediate medical attention and mitigate the possible risk."
           }
         ]
@@ -1425,21 +1410,24 @@
         "desc1": "Are you interested in learning more about us?",
         "desc2Part1": "Send us a message,",
         "desc2Part2": "we would love to hear from you!",
-        "follow": "Follow us",
-        "thumbUpIcon": "/img/icons/icon-thumbup-pink.png",
+        "follow": "Be part of the community",
+        "followPink": "Higia",
         "btnSend": "Send",
         "socialNet": [
           {
             "icon": "/img/icons/icon-fb-circle-pink.png",
-            "path": "/HigiaTech"
+            "path": "/HigiaTech",
+            "link": "https://www.facebook.com/HigiaTech"
           },
           {
             "icon": "/img/icons/icon-twitter-circle-pink.png",
-            "path": "/Higia_Tech"
+            "path": "/Higia_Tech",
+            "link": "https://twitter.com/Higia_Tech"
           },
           {
             "icon": "/img/icons/icon-insta-circle-pink.png",
-            "path": "higiatech"
+            "path": "higiatech",
+            "link": "https://www.instagram.com/higiatech/"
           }
         ]
       },
@@ -1452,6 +1440,11 @@
         "telNumber": "+52 (81) 2321 1542",
         "emailText": "Email",
         "emailAddress": "contact@higia.tech"
+      },
+      "newsletter": {
+        "title": "Do you want to receive our newsletter?",
+        "subtitle": "Leave us your comments",
+        "btnSend": "Send"
       }
     },
     "news": {
@@ -1459,7 +1452,7 @@
       "subtitlePart1": "We want to share the story of",
       "subtitlePart2": "Higia",
       "subtitlePart3": "and",
-      "subtitlePart4": "Eva",
+      "subtitlePart4": "EVA",
       "subtitlePart5": "with the world.",
       "desc": "This is what the press says about us:",
       "cards": [
@@ -1621,6 +1614,93 @@
             "link": "https://breast-cancer-research.biomedcentral.com/articles/10.1186/bcr2647"
           }
         ]
+      }
+    },
+    "privacy": {
+      "introduction": {
+        "title": "PRIVACY NOTICE",
+        "desc1": "HIGIA, INC, (hereinafter “HIGIA, INC”), with address in Frenos 118, Santa Engracia, San Pedro Garza Garcia. Monterrey N.L. México, provides this Privacy Notice for the protection on personal data (hereinafter the “Privacy Notice”) for present or future users, clients, suppliers, service providers and third parties (Hereinafter the “Owner”), in compliance with the provisions of the “Federal Law on Protection of Personal Data Held by Private Parties” (hereinafter the “Law”) and the specifications and parameters set forth on the “Regulations to the Federal Law on Protection of Personal Data Held by Private Parties” (hereinafter the “Regulation”).",
+        "desc2": "HIGIA, INC., is the responsible for the use and protection of the personal data collected by us."
+      },
+      "purposes": {
+        "title": "PURPOSE OF THE GATHERED INFORMATION",
+        "desc": "All personal data requested by HIGIA, INC., will have the following purposes:",
+        "list": [
+          {
+            "item": "to fulfill the offered service, which includes the purchase transaction on the product offered by HIGIA, INC., through our website www.higia.tech; the home delivery of your products, as well as to inform you and/or contact you regarding the status of your purchase;"
+          },
+          {
+            "item": "the return of the product and/or change of products;"
+          },
+          {
+            "item": "the issuance of invoices;"
+          },
+          {
+            "item": "to inform you about your diagnosis;"
+          },
+          {
+            "item": "for scientific investigation and statistics purposes"
+          },
+          {
+            "item": "for the exchange of information through electronic media"
+          },
+          {
+            "item": "to send our publicity"
+          },
+          {
+            "item": "to evaluate the quality of our product, as well as to conduct satisfaction surveys"
+          },
+          {
+            "item": "to give assistance on any doubt, clarification, claims or complaints"
+          },
+          {
+            "item": "to process job applications and fulfill our process of recruitment"
+          },
+          {
+            "item": "to remind debts or pending payments;"
+          },
+          {
+            "item": "to integrate the data file in order to be able to make future enquiries and revisions."
+          }
+        ]
+      },
+      "personalInfo": {
+        "title": "COLLECTED PERSONAL DATA",
+        "desc1": "HIGIA, INC., can partially or totally request the following general identification and contact data: Full name, date and place of birth, nationality, age, gender, home address, phone number, email address, Unique Population Registry Code (CURP from its Spanish acronym), passport or any other official identification, marital status, criminal record, resume, act of birth, proof of address, recommendation letters, level of education and educational background, professional title, signature.",
+        "desc2": "HIGIA, INC., can partially or totally request the following financial data: tax identification number, bank accounts, standardized bank code (CLABE from its Spanish acronym), advanced electronic signature and credit history.",
+        "desc3": "HIGIA, INC., can collect sensitive personal data such as, present or future health status, sexual preference, diseases, or any other information related to clinical data of the woman that uses the product, which will be treated with a strict procedure of extreme security in order to guarantee the trust and intimacy of the personal data owner. When any information of this kind is requested, the owner will be notified; the express consent of the personal data owner will be required, and the data will be protected with extreme confidentiality."
+      },
+      "confidentiality": {
+        "title": "CONFIDENTIALITY AND LIMITATIONS TO THE USE AND/OR DISCLOSURE OF YOUR PERSONAL DATA",
+        "desc1": "You can limit the use of your personal data, in case you do not wish that your data is treated for some of the mentioned purposes, or if you wish to stop receiving information about publicity, by sending your request to the e-mail privacy@higia.tech.",
+        "desc2": "HIGIA, INC., will develop all the administrative, technic and physical safety measures in order to protect your information with extreme confidentiality, through the implementation of privacy politics and control of the information, which will be performed in compliance with the parameters of the Law and its Regulation, as well as the assumptions stipulated by the “National Institute of Transparency and Access to Information and Protection of Personal Data” (INAI from its Spanish acronym), and other applicable regulation, the same parameters are required to third parties to whom your data is transferred.",
+        "desc3": "When the data becomes unnecessary for the fulfillment of the purposes set forth in this Privacy Notice and the applicable legal provisions, these will be canceled."
+      },
+      "dataTransfer": {
+        "title": "TRANSFERENCE OF PERSONAL DATA",
+        "desc1": "HIGIA, INC., can transfer your data inside and outside the country, for the purposes stated in the present Privacy Notice to online payment service providers; government authorities; subsidiaries, holding companies or those belonging to the same economic group; health authorities, or private and public entities of health services as well as third parties related to the mentioned purposes.",
+        "desc2": "By accepting the terms of this Privacy Notice, you also consent the transfer of your data, and you can always express your refusal to such transfer, through the procedures herein indicated.",
+        "desc3": "HIGIA, INC, is committed to establish the necessary mechanisms so that third parties to whom your personal data is transferred give the proper use and total safeguarding of the information, and that these be used according to the purpose for what they were collected.",
+        "desc4": "Likewise, your data may be transferred without previous notification in the following cases: when the transference is provided in any law or Treaty; when it is necessary for the prevention or medical diagnosis; when it is transferred to any company belonging to the same economic group and operates under the same processes and internal policies; when necessary by virtue of an agreement executed in the interest of the owner, celebrated between HIGIA, INC., and a third party; when it is required for the safeguarding of a public interest; when necessary for the exercise or defense of a right in a judicial process and when necessary for the maintenance or compliance of a legal relationship between HIGIA, INC., and the Owner of de Data."
+      },
+      "arcoRight": {
+        "title": "ARCO RIGHTS (ACCESS, RECTIFICATION, CANCELLATION AND OPPOSITION)",
+        "desc1": "In order to exercise the rights of Access, Rectification, Cancellation and Opposition with regards to your personal data, you or your legal representative duly accredited will be enabled to initiate the ARCO rights procedure in order to access to your personal data information; to rectify the information; to oppose to the treatment of your data, to limit the transference with certain legal or natural persons, as well as to request the end of treatment of your information. The ARCO rights proceeding is enforceable in writing by the Owner of the data, whether in person or in our address indicated at the beginning of the preset Notice, or by sending an e-mail to the address privacy@higia.tech or communicating to the telephone +52(81)23211542.",
+        "desc2": "HIGIA, INC., will communicate the decision within a period of 20 labor days, starting to count from the receipt date of the application. The application should include the following: I. Name of owner and address or other means to communicate the response to the application; II. The documents that prove the identity or the legal representation of the owner, as the case be; III. A clear and precise description of the personal data on which one seeks to exercise the previously mentioned rights; and IV. Any other element or document that facilitates the location of the personal data.",
+        "desc3": ""
+      },
+      "revocation": {
+        "title": "REVOCATION OF CONSENT",
+        "desc1": "In the event that you wish to revoke the consent that you have given to us for the treatment of your personal data, you might contact us by sending an email to the address privacy@higia.tech, where you will be informed about the procedure to follow.",
+        "desc2": "In the absence of and expressed and written opposition to HIGIA. INC., under the terms established in this Privacy Notice, it will be understood that you accept the conditions of the treatment described therein."
+      },
+      "attention": {
+        "title": "ASSISTANCE ON DOUBTS AND COMPLAINTS",
+        "desc": "In order to assist you on doubts or complaints related to your personal data; as well as the monitoring of the ARCO rights procedure, you may contact HIGIA, INC., by sending an email to the address privacy@higia.tech, through our offices located in Frenos 118, Santa Engracia, San Pedro Garza Garcia. Monterrey N.L. México; or by calling to the telephone +52(81)23211542."
+      },
+      "modifications": {
+        "title": "MODIFICATIONS TO THE PRIVACY NOTICE",
+        "desc": "The present Privacy Notice may be modified or updated at any time, thus HIGIA, INC., will make available the updated version of the Privacy Notice, through its website www.higia.tech."
       }
     }
   }

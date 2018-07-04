@@ -29,22 +29,36 @@
       {% endfor %}
     </section>
 
+    <section class="allies-cards-carousel owl-carousel">
+      {% for card in en.allies.cards %}
+      <div class="allies-cards-content">
+        <img class="{{card.logoClass}}" src="{{card.logo}}">
+        <div class="allies-cards-hover">
+          <div class="allies-cards-hover-content">
+            <h2 class="allies-cards-title">{{card.title}}</h2>
+            <p class="allies-cards-desc">{{card.desc}}</p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </section>
+
     <section class="allies-donors">
       <h1 class="allies-donors-title helvneue-bold">{{en.homeAllies.donors.title}}</h1>
       <p class="allies-donors-desc helvneue-regular">{{en.homeAllies.donors.desc}}<br><span class="helvneue-bold">{{en.homeAllies.donors.descBold}}</span></p>
       <div class="allies-donors-container">
         <div class="allies-donors-content">
-          {% for donor in es.homeAllies.donors.columnOne %}
+          {% for donor in en.homeAllies.donors.columnOne %}
           <span class="allies-donors-name helvneue-lightitalic">{{donor.name}}</span>
           {% endfor %}
         </div>
         <div class="allies-donors-content">
-          {% for donor in es.homeAllies.donors.columnTwo %}
+          {% for donor in en.homeAllies.donors.columnTwo %}
           <span class="allies-donors-name helvneue-lightitalic">{{donor.name}}</span>
           {% endfor %}
         </div>
         <div class="allies-donors-content">
-          {% for donor in es.homeAllies.donors.columnThree %}
+          {% for donor in en.homeAllies.donors.columnThree %}
           <span class="allies-donors-name helvneue-lightitalic">{{donor.name}}</span>
           {% endfor %}
         </div>
@@ -54,17 +68,17 @@
       <div class="allies-donors-carousel-container">
         <div class="allies-donors-carousel owl-carousel">
           <div class="allies-donors-content">
-            {% for donor in es.homeAllies.donors.columnOne %}
+            {% for donor in en.homeAllies.donors.columnOne %}
             <span class="allies-donors-name helvneue-lightitalic">{{donor.name}}</span>
             {% endfor %}
           </div>
           <div class="allies-donors-content">
-            {% for donor in es.homeAllies.donors.columnTwo %}
+            {% for donor in en.homeAllies.donors.columnTwo %}
             <span class="allies-donors-name helvneue-lightitalic">{{donor.name}}</span>
             {% endfor %}
           </div>
           <div class="allies-donors-content">
-            {% for donor in es.homeAllies.donors.columnThree %}
+            {% for donor in en.homeAllies.donors.columnThree %}
             <span class="allies-donors-name helvneue-lightitalic">{{donor.name}}</span>
             {% endfor %}
           </div>

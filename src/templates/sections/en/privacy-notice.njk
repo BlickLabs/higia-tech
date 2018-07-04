@@ -1,0 +1,70 @@
+{% extends "partials/base.njk" %}
+
+{% block title %}Privacy Notice{% endblock %}
+
+{% set view_name = "privacy-notice" %}
+
+{% block content %}
+  <div class="privacy helvneue">
+    <section>
+      <h1>{{en.privacy.introduction.title}}</h1>
+      <p>{{en.privacy.introduction.desc1}}</p>
+      <p>{{en.privacy.introduction.desc2}}</p>
+    </section>
+
+    <section>
+      <h2>{{en.privacy.purposes.title}}</h2>
+      <p>{{en.privacy.purposes.desc}}</p>
+      <ol>
+        {% for purpose in en.privacy.purposes.list %}
+        <li>{{purpose.item}}</li>
+        {% endfor %}
+      </ol>
+    </section>
+
+    <section>
+      <h2>{{en.privacy.personalInfo.title}}</h2>
+      <p>{{en.privacy.personalInfo.desc1}}</p>
+      <p>{{en.privacy.personalInfo.desc2}}</p>
+      <p>{{en.privacy.personalInfo.desc3}}</p>
+    </section>
+
+    <section>
+      <h2>{{en.privacy.confidentiality.title}}</h2>
+      <p>{{en.privacy.confidentiality.desc1}}</p>
+      <p>{{en.privacy.confidentiality.desc2}}</p>
+      <p>{{en.privacy.confidentiality.desc3}}</p>
+    </section>
+
+    <section>
+      <h2>{{en.privacy.dataTransfer.title}}</h2>
+      <p>{{en.privacy.dataTransfer.desc1}}</p>
+      <p>{{en.privacy.dataTransfer.desc2}}</p>
+      <p>{{en.privacy.dataTransfer.desc3}}</p>
+      <p>{{en.privacy.dataTransfer.desc4}}</p>
+    </section>
+
+    <section>
+      <h2>{{en.privacy.arcoRight.title}}</h2>
+      <p>{{en.privacy.arcoRight.desc1}}</p>
+      <p>{{en.privacy.arcoRight.desc2}}</p>
+      <p>{{en.privacy.arcoRight.desc3}}</p>
+    </section>
+
+    <section>
+      <h2>{{en.privacy.revocation.title}}</h2>
+      <p>{{en.privacy.revocation.desc2}}</p>
+      <p>{{en.privacy.revocation.desc3}}</p>
+    </section>
+
+    <section>
+      <h2>{{en.privacy.attention.title}}</h2>
+      <p>{{en.privacy.attention.desc}}</p>
+    </section>
+
+    <section>
+      <h2>{{en.privacy.modifications.title}}</h2>
+      <p>{{en.privacy.modifications.desc}}</p>
+    </section>
+  </div>
+{% endblock %}

@@ -30,6 +30,9 @@
     margin 132px auto 138px auto
     width 1041px
 
+    &-carousel
+      display none !important
+
     &-content
       align-items center
       box-shadow 0 11px 56px 0 rgba(0, 0, 0, 0.19)
@@ -56,6 +59,7 @@
 
       &:hover
         background-color $hpink
+        cursor default
         opacity 1
         transition 0.3s
 
@@ -80,7 +84,7 @@
       width 131px
 
     &-imss
-      height 149px
+      height 126px
       width 126px
 
     &-stanford
@@ -96,7 +100,7 @@
       width 164px
 
     &-kio
-      height 93px
+      height 71px
       width 122px
 
     &-beeva
@@ -108,11 +112,11 @@
       width 171px
 
     &-tomatelopecho
-      height 126px
+      height 106px
       width 191px
 
     &-tepozrosa
-      height 135px
+      height 122px
       width 182px
 
     &-nsf
@@ -130,6 +134,7 @@
     &-title
       color $hpink
       font-size $fs45
+      padding 0 30px
       text-align center
 
     &-desc
@@ -154,9 +159,10 @@
     &-content
       display flex
       flex-direction column
+      width 270px
 
       &:nth-child(2)
-        margin 0 100px
+        margin 0 10px
 
     &-name
       color $hblack
@@ -269,10 +275,71 @@
 
     &-cards
       width 367px
+      display none
+
+      &-carousel
+        display block !important
+        margin 50px auto
+        position relative
+        width 230px
+
+        & .owl-stage-outer
+          overflow visible
+
+        & .owl-item
+          opacity 0
+          transition opacity 0.3s
+
+        & .owl-item.active
+          opacity 1
+          visibility visible
+
+        & .owl-item
+          visibility hidden
+
+        &-navigation
+          height 30px
+          width 20px
+
+        & .owl-prev,
+        & .owl-next
+          bottom 0
+          height 30px
+          margin auto
+          position absolute
+          top 0
+
+        & .owl-prev
+          left -35px
+
+        & .owl-next
+          right -35px
+
+        & .owl-dots
+          bottom -10px
+          display flex
+          justify-content center
+          left 0
+          position absolute
+          right 0
+
+        & .owl-dot
+          background-color $hgrayDots !important
+          border solid 1px $hgrayDots !important
+          border-radius 100px
+          height 9px
+          margin 0 5px
+          width 9px
+
+        & .owl-dot.active
+          border solid 1px $hgrayBorder !important
+          background-color transparent !important
+          height 10px
+          width 10px
 
       &-content
-        height 152px
-        width 171px
+        height 215px
+        width 230px
 
       &-hover
         padding 20px
@@ -283,52 +350,52 @@
 
     &-logo
       &-axa
-        height 70px
-        width 70px
+        height 95px
+        width 95px !important
 
       &-imss
-        height 80px
-        width 68px
+        height 100px
+        width 100px !important
 
       &-stanford
-        height 45px
-        width 96px
+        height 63px
+        width 135px !important
 
       &-ycombinator
         height 26px
-        width 125px
+        width 125px !important
 
       &-kowa
-        height 42px
-        width 88px
+        height 58px
+        width 122px !important
 
       &-kio
-        height 60px
-        width 79px
+        height 52px
+        width 90px !important
 
       &-beeva
-        height 60px
-        width 89px
+        height 65px
+        width 96px !important
 
       &-molex
-        height 43px
-        width 92px
+        height 48px
+        width 103px !important
 
       &-tomatelopecho
-        height 67px
-        width 103px
+        height 61px
+        width 109px !important
 
       &-tepozrosa
-        height 72px
-        width 98px
+        height 70px
+        width 105px !important
 
       &-nsf
-        height 75px
-        width 78px
+        height 81px
+        width 85px !important
 
       &-google
-        height 30px
-        width 89px
+        height 37px
+        width 111px !important
 
 @media screen and (max-width 449px)
   .allies
