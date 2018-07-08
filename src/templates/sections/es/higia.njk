@@ -34,7 +34,7 @@
               {% endif %}
               {% if timeLine.month %}
               <div class="who-timeline-month-container">
-                <span class="who-timeline-month helvneue-bold">{{timeLine.month}}</span>
+                <span class="who-timeline-month {% if timeLine.monthPink %} {{timeLine.monthPink}} {% endif %} helvneue-bold">{{timeLine.month}}</span>
               </div>
               {% endif %}
               <p class="who-timeline-desc helvneue-light">{{timeLine.desc}}</p>
