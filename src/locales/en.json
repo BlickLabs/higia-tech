@@ -73,12 +73,18 @@
       "firstButton": "Preorder",
       "secondButton": "Learn more"
     },
-    "homeFounder": {
-      "title": "Female Founders",
-      "subtitle": "Lupita, 38 years",
-      "descriptionOne": "Female Founders is our internal program for testing and get feedback on EVA. Thanks to the participation of voluntary women, we can continue to improve the development of EVA and compile data to train our artificial intelligence algorithms.",
-      "descriptionTwo": "Learn about the history of Lupita, a cancer survivor and volunteer for our campaign.",
-      "button": "Watch video"
+    "home": {
+      "founder": {
+        "img": "/img/home/founder-rocio-paulina.jpg",
+        "title": "Female Founders",
+        "subtitle": "Rocío Paulina Martínez",
+        "descriptionOne": "Female Founders is our internal program for testing and get feedback on EVA. Thanks to the participation of voluntary women, we can continue to improve the development of EVA and compile data to train our artificial intelligence algorithms.",
+        "descriptionTwo": "Learn about the history of Rocío, volunteer for our campaign.",
+        "dataModal": "data-modal-rocio",
+        "video": "/img/videos/rocio-paulina-en.mp4",
+        "videoId": "video-rocio-paulina",
+        "button": "Watch video"
+      }
     },
     "homeAllies": {
       "title": "Our allies",
@@ -864,32 +870,25 @@
           "year": "2016",
           "orientation": "left",
           "alignToCircleClass": "who-timeline-info",
-          "icon": "/img/icons/icon-light-bulb.png",
-          "iconClass": "who-timeline-icon-light-bulb",
+          "icon": "/img/icons/icon-jan-2016.png",
+          "iconClass": "who-timeline-icon-2016-jan",
           "month": "January",
+          "monthPink": "month-pink",
           "desc": "The first idea of EVA is born \"Professionalization of the self-exploration method of the breast\"."
         },
         {
           "orientation": "right",
-          "alignToCircleClass": "who-timeline-info",
-          "icon": "/img/icons/icon-babson.png",
-          "iconClass": "who-timeline-icon-babson",
           "month": "May",
+          "monthPink": "month-pink",
           "desc": "Higia wins the Babson University Innovation Challenge with the concept of EVA."
         },
         {
           "orientation": "left",
-          "alignToCircleClass": "who-timeline-info",
-          "icon": "/img/icons/icon-target.png",
-          "iconClass": "who-timeline-icon-target",
           "month": "June",
           "desc": "Julian joins forces with Antonio Torres and José Lavariega. The formal development of EVA begins."
         },
         {
           "orientation": "right",
-          "alignToCircleClass": "who-timeline-info",
-          "icon": "/img/icons/icon-rocket.png",
-          "iconClass": "who-timeline-icon-rocket",
           "month": "July",
           "desc": "The first \"minimum viable product\" of EVA is born.",
           "descTwo": "Higia hires its first collaborator: Fernando López (Director of software)."
@@ -897,8 +896,8 @@
         {
           "orientation": "left",
           "alignToCircleClass": "who-timeline-info",
-          "icon": "/img/icons/icon-cup.png",
-          "iconClass": "who-timeline-icon-cup",
+          "icon": "/img/icons/icon-nov-2016.png",
+          "iconClass": "who-timeline-icon-2016-nov",
           "month": "November",
           "desc": "Higia wins the National Student Entrepreneur Award.",
           "descTwo": "InvestoVC and its union of angel investors make the first external investment in Higia."
@@ -906,18 +905,17 @@
         {
           "year": "2017",
           "orientation": "right",
-          "alignToCircleClass": "who-timeline-info",
-          "icon": "/img/icons/icon-gear.png",
-          "iconClass": "who-timeline-icon-gear",
           "month": "January",
+          "monthPink": "month-pink",
           "desc": "Raymundo González (Director of Artificial Intelligence) and Martín Urtiz (Leading algorithm developer) join."
         },
         {
           "orientation": "left",
           "alignToCircleClass": "who-timeline-info",
-          "icon": "/img/icons/icon-everis.png",
-          "iconClass": "who-timeline-icon-everis",
+          "icon": "/img/icons/icon-feb-2017.png",
+          "iconClass": "who-timeline-icon-2017-feb",
           "month": "February",
+          "monthPink": "month-pink",
           "desc": "Higia gets first place at the Everis Awards (1 million MXN)."
         },
         {
@@ -928,9 +926,6 @@
         },
         {
           "orientation": "left",
-          "alignToCircleClass": "who-timeline-info",
-          "icon": "/img/icons/icon-medal.png",
-          "iconClass": "who-timeline-icon-medal",
           "month": "June",
           "desc": "The Mexican President Enrique Peña Nieto awards Higia Tech with the Presidential Medal in Technology and Entrepreneurship."
         },
@@ -943,25 +938,21 @@
           "orientation": "left",
           "month": "October",
           "desc": "Higia collaborates with AXA Insurance to test EVA with 500 women.",
-          "iconEva": "/img/icons/icon-eva.png",
-          "iconClass": "who-timeline-icon-eva",
+          "iconEva": "/img/icons/icon-oct-2017.png",
+          "iconClass": "who-timeline-icon-2017-oct",
           "descTwo": "Higia performs the launching event of EVA in Mexico City."
         },
         {
           "year": "2018",
           "orientation": "right",
-          "alignToCircleClass": "who-timeline-info",
-          "icon": "/img/icons/icon-people.png",
-          "iconClass": "who-timeline-icon-people",
           "month": "January",
+          "monthPink": "month-pink",
           "desc": "Higia adds 8 new employees to the family and moves operations to Mexico City."
         },
         {
           "orientation": "left",
-          "alignToCircleClass": "who-timeline-info",
-          "icon": "/img/icons/icon-forbes.png",
-          "iconClass": "who-timeline-icon-forbes",
           "month": "February",
+          "monthPink": "month-pink",
           "desc": "Higia is recognized as one of the most promising companies of 2018 by Forbes Magazine."
         },
         {
@@ -971,9 +962,6 @@
         },
         {
           "orientation": "left",
-          "alignToCircleClass": "who-timeline-info",
-          "icon": "/img/icons/icon-ycombinator.png",
-          "iconClass": "who-timeline-icon-ycombinator",
           "month": "May",
           "desc": "Higia Tech moves to Silicon Valley for Y Combinator accelerator."
         }
@@ -1084,8 +1072,7 @@
             "dataModal": "data-modal-16",
             "openModalMobile": "data-modal-mobile-16",
             "dataModalMobile": "data-modal-mobile-16",
-            "modalDesc1": "Industrial Designer with a great interest in designing products, services and systems that positively affect the society. Ale works with Higia Technologies to continue developing a strong team, a solid organizational culture and tools for communication for EVA and Higia to be able to go further.",
-            "modalDesc2": "\"It fills me with excitement to form part of a company of young Mexican entrepreneurs, to which I can contribute a creative and analytical vision to work on solutions that allow us to improve women’s quality of life and, in the future, have a positive impact on the health of a great number of people\"."
+            "modalDesc1": "Industrial Designer with a great interest in designing products, services and systems that positively affect the society. Ale works with Higia Technologies to continue developing a strong team, a solid organizational culture and tools for communication for EVA and Higia to be able to go further."
           },
           {
             "member": "Juan José",
@@ -1158,6 +1145,21 @@
             "modalDesc2": "\"It motivates me to work as part of Higia’s team to make accessible and improve the Mexican and global infrastructure of breast cancer\"."
           },
           {
+            "member": "Isaac",
+            "memberPink": "Suaste",
+            "job": "Hardware Engineer",
+            "img": "/img/whoarewe/member-isaac.jpg",
+            "category": "HARDWARE",
+            "iconModal": "/img/icons/icon-open-modal.png",
+            "openModal": "data-modal-17",
+            "dataModal": "data-modal-17",
+            "openModalMobile": "data-modal-mobile-17",
+            "dataModalMobile": "data-modal-mobile-17",
+            "modalEmail": "isaac.suaste@higia.tech",
+            "modalDesc1": "Isaac has a master's degree in Mechatronics Engineering, and is a specialist in the development and management of hardware and embedded systems projects. From his role as a Management Engineer in the Hardware area, Isaac brings his dynamism and experience in the development and application of the best practices that allow achieving an optimal and profitable materialization of the company's products.",
+            "modalDesc2": "\"It motivates me to be part of a company that believes in innovation and creates products with the commitment to leave a better world positively impacting many women\"."
+          },
+          {
             "member": "Gabriela",
             "memberPink": "Revilla Soriano",
             "job": "Graphic designer",
@@ -1191,7 +1193,7 @@
             "member": "Angie",
             "memberPink": "Carrillo Reluz",
             "job": "Business Development",
-            "img": "/img/whoarewe/member-fake.png",
+            "img": "/img/whoarewe/member-angie.jpg",
             "category": "BUSINESS DEVELOPMENT TEAM",
             "iconModal": "/img/icons/icon-open-modal.png",
             "openModal": "data-modal-15",
@@ -1327,17 +1329,80 @@
       },
       "founder": [
         {
+          "imgClass": "founder-rocio",
           "title": "Female Founder",
-          "subtitle": "Lupita, 38 years",
+          "subtitle": "Rocío Paulina Martínez",
           "descriptionOne": "Female Founders is our internal program for testing and get feedback on EVA. Thanks to the participation of voluntary women, we can continue to improve the development of EVA and compile data to train our artificial intelligence algorithms.",
-          "descriptionTwo": "Learn about the history of Lupita, a cancer survivor and volunteer for our campaign.",
+          "descriptionTwo": "Learn about the history of Rocío, volunteer for our campaign.",
+          "dataModal": "data-founder-modal-1",
+          "video": "/img/videos/rocio-paulina-en.mp4",
+          "videoId": "video-rocio-paulina",
           "button": "Watch video"
         },
         {
+          "imgClass": "founder-eliesheva",
           "title": "Female Founder",
-          "subtitle": "Lupita, 38 years",
+          "subtitle": "Eliesheva Ramos",
           "descriptionOne": "Female Founders is our internal program for testing and get feedback on EVA. Thanks to the participation of voluntary women, we can continue to improve the development of EVA and compile data to train our artificial intelligence algorithms.",
-          "descriptionTwo": "Learn about the history of Lupita, a cancer survivor and volunteer for our campaign.",
+          "descriptionTwo": "Learn about the history of Eliesheva, volunteer for our campaign.",
+          "dataModal": "data-founder-modal-2",
+          "video": "/img/videos/eliesheva-ramos-en.mp4",
+          "videoId": "video-eliesheva-ramos",
+          "button": "Watch video"
+        },
+        {
+          "imgClass": "founder-buenrostro",
+          "title": "Female Founder",
+          "subtitle": "Leticia Buenrostro",
+          "descriptionOne": "Female Founders is our internal program for testing and get feedback on EVA. Thanks to the participation of voluntary women, we can continue to improve the development of EVA and compile data to train our artificial intelligence algorithms.",
+          "descriptionTwo": "Learn about the history of Leticia, a cancer survivor and volunteer for our campaign.",
+          "dataModal": "data-founder-modal-3",
+          "video": "/img/videos/leticia-buenrostro-en.mp4",
+          "videoId": "video-leticia-buenrostro",
+          "button": "Watch video"
+        },
+        {
+          "imgClass": "founder-elizabeth",
+          "title": "Female Founder",
+          "subtitle": "Elizabeth Saldaña",
+          "descriptionOne": "Female Founders is our internal program for testing and get feedback on EVA. Thanks to the participation of voluntary women, we can continue to improve the development of EVA and compile data to train our artificial intelligence algorithms.",
+          "descriptionTwo": "Learn about the history of Elizabeth, volunteer for our campaign.",
+          "dataModal": "data-founder-modal-4",
+          "video": "/img/videos/elizabeth-saldania-en.mp4",
+          "videoId": "video-elizabeth-saldania",
+          "button": "Watch video"
+        },
+        {
+          "imgClass": "founder-diana",
+          "title": "Female Founder",
+          "subtitle": "Diana Zamora",
+          "descriptionOne": "Female Founders is our internal program for testing and get feedback on EVA. Thanks to the participation of voluntary women, we can continue to improve the development of EVA and compile data to train our artificial intelligence algorithms.",
+          "descriptionTwo": "Learn about the history of Diana, assistant manager of Public Affairs and Social",
+          "dataModal": "data-founder-modal-5",
+          "video": "/img/videos/diana-zamora-en.mp4",
+          "videoId": "video-diana-zamora",
+          "button": "Watch video"
+        },
+        {
+          "imgClass": "founder-maritsa",
+          "title": "Female Founder",
+          "subtitle": "Maritsa Paz",
+          "descriptionOne": "Female Founders is our internal program for testing and get feedback on EVA. Thanks to the participation of voluntary women, we can continue to improve the development of EVA and compile data to train our artificial intelligence algorithms.",
+          "descriptionTwo": "Learn about the history of Maritsa, volunteer for our campaign.",
+          "dataModal": "data-founder-modal-6",
+          "video": "/img/videos/maritsa-paz-en.mp4",
+          "videoId": "video-maritsa-paz",
+          "button": "Watch video"
+        },
+        {
+          "imgClass": "founder-agustina",
+          "title": "Female Founder",
+          "subtitle": "Agustina Martínez",
+          "descriptionOne": "Female Founders is our internal program for testing and get feedback on EVA. Thanks to the participation of voluntary women, we can continue to improve the development of EVA and compile data to train our artificial intelligence algorithms.",
+          "descriptionTwo": "Learn about the history of Agustina, a cancer survivor and volunteer for our campaign.",
+          "dataModal": "data-founder-modal-7",
+          "video": "/img/videos/agustina-martinez-en.mp4",
+          "videoId": "video-agustina-martinez",
           "button": "Watch video"
         }
       ],

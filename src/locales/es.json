@@ -23,7 +23,7 @@
         },
         {
           "section": "Investigación",
-          "link": "/es/investigation.html",
+          "link": "/es/research.html",
           "viewName": "Research",
           "hamburgerIcon": "/img/icons/icon-navbar-arrow.svg"
         },
@@ -132,14 +132,18 @@
             "infoBlack": "NO INVASIVA"
           }
         ]
+      },
+      "founder": {
+        "img": "/img/home/founder-rocio-paulina.jpg",
+        "title": "Mujer fundadora",
+        "subtitle": "Rocío Paulina Martínez",
+        "descriptionOne": "Mujeres Fundadoras es nuestro programa de pruebas internas, donde gracias a la participación de mujeres voluntarias podemos continuar mejorando el desarrollo de EVA a partir de la recolección de datos para entrenamiento del algoritmo de Inteligencia Artificial y de retroalimentación acerca de la experiencia de uso del producto.",
+        "descriptionTwo": "Conoce la historia de Rocío, voluntaria de nuestra campaña.",
+        "dataModal": "data-modal-rocio",
+        "video": "/img/videos/rocio-paulina-es.mp4",
+        "videoId": "video-rocio-paulina",
+        "button": "Ver video"
       }
-    },
-    "homeFounder": {
-      "title": "Mujer fundadora",
-      "subtitle": "Lupita, 38 años",
-      "descriptionOne": "Mujeres Fundadoras es nuestro programa de pruebas internas, donde gracias a la participación de mujeres voluntarias podemos continuar mejorando el desarrollo de EVA a partir de la recolección de datos para entrenamiento del algoritmo de Inteligencia Artificial y de retroalimentación acerca de la experiencia de uso del producto.",
-      "descriptionTwo": "Conoce la historia de Lupita, sobreviviente de cáncer y voluntaria de nuestra campaña.",
-      "button": "Ver video"
     },
     "homeAllies": {
       "title": "Nuestros Aliados",
@@ -923,32 +927,25 @@
           "year": "2016",
           "orientation": "left",
           "alignToCircleClass": "who-timeline-info",
-          "icon": "/img/icons/icon-light-bulb.png",
-          "iconClass": "who-timeline-icon-light-bulb",
+          "icon": "/img/icons/icon-jan-2016.png",
+          "iconClass": "who-timeline-icon-2016-jan",
           "month": "Enero",
+          "monthPink": "month-pink",
           "desc": "Nace la primera idea de EVA \"Un método para la profesionalización de la autoexploración de mama\"."
         },
         {
           "orientation": "right",
-          "alignToCircleClass": "who-timeline-info",
-          "icon": "/img/icons/icon-babson.png",
-          "iconClass": "who-timeline-icon-babson",
           "month": "Mayo",
+          "monthPink": "month-pink",
           "desc": "Higia gana Babson University Innovation Challenge con el concepto de EVA."
         },
         {
           "orientation": "left",
-          "alignToCircleClass": "who-timeline-info",
-          "icon": "/img/icons/icon-target.png",
-          "iconClass": "who-timeline-icon-target",
           "month": "Junio",
           "desc": "Julián une fuerzas con Antonio Torres y José Lavariega. Comienza el desarrollo formal de EVA."
         },
         {
           "orientation": "right",
-          "alignToCircleClass": "who-timeline-info",
-          "icon": "/img/icons/icon-rocket.png",
-          "iconClass": "who-timeline-icon-rocket",
           "month": "Julio",
           "desc": "Nace el primer \"producto mínimo viable\" de EVA.",
           "descTwo": "Higia contrata a su primer colaborador: Fernando López (director de software)."
@@ -956,8 +953,8 @@
         {
           "orientation": "left",
           "alignToCircleClass": "who-timeline-info",
-          "icon": "/img/icons/icon-cup.png",
-          "iconClass": "who-timeline-icon-cup",
+          "icon": "/img/icons/icon-nov-2016.png",
+          "iconClass": "who-timeline-icon-2016-nov",
           "month": "Noviembre",
           "desc": "Higia gana el premio nacional al estudiante emprendedor.",
           "descTwo": "InvestoVC y un sindicato de ángeles inversionistas hacen la primer inversión externa en Higia."
@@ -965,18 +962,17 @@
         {
           "year": "2017",
           "orientation": "right",
-          "alignToCircleClass": "who-timeline-info",
-          "icon": "/img/icons/icon-gear.png",
-          "iconClass": "who-timeline-icon-gear",
           "month": "Enero",
+          "monthPink": "month-pink",
           "desc": "Se une Raymundo González (Director de Inteligencia Artificial) y Martín Urtiz (líder de desarrollo de algoritmos)."
         },
         {
           "orientation": "left",
           "alignToCircleClass": "who-timeline-info",
-          "icon": "/img/icons/icon-everis.png",
-          "iconClass": "who-timeline-icon-everis",
+          "icon": "/img/icons/icon-feb-2017.png",
+          "iconClass": "who-timeline-icon-2017-feb",
           "month": "Febrero",
+          "monthPink": "month-pink",
           "desc": "Higia obtiene el primer lugar en el Premio Everis (1 Millón de pesos)."
         },
         {
@@ -987,9 +983,6 @@
         },
         {
           "orientation": "left",
-          "alignToCircleClass": "who-timeline-info",
-          "icon": "/img/icons/icon-medal.png",
-          "iconClass": "who-timeline-icon-medal",
           "month": "Junio",
           "desc": "El Presidente de México Lic. Enrique Peña Nieto otorga a Higia Tech la Medalla Presidencial por Innovación y Tecnología."
         },
@@ -1002,25 +995,21 @@
           "orientation": "left",
           "month": "Octubre",
           "desc": "Higia lleva a cabo una colaboración con AXA Seguros donde 500 mujeres utilizan a EVA.",
-          "iconEva": "/img/icons/icon-eva.png",
-          "iconClass": "who-timeline-icon-eva",
+          "iconEva": "/img/icons/icon-oct-2017.png",
+          "iconClass": "who-timeline-icon-2017-oct",
           "descTwo": "Higia lleva a cabo en la Ciudad de México el evento de lanzamiento de EVA."
         },
         {
           "year": "2018",
           "orientation": "right",
-          "alignToCircleClass": "who-timeline-info",
-          "icon": "/img/icons/icon-people.png",
-          "iconClass": "who-timeline-icon-people",
           "month": "Enero",
+          "monthPink": "month-pink",
           "desc": "Higia incorporara 8 colaboradores nuevos a su familia y muda operaciones a la Ciudad de México."
         },
         {
           "orientation": "left",
-          "alignToCircleClass": "who-timeline-info",
-          "icon": "/img/icons/icon-forbes.png",
-          "iconClass": "who-timeline-icon-forbes",
           "month": "Febrero",
+          "monthPink": "month-pink",
           "desc": "Higia es reconocida como una de las empresas más prometedoras del 2018 por la Revista Forbes."
         },
         {
@@ -1030,9 +1019,6 @@
         },
         {
           "orientation": "left",
-          "alignToCircleClass": "who-timeline-info",
-          "icon": "/img/icons/icon-ycombinator.png",
-          "iconClass": "who-timeline-icon-ycombinator",
           "month": "Mayo",
           "desc": "Higia Tech se muda a Silicon Valley e ingresa a la aceleradora Y Combinator."
         }
@@ -1057,7 +1043,7 @@
             "dataModalMobile": "data-modal-mobile-14",
             "modalEmail": "julian.rios@higia.tech",
             "modalDesc1": "Después de la dolorosa batalla de su madre contra el cáncer de mama, Julián Ríos Cantú se comprometió a salvar la vida de las mujeres a través de la detección temprana del cáncer de mama. Actualmente, es CEO y cofundador de Higia Technologies.",
-            "modalDesc2": "Julián ha sido galardonado con la Medalla Presidencial Sol Azteca en Tecnología e Innovación y con el Premio Vanguard de la Universidad Minerva por su investigación sobre tecnología para detectar el cáncer de mama. Ha sido profesor invitado en la Sociedad Médica Nacional de los Estados Unidos y los Laboratorios de Innovación de Harvard-MIT. En mayo de 2017, Julián se convirtió en el primer mexicano en ganar el premio global al emprendedor compitiendo contra 55 países. Recientemente Higia fue nombrada como una de las 30 empresas más prometedoras de México para el 2018 por Forbes y EVA como una de las principales innovaciones médicas por el Congreso Nacional de Medicina de los Estados Unidos."
+            "modalDesc2": "Julián es uno de los pocos Mexicanos en formar parte del Thiel Fellowship y ha sido galardonado con la Medalla Presidencial Sol Azteca en Tecnología e Innovación y con el Premio Vanguard de la Universidad Minerva por su investigación sobre tecnología para detectar el cáncer de mama. Ha sido profesor invitado en la Sociedad Médica Nacional de los Estados Unidos y los Laboratorios de Innovación de Harvard-MIT. En mayo de 2017, Julián se convirtió en el primer mexicano en ganar el premio global al emprendedor compitiendo contra 55 países. Bajo el liderazgo de Julián Higia fue nombrada como una de las 30 empresas más prometedoras de México para el 2018 por Forbes y EVA como una de las principales innovaciones médicas por el Congreso Nacional de Medicina de los Estados Unidos."
           },
           {
             "member": "Raymundo",
@@ -1143,8 +1129,7 @@
             "dataModal": "data-modal-16",
             "openModalMobile": "data-modal-mobile-16",
             "dataModalMobile": "data-modal-mobile-16",
-            "modalDesc1": "Diseñadora Industrial con un gran interés por el diseño de productos, servicios y sistemas que impacten positivamente en la sociedad. Ale colabora con el equipo de Higia Technologies para continuar desarrollando un equipo fuerte, una cultura organizacional sólida y herramientas de comunicación que permitan a EVA e Higia llegar más lejos.",
-            "modalDesc2": "\"Me entusiasma formar parte de una empresa de jóvenes emprendedores mexicanos, a la cual puedo aportar una visión creativa y analítica para trabajar en soluciones que permitan mejorar la calidad de vida de las mujeres y, en el futuro, tener un impacto positivo en la salud de un gran número de las personas.\""
+            "modalDesc1": "Diseñadora Industrial con un gran interés por el diseño de productos, servicios y sistemas que impacten positivamente en la sociedad. Ale colabora con el equipo de Higia Technologies para continuar desarrollando un equipo fuerte, una cultura organizacional sólida y herramientas de comunicación que permitan a EVA e Higia llegar más lejos."
           },
           {
             "member": "Juan José",
@@ -1214,7 +1199,22 @@
             "dataModalMobile": "data-modal-mobile-5",
             "modalEmail": "jose.lavariega@higia.tech",
             "modalDesc1": "Estudiante del Instituto Tecnológico de Massachusetts (MIT) Generación 2022 en la carrera de Business Analytics (Sloan School of Management) y Aeronautical Engineering. Como Research Leader, José es el encargado de visualizar el desarrollo a largo plazo de la compañía mediante la búsqueda de nuevas tecnologías y su implementación en el desarrollo de los productos de Higia. José lleva a cabo procesos de extensa investigación en conjunto con investigadores de clase mundial para identificar áreas de oportunidad y crecimiento para el futuro de la compañía.",
-            "modalDesc2": "\"Me motiva trabajar como parte del equipo de Higia para lograr que el tratamiento sea accesible y óptimo para todos los mexicanos, de tal modo que se llegue a un futuro donde el dinero, ubicación, ni accesibilidad sean factores exclusivos. Mejorar la infraestructura Mexicana y global del tratamiento de cáncer de mama, y posteriormente expandirse para cubrir otras enfermedades.\""
+            "modalDesc2": "\"Me motiva trabajar como parte del equipo de Higia para lograr que el tratamiento sea accesible y óptimo para todos los mexicanos, de tal modo que se llegue a un futuro donde el dinero, ubicación, ni accesibilidad sean factores exclusivos\"."
+          },
+          {
+            "member": "Isaac",
+            "memberPink": "Suaste",
+            "job": "Ingeniero en gestión de Hardware",
+            "img": "/img/whoarewe/member-isaac.jpg",
+            "category": "HARDWARE",
+            "iconModal": "/img/icons/icon-open-modal.png",
+            "openModal": "data-modal-17",
+            "dataModal": "data-modal-17",
+            "openModalMobile": "data-modal-mobile-17",
+            "dataModalMobile": "data-modal-mobile-17",
+            "modalEmail": "isaac.suaste@higia.tech",
+            "modalDesc1": "Isaac cuenta con una maestría en Ingeniería Mecatrónica, y es especialista en desarrollo y gestión de proyectos de hardware y sistemas embebidos. Desde su rol como Ingeniero en gestión en el área de Hardware, Isaac imprime su dinamismo y experiencia en el desarrollo y aplicación de las mejores prácticas que permitan alcanzar una óptima y rentable materialización de los productos de la compañía.",
+            "modalDesc2": "\"Me motiva ser parte de una empresa que cree en la innovación y crea productos con el compromiso de dejar un mundo mejor impactando positivamente a muchas mujeres\"."
           },
           {
             "member": "Gabriela",
@@ -1250,7 +1250,7 @@
             "member": "Angie",
             "memberPink": "Carrillo Reluz",
             "job": "Desarrollo de Negocio",
-            "img": "/img/whoarewe/member-fake.png",
+            "img": "/img/whoarewe/member-angie.jpg",
             "category": "DESARROLLO DE NEGOCIO",
             "iconModal": "/img/icons/icon-open-modal.png",
             "openModal": "data-modal-15",
@@ -1386,17 +1386,80 @@
       },
       "founder": [
         {
+          "imgClass": "founder-rocio",
           "title": "Mujer fundadora",
-          "subtitle": "Lupita, 38 años",
+          "subtitle": "Rocío Paulina Martínez",
           "descriptionOne": "Mujeres Fundadoras es nuestro programa de pruebas internas, donde gracias a la participación de mujeres voluntarias podemos continuar mejorando el desarrollo de EVA a partir de la recolección de datos para entrenamiento del algoritmo de Inteligencia Artificial y de retroalimentación acerca de la experiencia de uso del producto.",
-          "descriptionTwo": "Conoce la historia de Lupita, sobreviviente de cáncer y voluntaria de nuestra campaña.",
+          "descriptionTwo": "Conoce la historia de Rocío, voluntaria de nuestra campaña.",
+          "dataModal": "data-founder-modal-1",
+          "video": "/img/videos/rocio-paulina-es.mp4",
+          "videoId": "video-rocio-paulina",
           "button": "Ver video"
         },
         {
+          "imgClass": "founder-eliesheva",
           "title": "Mujer fundadora",
-          "subtitle": "Lupita, 38 años",
+          "subtitle": "Eliesheva Ramos",
           "descriptionOne": "Mujeres Fundadoras es nuestro programa de pruebas internas, donde gracias a la participación de mujeres voluntarias podemos continuar mejorando el desarrollo de EVA a partir de la recolección de datos para entrenamiento del algoritmo de Inteligencia Artificial y de retroalimentación acerca de la experiencia de uso del producto.",
-          "descriptionTwo": "Conoce la historia de Lupita, sobreviviente de cáncer y voluntaria de nuestra campaña.",
+          "descriptionTwo": "Conoce la historia de Eliesheva, voluntaria de nuestra campaña.",
+          "dataModal": "data-founder-modal-2",
+          "video": "/img/videos/eliesheva-ramos-es.mp4",
+          "videoId": "video-eliesheva-ramos",
+          "button": "Ver video"
+        },
+        {
+          "imgClass": "founder-buenrostro",
+          "title": "Mujer fundadora",
+          "subtitle": "Leticia Buenrostro",
+          "descriptionOne": "Mujeres Fundadoras es nuestro programa de pruebas internas, donde gracias a la participación de mujeres voluntarias podemos continuar mejorando el desarrollo de EVA a partir de la recolección de datos para entrenamiento del algoritmo de Inteligencia Artificial y de retroalimentación acerca de la experiencia de uso del producto.",
+          "descriptionTwo": "Conoce la historia de Leticia, sobreviviente de cáncer de mama y voluntaria de nuestra campaña.",
+          "dataModal": "data-founder-modal-3",
+          "video": "/img/videos/leticia-buenrostro-es.mp4",
+          "videoId": "video-leticia-buenrostro",
+          "button": "Ver video"
+        },
+        {
+          "imgClass": "founder-elizabeth",
+          "title": "Mujer fundadora",
+          "subtitle": "Elizabeth Saldaña",
+          "descriptionOne": "Mujeres Fundadoras es nuestro programa de pruebas internas, donde gracias a la participación de mujeres voluntarias podemos continuar mejorando el desarrollo de EVA a partir de la recolección de datos para entrenamiento del algoritmo de Inteligencia Artificial y de retroalimentación acerca de la experiencia de uso del producto.",
+          "descriptionTwo": "Conoce la historia de Elizabeth, voluntaria de nuestra campaña.",
+          "dataModal": "data-founder-modal-4",
+          "video": "/img/videos/elizabeth-saldania-es.mp4",
+          "videoId": "video-elizabeth-saldania",
+          "button": "Ver video"
+        },
+        {
+          "imgClass": "founder-diana",
+          "title": "Mujer fundadora",
+          "subtitle": "Diana Zamora",
+          "descriptionOne": "Mujeres Fundadoras es nuestro programa de pruebas internas, donde gracias a la participación de mujeres voluntarias podemos continuar mejorando el desarrollo de EVA a partir de la recolección de datos para entrenamiento del algoritmo de Inteligencia Artificial y de retroalimentación acerca de la experiencia de uso del producto.",
+          "descriptionTwo": "Conoce la historia de Diana, subdirectora de Asuntos Públicos e Impacto Social AXA Seguros.",
+          "dataModal": "data-founder-modal-5",
+          "video": "/img/videos/diana-zamora-es.mp4",
+          "videoId": "video-diana-zamora",
+          "button": "Ver video"
+        },
+        {
+          "imgClass": "founder-maritsa",
+          "title": "Mujer fundadora",
+          "subtitle": "Maritsa Paz",
+          "descriptionOne": "Mujeres Fundadoras es nuestro programa de pruebas internas, donde gracias a la participación de mujeres voluntarias podemos continuar mejorando el desarrollo de EVA a partir de la recolección de datos para entrenamiento del algoritmo de Inteligencia Artificial y de retroalimentación acerca de la experiencia de uso del producto.",
+          "descriptionTwo": "Conoce la historia de Maritsa, voluntaria de nuestra campaña.",
+          "dataModal": "data-founder-modal-6",
+          "video": "/img/videos/maritsa-paz-es.mp4",
+          "videoId": "video-maritsa-paz",
+          "button": "Ver video"
+        },
+        {
+          "imgClass": "founder-agustina",
+          "title": "Mujer fundadora",
+          "subtitle": "Agustina Martínez",
+          "descriptionOne": "Mujeres Fundadoras es nuestro programa de pruebas internas, donde gracias a la participación de mujeres voluntarias podemos continuar mejorando el desarrollo de EVA a partir de la recolección de datos para entrenamiento del algoritmo de Inteligencia Artificial y de retroalimentación acerca de la experiencia de uso del producto.",
+          "descriptionTwo": "Conoce la historia de Agustina, sobreviviente de cáncer de mama y voluntaria de nuestra campaña.",
+          "dataModal": "data-founder-modal-7",
+          "video": "/img/videos/agustina-martinez-es.mp4",
+          "videoId": "video-agustina-martinez",
           "button": "Ver video"
         }
       ],
