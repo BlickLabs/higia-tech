@@ -76,25 +76,31 @@
 
     <div class="home-founder">
       <div class="home-founder-img-container">
-        <img class="home-founder-img" src="{{es.founder}}">
+        <img class="home-founder-img" src="{{es.home.founder.img}}">
       </div>
       <div class="home-founder-info">
-        <h1 class="home-founder-title helvneue-light">{{es.homeFounder.title}}</h1>
+        <h1 class="home-founder-title helvneue-light">{{es.home.founder.title}}</h1>
         <div class="home-founder-subtitle-container">
-          <h2 class="home-founder-subtitle helvneue-bold">{{es.homeFounder.subtitle}}</h2>
+          <h2 class="home-founder-subtitle helvneue-bold">{{es.home.founder.subtitle}}</h2>
         </div>
         <div class="home-founder-paragraph-container">
-          <p class="home-founder-paragraph helvneue-light">{{es.homeFounder.descriptionOne}}</p>
+          <p class="home-founder-paragraph helvneue-light">{{es.home.founder.descriptionOne}}</p>
         </div>
         <div class="home-founder-paragraph-container">
-          <p class="home-founder-paragraph helvneue-medium">{{es.homeFounder.descriptionTwo}}</p>
+          <p class="home-founder-paragraph helvneue-medium">{{es.home.founder.descriptionTwo}}</p>
         </div>
         <div class="home-founder-button">
-          <a href="">
-            <button class="helvneue-medium btn-base btn-sm">{{es.homeFounder.button}}</button>
+          <a href="#{{es.home.founder.dataModal}}" data-modal data-id="{{es.home.founder.videoId}}">
+            <button class="helvneue-medium btn-base btn-sm">{{es.home.founder.button}}</button>
           </a>
         </div>
       </div>
+    </div>
+
+    <div id="{{es.home.founder.dataModal}}" class="modal">
+      <video width="100%"data-video="{{es.home.founder.videoId}}" id="{{es.home.founder.videoId}}">
+        <source src="{{es.home.founder.video}}" type="video/mp4">
+      </video>
     </div>
 
     <div class="home-allies">
