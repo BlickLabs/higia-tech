@@ -542,6 +542,8 @@
             left 0%
 
     &-team
+      padding 60px 0 90px 0
+
       &-desc
         font-size $fs17
         padding 0 30px
@@ -559,7 +561,7 @@
 
         & .owl-prev,
         & .owl-next
-          bottom -20px
+          bottom -60px
           margin 0 auto
           position absolute
           width 32px
@@ -571,6 +573,25 @@
         & .owl-next
           left 80px
           right 0
+
+        & .owl-dots
+          display flex
+          justify-content center
+          margin-top 10px
+
+        & .owl-dot
+          background-color $hgrayDots !important
+          border solid 1px $hgrayDots !important
+          border-radius 100px
+          height 9px
+          margin 0 5px
+          width 9px
+
+        & .owl-dot.active
+          background-color transparent !important
+          border solid 1px $hgrayBorder !important
+          height 10px
+          width 10px
 
       &-icon
         width 35px !important
