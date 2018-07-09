@@ -936,15 +936,27 @@
           width 100%
 
       &-carousel
+        & .owl-prev,
+        & .owl-next
+          bottom -100px
+          margin 0 auto
+          top initial
+          width 14.66px
 
         & .owl-prev
-          left -15px
+          left -55px
+          right 0
 
         & .owl-next
-          right -15px
+          left 0
+          right -55px
 
       &-logo
         width 125px !important
+
+      &-btn
+        &-container
+          margin-top 135px
 
     &-awards
       padding 83px 0 160px 0
