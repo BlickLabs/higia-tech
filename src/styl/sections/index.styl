@@ -28,7 +28,7 @@
       text-align center
 
       &-container
-        margin 15px 0 98px 0
+        margin 15px 0 50px 0
         width 550px
 
     &-info
@@ -111,10 +111,12 @@
           text-align center
           top 180px
           width 210px
+          z-index 11
 
         &-2
           bottom 80px
           left -58px
+          z-index 11
 
       &-iwatch
         right -230px
@@ -138,10 +140,13 @@
       &-iphone
         height 500px
         width auto
+        z-index 11
 
       &-iwatch
         height 240px
+        position relative
         width auto
+        z-index -1
 
         &-container
           position absolute
@@ -654,7 +659,7 @@
 .mask
   &-base
     position absolute
-    z-index 11
+    z-index 100
 
   &-iphone
     height 442px
