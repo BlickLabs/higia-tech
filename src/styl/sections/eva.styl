@@ -499,7 +499,7 @@
         width 100%
 
       &-img
-        background-position top
+        background-position center
         height 250px
         width 100%
 
@@ -599,10 +599,26 @@
         padding 0 15px 0 15px
 
     &-founder
-      padding 60px 0
+      padding 60px 0 160px 0
 
       &-carousel
+        padding 0 20px
         width 100%
+
+        & .owl-next,
+        & .owl-prev
+          bottom -95px
+          height 30px
+          margin 0 auto
+          top initial
+
+        & .owl-next
+          left 0
+          right -55px
+
+        & .owl-prev
+          left -55px
+          right 0
 
         & .owl-dots
           bottom -30px
