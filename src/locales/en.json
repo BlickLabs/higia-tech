@@ -1000,6 +1000,7 @@
             "openModalMobile": "data-modal-mobile-7",
             "dataModalMobile": "data-modal-mobile-7",
             "modalEmail": "raymundo.gonzalez@higia.tech",
+            "modalDescItalic": true,
             "modalDesc1": "Raymundo runs the field of Artificial Intelligence, leader of research and development of model technology and algorithm of Machine Learning to perform the best data analysis, assuring that EVA provides useful information for its users. Ray contributes to his field and to the whole company a vision of possible uses of our technology, from understanding our product’s perception from various cultural perspectives on to experience in multicultural teams with members working remotely. Ray relies on experience working with the Stanford University Artificial Intelligence Laboratory and as a research intern at Audible, an Amazon company.",
             "modalDesc2": "\"With Higia I saw an opportunity to continue learning and improving my abilities in the field that interest me the most, to continue developing professionally and be part of a project that can have an impact on a great number of people, including saving lives. All this in a team of highly motivated and competent people\"."
           },
@@ -1030,6 +1031,7 @@
             "openModalMobile": "data-modal-mobile-1",
             "dataModalMobile": "data-modal-mobile-1",
             "modalEmail": "fernando.lopez@higia.tech",
+            "modalDescItalic": true,
             "modalDesc1": "Fernando is in charge of designing and coordinating the development of the software platforms of Higia Tech, incorporating the best technologies that allow the rest of the team an agile and scalable development. Thanks to his training as an Engineer of Computational Technology and his continuous restlessness to question ideas, Fernando leads his area to develop software focused on improving people’s quality of life.",
             "modalDesc2": "\"I have always been interested in applying the knowledge of software development to products that improve people’s quality of life. The opportunity to work at Higia was extraordinary because it combines a positive impact with a focus on health through prevention using different technologies of different study fields\"."
           },
@@ -1045,6 +1047,7 @@
             "openModalMobile": "data-modal-mobile-4",
             "dataModalMobile": "data-modal-mobile-4",
             "modalEmail": "victor.serrano@higia.tech",
+            "modalDescItalic": true,
             "modalDesc1": "Electronic engineer, hardware design, firmware, and robotics. With 6 years of experience leading the hardware development of medical devices, Victor is in charge of developing the necessary technology so that EVA is able to detect abnormalities in the breasts and report those. Through research and experience in electronic development and programming, we can reduce the feeling of vulnerability and uncertainty of women that are facing the monitoring of their breast health As Chief Hardware Engineer, Victor is working with members of other areas to support, suggest and improve the ideas together, searching for the synergy of ideas to receive the best results.",
             "modalDesc2": "\"Higia is a company with enormous potential, but above all, it is a company with a humanist and social vision. Here we can get professional and personal growth, and it’s a company that matches my values. I contribute my experience and vision to help position Higia as the global benchmark for technology devices that improve women’s quality of life\"."
           },
@@ -1059,6 +1062,7 @@
             "dataModal": "data-modal-9",
             "openModalMobile": "data-modal-mobile-9",
             "dataModalMobile": "data-modal-mobile-9",
+            "modalDescItalic": true,
             "modalDesc1": "Carlos leads the Product Development team and with more than six years of experience in logistics and product development, from the concept’s creation to its manufacturing and distribution, he works closely with the Hardware team, anticipating the complexity and the challenges that represent the development of a product like EVA. Thanks to the versatility of the products that Carlos has developed, he provides a strategic vision to ask the right questions before making decisions, creating guidelines, understanding those and assuring that they are followed to be able to reach the final development of the product."
           },
           {
@@ -1072,6 +1076,7 @@
             "dataModal": "data-modal-16",
             "openModalMobile": "data-modal-mobile-16",
             "dataModalMobile": "data-modal-mobile-16",
+            "modalDescItalic": true,
             "modalDesc1": "Industrial Designer with a great interest in designing products, services and systems that positively affect the society. Ale works with Higia Technologies to continue developing a strong team, a solid organizational culture and tools for communication for EVA and Higia to be able to go further."
           },
           {
@@ -1086,6 +1091,7 @@
             "openModalMobile": "data-modal-mobile-3",
             "dataModalMobile": "data-modal-mobile-3",
             "modalEmail": "juanjo.lenero@higia.tech",
+            "modalDescItalic": true,
             "modalDesc1": "Engineer of Computational Technologies, specializing in backend developing and the integration of Amazon Web Services. Juan José focuses his strengths on laying the foundations of the technological infrastructure on which the solutions that allow us to achieve our goals, are built; therefore, as a team, we can succeed facing the challenges that present themselves and rebuild in order to adapt to the future.",
             "modalDesc2": "\"The opportunity to contribute my skills and experiences to creating a solution that improves the well-being of women around the world brought me to Higia\"."
           },
@@ -1100,6 +1106,7 @@
             "dataModal": "data-modal-2",
             "openModalMobile": "data-modal-mobile-2",
             "dataModalMobile": "data-modal-mobile-2",
+            "modalDescItalic": true,
             "modalDesc1": "José Antonio leads the development of the mobile applications of EVA for the platform Android, as well as the design of the user experience. Thanks to his passion for technology and his great creativity, Tony provides the Software team with different ideas and solutions for existing problems to receive new and better results. José Antonio has experience working with companies like Google in Mountain View, California.",
             "modalDesc2": "\"I consider Higia’s future in the industry impressive and the simple fact of being able to be part of the history we’re writing is a feeling that fills me with happiness and inspiration. The team is growing so that every contribution has a big impact. Everything is a challenge which makes it more interesting\"."
           },
@@ -1114,6 +1121,7 @@
             "dataModal": "data-modal-10",
             "openModalMobile": "data-modal-mobile-10",
             "dataModalMobile": "data-modal-mobile-10",
+            "modalDescItalic": true,
             "modalDesc1": "An expert in observing every step of the process that forms the usability of the products to be able to make the best decision for the design of the experience. María is responsible for leading the analysis and selection of the design’s characteristics to assure that EVA is a functional and comfortable product, with which people can have a truly efficient and successful interaction with. María evaluates and proposes solutions for the challenges that present itself in the design of the user experience of EVA, as much on an ergonomic as well as on a psychological level."
           },
           {
@@ -1127,6 +1135,7 @@
             "dataModal": "data-modal-11",
             "openModalMobile": "data-modal-mobile-11",
             "dataModalMobile": "data-modal-mobile-11",
+            "modalDescItalic": true,
             "modalDesc1": "Industrial designer specialized in the design for manufacturing, as well as the examination and the application of materials in various fields of the production. Osmar promotes the constant experimentation within the development and the hardware team, suggesting materials, forms and processes to apply to the device that will assure to obtain a robust design and with the necessary characteristics for a production on a large scale."
           },
           {
@@ -1141,6 +1150,7 @@
             "openModalMobile": "data-modal-mobile-5",
             "dataModalMobile": "data-modal-mobile-5",
             "modalEmail": "jose.lavariega@higia.tech",
+            "modalDescItalic": true,
             "modalDesc1": "Student at Massachusetts Institute of Technology (MIT) Class of 2022 in Business Analytics (Sloan School of Management) and Aeronautical Engineering. As Research Leader, José is in charge of visualizing the long-term development of the company by means of searching for new technologies and their implementation in the development of Higia’s products. José executes the extensive research together with international researchers to identify areas of opportunity and growth for the future of the company.",
             "modalDesc2": "\"It motivates me to work as part of Higia’s team to make accessible and improve the Mexican and global infrastructure of breast cancer\"."
           },
@@ -1156,6 +1166,7 @@
             "openModalMobile": "data-modal-mobile-17",
             "dataModalMobile": "data-modal-mobile-17",
             "modalEmail": "isaac.suaste@higia.tech",
+            "modalDescItalic": true,
             "modalDesc1": "Isaac has a master's degree in Mechatronics Engineering, and is a specialist in the development and management of hardware and embedded systems projects. From his role as a Management Engineer in the Hardware area, Isaac brings his dynamism and experience in the development and application of the best practices that allow achieving an optimal and profitable materialization of the company's products.",
             "modalDesc2": "\"It motivates me to be part of a company that believes in innovation and creates products with the commitment to leave a better world positively impacting many women\"."
           },
@@ -1171,6 +1182,7 @@
             "openModalMobile": "data-modal-mobile-12",
             "dataModalMobile": "data-modal-mobile-12",
             "modalEmail": "gabriela.revilla@higia.tech",
+            "modalDescItalic": true,
             "modalDesc1": "Gaby is in charge of developing the image and corporate identity of Higia Technologies, always searching to generate content that transmits our vision and brings us closer to the people seeking to take control of their health by means of monitoring and prevention. With her great creativity and energy, Gaby creates the necessary tools to be able to tell the world of the history of EVA.",
             "modalDesc2": "\"Being part of the team of Higia Technologies fills me with enthusiasm and motivation since I can contribute in a small way to this great company that surely will positively impact the world and the health of thousands of people. Being part of Higia is being part of a big challenge. We are motivated to be the best because lots of people will benefit from it\"."
           },
@@ -1186,6 +1198,7 @@
             "openModalMobile": "data-modal-mobile-8",
             "dataModalMobile": "data-modal-mobile-8",
             "modalEmail": "martin.urtiz@higia.tech",
+            "modalDescItalic": true,
             "modalDesc1": "Digital Data Engineer, Martín is in charge of guiding the development of Higia by means of novel technologies to reach excellence in the diagnosis of breast cancer. Thanks to his creativity and broad knowledge of Machine Learning, Martín motivates the team to find and implement solutions that are out of the ordinary, which help to improve our predictive algorithms. Martín has experience working with companies like Google in Mountain View, California.",
             "modalDesc2": "\"It moves me to think that my work at Higia will have the impact of saving lives of a large number of people, thanks to a timely cancer diagnosis\"."
           },
@@ -1201,6 +1214,7 @@
             "openModalMobile": "data-modal-mobile-15",
             "dataModalMobile": "data-modal-mobile-15",
             "modalEmail": "angie.carrillo@higia.tech",
+            "modalDescItalic": true,
             "modalDesc1": "Expert in developing businesses and passionate about the use of exponential technologies to have a positive impact on the world. Alumni of Tecnológico de Monterrey, UC Berkeley, Draper University and Singularity University, Angie currently works with Higia Technologies as an advisor on topics related to investment strategy.",
             "modalDesc2": "\"A team filled with passion for solving a very important problem. I particularly like the vision for the future and their drive to make this work\"."
           }
