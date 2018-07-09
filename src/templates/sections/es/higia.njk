@@ -86,7 +86,7 @@
               </div>
               <div class="who-modal-desc-container">
                 <p class="who-modal-desc helvneue-light">{{card.modalDesc1}}</p>
-                <p class="who-modal-desc helvneue-light">{{card.modalDesc2}}</p>
+                <p class="who-modal-desc {% if card.modalDescItalic %}helvneue-lightitalic{% else %}helvneue-light{% endif %}">{{card.modalDesc2}}</p>
               </div>
             </div>
           </div>
@@ -124,7 +124,7 @@
                 </div>
                 <div class="who-modal-desc-container">
                   <p class="who-modal-desc helvneue-light">{{card.modalDesc1}}</p>
-                  <p class="who-modal-desc helvneue-light">{{card.modalDesc2}}</p>
+                  <p class="who-modal-desc {% if card.modalDescItalic %}helvneue-lightitalic{% else %}helvneue-light{% endif %}">{{card.modalDesc2}}</p>
                 </div>
               </div>
             </div>
