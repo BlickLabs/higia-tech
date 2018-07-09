@@ -515,6 +515,12 @@
       &-desc
         font-size $fs15
 
+    &-cover-title,
+    &-timeline-title,
+    &-team-title,
+    &-work-title
+      font-size $fs38
+
     &-timeline
       &-container:after
         left 60px
@@ -601,11 +607,17 @@
 
     &-work
       &-card
+        padding 40px 25px
+
+        &-title
+          font-size $fs20
+
         &-desc
           font-size $fs17
 
         &-carousel
           margin-bottom 130px
+          width 90%
 
           & .owl-prev,
           & .owl-next
@@ -628,3 +640,9 @@
 
           & #btn-requirements
             margin 0 0 30px 0
+
+      &-cv
+        font-size $fs20
+
+      &-email
+        font-size $fs25
