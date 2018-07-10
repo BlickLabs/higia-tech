@@ -146,15 +146,12 @@
       text-align center
 
     &-container
-      display flex !important
+      display flex
       flex-direction row
       justify-content center
       height 235px
       overflow hidden
       position relative
-
-    &-carousel
-      display none !important
 
     &-content
       display flex
@@ -214,35 +211,11 @@
         padding 0 30px
 
       &-container
-        display none !important
+        flex-direction column
 
       &-content
-        height 235px
+        overflow hidden
         width auto
-
-      &-carousel
-        display block !important
-        height 235px
-
-        &-container
-          margin 0 auto
-          position relative
-          width 250px
-
-        &-navigation
-          width 16px
-
-        & .owl-next,
-        & .owl-prev
-          bottom 0
-          position absolute
-          z-index 3
-
-        & .owl-next
-          right -20px
-
-        & .owl-prev
-          left -20px
 
       &-fadeout
         z-index 1
