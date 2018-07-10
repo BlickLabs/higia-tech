@@ -838,73 +838,73 @@
       },
       "cards": [
         {
-          "logo": "/img/logos/logo-axxa-gray.png",
+          "logo": "/img/logos/logo-axxa-allies.png",
           "logoClass": "allies-logo-axa",
           "title": "Research, test campaigns, marketing strategies",
           "desc": "In collaboration with AXA we have realized test campaigns such as Mujeres Fundadoras (Female Founders) and we are working on developing marketing strategies that allow EVA to reach a greater number of women."
         },
         {
-          "logo": "/img/logos/logo-imss-gray.png",
+          "logo": "/img/logos/logo-imss-allies.png",
           "logoClass": "allies-logo-imss",
           "title": "Clinical tests",
           "desc": "Thanks to IMSS, we will perform clinical trials in Mexico with more than 600 women."
         },
         {
-          "logo": "/img/logos/logo-stanford-black.png",
+          "logo": "/img/logos/logo-stanford-allies.png",
           "logoClass": "allies-logo-stanford",
           "title": "Clinical tests",
           "desc": "Together with Stanford Medicine we will start clinical trials to get the approval of the FDA."
         },
         {
-          "logo": "/img/logos/logo-y-combinator-black.png",
+          "logo": "/img/logos/logo-ycombinator-allies.png",
           "logoClass": "allies-logo-ycombinator",
           "title": "Investor",
           "desc": "Higia is a company funded by Y Combinator, the most prestigious company accelerator on a global level."
         },
         {
-          "logo": "/img/logos/logo-kowa-black.png",
+          "logo": "/img/logos/logo-kowa-allies.png",
           "logoClass": "allies-logo-kowa",
           "title": "Marketing strategies in Asia",
           "desc": "In collaboration with Kowa we are starting to explore ways for EVA to reach more women around the world."
         },
         {
-          "logo": "/img/logos/logo-kio-gray.png",
+          "logo": "/img/logos/logo-kio-allies.png",
           "logoClass": "allies-logo-kio",
           "title": "Data hosting, IT Services",
           "desc": "Thanks to KIO Networks, the clinical data of our patients are protected in the cloud."
         },
         {
-          "logo": "/img/logos/logo-beeva-black.png",
+          "logo": "/img/logos/logo-beeva-allies.png",
           "logoClass": "allies-logo-beeva",
           "title": "Software development",
           "desc": "Thanks to the support of BEEVA, we continue to improve the software behind EVA every day."
         },
         {
-          "logo": "/img/logos/logo-molex-black.png",
+          "logo": "/img/logos/logo-molex-allies.png",
           "logoClass": "allies-logo-molex",
           "title": "Manufacture and production processes",
           "desc": "In collaboration with Molex we work to perfect the electronics and the manufacturing processes behind EVA."
         },
         {
-          "logo": "/img/logos/logo-tomatelopecho-gray.png",
+          "logo": "/img/logos/logo-tomatelopecho-allies.png",
           "logoClass": "allies-logo-tomatelopecho",
           "title": "Research",
           "desc": "Together, Higia and Tómatelo a Pecho are fighting breast cancer, accelerating the development of EVA through mentors of the medical field."
         },
         {
-          "logo": "/img/logos/logo-tepozrosa-gray.png",
+          "logo": "/img/logos/logo-tepozrosa-allies.png",
           "logoClass": "allies-logo-tepozrosa",
           "title": "Test campaigns",
           "desc": "Together, Higia and Tepoz Rosa fight to deliver screening and early diagnostic tools to rural communities."
         },
         {
-          "logo": "/img/logos/logo-nsf-black.png",
+          "logo": "/img/logos/logo-nsf-allies.png",
           "logoClass": "allies-logo-nsf",
           "title": "Research, development of business model",
           "desc": "With the support of the MD Anderson I-Corps Regional Program launched by the National Science Foundation we have been able to validate our business model responding to the needs of our users, strengthening our proposal of worth based on the needs of our users."
         },
         {
-          "logo": "/img/logos/logo-google-black.png",
+          "logo": "/img/logos/logo-google-allies.png",
           "logoClass": "allies-logo-google",
           "title": "Data hosting, IT services",
           "desc": "Thanks to Google, we are working hand in hand with first-level researchers on the development of the algorithms to detect diseases."
