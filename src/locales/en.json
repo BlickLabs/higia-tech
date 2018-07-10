@@ -74,6 +74,64 @@
       "secondButton": "Learn more"
     },
     "home": {
+      "eva": {
+        "infographi": [
+          {
+            "imgContainer": "home-eva-img-iphone-container",
+            "img": "/img/home/home-iphone-en-img.png",
+            "imgClass": "home-eva-img-iphone",
+            "imgAOS": "fade-up",
+            "imgAOSDuration": 3000,
+            "maskClass": "mask-iphone",
+            "infoClass": "home-eva-info-iphone-1",
+            "infoClass2": "home-eva-info-iphone-2",
+            "infoAOS": "fade",
+            "infoAOSDuration": 3000,
+            "infoAOSDelay": 600,
+            "infoAOSDelay2": 3000,
+            "infoBullet": "/img/icons/icon-eva-bullet-left-iphone-1.png",
+            "infoBulletClass": "bullet-left",
+            "infoPink": "ARTIFICIAL INTELLIGENCE ALGORITHMS",
+            "infoText2": "to assess breast cancer risk",
+            "info2Black": "COMPANIONSHIP",
+            "info2Pink": "APP"
+          },
+          {
+            "imgContainer": "home-eva-img-iwatch-container",
+            "img": "/img/home/home-iwatch-img.png",
+            "imgClass": "home-eva-img-iwatch",
+            "imgAOS": "fade-up",
+            "imgAOSDuration": 3000,
+            "maskClass": "mask-iwatch",
+            "infoClass": "home-eva-info-iwatch",
+            "infoAOS": "fade",
+            "infoAOSDuration": 3000,
+            "infoAOSDelay": 1400,
+            "infoBullet": "/img/icons/icon-eva-bullet-right.png",
+            "infoBulletClass": "bullet-right",
+            "infoText": "Incredible",
+            "infoPink": "USER",
+            "infoBlack": "EXPERIENCE"
+          },
+          {
+            "imgContainer": "home-eva-img-eva-container",
+            "img": "/img/home/home-eva-img.png",
+            "imgClass": "home-eva-img-eva",
+            "imgAOS": "fade-up",
+            "imgAOSDuration": 3000,
+            "maskClass": "mask-eva",
+            "infoClass": "home-eva-info-eva",
+            "infoAOS": "fade",
+            "infoAOSDuration": 3000,
+            "infoAOSDelay": 1800,
+            "infoBullet": "/img/icons/icon-eva-bullet-right.png",
+            "infoBulletClass": "bullet-right",
+            "infoText": "Wearable",
+            "infoPink": "NON-INVASIVE",
+            "infoBlack": "TECHNOLOGY"
+          }
+        ]
+      },
       "founder": {
         "img": "/img/home/founder-rocio-paulina.jpg",
         "title": "Female Founders",
