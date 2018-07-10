@@ -450,21 +450,13 @@
 
     &-carousel
       margin 60px auto 0 auto
-      width 969px
+      width 1034px
 
       & .owl-stage-outer
-        overflow visible
-
-      & .owl-item
-        opacity 0
-        transition opacity 0.3s
+        padding 0 17px
 
       & .owl-item.active
-        opacity 1
-        visibility visible
-
-      & .owl-item
-        visibility hidden
+        width 344px !important
 
       & .owl-prev,
       & .owl-next
@@ -472,10 +464,10 @@
         top 130px
 
       & .owl-prev
-        left -140px
+        left -38px
 
       & .owl-next
-        right -140px
+        right -38px
 
       & .owl-dots
         display flex
@@ -689,10 +681,10 @@
     &-news
       &-carousel
         & .owl-prev
-          left -45px
+          left -15px
 
         & .owl-next
-          right -45px
+          right -15px
 
 @media screen and (max-width 1229px)
   .home
@@ -726,7 +718,7 @@
 
     &-news
       &-carousel
-        width 642px
+        width 690px
 
 @media screen and (max-width 1000px)
   .home
@@ -997,7 +989,10 @@
         font-size 30px
 
       &-carousel
-        width 312px
+        width 314px
+
+        & .owl-item.active
+          width 280px !important
 
         & .owl-prev,
         & .owl-next
@@ -1011,6 +1006,9 @@
           position absolute
           right 0
           width 90px
+
+      &-card
+        width 280px
 
       &-btn
         &-container
