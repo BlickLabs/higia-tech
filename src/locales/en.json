@@ -676,6 +676,15 @@
       "title": "Awards and recognitions",
       "carousel": [
         {
+          "img": "award-presidential",
+          "logo": "/img/logos/logo-mexico.png",
+          "logoClass": "logo-mexico",
+          "logoContainerClass": "home-awards-logo-container",
+          "title": "Presidential Medal in Technology and Entrepreneurship",
+          "description": "Awarded by the President of Mexico Enrique Peña Nieto",
+          "year": 2017
+        },
+        {
           "img": "award-babson",
           "logo": "/img/logos/logo-babson-white.png",
           "logoContainerClass": "home-awards-logo-container",
@@ -719,15 +728,6 @@
           "logoContainerClass": "home-awards-logo-container",
           "title": "MassChallenge",
           "description": "Incubated Company",
-          "year": 2017
-        },
-        {
-          "img": "award-presidential",
-          "logo": "/img/logos/logo-mexico.png",
-          "logoClass": "logo-mexico",
-          "logoContainerClass": "home-awards-logo-container",
-          "title": "Presidential Medal in Technology and Entrepreneurship",
-          "description": "Awarded by the President of Mexico Enrique Peña Nieto",
           "year": 2017
         },
         {
