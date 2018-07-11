@@ -35,15 +35,41 @@
           </p>
         </div>
       </div>
-      <div class="home-eva-infographi eva-bg-en">
-        <img class="home-eva-infographi-img" src="/img/home/eva-infographi-english.jpg">
+      <div class="home-eva-infographi">
+        {% for infographi in en.home.eva.infographi %}
+        <div class="{{infographi.imgContainer}}">
+          <div class="mask-base {{infographi.maskClass}}"></div>
+          <img class="{{infographi.imgClass}}" src="{{infographi.img}}" data-aos="{{infographi.imgAOS}}" data-aos-duration="{{infographi.imgAOSDuration}}">
+          <div class="{{infographi.infoClass}}" data-aos="{{infographi.infoAOS}}" data-aos-duration="{{infographi.infoAOSDuration}}" data-aos-delay="{{infographi.infoAOSDelay}}">
+            <img class="home-eva-infographi-bullet {{infographi.infoBulletClass}}" src="{{infographi.infoBullet}}">
+            <div class="home-eva-infographi-text-container">
+              {% if infographi.infoText %}<span class="home-eva-infographi-text helvneue-thin">{{infographi.infoText}}</span>{% endif %}
+              <div>
+                <span class="home-eva-infographi-text-bold bebasneue-bold pink">{{infographi.infoPink}}&nbsp;</span>{% if infographi.infoBlack %}<span class="home-eva-infographi-text-bold bebasneue-bold">{{infographi.infoBlack}}</span>{% endif %}
+              </div>
+              {% if infographi.infoText2 %}<span class="home-eva-infographi-text helvneue-thin">{{infographi.infoText2}}</span>{% endif %}
+            </div>
+          </div>
+          {% if infographi.infoClass2 %}
+          <div class="{{infographi.infoClass2}}" data-aos="{{infographi.infoAOS}}" data-aos-duration="{{infographi.infoAOSDuration}}" data-aos-delay="{{infographi.infoAOSDelay2}}">
+            <img class="home-eva-infographi-bullet {{infographi.infoBulletClass}}" src="{{infographi.infoBullet}}">
+            <div class="home-eva-infographi-text-container">
+              <div>
+                <span class="home-eva-infographi-text-bold bebasneue-bold">{{infographi.info2Black}}&nbsp;</span><span class="home-eva-infographi-text-bold bebasneue-bold pink">{{infographi.info2Pink}}</span>
+              </div>
+              <span class="home-eva-infographi-text helvneue-thin">{{infographi.info2Text}}</span>
+            </div>
+          </div>
+          {% endif %}
+        </div>
+        {% endfor %}
       </div>
       <div class="home-eva-button-container">
         <a href="">
           <button class="helvneue-medium btn-base btn-md">{{en.homeEva.firstButton}}</button>
         </a>
         <a href="">
-          <button class="helvneue-medium btn-base btn-md home-eva-button">{{en.homeEva.secondButton}}</button>
+          <button class="helvneue-medium btn-base btn-md">{{en.homeEva.secondButton}}</button>
         </a>
       </div>
     </div>
@@ -144,7 +170,7 @@
       </div>
       <div class="home-news-btn-container">
         <a href="/en/news.html">
-          <button class="helvneue-medium btn-base btn-lg">{{en.homeNews.btn}}</button>
+          <button class="helvneue-medium btn-base btn-sm">{{en.homeNews.btn}}</button>
         </a>
       </div>
     </div>

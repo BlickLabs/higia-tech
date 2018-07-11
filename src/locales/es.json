@@ -128,7 +128,7 @@
             "infoBullet": "/img/icons/icon-eva-bullet-right.png",
             "infoBulletClass": "bullet-right",
             "infoText": "Tecnología",
-            "infoPink": "PORTATIL",
+            "infoPink": "PORTÁTIL",
             "infoBlack": "NO INVASIVA"
           }
         ]
@@ -837,73 +837,73 @@
       },
       "cards": [
         {
-          "logo": "/img/logos/logo-axxa-gray.png",
+          "logo": "/img/logos/logo-axxa-allies.png",
           "logoClass": "allies-logo-axa",
           "title": "Investigación, campañas de prueba, estrategias de comercialización",
           "desc": "En colaboración con AXA hemos realizado campañas de pruebas como Mujeres Fundadoras y trabajamos para desarrollar estrategias de comercialización que permitan que EVA llegue a un mayor número de mujeres."
         },
         {
-          "logo": "/img/logos/logo-imss-gray.png",
+          "logo": "/img/logos/logo-imss-allies.png",
           "logoClass": "allies-logo-imss",
           "title": "Pruebas clínicas",
           "desc": "Gracias a IMSS llevaremos a cabo las pruebas clínicas con más de 600 mujeres mexicanas."
         },
         {
-          "logo": "/img/logos/logo-stanford-black.png",
+          "logo": "/img/logos/logo-stanford-allies.png",
           "logoClass": "allies-logo-stanford",
           "title": "Pruebas clínicas",
           "desc": "Junto con Stanford Medicine llevaremos a cabo pruebas clínicas para la validación de EVA frente a organismos regulatorios como la FDA."
         },
         {
-          "logo": "/img/logos/logo-y-combinator-black.png",
+          "logo": "/img/logos/logo-ycombinator-allies.png",
           "logoClass": "allies-logo-ycombinator",
           "title": "Inversionista",
           "desc": "Higia es una compañía fondeada por Y Combinator, la aceleradora de empresas con mayor prestigio a nivel global."
         },
         {
-          "logo": "/img/logos/logo-kowa-black.png",
+          "logo": "/img/logos/logo-kowa-allies.png",
           "logoClass": "allies-logo-kowa",
           "title": "Estrategias de comercialización en Asia",
           "desc": "En colaboración con Kowa comenzamos a explorar caminos para llevar EVA a más mujeres en todo el mundo."
         },
         {
-          "logo": "/img/logos/logo-kio-gray.png",
+          "logo": "/img/logos/logo-kio-allies.png",
           "logoClass": "allies-logo-kio",
           "title": "Servicios de IT",
           "desc": "Gracias a KIO Networks los datos clínicos de nuestros pacientes se encuentran resguardados en la nube."
         },
         {
-          "logo": "/img/logos/logo-beeva-black.png",
+          "logo": "/img/logos/logo-beeva-allies.png",
           "logoClass": "allies-logo-beeva",
           "title": "Desarrollo de software",
           "desc": "Gracias al apoyo de BEEVA continuamos mejorando cada día el software detrás de EVA."
         },
         {
-          "logo": "/img/logos/logo-molex-black.png",
+          "logo": "/img/logos/logo-molex-allies.png",
           "logoClass": "allies-logo-molex",
           "title": "Manufactura y procesos de producción",
           "desc": "En colaboración con Molex trabajamos para perfeccionar la electrónica y procesos de manufactura detrás de EVA."
         },
         {
-          "logo": "/img/logos/logo-tomatelopecho-gray.png",
+          "logo": "/img/logos/logo-tomatelopecho-allies.png",
           "logoClass": "allies-logo-tomatelopecho",
           "title": "Investigación",
           "desc": "Juntos Higia y Tómatelo a Pecho luchamos para combatir el cáncer de mama, acelerando el desarrollo de EVA por medio de mentores en el área médica."
         },
         {
-          "logo": "/img/logos/logo-tepozrosa-gray.png",
+          "logo": "/img/logos/logo-tepozrosa-allies.png",
           "logoClass": "allies-logo-tepozrosa",
           "title": "Campañas de pruebas",
           "desc": "Juntos Higia y Tepoz Rosa luchamos para llevar herramientas de tamizaje y diagnóstico temprano a comunidades rurales."
         },
         {
-          "logo": "/img/logos/logo-nsf-black.png",
+          "logo": "/img/logos/logo-nsf-allies.png",
           "logoClass": "allies-logo-nsf",
           "title": "Investigación, desarrollo de modelo de negocio",
           "desc": "Con el apoyo del Programa Regional I-Corps de MD Anderson lanzado por The National Science Foundation, hemos podido validar nuestro modelo de negocio respondiendo las necesidades de nuestros usuarios, consolidando nuestra propuesta de valor con base en las necesidades de nuestros usuarios."
         },
         {
-          "logo": "/img/logos/logo-google-black.png",
+          "logo": "/img/logos/logo-google-allies.png",
           "logoClass": "allies-logo-google",
           "title": "Servicios de IT",
           "desc": "Gracias a Google trabajamos de la mano de investigadores de primer nivel en el desarrollo de algoritmos para la detección de enfermedades."
@@ -1057,6 +1057,7 @@
             "openModalMobile": "data-modal-mobile-7",
             "dataModalMobile": "data-modal-mobile-7",
             "modalEmail": "raymundo.gonzalez@higia.tech",
+            "modalDescItalic": true,
             "modalDesc1": "Raymundo dirige el área de Inteligencia Artificial, lidera la investigación y desarrollo tecnológico de modelos y algoritmos de aprendizaje de máquina (Machine Learning) para llevar a cabo el mejor análisis de datos, asegurando que EVA provea información útil a las mujeres que la usen. Ray aporta a su área y a toda la compañía una visión sobre posibles usos de nuestra tecnología, a partir del entendimiento de la percepción de nuestro producto desde distintas perspectivas culturales, experiencia en equipos multiculturales con integrantes trabajando a distancia. Ray cuenta con experiencia trabajando en los laboratorios de inteligencia artificial de la Universidad de Stanford e investigación en la compañía Audiable,  subsidiaria de Amazon, Inc.",
             "modalDesc2": "\"En Higia ví una oportunidad para continuar aprendiendo y mejorando mis habilidades en las áreas que más me interesan,  para continuar desarrollándome profesionalmente y ser parte de un proyecto que puede impactar a un alto número de personas, incluso salvar vidas. Todo esto con un equipo de gente altamente motivada y capaz.\""
           },
@@ -1087,6 +1088,7 @@
             "openModalMobile": "data-modal-mobile-1",
             "dataModalMobile": "data-modal-mobile-1",
             "modalEmail": "fernando.lopez@higia.tech",
+            "modalDescItalic": true,
             "modalDesc1": "Fernando es el responsable de diseñar y coordinar el desarrollo de las plataformas de software de Higia Tech, integrando las mejores tecnologías que permitan al equipo un desarrollo ágil y escalable. Gracias a su formación como Ingeniero en Tecnologías Computacionales y a su continua inquietud por cuestionar las ideas, Fernando dirige a su área para desarrollar software enfocado a mejorar la calidad de vida de las personas.",
             "modalDesc2": "\"Siempre he estado interesado en aplicar los conocimientos de desarrollo de software a productos que mejoren la calidad de vida de las personas. La oportunidad de trabajar en Higia fue extraordinaria porque combina un impacto positivo con un enfoque en la salud mediante prevención, usando distintas tecnologías de diferentes campos de estudio.\""
           },
@@ -1102,6 +1104,7 @@
             "openModalMobile": "data-modal-mobile-4",
             "dataModalMobile": "data-modal-mobile-4",
             "modalEmail": "victor.serrano@higia.tech",
+            "modalDescItalic": true,
             "modalDesc1": "Ingeniero en electrónica, diseño de hardware, firmware y robótica. Con 6 años de experiencia dirigiendo el desarrollo de hardware de dispositivos médicos, Víctor es el encargado de desarrollar la tecnología necesaria para que EVA logre detectar anomalías en los senos y reportarlas, reduciendo los sentimientos de vulnerabilidad e incertidumbre que viven las mujeres al enfrentar los procesos actuales de monitoreo de la salud de sus senos; todo esto a través de la investigación, desarrollo y experiencia en el desarrollo electrónico y de programación. Desde su rol como Chief Hardware Engineer, Víctor colabora con los miembros otras áreas para apoyar, sugerir o mejorar las ideas en conjunto, buscando la sinergia de ideas para llegar a mejores resultados.",
             "modalDesc2": "\"Pienso que Higia es una empresa con un enorme potencial, pero sobre todo, una visión humanista y social, en la que existe un crecimiento profesional y personal que empata con mis valores y en donde puedo aportar la experiencia acumulada con una visión propia para ayudar a posicionar a Higia como un referente global de tecnología en dispositivos que mejoren la calidad de vida de las mujeres.\""
           },
@@ -1116,6 +1119,7 @@
             "dataModal": "data-modal-9",
             "openModalMobile": "data-modal-mobile-9",
             "dataModalMobile": "data-modal-mobile-9",
+            "modalDescItalic": true,
             "modalDesc1": "Carlos dirige al equipo de Desarrollo de Producto y Con más de 6 años de experiencia en logística para el desarrollo de productos, desde la generación de concepto hasta su manufactura y distribución, trabaja estrechamente con el equipo de Hardware, anticipando la complejidad y retos que representa el desarrollo de un producto como EVA. Gracias a la versatilidad de los productos que ha desarrollado, aporta una visión estratégica para generar las preguntas correctas antes de tomar decisiones, crear las pautas, entenderlas y asegurar que estas se sigan para poder llegar al desarrollo final del producto."
           },
           {
@@ -1129,6 +1133,7 @@
             "dataModal": "data-modal-16",
             "openModalMobile": "data-modal-mobile-16",
             "dataModalMobile": "data-modal-mobile-16",
+            "modalDescItalic": true,
             "modalDesc1": "Diseñadora Industrial con un gran interés por el diseño de productos, servicios y sistemas que impacten positivamente en la sociedad. Ale colabora con el equipo de Higia Technologies para continuar desarrollando un equipo fuerte, una cultura organizacional sólida y herramientas de comunicación que permitan a EVA e Higia llegar más lejos."
           },
           {
@@ -1143,6 +1148,7 @@
             "openModalMobile": "data-modal-mobile-3",
             "dataModalMobile": "data-modal-mobile-3",
             "modalEmail": "juanjo.lenero@higia.tech",
+            "modalDescItalic": true,
             "modalDesc1": "Ingeniero en Tecnologías Computacionales, especializado en desarrollo backend e integración con Amazon Web Services. Juan José enfoca sus esfuerzos en cimentar la infraestructura tecnológica sobre la cual se edifican las soluciones que nos permiten alcanzar nuestras metas; de manera que como equipo logremos combatir los retos que se puedan presentar y reedificar para adaptarnos al futuro.",
             "modalDesc2": "\"La oportunidad de aportar mis habilidades y experiencias a la creación de una solución que mejore el bienestar de las mujeres en el mundo me acercó a Higia.\""
           },
@@ -1157,6 +1163,7 @@
             "dataModal": "data-modal-2",
             "openModalMobile": "data-modal-mobile-2",
             "dataModalMobile": "data-modal-mobile-2",
+            "modalDescItalic": true,
             "modalDesc1": "José Antonio dirige el desarrollo de las aplicaciones móviles de EVA en la plataforma Android, así como el diseño de la experiencia de uso para que sea óptima y cómoda. Gracias a su pasión por la tecnología y su gran creatividad, Tony aporta al equipo de Software ideas y soluciones distintas a problemáticas existentes para obtener nuevos y mejores resultados. José Antonio tiene experiencia laborando con compañías como Google en Mountain View, California.",
             "modalDesc2": "\"Considero que el futuro que tiene Higia en la industria es impresionante y el simple hecho de poder formar parte de esta historia que estamos escribiendo es un sentimiento que me llena de felicidad e inspiración. El equipo está en crecimiento por lo que cada contribución tiene un gran impacto. Es todo un reto, lo cual solo lo hace más interesante.\""
           },
@@ -1171,6 +1178,7 @@
             "dataModal": "data-modal-10",
             "openModalMobile": "data-modal-mobile-10",
             "dataModalMobile": "data-modal-mobile-10",
+            "modalDescItalic": true,
             "modalDesc1": "Experta en observar cada uno los procesos que integran la usabilidad en los productos para tomar las mejores decisiones en el diseño de experiencia. María es responsable de guiar el análisis y selección de características de diseño para asegurar que EVA sea un producto funcional y cómodo, con el cual las personas puedan tener una interacción realmente eficiente y exitosa. María evalúa y propone soluciones para los retos que se presentan en el diseño de la experiencia de uso de EVA, tanto a nivel ergonómico como psicológico."
           },
           {
@@ -1184,6 +1192,7 @@
             "dataModal": "data-modal-11",
             "openModalMobile": "data-modal-mobile-11",
             "dataModalMobile": "data-modal-mobile-11",
+            "modalDescItalic": true,
             "modalDesc1": "Diseñador industrial especializado en diseño para manufactura, así como la exploración y aplicación de materiales en diversos campos de producción. Osmar fomenta la experimentación constante dentro de los equipos de Desarrollo de Producto y Hardware, proponiendo materiales, formas y procesos a aplicar en el dispositivo que aseguren obtener un diseño robusto y con las características necesarias para producir a gran escala."
           },
           {
@@ -1198,6 +1207,7 @@
             "openModalMobile": "data-modal-mobile-5",
             "dataModalMobile": "data-modal-mobile-5",
             "modalEmail": "jose.lavariega@higia.tech",
+            "modalDescItalic": true,
             "modalDesc1": "Estudiante del Instituto Tecnológico de Massachusetts (MIT) Generación 2022 en la carrera de Business Analytics (Sloan School of Management) y Aeronautical Engineering. Como Research Leader, José es el encargado de visualizar el desarrollo a largo plazo de la compañía mediante la búsqueda de nuevas tecnologías y su implementación en el desarrollo de los productos de Higia. José lleva a cabo procesos de extensa investigación en conjunto con investigadores de clase mundial para identificar áreas de oportunidad y crecimiento para el futuro de la compañía.",
             "modalDesc2": "\"Me motiva trabajar como parte del equipo de Higia para lograr que el tratamiento sea accesible y óptimo para todos los mexicanos, de tal modo que se llegue a un futuro donde el dinero, ubicación, ni accesibilidad sean factores exclusivos\"."
           },
@@ -1213,6 +1223,7 @@
             "openModalMobile": "data-modal-mobile-17",
             "dataModalMobile": "data-modal-mobile-17",
             "modalEmail": "isaac.suaste@higia.tech",
+            "modalDescItalic": true,
             "modalDesc1": "Isaac cuenta con una maestría en Ingeniería Mecatrónica, y es especialista en desarrollo y gestión de proyectos de hardware y sistemas embebidos. Desde su rol como Ingeniero en gestión en el área de Hardware, Isaac imprime su dinamismo y experiencia en el desarrollo y aplicación de las mejores prácticas que permitan alcanzar una óptima y rentable materialización de los productos de la compañía.",
             "modalDesc2": "\"Me motiva ser parte de una empresa que cree en la innovación y crea productos con el compromiso de dejar un mundo mejor impactando positivamente a muchas mujeres\"."
           },
@@ -1228,6 +1239,7 @@
             "openModalMobile": "data-modal-mobile-12",
             "dataModalMobile": "data-modal-mobile-12",
             "modalEmail": "gabriela.revilla@higia.tech",
+            "modalDescItalic": true,
             "modalDesc1": "Gaby el la encargada de desarrollar la imagen e identidad corporativa de Higia Technologies, buscando siempre generar contenido que transmita nuestra visión y nos acerque a las personas que buscan tomar el control de su salud por medio del monitoreo y la prevención. Con su gran creatividad y energía, Gaby crea las herramientas necesarias para poder contar al mundo la historia de EVA.",
             "modalDesc2": "\"Ser parte del equipo de Higia Technologies me llena de entusiasmo y motivación, ya que puedo aportar con un granito de arena a esta gran empresa que seguramente impactará positivamente en el mundo y en la salud de miles de personas. Ser parte de Higia es llenarte de retos y motivación diaria para ser mejor teniendo en mente, no solo a una persona, sino a todas las que se verán beneficiadas por los desarrollos de Higia.\""
           },
@@ -1243,6 +1255,7 @@
             "openModalMobile": "data-modal-mobile-8",
             "dataModalMobile": "data-modal-mobile-8",
             "modalEmail": "martin.urtiz@higia.tech",
+            "modalDescItalic": true,
             "modalDesc1": "Ingeniero en Sistemas Digitales y Robótica, Martín es responsable de guiar el desarrollo de Higia a través de las más novedosas tecnologías para alcanzar la excelencia en diagnóstico de cáncer de mama. Gracias a su creatividad y amplio conocimiento de Machine Learning Martín impulsa al equipo para encontrar e implementar soluciones fuera de lo común, que ayuden a mejorar nuestros algoritmos de predicción. Martín tiene experiencia laborando con compañías como Google en Mountain View, California.",
             "modalDesc2": "\"Me mueve pensar que mi trabajo en Higia tendrá el impacto para salvar la vida de un gran número de personas gracias a un oportuno diagnóstico del cáncer.\""
           },
@@ -1258,6 +1271,7 @@
             "openModalMobile": "data-modal-mobile-15",
             "dataModalMobile": "data-modal-mobile-15",
             "modalEmail": "angie.carrillo@higia.tech",
+            "modalDescItalic": true,
             "modalDesc1": "Experta en desarrollo de negocios y apasionada del uso de tecnologías exponenciales para tener un impacto positivo en el mundo. Ex-alumna del Tecnológico de Monterrey, UC Berkeley, Draper University y Singularity University, Angie colabora actualmente con Higia Technologies como asesora en temas relacionado a estrategia de inversión.",
             "modalDesc2": "\"Un equipo de jóvenes llenos de pasión por resolver un problema muy importante. Particularmente, me gusta su visión a futuro y que son todos mexicanos.\""
           }

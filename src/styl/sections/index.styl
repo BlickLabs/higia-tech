@@ -28,7 +28,7 @@
       text-align center
 
       &-container
-        margin 15px 0 98px 0
+        margin 15px 0 50px 0
         width 550px
 
     &-info
@@ -48,7 +48,7 @@
     align-items center
     display flex
     flex-direction column
-    padding 78px
+    padding 78px 78px 95px 78px
 
     &-logo
       height 54px
@@ -111,10 +111,12 @@
           text-align center
           top 180px
           width 210px
+          z-index 11
 
         &-2
           bottom 80px
           left -58px
+          z-index 11
 
       &-iwatch
         right -230px
@@ -138,30 +140,18 @@
       &-iphone
         height 500px
         width auto
+        z-index 11
 
       &-iwatch
         height 240px
+        position relative
         width auto
+        z-index -1
 
         &-container
           position absolute
           right 40px
           top 26px
-
-    &-button
-      background-color $hwhite
-      border solid 2px $hpink
-      color $hblack
-
-      &:hover
-        background-color $hpink
-        color $hwhite
-
-      &-container
-        margin-top 94px
-
-        & a
-          margin 0 5px
 
   &-founder
     display flex
@@ -181,7 +171,7 @@
 
     &-title
       color $hgrayStrong
-      font-size $fs20
+      font-size $fs17
 
     &-subtitle
       font-size $fs45
@@ -193,7 +183,7 @@
         margin 15px 0 24px 0
       
     &-paragraph
-      color $hblack
+      color $hgrayStrong
       font-size $fs17
       letter-spacing 0.5px
       line-height 26px
@@ -437,7 +427,7 @@
         bottom 0
         display flex
         position absolute
-        right 31px
+        right 87px
         top 0
 
     &-info
@@ -460,21 +450,13 @@
 
     &-carousel
       margin 60px auto 0 auto
-      width 969px
+      width 1034px
 
       & .owl-stage-outer
-        overflow visible
-
-      & .owl-item
-        opacity 0
-        transition opacity 0.3s
+        padding 0 17px
 
       & .owl-item.active
-        opacity 1
-        visibility visible
-
-      & .owl-item
-        visibility hidden
+        width 344px !important
 
       & .owl-prev,
       & .owl-next
@@ -482,10 +464,10 @@
         top 130px
 
       & .owl-prev
-        left -140px
+        left -38px
 
       & .owl-next
-        right -140px
+        right -38px
 
       & .owl-dots
         display flex
@@ -654,7 +636,7 @@
 .mask
   &-base
     position absolute
-    z-index 11
+    z-index 100
 
   &-iphone
     height 442px
@@ -699,10 +681,10 @@
     &-news
       &-carousel
         & .owl-prev
-          left -45px
+          left -15px
 
         & .owl-next
-          right -45px
+          right -15px
 
 @media screen and (max-width 1229px)
   .home
@@ -727,12 +709,16 @@
       &-content
         width 642px
 
+      &-logo
+        &-container
+          right 45px
+
       &-info
         padding 30px 0 0 45px
 
     &-news
       &-carousel
-        width 642px
+        width 690px
 
 @media screen and (max-width 1000px)
   .home
@@ -740,6 +726,7 @@
       &-img
         &-iphone
           height 386px
+          z-index 0
 
         &-iwatch
           height 173px
@@ -774,10 +761,11 @@
 
   .mask
     &-iphone
-      height 343px
-      width 120px
-      right 136px
-      top 7px
+      height 260px
+      right 105px
+      top 6px
+      transform rotate(-29deg)
+      width 91px
 
     &-iwatch
       height 145px
@@ -786,10 +774,10 @@
       top 7px
 
     &-eva
-      height 194px
-      width 144px
-      right 35px
-      top 14px
+      height 139px
+      width 101px
+      right 26px
+      top 10px
 
 @media screen and (max-width 780px)
   .home
@@ -837,15 +825,15 @@
             width 145px
 
           &-2
-            bottom 51px
-            left -4px
+            bottom 27px
+            left 5px
             width 132px
 
         &-eva
           bottom -34px
           right 0px
           top initial
-          width 72px
+          width 148px
 
       &-img
         &-iphone
@@ -922,20 +910,32 @@
         line-height 21px
 
         &-container
-          margin-bottom 56px
+          margin-bottom 10px
           padding 0 60px
           width 100%
 
       &-carousel
+        & .owl-prev,
+        & .owl-next
+          bottom -100px
+          margin 0 auto
+          top initial
+          width 14.66px
 
         & .owl-prev
-          left -15px
+          left -55px
+          right 0
 
         & .owl-next
-          right -15px
+          left 0
+          right -55px
 
       &-logo
         width 125px !important
+
+      &-btn
+        &-container
+          margin-top 135px
 
     &-awards
       padding 83px 0 160px 0
@@ -944,18 +944,18 @@
         font-size 30px
 
       &-info
-        height 260px
+        height 200px
         padding 23px 19px
 
       &-carousel
-        padding 0 30px
+        padding 0 20px
         width 100%
 
         & .owl-dots
           margin-top 25px
 
         & .owl-nav
-          bottom -75px
+          bottom -55px
           left 0
           margin 0 auto
           position absolute
@@ -968,22 +968,18 @@
           position initial
 
         &-title
-          font-size 19px
+          font-size 17px
+          line-height 22px
 
         &-description
           font-size 14px
 
       &-content
+        height 350px
         width 100%
 
       &-img
         height 150px
-
-      &-logo
-        &-container
-          bottom 20px
-          right 20px
-          top initial
       
     &-news
       background-size 242px, 242px
@@ -993,7 +989,10 @@
         font-size 30px
 
       &-carousel
-        width 312px
+        width 314px
+
+        & .owl-item.active
+          width 280px !important
 
         & .owl-prev,
         & .owl-next
@@ -1007,6 +1006,9 @@
           position absolute
           right 0
           width 90px
+
+      &-card
+        width 280px
 
       &-btn
         &-container

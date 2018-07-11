@@ -21,7 +21,7 @@
     &-desc
       color $hblack
       font-size $fs20
-      margin 60px 0 70px 0
+      margin 35px 0 40px 0
 
   &-info
     align-items center
@@ -42,13 +42,13 @@
     &-desc
       color $hblack
       font-size $fs20
-      text-align right
+      text-align left
 
   &-steps
     margin 90px 0
 
     &-title
-      color $hblackLight
+      color $hblackMedium
       font-size $fs45
       text-align center
 
@@ -122,28 +122,28 @@
 
       &-work
         &-1
-          height 75px
-          width 75px !important
+          height 60px
+          width 60px !important
 
         &-3
-          height 90px
-          width 90px !important
+          height 71px
+          width 71px !important
 
         &-4
-          height 65px
-          width 65px !important
+          height 53px
+          width 53px !important
 
         &-5
-          height 58px
-          width 58px !important
+          height 53px
+          width 53px !important
 
         &-6
-          height 57px
-          width 57px !important
+          height 52px
+          width 52px !important
 
       &-getwork
-        height 71px
-        width 71px !important
+        height 60px
+        width 60px !important
 
   &-proofs
     background-image url("../img/backgrounds/bg-eva-proofs.png")
@@ -151,10 +151,10 @@
     background-repeat no-repeat
     background-size 75%
     height 650px
-    padding 90px 0 0 5%
+    padding 90px 0 0 70px
 
     &-content
-      max-width 533px
+      max-width 480px
 
     &-title
       color $hpink
@@ -295,9 +295,9 @@
 
     &-answer
       color $hblack
-      font-size $fs18
+      font-size $fs15
       letter-spacing 1px
-      line-height 38px
+      line-height 25px
       padding-bottom 20px
 
       &-container
@@ -373,7 +373,7 @@
 
     &-proofs
       height auto
-      padding 50px 0 30px 5%
+      padding 50px 0 30px 70px
 
       &-content
         margin-right 60%
@@ -391,7 +391,7 @@
         border-top solid 2px $hpink
         border-bottom solid 2px $hpink
         flex-direction column
-        margin 80px auto 110px auto
+        margin 30px auto 60px auto
         width 80%
 
         &-work
@@ -416,7 +416,7 @@
         &-work
           border-top solid 2px $hpink
           display block !important
-          margin 80px auto 60px auto
+          margin 30px auto 60px auto
           position relative
           width 80%
 
@@ -499,7 +499,7 @@
         width 100%
 
       &-img
-        background-position top
+        background-position center
         height 250px
         width 100%
 
@@ -599,10 +599,26 @@
         padding 0 15px 0 15px
 
     &-founder
-      padding 60px 0
+      padding 60px 0 160px 0
 
       &-carousel
+        padding 0 20px
         width 100%
+
+        & .owl-next,
+        & .owl-prev
+          bottom -95px
+          height 30px
+          margin 0 auto
+          top initial
+
+        & .owl-next
+          left 0
+          right -55px
+
+        & .owl-prev
+          left -55px
+          right 0
 
         & .owl-dots
           bottom -30px
@@ -623,6 +639,9 @@
       &-answer
         font-size $fs15
         line-height 24px
+
+        &-container
+          padding 0 !important
 
         &-container.show
           padding 25px 65px 25px 0

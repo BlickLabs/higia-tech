@@ -5,7 +5,7 @@
     background-repeat no-repeat
     background-size contain
     display flex
-    height 482px
+    height 400px
     justify-content flex-end
     padding 100px 200px 0 0
 
@@ -84,48 +84,48 @@
       width 131px
 
     &-imss
-      height 126px
-      width 126px
+      height 139px
+      width 110px
 
     &-stanford
-      height 84px
+      height 49px
       width 179px
 
     &-ycombinator
-      height 42px
-      width 204px
+      height 131px
+      width 131px
 
     &-kowa
-      height 79px
+      height 73px
       width 164px
 
     &-kio
-      height 71px
+      height 70px
       width 122px
 
     &-beeva
-      height 113px
-      width 165px
+      height 95px
+      width 163px
 
     &-molex
-      height 80px
-      width 171px
+      height 120px
+      width 160px
 
     &-tomatelopecho
-      height 106px
-      width 191px
+      height 121px
+      width 212px
 
     &-tepozrosa
-      height 122px
+      height 118px
       width 182px
 
     &-nsf
-      height 140px
-      width 146px
+      height 150px
+      width 150px
 
     &-google
-      height 56px
-      width 165px
+      height 55px
+      width 167px
 
   &-donors
     background-color $hgrayLight
@@ -141,20 +141,17 @@
       color $hblack
       font-size $fs17
       line-height 25px
-      margin 40px auto 50px auto
+      margin 30px auto 60px auto
       max-width 750px
       text-align center
 
     &-container
-      display flex !important
+      display flex
       flex-direction row
       justify-content center
       height 235px
       overflow hidden
       position relative
-
-    &-carousel
-      display none !important
 
     &-content
       display flex
@@ -186,7 +183,6 @@
 
       &-container
         margin 30px auto 0 auto
-        padding-left 20px
         width 30px
 
     &-fadeout
@@ -215,38 +211,11 @@
         padding 0 30px
 
       &-container
-        display none !important
+        flex-direction column
 
       &-content
-        height 235px
-
-      &-carousel
-        display block !important
-        height 235px
-
-        &-container
-          margin 0 auto
-          position relative
-          width 250px
-
-        &-navigation
-          width 16px
-
-        & .owl-next,
-        & .owl-prev
-          bottom 0
-          position absolute
-          z-index 3
-
-        & .owl-next
-          right -20px
-
-        & .owl-prev
-          left -20px
-
-      &-collapsible
-        &-container
-          padding-left 6px
+        overflow hidden
+        width auto
 
       &-fadeout
         z-index 1
@@ -279,7 +248,7 @@
 
       &-carousel
         display block !important
-        margin 50px auto
+        margin 50px auto 110px auto
         position relative
         width 230px
 
@@ -303,17 +272,19 @@
 
         & .owl-prev,
         & .owl-next
-          bottom 0
+          bottom -70px
           height 30px
           margin auto
           position absolute
-          top 0
+          width 20px
 
         & .owl-prev
-          left -35px
+          left -55px
+          right 0
 
         & .owl-next
-          right -35px
+          left 0
+          right -55px
 
         & .owl-dots
           bottom -10px
@@ -354,48 +325,48 @@
         width 95px !important
 
       &-imss
-        height 100px
-        width 100px !important
+        height 121px
+        width 96px !important
 
       &-stanford
-        height 63px
+        height 37px
         width 135px !important
 
       &-ycombinator
-        height 26px
-        width 125px !important
+        height 100px
+        width 100px !important
 
       &-kowa
-        height 58px
+        height 54px
         width 122px !important
 
       &-kio
-        height 52px
-        width 90px !important
+        height 71px
+        width 123px !important
 
       &-beeva
-        height 65px
-        width 96px !important
+        height 66px
+        width 113px !important
 
       &-molex
-        height 48px
-        width 103px !important
+        height 83px
+        width 110px !important
 
       &-tomatelopecho
-        height 61px
-        width 109px !important
+        height 74px
+        width 130px !important
 
       &-tepozrosa
-        height 70px
-        width 105px !important
+        height 82px
+        width 127px !important
 
       &-nsf
-        height 81px
-        width 85px !important
+        height 90px
+        width 90px !important
 
       &-google
-        height 37px
-        width 111px !important
+        height 43px
+        width 130px !important
 
 @media screen and (max-width 449px)
   .allies
