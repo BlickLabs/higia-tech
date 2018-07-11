@@ -150,14 +150,9 @@
       "description": "En nuestra lucha por revolucionar la detección temprana del cáncer de mama contamos con aliados clave, que dan impulso y soporte a Higia Technologies en diferentes áreas de su operación diaria.",
       "logos": [
         {
-          "img": "/img/logos/logo-axxa.png",
-          "class": "home-allies-logo-axa",
-          "title": "Axa"
-        },
-        {
-          "img": "/img/logos/logo-imss.png",
-          "class": "home-allies-logo-imss",
-          "title": "IMMS"
+          "img": "/img/logos/logo-y-combinator.png",
+          "class": "home-allies-logo-ycombinator",
+          "title": "Y Combinator"
         },
         {
           "img": "/img/logos/logo-standford-medicine.png",
@@ -165,9 +160,14 @@
           "title": "Stanford Medicine"
         },
         {
-          "img": "/img/logos/logo-y-combinator.png",
-          "class": "home-allies-logo-ycombinator",
-          "title": "Y Combinator"
+          "img": "/img/logos/logo-axxa.png",
+          "class": "home-allies-logo-axa",
+          "title": "AXA"
+        },
+        {
+          "img": "/img/logos/logo-imss.png",
+          "class": "home-allies-logo-imss",
+          "title": "IMSS"
         },
         {
           "img": "/img/logos/logo-kowa.png",
