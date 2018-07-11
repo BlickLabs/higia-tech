@@ -150,6 +150,16 @@
       "btn": "Learn more",
       "logos": [
         {
+          "img": "/img/logos/logo-y-combinator.png",
+          "class": "home-allies-logo-ycombinator",
+          "title": "Y Combinator"
+        },
+        {
+          "img": "/img/logos/logo-standford-medicine.png",
+          "class": "home-allies-logo-stanford",
+          "title": "Stanford Medicine"
+        },
+        {
           "img": "/img/logos/logo-axxa.png",
           "class": "home-allies-logo-axa",
           "title": "AXA"
@@ -158,16 +168,6 @@
           "img": "/img/logos/logo-imss.png",
           "class": "home-allies-logo-imss",
           "title": "IMSS"
-        },
-        {
-          "img": "/img/logos/logo-standford-medicine.png",
-          "class": "home-allies-logo-stanford",
-          "title": "Stanford Medicine"
-        },
-        {
-          "img": "/img/logos/logo-y-combinator.png",
-          "class": "home-allies-logo-ycombinator",
-          "title": "Y Combinator"
         },
         {
           "img": "/img/logos/logo-kowa.png",
