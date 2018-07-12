@@ -1556,8 +1556,9 @@
         "desc1": "Are you interested in learning more about us?",
         "desc2Part1": "Send us a message,",
         "desc2Part2": "we would love to hear from you!",
-        "follow": "Be part of the community",
+        "follow": "Be part of the",
         "followPink": "Higia",
+        "followPart2": "community",
         "btnSend": "Send",
         "socialNet": [
           {
