@@ -756,6 +756,15 @@
           "title": "South by Southwest",
           "description": "Pitch competition",
           "year": 2018
+        },
+        {
+          "img": "award-fellowship",
+          "logo": "/img/logos/logo-fellowship-white.png",
+          "logoClass": "logo-fellowship",
+          "logoContainerClass": "home-awards-logo-container",
+          "title": "Thiel Fellowship",
+          "description": "Thiel Fellowship Clase de 2018",
+          "year": 2018
         }
       ]
     },
