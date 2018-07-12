@@ -213,7 +213,7 @@
       "donors": {
         "title": "First Donors",
         "desc": "Our purpose began to come alive the day that the first people believed in our dream of revolutionizing breast cancer detection.",
-        "descBold": "Thank you to all our donors of our Inixar campaign.",
+        "descBold": "Thank you to all our donors from our Inixar campaign.",
         "columnOne": [
           {
             "name": "Abi Morgado"
@@ -850,7 +850,7 @@
           "logo": "/img/logos/logo-axxa-allies.png",
           "logoClass": "allies-logo-axa",
           "title": "Research, test campaigns, marketing strategies",
-          "desc": "In collaboration with AXA we have realized test campaigns such as Mujeres Fundadoras (Female Founders) and we are working on developing marketing strategies that allow EVA to reach a greater number of women."
+          "desc": "In collaboration with AXA we have Conducted test campaigns such as Mujeres Fundadoras (Female Founders) and we are working on developing marketing strategies that allow EVA to reach a greater number of women."
         },
         {
           "logo": "/img/logos/logo-imss-allies.png",
@@ -880,7 +880,7 @@
           "logo": "/img/logos/logo-kio-allies.png",
           "logoClass": "allies-logo-kio",
           "title": "Data hosting, IT Services",
-          "desc": "Thanks to KIO Networks, the clinical data of our patients are protected in the cloud."
+          "desc": "Thanks to KIO Networks, the clinical data of our patients is protected in the cloud."
         },
         {
           "logo": "/img/logos/logo-beeva-allies.png",
@@ -898,7 +898,7 @@
           "logo": "/img/logos/logo-tomatelopecho-allies.png",
           "logoClass": "allies-logo-tomatelopecho",
           "title": "Research",
-          "desc": "Together, Higia and Tómatelo a Pecho are fighting breast cancer, accelerating the development of EVA through mentors of the medical field."
+          "desc": "Together, Higia and Tómatelo a Pecho are fighting breast cancer, accelerating the development of EVA through mentors in the medical field."
         },
         {
           "logo": "/img/logos/logo-tepozrosa-allies.png",
@@ -916,7 +916,7 @@
           "logo": "/img/logos/logo-google-allies.png",
           "logoClass": "allies-logo-google",
           "title": "Data hosting, IT services",
-          "desc": "Thanks to Google, we are working hand in hand with first-level researchers on the development of the algorithms to detect diseases."
+          "desc": "Thanks to Google, we are working hand in hand with Top level researchers on the development of the algorithms to detect diseases."
         }
       ]
     },
@@ -1588,7 +1588,7 @@
       },
       "newsletter": {
         "title": "Do you want to receive our newsletter?",
-        "subtitle": "Leave us your comments",
+        "subtitle": "Leave us your information",
         "btnSend": "Send"
       }
     },
