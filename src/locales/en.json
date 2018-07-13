@@ -685,6 +685,15 @@
           "year": 2017
         },
         {
+          "img": "award-fellowship",
+          "logo": "/img/logos/logo-fellowship-white.png",
+          "logoClass": "logo-fellowship",
+          "logoContainerClass": "home-awards-logo-container",
+          "title": "Thiel Fellowship",
+          "description": "Thiel Fellowship Class of 2018",
+          "year": 2018
+        },
+        {
           "img": "award-babson",
           "logo": "/img/logos/logo-babson-white.png",
           "logoContainerClass": "home-awards-logo-container",
@@ -755,15 +764,6 @@
           "logoContainerClass": "home-awards-logo-container",
           "title": "South by Southwest",
           "description": "First Place pitch competition Casa Mexico",
-          "year": 2018
-        },
-        {
-          "img": "award-fellowship",
-          "logo": "/img/logos/logo-fellowship-white.png",
-          "logoClass": "logo-fellowship",
-          "logoContainerClass": "home-awards-logo-container",
-          "title": "Thiel Fellowship",
-          "description": "Thiel Fellowship Class of 2018",
           "year": 2018
         }
       ]
