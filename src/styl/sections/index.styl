@@ -704,16 +704,12 @@
 @media screen and (max-width 1229px)
   .home
     &-founder
-      flex-direction column
-      height auto
-
       &-img
         &-container
           background-color $hgrayLight
 
       &-info
-        padding-bottom 60px
-        padding-top 60px
+        padding 60px 30px
 
 @media screen and (max-width 1100px)
   .home
@@ -773,6 +769,20 @@
 
         &-bullet
           height 22px
+
+    &-founder
+      flex-direction column
+      height auto
+
+      &-img
+        display none
+
+        &-container
+          background-image: url(../img/home/founder-rocio-paulina.jpg);
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          height: 330px;
 
   .mask
     &-iphone
