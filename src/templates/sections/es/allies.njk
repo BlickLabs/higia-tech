@@ -44,21 +44,21 @@
     </section>
 
     <section class="allies-donors">
-      <h1 class="allies-donors-title helvneue-bold">{{es.homeAllies.donors.title}}</h1>
-      <p class="allies-donors-desc helvneue-regular">{{es.homeAllies.donors.desc}}<br><span class="helvneue-bold">{{es.homeAllies.donors.descBold}}</span></p>
+      <h1 class="allies-donors-title helvneue-bold">{{es.allies.donors.title}}</h1>
+      <p class="allies-donors-desc helvneue-regular">{{es.allies.donors.desc}}<br><span class="helvneue-bold">{{es.allies.donors.descBold}}</span></p>
       <div class="allies-donors-container">
         <div class="allies-donors-content">
-          {% for donor in es.homeAllies.donors.columnOne %}
+          {% for donor in es.allies.donors.columnOne %}
           <span class="allies-donors-name helvneue-lightitalic">{{donor.name}}</span>
           {% endfor %}
         </div>
         <div class="allies-donors-content">
-          {% for donor in es.homeAllies.donors.columnTwo %}
+          {% for donor in es.allies.donors.columnTwo %}
           <span class="allies-donors-name helvneue-lightitalic">{{donor.name}}</span>
           {% endfor %}
         </div>
         <div class="allies-donors-content">
-          {% for donor in es.homeAllies.donors.columnThree %}
+          {% for donor in es.allies.donors.columnThree %}
           <span class="allies-donors-name helvneue-lightitalic">{{donor.name}}</span>
           {% endfor %}
         </div>

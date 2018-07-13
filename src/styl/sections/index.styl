@@ -153,6 +153,13 @@
           right 40px
           top 26px
 
+    &-button
+      &-container
+        z-index 2
+
+        & > a:nth-child(2)
+          margin-left 20px
+
   &-founder
     display flex
     flex-direction row
@@ -172,12 +179,13 @@
     &-title
       color $hgrayStrong
       font-size $fs17
+      letter-spacing 0.5px
 
     &-subtitle
       font-size $fs45
       color $hgrayStrong
       letter-spacing -3px
-      line-height 31px
+      line-height 44px
 
       &-container
         margin 15px 0 24px 0
@@ -590,6 +598,9 @@
   &-sxsw
     background-image url("../img/home/award-sxsw.jpg")
 
+  &-fellowship
+    background-image url("../img/home/award-fellowship.jpg")
+
 .logo
   &-babson
     height auto
@@ -626,6 +637,10 @@
   &-sxsw
     height auto
     width 90px !important
+
+  &-fellowship
+    height auto
+    width 131px !important
 
 .bullet-left
   left 100px
@@ -689,16 +704,12 @@
 @media screen and (max-width 1229px)
   .home
     &-founder
-      flex-direction column
-      height auto
-
       &-img
         &-container
           background-color $hgrayLight
 
       &-info
-        padding-bottom 60px
-        padding-top 60px
+        padding 60px 30px
 
 @media screen and (max-width 1100px)
   .home
@@ -758,6 +769,20 @@
 
         &-bullet
           height 22px
+
+    &-founder
+      flex-direction column
+      height auto
+
+      &-img
+        display none
+
+        &-container
+          background-image: url(../img/home/founder-rocio-paulina.jpg);
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          height: 330px;
 
   .mask
     &-iphone
@@ -867,6 +892,7 @@
         &-container
           display flex
           flex-direction row
+          margin-top 50px
 
     &-founder
       &-img
@@ -874,10 +900,10 @@
 
         &-container
           background-image url("../img/home/founder-rocio-paulina.jpg")
-          background-position top
+          background-position center
           background-size cover
           background-repeat no-repeat
-          height 250px
+          height 330px
 
       &-info
         padding 56px 35px
@@ -888,6 +914,7 @@
       &-subtitle
         font-size 29px
         letter-spacing -1.9px
+        line-height 32px
 
         &-container
           margin-top 8px
@@ -1054,3 +1081,12 @@
     &-sxsw
       height auto
       width 60px !important
+
+    &-fellowship
+      height auto
+      width 112px !important
+
+@media screen and (max-width 480px)
+  .award
+    &-presidential
+      background-position left -73px center

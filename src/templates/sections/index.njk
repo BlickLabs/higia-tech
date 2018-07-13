@@ -10,13 +10,13 @@
       <div class="home-particles-absolute" id="home-particles-absolute">
         <div class="home-cover">
           <div class="home-cover-info">
-            <h1 class="home-cover-title helvneue-light">{{es.coverTitle}} <span class="helvneue-bold pink">{{es.coverTitleSpan}}</span></h1>
+            <h1 class="home-cover-title helvneue-light">{{es.home.cover.title}} <span class="helvneue-bold pink">{{es.home.cover.titleSpan}}</span></h1>
             <div class="home-cover-description-container">
-              <p class="home-cover-description helvneue-light"><span class="helvneue-bold">{{es.coverDescription[0]}} </span><span class="helvneue-bold pink">{{es.coverDescription[1]}}</span><span class="helvneue-bold">, </span>{{es.coverDescription[2]}}, <span class="helvneue-bold">{{es.coverDescription[3]}} </span>{{es.coverDescription[4]}} <span class="helvneue-bold">{{es.coverDescription[5]}}</span> {{es.coverDescription[6]}} <span class="pink helvneue-bold">{{es.coverDescription[7]}}.</span></p>
+              <p class="home-cover-description helvneue-light"><span class="helvneue-bold">{{es.home.cover.description[0]}} </span><span class="helvneue-bold pink">{{es.home.cover.description[1]}}</span><span class="helvneue-bold">, </span>{{es.home.cover.description[2]}}, <span class="helvneue-bold">{{es.home.cover.description[3]}} </span>{{es.home.cover.description[4]}} <span class="helvneue-bold">{{es.home.cover.description[5]}}</span> {{es.home.cover.description[6]}} <span class="pink helvneue-bold">{{es.home.cover.description[7]}}.</span></p>
             </div>
             <div class="home-cover-btn-container">
               <a href="">
-                <button class="helvneue-medium btn-base btn-md">{{es.btnPreorder}}</button>
+                <button class="helvneue-medium btn-base btn-md">{{es.home.cover.btnPreorder}}</button>
               </a>
             </div>
           </div>
@@ -27,11 +27,11 @@
     <div class="home-eva">
       <div>
         <div class="home-eva-logo-container">
-          <img class="home-eva-logo" src="{{es.homeEva.logo}}" alt="EVA logo">
+          <img class="home-eva-logo" src="{{es.home.eva.logo}}" alt="EVA logo">
         </div>
         <div class="home-eva-paragraph-container">
           <p class="home-eva-paragraph helvneue-light">
-            <span class="pink helvneue-medium">EVA</span> proporciona a las mujeres información personalizada y accionable para <span class="helvneue-medium">aumentar sustancialmente su calidad de vida</span> a través de la <span class="pink helvneue-medium">detección temprana del cáncer de mama.</span>
+            <span class="pink helvneue-medium">{{es.home.eva.desc[0]}}</span> {{es.home.eva.desc[1]}} <span class="helvneue-medium">{{es.home.eva.desc[2]}}</span> {{es.home.eva.desc[3]}} <span class="pink helvneue-medium">{{es.home.eva.desc[4]}}</span>
           </p>
         </div>
       </div>
@@ -66,10 +66,10 @@
       </div>
       <div class="home-eva-button-container">
         <a href="">
-          <button class="helvneue-medium btn-base btn-md">{{es.homeEva.firstButton}}</button>
+          <button class="helvneue-medium btn-base btn-md">{{es.home.eva.firstButton}}</button>
         </a>
         <a href="">
-          <button class="helvneue-medium btn-base btn-md">{{es.homeEva.secondButton}}</button>
+          <button class="helvneue-medium btn-base btn-white btn-md">{{es.home.eva.secondButton}}</button>
         </a>
       </div>
     </div>
@@ -105,12 +105,12 @@
 
     <div class="home-allies">
       <div class="home-allies-content">
-        <h1 class="home-allies-title helvneue-bold">{{es.homeAllies.title}}</h1>
+        <h1 class="home-allies-title helvneue-bold">{{es.home.allies.title}}</h1>
         <div class="home-allies-description-container">
-          <p class="home-allies-description helvneue-light">{{es.homeAllies.description}}</p>
+          <p class="home-allies-description helvneue-light">{{es.home.allies.description}}</p>
         </div>
         <div class="home-allies-carousel owl-carousel">
-          {% for logo in es.homeAllies.logos %}
+          {% for logo in es.home.allies.logos %}
           <div class="home-allies-carousel-content">
             <div class="home-allies-logo-container">
               <img class="{{logo.class}}" src="{{logo.img}}">
@@ -121,7 +121,7 @@
         </div>
         <div class="home-allies-btn-container">
           <a href="">
-            <button class="helvneue-medium btn-base btn-sm">{{es.btnKnowMore}}</button>
+            <button class="helvneue-medium btn-base btn-sm">{{es.home.allies.btnKnowMore}}</button>
           </a>
         </div>
       </div>
@@ -129,10 +129,10 @@
 
     <div class="home-awards">
       <div class="home-awards-title-container">
-        <h1 class="home-awards-title helvneue-bold">{{es.homeAwards.title}}</h1>
+        <h1 class="home-awards-title helvneue-bold">{{es.home.awards.title}}</h1>
       </div>
       <div class="home-awards-carousel owl-carousel">
-        {% for award in es.homeAwards.carousel %}
+        {% for award in es.home.awards.carousel %}
         <div class="home-awards-content">
           <div class="home-awards-img {{award.img}}">
             <div class="{{award.logoContainerClass}}">
@@ -151,9 +151,9 @@
     </div>
 
     <div class="home-news">
-      <h1 class="home-news-title helvneue-bold">{{es.homeNews.title}}</h1>
+      <h1 class="home-news-title helvneue-bold">{{es.home.news.title}}</h1>
       <div class="home-news-carousel owl-carousel">
-        {% for new in es.homeNews.carousel %}
+        {% for new in es.home.news.carousel %}
         <a href="{{new.link}}" target="_blank">
           <div class="home-news-card">
             <div>
@@ -170,7 +170,7 @@
       </div>
       <div class="home-news-btn-container">
         <a href="/es/news.html">
-          <button class="helvneue-medium btn-base btn-lg">{{es.btnCompleteNotes}}</button>
+          <button class="helvneue-medium btn-base btn-lg">{{es.home.news.btnCompleteNotes}}</button>
         </a>
       </div>
     </div>

@@ -47,34 +47,55 @@
         }
       ]
     },
-    "footerLogo": "/img/logos/logo-footer.png",
-    "footerPrivacy": "Privacy notice",
-    "footerCopyright": "© Copyright, Higia Technologies 2018",
-    "coverTitle": "Hi, we are",
-    "coverTitleSpan": "Higia",
-    "coverDescription": [
-      "We are developing",
-      "EVA",
-      "an",
-      "accessible",
-      "and",
-      "non-invasive",
-      "wearable device for",
-      "breast cancer",
-      "risk assessment"
-    ],
-    "evaInfographi": "/img/home/eva-infographi-english.jpg",
-    "founder": "/img/home/founder-lupita.jpg",
-    "btnPreorder": "Preorder",
-    "btnKnowMore": "Conoce más",
-    "btnCompleteNotes": "Lee las notas completas",
-    "homeEva": {
-      "logo": "/img/logos/logo-eva.png",
-      "firstButton": "Preorder",
-      "secondButton": "Learn more"
+    "footer": {
+      "logo": "/img/logos/logo-footer.png",
+      "socialNet": [
+        {
+          "link": "https://mx.linkedin.com/company/higia-technologies",
+          "iconClass": "icon-in"
+        },
+        {
+          "link": "https://twitter.com/Higia_Tech",
+          "iconClass": "icon-twitter"
+        },
+        {
+          "link": "https://www.instagram.com/higiatech/",
+          "iconClass": "icon-insta"
+        },
+        {
+          "link": "https://www.facebook.com/HigiaTech",
+          "iconClass": "icon-fb"
+        }
+      ],
+      "privacy": "Privacy notice",
+      "copyright": "© Copyright, Higia Technologies 2018"
     },
     "home": {
+      "cover": {
+        "title": "Hi, we are",
+        "titleSpan": "Higia",
+        "description": [
+          "We are developing",
+          "EVA",
+          "an",
+          "accessible",
+          "and",
+          "non-invasive",
+          "wearable device for",
+          "breast cancer risk",
+          "assessment"
+        ],
+        "btnPreorder": "Preorder"
+      },
       "eva": {
+        "logo": "/img/logos/logo-eva.png",
+        "desc": [
+          "EVA",
+          "provides women with personalized and actionable information for early breast cancer assessment.",
+          "Early breast cancer detection",
+          "substantially",
+          "increases the probability of successful treatments."
+        ],
         "infographi": [
           {
             "imgContainer": "home-eva-img-iphone-container",
@@ -130,90 +151,340 @@
             "infoPink": "NON-INVASIVE",
             "infoBlack": "TECHNOLOGY"
           }
-        ]
+        ],
+        "firstButton": "Preorder",
+        "secondButton": "Learn more"
       },
       "founder": {
         "img": "/img/home/founder-rocio-paulina.jpg",
         "title": "Female Founders",
         "subtitle": "Rocío Paulina Martínez",
-        "descriptionOne": "Female Founders is our internal program for testing and get feedback on EVA. Thanks to the participation of voluntary women, we can continue to improve the development of EVA and compile data to train our artificial intelligence algorithms.",
+        "descriptionOne": "Female Founders is our internal program for testing and getting feedback on EVA. Thanks to the participation of Women volunteers, we can continue to improve the development of EVA and compile data to train our artificial intelligence algorithms.",
         "descriptionTwo": "Learn about the history of Rocío, volunteer for our campaign.",
         "dataModal": "data-modal-rocio",
         "video": "/img/videos/rocio-paulina-en.mp4",
         "videoId": "video-rocio-paulina",
         "button": "Watch video"
+      },
+      "allies": {
+        "title": "Our allies",
+        "description": "In our fight to revolutionize early breast cancer detection, we count on key allies that boost us and support Higia Technologies in various areas of its daily operation.",
+        "logos": [
+          {
+            "img": "/img/logos/logo-y-combinator.png",
+            "class": "home-allies-logo-ycombinator",
+            "title": "Y Combinator"
+          },
+          {
+            "img": "/img/logos/logo-standford-medicine.png",
+            "class": "home-allies-logo-stanford",
+            "title": "Stanford Medicine"
+          },
+          {
+            "img": "/img/logos/logo-axxa.png",
+            "class": "home-allies-logo-axa",
+            "title": "AXA"
+          },
+          {
+            "img": "/img/logos/logo-imss.png",
+            "class": "home-allies-logo-imss",
+            "title": "IMSS"
+          },
+          {
+            "img": "/img/logos/logo-kowa.png",
+            "class": "home-allies-logo-kowa",
+            "title": "Kowa"
+          },
+          {
+            "img": "/img/logos/logo-kio-networks.png",
+            "class": "home-allies-logo-kio",
+            "title": "KIO Networks"
+          },
+          {
+            "img": "/img/logos/logo-beeva.png",
+            "class": "home-allies-logo-beeva",
+            "title": "BEEVA"
+          },
+          {
+            "img": "/img/logos/logo-molex.png",
+            "class": "home-allies-logo-molex",
+            "title": "Molex"
+          },
+          {
+            "img": "/img/logos/logo-tomatelo-pecho.png",
+            "class": "home-allies-logo-tomatelopecho",
+            "title": "Tómatelo a Pecho"
+          },
+          {
+            "img": "/img/logos/logo-tepoz-rosa.png",
+            "class": "home-allies-logo-tepozrosa",
+            "title": "Tepoz Rosa"
+          },
+          {
+            "img": "/img/logos/logo-nsf.png",
+            "class": "home-allies-logo-nsf",
+            "title": "National Science Foundation"
+          },
+          {
+            "img": "/img/logos/logo-google.png",
+            "class": "home-allies-logo-google",
+            "title": "Google"
+          }
+        ],
+        "btnKnowMore": "Learn more"
+      },
+      "awards": {
+        "title": "Awards and recognitions",
+        "carousel": [
+          {
+            "img": "award-presidential",
+            "logo": "/img/logos/logo-mexico.png",
+            "logoClass": "logo-mexico",
+            "logoContainerClass": "home-awards-logo-container",
+            "title": "Presidential Medal in Technology and Entrepreneurship",
+            "description": "Awarded by the President of Mexico Enrique Peña Nieto",
+            "year": 2017
+          },
+          {
+            "img": "award-fellowship",
+            "logo": "/img/logos/logo-fellowship-white.png",
+            "logoClass": "logo-fellowship",
+            "logoContainerClass": "home-awards-logo-container",
+            "title": "Thiel Fellowship",
+            "description": "Thiel Fellowship Class of 2018",
+            "year": 2018
+          },
+          {
+            "img": "award-babson",
+            "logo": "/img/logos/logo-babson-white.png",
+            "logoContainerClass": "home-awards-logo-container",
+            "logoClass": "logo-babson",
+            "title": "Babson College Innovation Challenge",
+            "description": "First Place",
+            "year": 2016
+          },
+          {
+            "img": "award-harvard",
+            "logo": "/img/logos/logo-harvard-white.png",
+            "logoContainerClass": "home-awards-logo-container",
+            "logoClass": "logo-harvard",
+            "title": "Harvard University and MIT Innovation Laboratories",
+            "description": "Invited speakers",
+            "year": 2017
+          },
+          {
+            "img": "award-everis",
+            "logo": "/img/logos/logo-everis.png",
+            "logoClass": "logo-everis",
+            "logoContainerClass": "home-awards-logo-container",
+            "title": "EVERIS Award",
+            "description": "First Place",
+            "year": 2017
+          },
+          {
+            "img": "award-eogsea",
+            "logo": "/img/logos/logo-eogsea.png",
+            "logoClass": "logo-eogsea",
+            "logoContainerClass": "home-awards-logo-container",
+            "title": "Global Student Entrepreneur Award",
+            "description": "First Place National and First Place International.",
+            "descriptionItalic": "First Mexican startup to be recognized by this award",
+            "year": 2017
+          },
+          {
+            "img": "award-masschallenge",
+            "logo": "/img/logos/logo-mass-challenge.png",
+            "logoClass": "logo-mass-challenge",
+            "logoContainerClass": "home-awards-logo-container",
+            "title": "MassChallenge",
+            "description": "Incubated Company",
+            "year": 2017
+          },
+          {
+            "img": "award-national-academy",
+            "logo": "/img/logos/logo-national-academy.png",
+            "logoClass": "logo-national-academy",
+            "logoContainerClass": "home-awards-logo-container",
+            "title": "Congress of Future Medical Leaders",
+            "description": "Invited speakers",
+            "year": 2017
+          },
+          {
+            "img": "award-forbes",
+            "logo": "/img/logos/logo-forbes-white.png",
+            "logoClass": "logo-forbes",
+            "logoContainerClass": "home-awards-logo-container",
+            "title": "Forbes 30 Most Promising Companies",
+            "description": "Higia is recognized as one of the most promising companies in 2018",
+            "year": 2018
+          },
+          {
+            "img": "award-sxsw",
+            "logo": "/img/logos/logo-sxsw.png",
+            "logoClass": "logo-sxsw",
+            "logoContainerClass": "home-awards-logo-container",
+            "title": "South by Southwest",
+            "description": "First Place pitch competition Casa Mexico",
+            "year": 2018
+          }
+        ]
+      },
+      "news": {
+        "title": "News",
+        "carousel": [
+          {
+            "link": "http://www.bbc.com/news/world-latin-america-39802629",
+            "logo": "/img/logos/logo-bbc.png",
+            "logoClass": "home-news-logo-bbc",
+            "description": "\"Could this bra detect breast cancer?\"",
+            "date": "BBC Latin America | May 4, 2017"
+          },
+          {
+            "link": "https://www.guidingtech.com/66967/higia-eva-bra-breast-cancer-detection/",
+            "logo": "/img/logos/logo-guiding-tech.png",
+            "logoClass": "home-news-logo-guiding",
+            "description": "\"Teenager Develops Bra to Detect Breast Cancer\"",
+            "date": "Guiding Tech | May 5, 2017"
+          },
+          {
+            "link": "http://elfinanciero.com.mx/bloomberg-businessweek/el-joven-que-hallo-en-una-terrible-noticia-una-idea-para-prevenir-el-cancer-de-mama",
+            "logo": "/img/logos/logo-financiero.png",
+            "logoClass": "home-news-logo-financiero",
+            "description": "\"The young man who found in terrible news an idea to prevent breast cancer\"",
+            "date": "El Financiero | April 24, 2018"
+          },
+          {
+            "link": "https://www.forbes.com.mx/eva-el-brasier-que-detecta-el-cancer-de-mama-se-vendera-en-japon/",
+            "logo": "/img/logos/logo-forbes-black.png",
+            "logoClass": "home-news-logo-forbes",
+            "description": "\"EVA, the bra that detects breast cancer will be commercialised in Japan\"",
+            "date": "Forbes | April 5, 2018"
+          },
+          {
+            "link": "http://www.excelsior.com.mx/hacker/sosten-mexicano-que-detecta-cancer-llegara-a-japon-este-ano/1230695",
+            "logo": "/img/logos/logo-excelsior.png",
+            "logoClass": "home-news-logo-excelsior",
+            "description": "\"Mexican bra that detects cancer will reach Japan this year\"",
+            "date": "Notimex | April 5, 2018"
+          },
+          {
+            "link": "https://www.forbes.com.mx/un-brassiere-detecta-el-cancer/",
+            "logo": "/img/logos/logo-forbes-black.png",
+            "logoClass": "home-news-logo-forbes",
+            "description": "\"30 Promises 2018 | A brassiere detects cancer and saves women\"",
+            "date": "Forbes | February 13, 2018"
+          },
+          {
+            "link": "https://www.forbes.com.mx/a-sus-18-anos-un-mexicano-puede-revolucionar-la-deteccion-del-cancer-de-mama/",
+            "logo": "/img/logos/logo-forbes-black.png",
+            "logoClass": "home-news-logo-forbes",
+            "description": "\"At age 18, a Mexican can revolutionize the detection of breast cancer\"",
+            "date": "Forbes | March 30, 2017"
+          },
+          {
+            "link": "https://expansion.mx/emprendedores/2017/03/29/wearable-mexicano-que-detecta-cancer-de-mama-sera-probado-en-el-imss",
+            "logo": "/img/logos/logo-expansion.png",
+            "logoClass": "home-news-logo-expansion",
+            "description": "\"Mexican wearable that detects breast cancer will be tested in the IMSS\"",
+            "date": "Expansión | March 29, 2017"
+          },
+          {
+            "link": "http://www.eluniversal.com.mx/articulo/periodismo-de-datos/2016/10/5/luchan-contra-el-cancer-de-mama",
+            "logo": "/img/logos/logo-universal.png",
+            "logoClass": "home-news-logo-universal",
+            "description": "\"Fighters against breast cancer\"",
+            "date": "El Universal | October 5, 2016"
+          }
+        ],
+        "btnCompleteNotes": "Read all"
       }
     },
-    "homeAllies": {
-      "title": "Our allies",
-      "description": "In our fight to revolutionize early breast cancer detection, we count on key allies that boost us and support Higia Technologies in various areas of its daily operation.",
-      "btn": "Learn more",
-      "logos": [
+    "allies": {
+      "link": "/en/allies",
+      "cover": {
+        "title": "Allies",
+        "descPt1": "In our fight to revolutionize early breast cancer detection, we count on key allies that boost us and support",
+        "descBold": "Higia Technologies",
+        "descPt2": "in different areas of its daily operation."
+      },
+      "cards": [
         {
-          "img": "/img/logos/logo-axxa.png",
-          "class": "home-allies-logo-axa",
-          "title": "AXA"
+          "logo": "/img/logos/logo-axxa-allies.png",
+          "logoClass": "allies-logo-axa",
+          "title": "Research, test campaigns, marketing strategies",
+          "desc": "In collaboration with AXA we have Conducted test campaigns such as Mujeres Fundadoras (Female Founders) and we are working on developing marketing strategies that allow EVA to reach a greater number of women."
         },
         {
-          "img": "/img/logos/logo-imss.png",
-          "class": "home-allies-logo-imss",
-          "title": "IMSS"
+          "logo": "/img/logos/logo-imss-allies.png",
+          "logoClass": "allies-logo-imss",
+          "title": "Clinical tests",
+          "desc": "Thanks to IMSS, we will perform clinical trials in Mexico with more than 600 women."
         },
         {
-          "img": "/img/logos/logo-standford-medicine.png",
-          "class": "home-allies-logo-stanford",
-          "title": "Stanford Medicine"
+          "logo": "/img/logos/logo-stanford-allies.png",
+          "logoClass": "allies-logo-stanford",
+          "title": "Clinical tests",
+          "desc": "Together with Stanford Medicine we will start clinical trials to get the approval of the FDA."
         },
         {
-          "img": "/img/logos/logo-y-combinator.png",
-          "class": "home-allies-logo-ycombinator",
-          "title": "Y Combinator"
+          "logo": "/img/logos/logo-ycombinator-allies.png",
+          "logoClass": "allies-logo-ycombinator",
+          "title": "Investor",
+          "desc": "Higia is a company funded by Y Combinator, the most prestigious company accelerator on a global level."
         },
         {
-          "img": "/img/logos/logo-kowa.png",
-          "class": "home-allies-logo-kowa",
-          "title": "Kowa"
+          "logo": "/img/logos/logo-kowa-allies.png",
+          "logoClass": "allies-logo-kowa",
+          "title": "Marketing strategies in Asia",
+          "desc": "In collaboration with Kowa we are starting to explore ways for EVA to reach more women around the world."
         },
         {
-          "img": "/img/logos/logo-kio-networks.png",
-          "class": "home-allies-logo-kio",
-          "title": "KIO Networks"
+          "logo": "/img/logos/logo-kio-allies.png",
+          "logoClass": "allies-logo-kio",
+          "title": "Data hosting, IT Services",
+          "desc": "Thanks to KIO Networks, the clinical data of our patients is protected in the cloud."
         },
         {
-          "img": "/img/logos/logo-beeva.png",
-          "class": "home-allies-logo-beeva",
-          "title": "BEEVA"
+          "logo": "/img/logos/logo-beeva-allies.png",
+          "logoClass": "allies-logo-beeva",
+          "title": "Software development",
+          "desc": "Thanks to the support of BEEVA, we continue to improve the software behind EVA every day."
         },
         {
-          "img": "/img/logos/logo-molex.png",
-          "class": "home-allies-logo-molex",
-          "title": "Molex"
+          "logo": "/img/logos/logo-molex-allies.png",
+          "logoClass": "allies-logo-molex",
+          "title": "Manufacture and production processes",
+          "desc": "In collaboration with Molex we work to perfect the electronics and the manufacturing processes behind EVA."
         },
         {
-          "img": "/img/logos/logo-tomatelo-pecho.png",
-          "class": "home-allies-logo-tomatelopecho",
-          "title": "Tómatelo a Pecho"
+          "logo": "/img/logos/logo-tomatelopecho-allies.png",
+          "logoClass": "allies-logo-tomatelopecho",
+          "title": "Research",
+          "desc": "Together, Higia and Tómatelo a Pecho are fighting breast cancer, accelerating the development of EVA through mentors in the medical field."
         },
         {
-          "img": "/img/logos/logo-tepoz-rosa.png",
-          "class": "home-allies-logo-tepozrosa",
-          "title": "Tepoz Rosa"
+          "logo": "/img/logos/logo-tepozrosa-allies.png",
+          "logoClass": "allies-logo-tepozrosa",
+          "title": "Test campaigns",
+          "desc": "Together, Higia and Tepoz Rosa fight to deliver screening and early diagnostic tools to rural communities."
         },
         {
-          "img": "/img/logos/logo-nsf.png",
-          "class": "home-allies-logo-nsf",
-          "title": "National Science Foundation"
+          "logo": "/img/logos/logo-nsf-allies.png",
+          "logoClass": "allies-logo-nsf",
+          "title": "Research, development of business model",
+          "desc": "With the support of the MD Anderson I-Corps Regional Program launched by the National Science Foundation we have been able to validate our business model responding to the needs of our users, strengthening our proposal of worth based on the needs of our users."
         },
         {
-          "img": "/img/logos/logo-google.png",
-          "class": "home-allies-logo-google",
-          "title": "Google"
+          "logo": "/img/logos/logo-google-allies.png",
+          "logoClass": "allies-logo-google",
+          "title": "Data hosting, IT services",
+          "desc": "Thanks to Google, we are working hand in hand with Top level researchers on the development of the algorithms to detect diseases."
         }
       ],
       "donors": {
         "title": "First Donors",
         "desc": "Our purpose began to come alive the day that the first people believed in our dream of revolutionizing breast cancer detection.",
-        "descBold": "Thank you to all our donors of our Inixar campaign.",
+        "descBold": "Thank you to all our donors from our Inixar campaign.",
         "columnOne": [
           {
             "name": "Abi Morgado"
@@ -264,11 +535,109 @@
             "name": "Anallely Escobar"
           },
           {
+            "name": "Anna Lee Mraz Bartra"
+          },
+          {
+            "name": "Antonio Dávila"
+          },
+          {
+            "name": "Areli Banda"
+          },
+          {
+            "name": "Arnoldo Velazquez"
+          },
+          {
+            "name": "Beatriz Hernandez"
+          },
+          {
+            "name": "Berenice Turrubiates"
+          },
+          {
+            "name": "Car VF"
+          },
+          {
+            "name": "Cari Navarro Halún"
+          },
+          {
+            "name": "Carmen Cuevas"
+          },
+          {
+            "name": "Carmen Zamora"
+          },
+          {
+            "name": "Carolina Beas Chavarin"
+          },
+          {
+            "name": "Clancy Espino"
+          },
+          {
+            "name": "Claudia Silva"
+          },
+          {
+            "name": "Claudia Stefanie Serna"
+          },
+          {
+            "name": "Coco Villarreal"
+          },
+          {
+            "name": "Dafne Díaz"
+          },
+          {
+            "name": "Dani Vazquez"
+          },
+          {
+            "name": "Daniela Aboytes"
+          },
+          {
+            "name": "Daniela Menendez"
+          },
+          {
+            "name": "Daniela Treviño Campoy"
+          },
+          {
+            "name": "Denisse Peña"
+          },
+          {
+            "name": "Diana Litzin Rubio"
+          },
+          {
+            "name": "Diana Meraz"
+          },
+          {
+            "name": "Dilian Patricia"
+          },
+          {
+            "name": "Dulce Palma"
+          },
+          {
+            "name": "Edgar Raúl Ramírez Zárate"
+          },
+          {
+            "name": "Efra Diez"
+          },
+          {
+            "name": "Elena Gutierrez"
+          },
+          {
+            "name": "Erika Garavito"
+          },
+          {
+            "name": "Felipe Navarro"
+          },
+          {
+            "name": "Fernanda Leroux"
+          },
+          {
+            "name": "Fernando Lara"
+          },
+          {
             "name": "Fernando López Martínez"
           },
           {
             "name": "Francisco Andrade Méndez"
-          },
+          }
+        ],
+        "columnTwo": [
           {
             "name": "Gabriel Pérez Kohler"
           },
@@ -364,56 +733,6 @@
           },
           {
             "name": "Lesly Dominguez"
-          }
-        ],
-        "columnTwo": [
-          {
-            "name": "Anna Lee Mraz Bartra"
-          },
-          {
-            "name": "Antonio Dávila"
-          },
-          {
-            "name": "Areli Banda"
-          },
-          {
-            "name": "Arnoldo Velazquez"
-          },
-          {
-            "name": "Beatriz Hernandez"
-          },
-          {
-            "name": "Berenice Turrubiates"
-          },
-          {
-            "name": "Car VF"
-          },
-          {
-            "name": "Cari Navarro Halún"
-          },
-          {
-            "name": "Carmen Cuevas"
-          },
-          {
-            "name": "Carmen Zamora"
-          },
-          {
-            "name": "Carolina Beas Chavarin"
-          },
-          {
-            "name": "Clancy Espino"
-          },
-          {
-            "name": "Claudia Silva"
-          },
-          {
-            "name": "Claudia Stefanie Serna"
-          },
-          {
-            "name": "Coco Villarreal"
-          },
-          {
-            "name": "Dafne Díaz"
           },
           {
             "name": "Leticia Lira"
@@ -428,7 +747,7 @@
             "name": "Lourdes Garduño"
           },
           {
-            "name": "Ma.Beatriz Vaqueiro González"
+            "name": "Ma. Beatriz Vaqueiro González"
           },
           {
             "name": "Marco Correa"
@@ -468,7 +787,9 @@
           },
           {
             "name": "Marité Villar Zebadúa"
-          },
+          }
+        ],
+        "columnThree": [
           {
             "name": "Maritza Castillo"
           },
@@ -519,56 +840,6 @@
           },
           {
             "name": "Norma Rodriguez"
-          }
-        ],
-        "columnThree": [
-          {
-            "name": "Dani Vazquez"
-          },
-          {
-            "name": "Daniela Aboytes"
-          },
-          {
-            "name": "Daniela Menendez"
-          },
-          {
-            "name": "Daniela Treviño Campoy"
-          },
-          {
-            "name": "Denisse Peña"
-          },
-          {
-            "name": "Diana Litzin Rubio"
-          },
-          {
-            "name": "Diana Meraz"
-          },
-          {
-            "name": "Dilian Patricia"
-          },
-          {
-            "name": "Dulce Palma"
-          },
-          {
-            "name": "Edgar Raúl Ramírez Zárate"
-          },
-          {
-            "name": "Efra Diez"
-          },
-          {
-            "name": "Elena Gutierrez"
-          },
-          {
-            "name": "Elena Gutierrez"
-          },
-          {
-            "name": "Felipe Navarro"
-          },
-          {
-            "name": "Fernanda Leroux"
-          },
-          {
-            "name": "Fernando Lara"
           },
           {
             "name": "Olivia Elizabeth"
@@ -672,249 +943,10 @@
         ]
       }
     },
-    "homeAwards": {
-      "title": "Awards and recognitions",
-      "carousel": [
-        {
-          "img": "award-babson",
-          "logo": "/img/logos/logo-babson-white.png",
-          "logoContainerClass": "home-awards-logo-container",
-          "logoClass": "logo-babson",
-          "title": "Babson College Innovation Challenge",
-          "description": "First Place",
-          "year": 2016
-        },
-        {
-          "img": "award-harvard",
-          "logo": "/img/logos/logo-harvard-white.png",
-          "logoContainerClass": "home-awards-logo-container",
-          "logoClass": "logo-harvard",
-          "title": "Harvard University and MIT Innovation Laboratories",
-          "description": "Invited speakers",
-          "year": 2017
-        },
-        {
-          "img": "award-everis",
-          "logo": "/img/logos/logo-everis.png",
-          "logoClass": "logo-everis",
-          "logoContainerClass": "home-awards-logo-container",
-          "title": "EVERIS Award",
-          "description": "First Place",
-          "year": 2017
-        },
-        {
-          "img": "award-eogsea",
-          "logo": "/img/logos/logo-eogsea.png",
-          "logoClass": "logo-eogsea",
-          "logoContainerClass": "home-awards-logo-container",
-          "title": "Global Student Entrepreneur Award",
-          "description": "First Place National and First Place International.",
-          "descriptionItalic": "First Mexican startup to be recognized by this award",
-          "year": 2017
-        },
-        {
-          "img": "award-masschallenge",
-          "logo": "/img/logos/logo-mass-challenge.png",
-          "logoClass": "logo-mass-challenge",
-          "logoContainerClass": "home-awards-logo-container",
-          "title": "MassChallenge",
-          "description": "Incubated Company",
-          "year": 2017
-        },
-        {
-          "img": "award-presidential",
-          "logo": "/img/logos/logo-mexico.png",
-          "logoClass": "logo-mexico",
-          "logoContainerClass": "home-awards-logo-container",
-          "title": "Presidential Medal in Technology and Entrepreneurship",
-          "description": "Awarded by the President of Mexico Enrique Peña Nieto",
-          "year": 2017
-        },
-        {
-          "img": "award-national-academy",
-          "logo": "/img/logos/logo-national-academy.png",
-          "logoClass": "logo-national-academy",
-          "logoContainerClass": "home-awards-logo-container",
-          "title": "Congress of Future Medical Leaders",
-          "description": "Invited speakers",
-          "year": 2017
-        },
-        {
-          "img": "award-forbes",
-          "logo": "/img/logos/logo-forbes-white.png",
-          "logoClass": "logo-forbes",
-          "logoContainerClass": "home-awards-logo-container",
-          "title": "Forbes 30 Most Promising Companies",
-          "description": "",
-          "year": 2018
-        },
-        {
-          "img": "award-sxsw",
-          "logo": "/img/logos/logo-sxsw.png",
-          "logoClass": "logo-sxsw",
-          "logoContainerClass": "home-awards-logo-container",
-          "title": "South by Southwest",
-          "description": "First Place pitch competition Casa Mexico",
-          "year": 2018
-        }
-      ]
-    },
-    "homeNews": {
-      "title": "News",
-      "btn": "Read all",
-      "carousel": [
-        {
-          "link": "http://www.bbc.com/news/world-latin-america-39802629",
-          "logo": "/img/logos/logo-bbc.png",
-          "logoClass": "home-news-logo-bbc",
-          "description": "\"Could this bra detect breast cancer?\"",
-          "date": "BBC Latin America | 4 de mayo 2017"
-        },
-        {
-          "link": "https://www.guidingtech.com/66967/higia-eva-bra-breast-cancer-detection/",
-          "logo": "/img/logos/logo-guiding-tech.png",
-          "logoClass": "home-news-logo-guiding",
-          "description": "\"Teenager Develops Bra to Detect Breast Cancer\"",
-          "date": "Guiding Tech | 5 de mayo 2017"
-        },
-        {
-          "link": "http://elfinanciero.com.mx/bloomberg-businessweek/el-joven-que-hallo-en-una-terrible-noticia-una-idea-para-prevenir-el-cancer-de-mama",
-          "logo": "/img/logos/logo-financiero.png",
-          "logoClass": "home-news-logo-financiero",
-          "description": "\"El joven que halló en una terrible noticia una idea para prevenir el cáncer de mama\"",
-          "date": "El Financiero |  24 de abril de 2018"
-        },
-        {
-          "link": "https://www.forbes.com.mx/eva-el-brasier-que-detecta-el-cancer-de-mama-se-vendera-en-japon/",
-          "logo": "/img/logos/logo-forbes-black.png",
-          "logoClass": "home-news-logo-forbes",
-          "description": "\"EVA, el brasier que detecta el cáncer de mama se venderá en Japón\"",
-          "date": "Forbes | 5 de abril de 2018"
-        },
-        {
-          "link": "http://www.excelsior.com.mx/hacker/sosten-mexicano-que-detecta-cancer-llegara-a-japon-este-ano/1230695",
-          "logo": "/img/logos/logo-excelsior.png",
-          "logoClass": "home-news-logo-excelsior",
-          "description": "\"Sostén mexicano que detecta cáncer llegará a Japón este año\"",
-          "date": "Notimex | 5 de abril de 2018"
-        },
-        {
-          "link": "https://www.forbes.com.mx/un-brassiere-detecta-el-cancer/",
-          "logo": "/img/logos/logo-forbes-black.png",
-          "logoClass": "home-news-logo-forbes",
-          "description": "\"30 Promesas 2018 | Un brassiere detecta el cáncer y salva la vida a las mujeres\"",
-          "date": "Forbes | 13 de febrero 2018"
-        },
-        {
-          "link": "https://www.forbes.com.mx/a-sus-18-anos-un-mexicano-puede-revolucionar-la-deteccion-del-cancer-de-mama/",
-          "logo": "/img/logos/logo-forbes-black.png",
-          "logoClass": "home-news-logo-forbes",
-          "description": "\"A sus 18 años, un mexicano puede revolucionar la detección del cáncer de mama\"",
-          "date": "Forbes |  30 de marzo 2017"
-        },
-        {
-          "link": "https://expansion.mx/emprendedores/2017/03/29/wearable-mexicano-que-detecta-cancer-de-mama-sera-probado-en-el-imss",
-          "logo": "/img/logos/logo-expansion.png",
-          "logoClass": "home-news-logo-expansion",
-          "description": "\"Wearable' mexicano que detecta cáncer de mama será probado en el imss\"",
-          "date": "Expansión | 29 de marzo 2017"
-        },
-        {
-          "link": "http://www.eluniversal.com.mx/articulo/periodismo-de-datos/2016/10/5/luchan-contra-el-cancer-de-mama",
-          "logo": "/img/logos/logo-universal.png",
-          "logoClass": "home-news-logo-universal",
-          "description": "\"Luchan contra el cáncer de mama\"",
-          "date": "El Universal | 5 de Octubre 2016"
-        }
-      ]
-    },
-    "allies": {
-      "link": "/en/allies",
-      "cover": {
-        "title": "Allies",
-        "descPt1": "In our fight to revolutionize early breast cancer detection, we count on key allies that boost us and support",
-        "descBold": "Higia Technologies",
-        "descPt2": "in different areas of its daily operation."
-      },
-      "cards": [
-        {
-          "logo": "/img/logos/logo-axxa-allies.png",
-          "logoClass": "allies-logo-axa",
-          "title": "Research, test campaigns, marketing strategies",
-          "desc": "In collaboration with AXA we have realized test campaigns such as Mujeres Fundadoras (Female Founders) and we are working on developing marketing strategies that allow EVA to reach a greater number of women."
-        },
-        {
-          "logo": "/img/logos/logo-imss-allies.png",
-          "logoClass": "allies-logo-imss",
-          "title": "Clinical tests",
-          "desc": "Thanks to IMSS, we will perform clinical trials in Mexico with more than 600 women."
-        },
-        {
-          "logo": "/img/logos/logo-stanford-allies.png",
-          "logoClass": "allies-logo-stanford",
-          "title": "Clinical tests",
-          "desc": "Together with Stanford Medicine we will start clinical trials to get the approval of the FDA."
-        },
-        {
-          "logo": "/img/logos/logo-ycombinator-allies.png",
-          "logoClass": "allies-logo-ycombinator",
-          "title": "Investor",
-          "desc": "Higia is a company funded by Y Combinator, the most prestigious company accelerator on a global level."
-        },
-        {
-          "logo": "/img/logos/logo-kowa-allies.png",
-          "logoClass": "allies-logo-kowa",
-          "title": "Marketing strategies in Asia",
-          "desc": "In collaboration with Kowa we are starting to explore ways for EVA to reach more women around the world."
-        },
-        {
-          "logo": "/img/logos/logo-kio-allies.png",
-          "logoClass": "allies-logo-kio",
-          "title": "Data hosting, IT Services",
-          "desc": "Thanks to KIO Networks, the clinical data of our patients are protected in the cloud."
-        },
-        {
-          "logo": "/img/logos/logo-beeva-allies.png",
-          "logoClass": "allies-logo-beeva",
-          "title": "Software development",
-          "desc": "Thanks to the support of BEEVA, we continue to improve the software behind EVA every day."
-        },
-        {
-          "logo": "/img/logos/logo-molex-allies.png",
-          "logoClass": "allies-logo-molex",
-          "title": "Manufacture and production processes",
-          "desc": "In collaboration with Molex we work to perfect the electronics and the manufacturing processes behind EVA."
-        },
-        {
-          "logo": "/img/logos/logo-tomatelopecho-allies.png",
-          "logoClass": "allies-logo-tomatelopecho",
-          "title": "Research",
-          "desc": "Together, Higia and Tómatelo a Pecho are fighting breast cancer, accelerating the development of EVA through mentors of the medical field."
-        },
-        {
-          "logo": "/img/logos/logo-tepozrosa-allies.png",
-          "logoClass": "allies-logo-tepozrosa",
-          "title": "Test campaigns",
-          "desc": "Together, Higia and Tepoz Rosa fight to deliver screening and early diagnostic tools to rural communities."
-        },
-        {
-          "logo": "/img/logos/logo-nsf-allies.png",
-          "logoClass": "allies-logo-nsf",
-          "title": "Research, development of business model",
-          "desc": "With the support of the MD Anderson I-Corps Regional Program launched by the National Science Foundation we have been able to validate our business model responding to the needs of our users, strengthening our proposal of worth based on the needs of our users."
-        },
-        {
-          "logo": "/img/logos/logo-google-allies.png",
-          "logoClass": "allies-logo-google",
-          "title": "Data hosting, IT services",
-          "desc": "Thanks to Google, we are working hand in hand with first-level researchers on the development of the algorithms to detect diseases."
-        }
-      ]
-    },
     "whoarewe": {
       "title": "Our",
       "titlePink": "Vision",
-      "desc": "We are empowering people to take control of their well-being through the development of innovative technology that allows the access to actionable information about their health.",
+      "desc": "We are empowering people to take control of their well-being through the development of innovative technology that allows access to actionable information about their health.",
       "history": {
         "title": "Our history"
       },
@@ -1034,7 +1066,7 @@
           {
             "member": "Julián",
             "memberPink": "Ríos",
-            "job": "CEO & Co-Founder",
+            "job": "CEO",
             "img": "/img/whoarewe/member-julian.jpg",
             "category": "BUSINESS DEVELOPMENT TEAM",
             "iconModal": "/img/icons/icon-open-modal.png",
@@ -1049,7 +1081,7 @@
           {
             "member": "Raymundo",
             "memberPink": "González Leal",
-            "job": "Chief of Artificial Intelligence & Co-Founder",
+            "job": "Chief of Artificial Intelligence",
             "img": "/img/whoarewe/member-ray.jpg",
             "category": "ARTIFICIAL INTELLIGENCE",
             "iconModal": "/img/icons/icon-open-modal.png",
@@ -1065,7 +1097,7 @@
           {
             "member": "Antonio",
             "memberPink": "Torres",
-            "job": "Chief Technology Officer & Co-Founder",
+            "job": "Chief Technology Officer",
             "img": "/img/whoarewe/member-antonio.jpg",
             "category": "HARDWARE",
             "iconModal": "/img/icons/icon-open-modal.png",
@@ -1308,7 +1340,7 @@
       "cover": {
         "logoTitle": "/img/logos/logo-eva.png",
         "descPart1": "EVA is the",
-        "descPart2": "first intelligent, portable and non-invasive",
+        "descPart2": "first intelligent, portable, and non-invasive",
         "descPart3": "wearable designed to detect abnormalities in the thermal patterns of the breast, an indicator for the",
         "descPart4": "possible presence of breast cancer.",
         "btnCover": "Preorder"
@@ -1404,7 +1436,7 @@
           "imgClass": "founder-rocio",
           "title": "Female Founder",
           "subtitle": "Rocío Paulina Martínez",
-          "descriptionOne": "Female Founders is our internal program for testing and get feedback on EVA. Thanks to the participation of voluntary women, we can continue to improve the development of EVA and compile data to train our artificial intelligence algorithms.",
+          "descriptionOne": "Female Founders is our internal program for testing and getting feedback on EVA. Thanks to the participation of Women volunteers, we can continue to improve the development of EVA and compile data to train our artificial intelligence algorithms.",
           "descriptionTwo": "Learn about the history of Rocío, volunteer for our campaign.",
           "dataModal": "data-founder-modal-1",
           "video": "/img/videos/rocio-paulina-en.mp4",
@@ -1415,7 +1447,7 @@
           "imgClass": "founder-eliesheva",
           "title": "Female Founder",
           "subtitle": "Eliesheva Ramos",
-          "descriptionOne": "Female Founders is our internal program for testing and get feedback on EVA. Thanks to the participation of voluntary women, we can continue to improve the development of EVA and compile data to train our artificial intelligence algorithms.",
+          "descriptionOne": "Female Founders is our internal program for testing and getting feedback on EVA. Thanks to the participation of Women volunteers, we can continue to improve the development of EVA and compile data to train our artificial intelligence algorithms.",
           "descriptionTwo": "Learn about the history of Eliesheva, volunteer for our campaign.",
           "dataModal": "data-founder-modal-2",
           "video": "/img/videos/eliesheva-ramos-en.mp4",
@@ -1426,7 +1458,7 @@
           "imgClass": "founder-buenrostro",
           "title": "Female Founder",
           "subtitle": "Leticia Buenrostro",
-          "descriptionOne": "Female Founders is our internal program for testing and get feedback on EVA. Thanks to the participation of voluntary women, we can continue to improve the development of EVA and compile data to train our artificial intelligence algorithms.",
+          "descriptionOne": "Female Founders is our internal program for testing and getting feedback on EVA. Thanks to the participation of Women volunteers, we can continue to improve the development of EVA and compile data to train our artificial intelligence algorithms.",
           "descriptionTwo": "Learn about the history of Leticia, a cancer survivor and volunteer for our campaign.",
           "dataModal": "data-founder-modal-3",
           "video": "/img/videos/leticia-buenrostro-en.mp4",
@@ -1437,7 +1469,7 @@
           "imgClass": "founder-elizabeth",
           "title": "Female Founder",
           "subtitle": "Elizabeth Saldaña",
-          "descriptionOne": "Female Founders is our internal program for testing and get feedback on EVA. Thanks to the participation of voluntary women, we can continue to improve the development of EVA and compile data to train our artificial intelligence algorithms.",
+          "descriptionOne": "Female Founders is our internal program for testing and getting feedback on EVA. Thanks to the participation of Women volunteers, we can continue to improve the development of EVA and compile data to train our artificial intelligence algorithms.",
           "descriptionTwo": "Learn about the history of Elizabeth, volunteer for our campaign.",
           "dataModal": "data-founder-modal-4",
           "video": "/img/videos/elizabeth-saldania-en.mp4",
@@ -1448,8 +1480,8 @@
           "imgClass": "founder-diana",
           "title": "Female Founder",
           "subtitle": "Diana Zamora",
-          "descriptionOne": "Female Founders is our internal program for testing and get feedback on EVA. Thanks to the participation of voluntary women, we can continue to improve the development of EVA and compile data to train our artificial intelligence algorithms.",
-          "descriptionTwo": "Learn about the history of Diana, assistant manager of Public Affairs and Social",
+          "descriptionOne": "Female Founders is our internal program for testing and getting feedback on EVA. Thanks to the participation of Women volunteers, we can continue to improve the development of EVA and compile data to train our artificial intelligence algorithms.",
+          "descriptionTwo": "Learn about the history of Diana, assistant manager of Public Affairs and Social Impact AXA Seguros.",
           "dataModal": "data-founder-modal-5",
           "video": "/img/videos/diana-zamora-en.mp4",
           "videoId": "video-diana-zamora",
@@ -1459,7 +1491,7 @@
           "imgClass": "founder-maritsa",
           "title": "Female Founder",
           "subtitle": "Maritsa Paz",
-          "descriptionOne": "Female Founders is our internal program for testing and get feedback on EVA. Thanks to the participation of voluntary women, we can continue to improve the development of EVA and compile data to train our artificial intelligence algorithms.",
+          "descriptionOne": "Female Founders is our internal program for testing and getting feedback on EVA. Thanks to the participation of Women volunteers, we can continue to improve the development of EVA and compile data to train our artificial intelligence algorithms.",
           "descriptionTwo": "Learn about the history of Maritsa, volunteer for our campaign.",
           "dataModal": "data-founder-modal-6",
           "video": "/img/videos/maritsa-paz-en.mp4",
@@ -1470,7 +1502,7 @@
           "imgClass": "founder-agustina",
           "title": "Female Founder",
           "subtitle": "Agustina Martínez",
-          "descriptionOne": "Female Founders is our internal program for testing and get feedback on EVA. Thanks to the participation of voluntary women, we can continue to improve the development of EVA and compile data to train our artificial intelligence algorithms.",
+          "descriptionOne": "Female Founders is our internal program for testing and getting feedback on EVA. Thanks to the participation of Women volunteers, we can continue to improve the development of EVA and compile data to train our artificial intelligence algorithms.",
           "descriptionTwo": "Learn about the history of Agustina, a cancer survivor and volunteer for our campaign.",
           "dataModal": "data-founder-modal-7",
           "video": "/img/videos/agustina-martinez-en.mp4",
@@ -1492,7 +1524,7 @@
             "answerContinuation": "to be part of our pre-sale campaign. Once you are registered, you will enter a waitlist to purchase the device when it’s available for sale and you will receive updates related to the company through email."
           },
           {
-            "title": "3. What is the pre-order?",
+            "title": "3. What is the preorder?",
             "answer": "It’s a register through which you will form part of a waitlist to be one of the first people to buy EVA when it is ready for sale."
           },
           {
@@ -1547,8 +1579,9 @@
         "desc1": "Are you interested in learning more about us?",
         "desc2Part1": "Send us a message,",
         "desc2Part2": "we would love to hear from you!",
-        "follow": "Be part of the community",
+        "follow": "Be part of the",
         "followPink": "Higia",
+        "followPart2": "community",
         "btnSend": "Send",
         "socialNet": [
           {
@@ -1573,14 +1606,12 @@
         "placePart1": "Higia",
         "placePart2": "Technologies",
         "address": "Av. Paseo de la Reforma 180 Col. Juárez, Del. Cuauhtémoc Cd. de México, C.P. 06600",
-        "telText": "Phone",
-        "telNumber": "+52 (81) 2321 1542",
         "emailText": "Email",
         "emailAddress": "contact@higia.tech"
       },
       "newsletter": {
         "title": "Do you want to receive our newsletter?",
-        "subtitle": "Leave us your comments",
+        "subtitle": "Leave us your information",
         "btnSend": "Send"
       }
     },
@@ -1596,47 +1627,47 @@
         {
           "img": "/img/news/new-img-1.jpg",
           "newspaper": "El Financiero |",
-          "date": "24 de abril de 2018",
-          "desc": "\"El joven que halló en una terrible noticia una idea para prevenir el cáncer de mama\"",
+          "date": "April 24, 2018",
+          "desc": "\"The young man who found in terrible news an idea to prevent breast cancer\"",
           "noteLink": "http://elfinanciero.com.mx/bloomberg-businessweek/el-joven-que-hallo-en-una-terrible-noticia-una-idea-para-prevenir-el-cancer-de-mama",
           "readNote": "Read all"
         },
         {
           "img": "/img/news/new-img-2.jpg",
           "newspaper": "Forbes |",
-          "date": "5 de abril de 2018",
-          "desc": "\"EVA, el brasier que detecta el cáncer de mama se venderá en Japón\"",
+          "date": "April 5, 2018",
+          "desc": "\"EVA, the bra that detects breast cancer will be commercialised in Japan\"",
           "noteLink": "https://www.forbes.com.mx/eva-el-brasier-que-detecta-el-cancer-de-mama-se-vendera-en-japon/",
           "readNote": "Read all"
         },
         {
           "img": "/img/news/new-img-3.jpg",
           "newspaper": "Excélsior |",
-          "date": "Redacción, tomado de Notimex 5 de abril de 2018",
-          "desc": "\"Sostén mexicano que detecta cáncer llegará a Japón este año\"",
+          "date": "April 5, 2018",
+          "desc": "\"Mexican bra that detects cancer will reach Japan this year\"",
           "noteLink": "http://www.excelsior.com.mx/hacker/sosten-mexicano-que-detecta-cancer-llegara-a-japon-este-ano/1230695",
           "readNote": "Read all"
         },
         {
           "img": "/img/news/new-img-4.jpg",
           "newspaper": "Forbes |",
-          "date": "13 de febrero 2018",
-          "desc": "\"30 Promesas 2018 | Un brassiere detecta el cáncer y salva la vida a las mujeres\"",
+          "date": "February 13, 2018",
+          "desc": "\"30 Promises 2018 | A brassiere detects cancer and saves women\"",
           "noteLink": "https://www.forbes.com.mx/un-brassiere-detecta-el-cancer/",
           "readNote": "Read all"
         },
         {
           "img": "/img/news/new-img-5.jpg",
           "newspaper": "Forbes |",
-          "date": "30 de marzo 2017",
-          "desc": "\"A sus 18 años, un mexicano puede revolucionar la detección del cáncer de mama\"",
+          "date": "March 30, 2017",
+          "desc": "\"At age 18, a Mexican can revolutionize the detection of breast cancer\"",
           "noteLink": "https://www.forbes.com.mx/a-sus-18-anos-un-mexicano-puede-revolucionar-la-deteccion-del-cancer-de-mama/",
           "readNote": "Read all"
         },
         {
           "img": "/img/news/new-img-6.jpg",
           "newspaper": "Guiding Tech |",
-          "date": "30 de marzo 2017",
+          "date": "May 5, 2017",
           "desc": "\"Teenager Develops Bra to Detect Breast Cancer\"",
           "noteLink": "https://www.guidingtech.com/66967/higia-eva-bra-breast-cancer-detection/",
           "readNote": "Read all"
@@ -1644,7 +1675,7 @@
         {
           "img": "/img/news/new-img-7.jpg",
           "newspaper": "BBC Latin America |",
-          "date": "4 de mayo 2017",
+          "date": "May 4, 2017",
           "desc": "\"Could this bra detect breast cancer?\"",
           "noteLink": "https://www.bbc.com/news/world-latin-america-39802629",
           "readNote": "Read all"
@@ -1652,7 +1683,7 @@
         {
           "img": "/img/news/new-img-8.jpg",
           "newspaper": "Expansión |",
-          "date": "29 de marzo 2017",
+          "date": "March 29, 2017",
           "desc": "\"Wearable' mexicano que detecta cáncer de mama será probado en el IMSS\"",
           "noteLink": "https://expansion.mx/emprendedores/2017/03/29/wearable-mexicano-que-detecta-cancer-de-mama-sera-probado-en-el-imss",
           "readNote": "Read all"
@@ -1660,8 +1691,8 @@
         {
           "img": "/img/news/new-img-9.jpg",
           "newspaper": "El Universal |",
-          "date": "5 de Octubre 2016",
-          "desc": "\"Luchan contra el cáncer de mama\"",
+          "date": "October 5, 2016",
+          "desc": "\"Fighters against breast cancer\"",
           "noteLink": "http://www.eluniversal.com.mx/articulo/periodismo-de-datos/2016/10/5/luchan-contra-el-cancer-de-mama",
           "readNote": "Read all"
         }
@@ -1723,7 +1754,7 @@
           },
           {
             "title": "A review of thermography",
-            "link": "https://drive.google.com/open?id=1ZMJhklk3wBXjy3ZiyQybFp0L9zFucioD"
+            "link": "http://www.clinicalthermography.co.nz/media/Singapore_Research_2008.pdf"
           }
         ]
       },
