@@ -1,31 +1,24 @@
 <footer class="footer">
   <div class="footer-logo-container">
     <a href="/en/index.html">
-      <img class="footer-logo" src="{{es.footerLogo}}" alt="Logo of the footer">
+      <img class="footer-logo" src="{{en.footer.logo}}" alt="Logo of the footer">
     </a>
   </div>
   <div class="footer-info">
     <div class="footer-icon-container">
-      <a href="https://mx.linkedin.com/company/higia-technologies" class="footer-icon-link" target="_blank">
-        <div class="footer-icon icon-in"></div>
+      {% for social in en.footer.socialNet %}
+      <a href="{{social.link}}" class="footer-icon-link" target="_blank">
+        <div class="footer-icon {{social.iconClass}}"></div>
       </a>
-      <a href="https://twitter.com/Higia_Tech" class="footer-icon-link"target="_blank">
-        <div class="footer-icon icon-twitter"></div>
-      </a>
-      <a href="https://www.instagram.com/higiatech/" class="footer-icon-link"target="_blank">
-        <div class="footer-icon icon-insta"></div>
-      </a>
-      <a href="https://www.facebook.com/HigiaTech" class="footer-icon-link"target="_blank">
-        <div class="footer-icon icon-fb"></div>
-      </a>
+      {% endfor %}
     </div>
     <div class="footer-info-text">
       <div class="footer-info-privacy">
         <a href="/en/privacy-notice.html">
-          <span class="footer-text helvneue-light" style="{% if section == 'en/privacy-notice' %} color: #ED80A8;{% endif %}">{{en.footerPrivacy}}</span>
+          <span class="footer-text helvneue-light" style="{% if section == 'en/privacy-notice' %} color: #ED80A8;{% endif %}">{{en.footer.privacy}}</span>
         </a>
       </div>
-      <span class="footer-copyright helvneue-light">{{en.footerCopyright}}</span>
+      <span class="footer-copyright helvneue-light">{{en.footer.copyright}}</span>
     </div>
   </div>
 </footer>
