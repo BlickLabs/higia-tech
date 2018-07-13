@@ -47,33 +47,54 @@
         }
       ]
     },
-    "footerLogo": "/img/logos/logo-footer.png",
-    "footerPrivacy": "Aviso de privacidad",
-    "footerCopyright": "© Copyright, Higia Technologies 2018",
-    "coverTitle": "Hola, somos",
-    "coverTitleSpan": "Higia",
-    "coverDescription": [
-      "Estamos desarrollando a",
-      "EVA",
-      "un dispositivo portátil",
-      "accesible",
-      "y",
-      "no invasivo",
-      "para el análisis de",
-      "riesgo de cáncer de mama"
-    ],
-    "evaInfographi": "/img/home/eva-infographi.png",
-    "founder": "/img/home/founder-lupita.jpg",
-    "btnPreorder": "Preordena",
-    "btnKnowMore": "Conoce más",
-    "btnCompleteNotes": "Lee las notas completas",
-    "homeEva": {
-      "logo": "/img/logos/logo-eva.png",
-      "firstButton": "Preordena",
-      "secondButton": "Conoce más"
+    "footer": {
+      "logo": "/img/logos/logo-footer.png",
+      "socialNet": [
+        {
+          "link": "https://mx.linkedin.com/company/higia-technologies",
+          "iconClass": "icon-in"
+        },
+        {
+          "link": "https://twitter.com/Higia_Tech",
+          "iconClass": "icon-twitter"
+        },
+        {
+          "link": "https://www.instagram.com/higiatech/",
+          "iconClass": "icon-insta"
+        },
+        {
+          "link": "https://www.facebook.com/HigiaTech",
+          "iconClass": "icon-fb"
+        }
+      ],
+      "privacy": "Aviso de privacidad",
+      "copyright": "© Copyright, Higia Technologies 2018"
     },
     "home": {
+      "cover": {
+        "title": "Hola, somos",
+        "titleSpan": "Higia",
+        "description": [
+          "Estamos desarrollando a",
+          "EVA",
+          "un dispositivo portátil",
+          "accesible",
+          "y",
+          "no invasivo",
+          "para el análisis de",
+          "riesgo de cáncer de mama"
+        ],
+        "btnPreorder": "Preordena"
+      },
       "eva": {
+        "logo": "/img/logos/logo-eva.png",
+        "desc": [
+          "EVA",
+          "proporciona a las mujeres información personalizada y accionable para",
+          "aumentar sustancialmente su calidad de vida",
+          "a través de la",
+          "detección temprana del cáncer de mama."
+        ],
         "infographi": [
           {
             "imgContainer": "home-eva-img-iphone-container",
@@ -131,7 +152,9 @@
             "infoPink": "PORTÁTIL",
             "infoBlack": "NO INVASIVA"
           }
-        ]
+        ],
+        "firstButton": "Preordena",
+        "secondButton": "Conoce más"
       },
       "founder": {
         "img": "/img/home/founder-rocio-paulina.jpg",
@@ -143,71 +166,320 @@
         "video": "/img/videos/rocio-paulina-es.mp4",
         "videoId": "video-rocio-paulina",
         "button": "Ver video"
+      },
+      "allies": {
+        "title": "Nuestros Aliados",
+        "desc": "En nuestra lucha por revolucionar la detección temprana del cáncer de mama contamos con aliados clave, que dan impulso y apoyo a Higia Technologies en diferentes áreas de su operación diaria.",
+        "logos": [
+          {
+            "img": "/img/logos/logo-y-combinator.png",
+            "class": "home-allies-logo-ycombinator",
+            "title": "Y Combinator"
+          },
+          {
+            "img": "/img/logos/logo-standford-medicine.png",
+            "class": "home-allies-logo-stanford",
+            "title": "Stanford Medicine"
+          },
+          {
+            "img": "/img/logos/logo-axxa.png",
+            "class": "home-allies-logo-axa",
+            "title": "AXA"
+          },
+          {
+            "img": "/img/logos/logo-imss.png",
+            "class": "home-allies-logo-imss",
+            "title": "IMSS"
+          },
+          {
+            "img": "/img/logos/logo-kowa.png",
+            "class": "home-allies-logo-kowa",
+            "title": "Kowa"
+          },
+          {
+            "img": "/img/logos/logo-kio-networks.png",
+            "class": "home-allies-logo-kio",
+            "title": "KIO Networks"
+          },
+          {
+            "img": "/img/logos/logo-beeva.png",
+            "class": "home-allies-logo-beeva",
+            "title": "BEEVA"
+          },
+          {
+            "img": "/img/logos/logo-molex.png",
+            "class": "home-allies-logo-molex",
+            "title": "Molex"
+          },
+          {
+            "img": "/img/logos/logo-tomatelo-pecho.png",
+            "class": "home-allies-logo-tomatelopecho",
+            "title": "Tómatelo a Pecho"
+          },
+          {
+            "img": "/img/logos/logo-tepoz-rosa.png",
+            "class": "home-allies-logo-tepozrosa",
+            "title": "Tepoz Rosa"
+          },
+          {
+            "img": "/img/logos/logo-nsf.png",
+            "class": "home-allies-logo-nsf",
+            "title": "National Science Foundation"
+          },
+          {
+            "img": "/img/logos/logo-google.png",
+            "class": "home-allies-logo-google",
+            "title": "Google"
+          }
+        ],
+        "btnKnowMore": "Conoce más"
+      },
+      "awards": {
+        "title": "Premios y reconocimientos",
+        "carousel": [
+          {
+            "img": "award-presidential",
+            "logo": "/img/logos/logo-mexico.png",
+            "logoClass": "logo-mexico",
+            "logoContainerClass": "home-awards-logo-container",
+            "title": "Medalla Presidencial en Innovación y Tecnología",
+            "description": "Otorgada por el presidente de México Lic. Enrique Peña Nieto",
+            "year": 2017
+          },
+          {
+            "img": "award-fellowship",
+            "logo": "/img/logos/logo-fellowship-white.png",
+            "logoClass": "logo-fellowship",
+            "logoContainerClass": "home-awards-logo-container",
+            "title": "Thiel Fellowship",
+            "description": "Thiel Fellowship Clase de 2018",
+            "year": 2018
+          },
+          {
+            "img": "award-babson",
+            "logo": "/img/logos/logo-babson-white.png",
+            "logoContainerClass": "home-awards-logo-container",
+            "logoClass": "logo-babson",
+            "title": "Babson College Innovation Challenge",
+            "description": "Primer Lugar",
+            "year": 2016
+          },
+          {
+            "img": "award-harvard",
+            "logo": "/img/logos/logo-harvard-white.png",
+            "logoContainerClass": "home-awards-logo-container",
+            "logoClass": "logo-harvard",
+            "title": "Laboratorios de Innovación Harvard - MIT",
+            "description": "Conferencistas invitados",
+            "year": 2017
+          },
+          {
+            "img": "award-everis",
+            "logo": "/img/logos/logo-everis.png",
+            "logoClass": "logo-everis",
+            "logoContainerClass": "home-awards-logo-container",
+            "title": "Premio EVERIS Primera Edición",
+            "description": "Primer Lugar",
+            "year": 2017
+          },
+          {
+            "img": "award-eogsea",
+            "logo": "/img/logos/logo-eogsea.png",
+            "logoClass": "logo-eogsea",
+            "logoContainerClass": "home-awards-logo-container",
+            "title": "Premio Global al Estudiante Emprendedor",
+            "description": "Primer Lugar Nacional y Primer Lugar Internacional.",
+            "descriptionItalic": "Primera Startup Mexicana en ser reconocida con este premio",
+            "year": 2017
+          },
+          {
+            "img": "award-masschallenge",
+            "logo": "/img/logos/logo-mass-challenge.png",
+            "logoClass": "logo-mass-challenge",
+            "logoContainerClass": "home-awards-logo-container",
+            "title": "MassChallenge",
+            "description": "Empresa Incubada",
+            "year": 2017
+          },
+          {
+            "img": "award-national-academy",
+            "logo": "/img/logos/logo-national-academy.png",
+            "logoClass": "logo-national-academy",
+            "logoContainerClass": "home-awards-logo-container",
+            "title": "Congreso Nacional de Futuros Líderes en Medicina",
+            "description": "Conferencistas invitados",
+            "year": 2017
+          },
+          {
+            "img": "award-forbes",
+            "logo": "/img/logos/logo-forbes-white.png",
+            "logoClass": "logo-forbes",
+            "logoContainerClass": "home-awards-logo-container",
+            "title": "Forbes 30 Empresas más Prometedoras",
+            "description": "Higia es reconocida como una de las empresas más prometedoras en 2018",
+            "year": 2018
+          },
+          {
+            "img": "award-sxsw",
+            "logo": "/img/logos/logo-sxsw.png",
+            "logoClass": "logo-sxsw",
+            "logoContainerClass": "home-awards-logo-container",
+            "title": "South by Southwest",
+            "description": "Pitch competition",
+            "year": 2018
+          }
+        ]
+      },
+      "news": {
+        "title": "Noticias",
+        "carousel": [
+          {
+            "link": "http://elfinanciero.com.mx/bloomberg-businessweek/el-joven-que-hallo-en-una-terrible-noticia-una-idea-para-prevenir-el-cancer-de-mama",
+            "logo": "/img/logos/logo-financiero.png",
+            "logoClass": "home-news-logo-financiero",
+            "description": "\"El joven que halló en una terrible noticia una idea para prevenir el cáncer de mama\"",
+            "date": "El Financiero | 24 de abril de 2018"
+          },
+          {
+            "link": "https://www.forbes.com.mx/eva-el-brasier-que-detecta-el-cancer-de-mama-se-vendera-en-japon/",
+            "logo": "/img/logos/logo-forbes-black.png",
+            "logoClass": "home-news-logo-forbes",
+            "description": "\"EVA, el brasier que detecta el cáncer de mama se venderá en Japón\"",
+            "date": "Forbes | 5 de abril de 2018"
+          },
+          {
+            "link": "http://www.excelsior.com.mx/hacker/sosten-mexicano-que-detecta-cancer-llegara-a-japon-este-ano/1230695",
+            "logo": "/img/logos/logo-excelsior.png",
+            "logoClass": "home-news-logo-excelsior",
+            "description": "\"Sostén mexicano que detecta cáncer llegará a Japón este año\"",
+            "date": "Notimex | 5 de abril de 2018"
+          },
+          {
+            "link": "https://www.forbes.com.mx/un-brassiere-detecta-el-cancer/",
+            "logo": "/img/logos/logo-forbes-black.png",
+            "logoClass": "home-news-logo-forbes",
+            "description": "\"30 Promesas 2018 | Un brassiere detecta el cáncer y salva la vida a las mujeres\"",
+            "date": "Forbes | 13 de febrero 2018"
+          },
+          {
+            "link": "https://www.forbes.com.mx/a-sus-18-anos-un-mexicano-puede-revolucionar-la-deteccion-del-cancer-de-mama/",
+            "logo": "/img/logos/logo-forbes-black.png",
+            "logoClass": "home-news-logo-forbes",
+            "description": "\"A sus 18 años, un mexicano puede revolucionar la detección del cáncer de mama\"",
+            "date": "Forbes | 30 de marzo 2017"
+          },
+          {
+            "link": "https://www.guidingtech.com/66967/higia-eva-bra-breast-cancer-detection/",
+            "logo": "/img/logos/logo-guiding-tech.png",
+            "logoClass": "home-news-logo-guiding",
+            "description": "\"Adolescente desarrolla brassiere para detectar cáncer de mama\"",
+            "date": "Guiding Tech | 5 de mayo 2017"
+          },
+          {
+            "link": "http://www.bbc.com/news/world-latin-america-39802629",
+            "logo": "/img/logos/logo-bbc.png",
+            "logoClass": "home-news-logo-bbc",
+            "description": "\"¿Podría este brassiere detectar el cáncer de mama?\"",
+            "date": "BBC Latin America | 4 de mayo 2017"
+          },
+          {
+            "link": "https://expansion.mx/emprendedores/2017/03/29/wearable-mexicano-que-detecta-cancer-de-mama-sera-probado-en-el-imss",
+            "logo": "/img/logos/logo-expansion.png",
+            "logoClass": "home-news-logo-expansion",
+            "description": "\"Wearable' mexicano que detecta cáncer de mama será probado en el imss\"",
+            "date": "Expansión | 29 de marzo 2017"
+          },
+          {
+            "link": "http://www.eluniversal.com.mx/articulo/periodismo-de-datos/2016/10/5/luchan-contra-el-cancer-de-mama",
+            "logo": "/img/logos/logo-universal.png",
+            "logoClass": "home-news-logo-universal",
+            "description": "\"Luchan contra el cáncer de mama\"",
+            "date": "El Universal | 5 de Octubre 2016"
+          }
+        ],
+        "btnCompleteNotes": "Lee las notas completas"
       }
     },
-    "homeAllies": {
-      "title": "Nuestros Aliados",
-      "description": "En nuestra lucha por revolucionar la detección temprana del cáncer de mama contamos con aliados clave, que dan impulso y apoyo a Higia Technologies en diferentes áreas de su operación diaria.",
-      "logos": [
+    "allies": {
+      "link": "/es/allies",
+      "cover": {
+        "title": "Aliados",
+        "descPt1": "En nuestra lucha por revolucionar la detección temprana del cáncer de mama contamos con aliados clave, que dan impulso y soporte a",
+        "descBold": "Higia Technologies",
+        "descPt2": "en diferentes áreas  de su operación diaria."
+      },
+      "cards": [
         {
-          "img": "/img/logos/logo-y-combinator.png",
-          "class": "home-allies-logo-ycombinator",
-          "title": "Y Combinator"
+          "logo": "/img/logos/logo-axxa-allies.png",
+          "logoClass": "allies-logo-axa",
+          "title": "Investigación, campañas de prueba, estrategias de comercialización",
+          "desc": "En colaboración con AXA hemos realizado campañas de pruebas como Mujeres Fundadoras y trabajamos para desarrollar estrategias de comercialización que permitan que EVA llegue a un mayor número de mujeres."
         },
         {
-          "img": "/img/logos/logo-standford-medicine.png",
-          "class": "home-allies-logo-stanford",
-          "title": "Stanford Medicine"
+          "logo": "/img/logos/logo-imss-allies.png",
+          "logoClass": "allies-logo-imss",
+          "title": "Pruebas clínicas",
+          "desc": "Gracias a IMSS llevaremos a cabo las pruebas clínicas con más de 600 mujeres mexicanas."
         },
         {
-          "img": "/img/logos/logo-axxa.png",
-          "class": "home-allies-logo-axa",
-          "title": "AXA"
+          "logo": "/img/logos/logo-stanford-allies.png",
+          "logoClass": "allies-logo-stanford",
+          "title": "Pruebas clínicas",
+          "desc": "Junto con Stanford Medicine llevaremos a cabo pruebas clínicas para la validación de EVA frente a organismos regulatorios como la FDA."
         },
         {
-          "img": "/img/logos/logo-imss.png",
-          "class": "home-allies-logo-imss",
-          "title": "IMSS"
+          "logo": "/img/logos/logo-ycombinator-allies.png",
+          "logoClass": "allies-logo-ycombinator",
+          "title": "Inversionista",
+          "desc": "Higia es una compañía fondeada por Y Combinator, la aceleradora de empresas con mayor prestigio a nivel global."
         },
         {
-          "img": "/img/logos/logo-kowa.png",
-          "class": "home-allies-logo-kowa",
-          "title": "Kowa"
+          "logo": "/img/logos/logo-kowa-allies.png",
+          "logoClass": "allies-logo-kowa",
+          "title": "Estrategias de comercialización en Asia",
+          "desc": "En colaboración con Kowa comenzamos a explorar caminos para llevar EVA a más mujeres en todo el mundo."
         },
         {
-          "img": "/img/logos/logo-kio-networks.png",
-          "class": "home-allies-logo-kio",
-          "title": "KIO Networks"
+          "logo": "/img/logos/logo-kio-allies.png",
+          "logoClass": "allies-logo-kio",
+          "title": "Servicios de IT",
+          "desc": "Gracias a KIO Networks los datos clínicos de nuestros pacientes se encuentran resguardados en la nube."
         },
         {
-          "img": "/img/logos/logo-beeva.png",
-          "class": "home-allies-logo-beeva",
-          "title": "BEEVA"
+          "logo": "/img/logos/logo-beeva-allies.png",
+          "logoClass": "allies-logo-beeva",
+          "title": "Desarrollo de software",
+          "desc": "Gracias al apoyo de BEEVA continuamos mejorando cada día el software detrás de EVA."
         },
         {
-          "img": "/img/logos/logo-molex.png",
-          "class": "home-allies-logo-molex",
-          "title": "Molex"
+          "logo": "/img/logos/logo-molex-allies.png",
+          "logoClass": "allies-logo-molex",
+          "title": "Manufactura y procesos de producción",
+          "desc": "En colaboración con Molex trabajamos para perfeccionar la electrónica y procesos de manufactura detrás de EVA."
         },
         {
-          "img": "/img/logos/logo-tomatelo-pecho.png",
-          "class": "home-allies-logo-tomatelopecho",
-          "title": "Tómatelo a Pecho"
+          "logo": "/img/logos/logo-tomatelopecho-allies.png",
+          "logoClass": "allies-logo-tomatelopecho",
+          "title": "Investigación",
+          "desc": "Juntos Higia y Tómatelo a Pecho luchamos para combatir el cáncer de mama, acelerando el desarrollo de EVA por medio de mentores en el área médica."
         },
         {
-          "img": "/img/logos/logo-tepoz-rosa.png",
-          "class": "home-allies-logo-tepozrosa",
-          "title": "Tepoz Rosa"
+          "logo": "/img/logos/logo-tepozrosa-allies.png",
+          "logoClass": "allies-logo-tepozrosa",
+          "title": "Campañas de pruebas",
+          "desc": "Juntos Higia y Tepoz Rosa luchamos para llevar herramientas de tamizaje y diagnóstico temprano a comunidades rurales."
         },
         {
-          "img": "/img/logos/logo-nsf.png",
-          "class": "home-allies-logo-nsf",
-          "title": "National Science Foundation"
+          "logo": "/img/logos/logo-nsf-allies.png",
+          "logoClass": "allies-logo-nsf",
+          "title": "Investigación, desarrollo de modelo de negocio",
+          "desc": "Con el apoyo del Programa Regional I-Corps de MD Anderson lanzado por The National Science Foundation, hemos podido validar nuestro modelo de negocio respondiendo las necesidades de nuestros usuarios, consolidando nuestra propuesta de valor con base en las necesidades de nuestros usuarios."
         },
         {
-          "img": "/img/logos/logo-google.png",
-          "class": "home-allies-logo-google",
-          "title": "Google"
+          "logo": "/img/logos/logo-google-allies.png",
+          "logoClass": "allies-logo-google",
+          "title": "Servicios de IT",
+          "desc": "Gracias a Google trabajamos de la mano de investigadores de primer nivel en el desarrollo de algoritmos para la detección de enfermedades."
         }
       ],
       "donors": {
@@ -671,253 +943,6 @@
           }
         ]
       }
-    },
-    "homeAwards": {
-      "title": "Premios y reconocimientos",
-      "carousel": [
-        {
-          "img": "award-presidential",
-          "logo": "/img/logos/logo-mexico.png",
-          "logoClass": "logo-mexico",
-          "logoContainerClass": "home-awards-logo-container",
-          "title": "Medalla Presidencial en Innovación y Tecnología",
-          "description": "Otorgada por el presidente de México Lic. Enrique Peña Nieto",
-          "year": 2017
-        },
-        {
-          "img": "award-fellowship",
-          "logo": "/img/logos/logo-fellowship-white.png",
-          "logoClass": "logo-fellowship",
-          "logoContainerClass": "home-awards-logo-container",
-          "title": "Thiel Fellowship",
-          "description": "Thiel Fellowship Clase de 2018",
-          "year": 2018
-        },
-        {
-          "img": "award-babson",
-          "logo": "/img/logos/logo-babson-white.png",
-          "logoContainerClass": "home-awards-logo-container",
-          "logoClass": "logo-babson",
-          "title": "Babson College Innovation Challenge",
-          "description": "Primer Lugar",
-          "year": 2016
-        },
-        {
-          "img": "award-harvard",
-          "logo": "/img/logos/logo-harvard-white.png",
-          "logoContainerClass": "home-awards-logo-container",
-          "logoClass": "logo-harvard",
-          "title": "Laboratorios de Innovación Harvard - MIT",
-          "description": "Conferencistas invitados",
-          "year": 2017
-        },
-        {
-          "img": "award-everis",
-          "logo": "/img/logos/logo-everis.png",
-          "logoClass": "logo-everis",
-          "logoContainerClass": "home-awards-logo-container",
-          "title": "Premio EVERIS Primera Edición",
-          "description": "Primer Lugar",
-          "year": 2017
-        },
-        {
-          "img": "award-eogsea",
-          "logo": "/img/logos/logo-eogsea.png",
-          "logoClass": "logo-eogsea",
-          "logoContainerClass": "home-awards-logo-container",
-          "title": "Premio Global al Estudiante Emprendedor",
-          "description": "Primer Lugar Nacional y Primer Lugar Internacional.",
-          "descriptionItalic": "Primera Startup Mexicana en ser reconocida con este premio",
-          "year": 2017
-        },
-        {
-          "img": "award-masschallenge",
-          "logo": "/img/logos/logo-mass-challenge.png",
-          "logoClass": "logo-mass-challenge",
-          "logoContainerClass": "home-awards-logo-container",
-          "title": "MassChallenge",
-          "description": "Empresa Incubada",
-          "year": 2017
-        },
-        {
-          "img": "award-national-academy",
-          "logo": "/img/logos/logo-national-academy.png",
-          "logoClass": "logo-national-academy",
-          "logoContainerClass": "home-awards-logo-container",
-          "title": "Congreso Nacional de Futuros Líderes en Medicina",
-          "description": "Conferencistas invitados",
-          "year": 2017
-        },
-        {
-          "img": "award-forbes",
-          "logo": "/img/logos/logo-forbes-white.png",
-          "logoClass": "logo-forbes",
-          "logoContainerClass": "home-awards-logo-container",
-          "title": "Forbes 30 Empresas más Prometedoras",
-          "description": "Higia es reconocida como una de las empresas más prometedoras en 2018.",
-          "year": 2018
-        },
-        {
-          "img": "award-sxsw",
-          "logo": "/img/logos/logo-sxsw.png",
-          "logoClass": "logo-sxsw",
-          "logoContainerClass": "home-awards-logo-container",
-          "title": "South by Southwest",
-          "description": "Pitch competition",
-          "year": 2018
-        }
-      ]
-    },
-    "homeNews": {
-      "title": "Noticias",
-      "carousel": [
-        {
-          "link": "http://elfinanciero.com.mx/bloomberg-businessweek/el-joven-que-hallo-en-una-terrible-noticia-una-idea-para-prevenir-el-cancer-de-mama",
-          "logo": "/img/logos/logo-financiero.png",
-          "logoClass": "home-news-logo-financiero",
-          "description": "\"El joven que halló en una terrible noticia una idea para prevenir el cáncer de mama\"",
-          "date": "El Financiero | 24 de abril de 2018"
-        },
-        {
-          "link": "https://www.forbes.com.mx/eva-el-brasier-que-detecta-el-cancer-de-mama-se-vendera-en-japon/",
-          "logo": "/img/logos/logo-forbes-black.png",
-          "logoClass": "home-news-logo-forbes",
-          "description": "\"EVA, el brasier que detecta el cáncer de mama se venderá en Japón\"",
-          "date": "Forbes | 5 de abril de 2018"
-        },
-        {
-          "link": "http://www.excelsior.com.mx/hacker/sosten-mexicano-que-detecta-cancer-llegara-a-japon-este-ano/1230695",
-          "logo": "/img/logos/logo-excelsior.png",
-          "logoClass": "home-news-logo-excelsior",
-          "description": "\"Sostén mexicano que detecta cáncer llegará a Japón este año\"",
-          "date": "Notimex | 5 de abril de 2018"
-        },
-        {
-          "link": "https://www.forbes.com.mx/un-brassiere-detecta-el-cancer/",
-          "logo": "/img/logos/logo-forbes-black.png",
-          "logoClass": "home-news-logo-forbes",
-          "description": "\"30 Promesas 2018 | Un brassiere detecta el cáncer y salva la vida a las mujeres\"",
-          "date": "Forbes | 13 de febrero 2018"
-        },
-        {
-          "link": "https://www.forbes.com.mx/a-sus-18-anos-un-mexicano-puede-revolucionar-la-deteccion-del-cancer-de-mama/",
-          "logo": "/img/logos/logo-forbes-black.png",
-          "logoClass": "home-news-logo-forbes",
-          "description": "\"A sus 18 años, un mexicano puede revolucionar la detección del cáncer de mama\"",
-          "date": "Forbes | 30 de marzo 2017"
-        },
-        {
-          "link": "https://www.guidingtech.com/66967/higia-eva-bra-breast-cancer-detection/",
-          "logo": "/img/logos/logo-guiding-tech.png",
-          "logoClass": "home-news-logo-guiding",
-          "description": "\"Adolescente desarrolla brassiere para detectar cáncer de mama\"",
-          "date": "Guiding Tech | 5 de mayo 2017"
-        },
-        {
-          "link": "http://www.bbc.com/news/world-latin-america-39802629",
-          "logo": "/img/logos/logo-bbc.png",
-          "logoClass": "home-news-logo-bbc",
-          "description": "\"¿Podría este brassiere detectar el cáncer de mama?\"",
-          "date": "BBC Latin America | 4 de mayo 2017"
-        },
-        {
-          "link": "https://expansion.mx/emprendedores/2017/03/29/wearable-mexicano-que-detecta-cancer-de-mama-sera-probado-en-el-imss",
-          "logo": "/img/logos/logo-expansion.png",
-          "logoClass": "home-news-logo-expansion",
-          "description": "\"Wearable' mexicano que detecta cáncer de mama será probado en el imss\"",
-          "date": "Expansión | 29 de marzo 2017"
-        },
-        {
-          "link": "http://www.eluniversal.com.mx/articulo/periodismo-de-datos/2016/10/5/luchan-contra-el-cancer-de-mama",
-          "logo": "/img/logos/logo-universal.png",
-          "logoClass": "home-news-logo-universal",
-          "description": "\"Luchan contra el cáncer de mama\"",
-          "date": "El Universal | 5 de Octubre 2016"
-        }
-      ]
-    },
-    "allies": {
-      "link": "/es/allies",
-      "cover": {
-        "title": "Aliados",
-        "descPt1": "En nuestra lucha por revolucionar la detección temprana del cáncer de mama contamos con aliados clave, que dan impulso y soporte a",
-        "descBold": "Higia Technologies",
-        "descPt2": "en diferentes áreas  de su operación diaria."
-      },
-      "cards": [
-        {
-          "logo": "/img/logos/logo-axxa-allies.png",
-          "logoClass": "allies-logo-axa",
-          "title": "Investigación, campañas de prueba, estrategias de comercialización",
-          "desc": "En colaboración con AXA hemos realizado campañas de pruebas como Mujeres Fundadoras y trabajamos para desarrollar estrategias de comercialización que permitan que EVA llegue a un mayor número de mujeres."
-        },
-        {
-          "logo": "/img/logos/logo-imss-allies.png",
-          "logoClass": "allies-logo-imss",
-          "title": "Pruebas clínicas",
-          "desc": "Gracias a IMSS llevaremos a cabo las pruebas clínicas con más de 600 mujeres mexicanas."
-        },
-        {
-          "logo": "/img/logos/logo-stanford-allies.png",
-          "logoClass": "allies-logo-stanford",
-          "title": "Pruebas clínicas",
-          "desc": "Junto con Stanford Medicine llevaremos a cabo pruebas clínicas para la validación de EVA frente a organismos regulatorios como la FDA."
-        },
-        {
-          "logo": "/img/logos/logo-ycombinator-allies.png",
-          "logoClass": "allies-logo-ycombinator",
-          "title": "Inversionista",
-          "desc": "Higia es una compañía fondeada por Y Combinator, la aceleradora de empresas con mayor prestigio a nivel global."
-        },
-        {
-          "logo": "/img/logos/logo-kowa-allies.png",
-          "logoClass": "allies-logo-kowa",
-          "title": "Estrategias de comercialización en Asia",
-          "desc": "En colaboración con Kowa comenzamos a explorar caminos para llevar EVA a más mujeres en todo el mundo."
-        },
-        {
-          "logo": "/img/logos/logo-kio-allies.png",
-          "logoClass": "allies-logo-kio",
-          "title": "Servicios de IT",
-          "desc": "Gracias a KIO Networks los datos clínicos de nuestros pacientes se encuentran resguardados en la nube."
-        },
-        {
-          "logo": "/img/logos/logo-beeva-allies.png",
-          "logoClass": "allies-logo-beeva",
-          "title": "Desarrollo de software",
-          "desc": "Gracias al apoyo de BEEVA continuamos mejorando cada día el software detrás de EVA."
-        },
-        {
-          "logo": "/img/logos/logo-molex-allies.png",
-          "logoClass": "allies-logo-molex",
-          "title": "Manufactura y procesos de producción",
-          "desc": "En colaboración con Molex trabajamos para perfeccionar la electrónica y procesos de manufactura detrás de EVA."
-        },
-        {
-          "logo": "/img/logos/logo-tomatelopecho-allies.png",
-          "logoClass": "allies-logo-tomatelopecho",
-          "title": "Investigación",
-          "desc": "Juntos Higia y Tómatelo a Pecho luchamos para combatir el cáncer de mama, acelerando el desarrollo de EVA por medio de mentores en el área médica."
-        },
-        {
-          "logo": "/img/logos/logo-tepozrosa-allies.png",
-          "logoClass": "allies-logo-tepozrosa",
-          "title": "Campañas de pruebas",
-          "desc": "Juntos Higia y Tepoz Rosa luchamos para llevar herramientas de tamizaje y diagnóstico temprano a comunidades rurales."
-        },
-        {
-          "logo": "/img/logos/logo-nsf-allies.png",
-          "logoClass": "allies-logo-nsf",
-          "title": "Investigación, desarrollo de modelo de negocio",
-          "desc": "Con el apoyo del Programa Regional I-Corps de MD Anderson lanzado por The National Science Foundation, hemos podido validar nuestro modelo de negocio respondiendo las necesidades de nuestros usuarios, consolidando nuestra propuesta de valor con base en las necesidades de nuestros usuarios."
-        },
-        {
-          "logo": "/img/logos/logo-google-allies.png",
-          "logoClass": "allies-logo-google",
-          "title": "Servicios de IT",
-          "desc": "Gracias a Google trabajamos de la mano de investigadores de primer nivel en el desarrollo de algoritmos para la detección de enfermedades."
-        }
-      ]
     },
     "whoarewe": {
       "title": "Nuestra",
