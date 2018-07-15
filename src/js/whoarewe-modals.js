@@ -11,14 +11,15 @@ $(function(){
         dataVideo.currentTime = 0;
         dataVideo.play();
       }
-
-      function log_modal_event(event, modal) {
-        var dataVideo = document.getElementById(dataId);
-        dataVideo.pause();
-      }
-
-      $(document).on($.modal.CLOSE, log_modal_event);
     }
+
+    function log_modal_event(event, modal) {
+      var dataVideo = document.getElementById(dataId);
+      dataVideo.pause();
+    }
+
+    $(document).on($.modal.CLOSE, log_modal_event);
+
     return false;
   });
 });

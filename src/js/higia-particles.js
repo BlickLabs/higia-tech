@@ -24,14 +24,9 @@ $(function(){
     partContainerA.style.height = absContainerHeight+'px';
   }
 
-
   if (indexLocation) {
     window.addEventListener('scroll', resizeContainer)
 
     resizeContainer()
   }
-
-  particlesJS.load('particles-js', 'particles.js', function(){
-    console.log("particles.js Is loaded!");
-  });
 });

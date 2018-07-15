@@ -154,8 +154,8 @@
       <h1 class="home-news-title helvneue-bold">{{es.home.news.title}}</h1>
       <div class="home-news-carousel owl-carousel">
         {% for new in es.home.news.carousel %}
-        <a href="{{new.link}}" target="_blank">
-          <div class="home-news-card">
+        <div>
+          <a class="home-news-card" href="{{new.link}}" target="_blank">
             <div>
               <img class="{{new.logoClass}}" src="{{new.logo}}">
             </div>
@@ -164,8 +164,8 @@
               <p class="home-news-description helvneue-light">{{new.description}}</p>
             </div>
             <span class="home-news-date helvneue-bold">{{new.date}}</span>
-          </div>
-        </a>
+          </a>
+        </div>
         {% endfor %}
       </div>
       <div class="home-news-btn-container">
