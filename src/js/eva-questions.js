@@ -4,11 +4,11 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
   function setClass(els, className, fnName) {
     for (var i = 0; i < els.length; i++) {
-        els[i].classList[fnName](className);
+      els[i].classList[fnName](className);
     }
   }
 
-  for (var i = 0; i < question.length; i++) {
+  function clickQuestion(i) {
     question[i].onclick = function() {
       var setClasses = !this.classList.contains('active');
       setClass(question, 'active', 'remove');
@@ -19,5 +19,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
         this.nextElementSibling.classList.toggle("show");
       }
     }
+  }
+
+  for (var i = 0; i < question.length; i++) {
+    clickQuestion(i);
   }
 });
