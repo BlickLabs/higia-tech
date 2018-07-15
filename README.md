@@ -32,6 +32,7 @@ gulp deploy
 	* **Clonar rama de gh-pages**: Si existe eliminar primero la carpeta del proyecto:
   ```bash
   sudo rm -rf higia-tech/
+  ```
   Si no hay ninguna carpeta con el mismo nombre:
   ```bash
   git clone -b gh-pages --single-branch https://github.com/BlickLabs/higia-tech.git
@@ -65,6 +66,8 @@ Aquí hay una breve explicación de cada archivo y directorio que se genera (exc
     * **sections/**: Contiene un par de carpetas para las versiones en español e inglés del sitio.
       * **es/**: Contiene las plantillas para su versión en español.
       * **es/**: Contiene las plantillas para su versión en inglés.
+    * **seo**: Contiene los archivos para los metatags y un par más para los scripts de facebook pixel y google analytics. Se pueden agregar, modificar o eliminar dependiendo las necesidades. La referencia hacia estos archivos se encuentra en:
+    > base.njk
   * **styl/**: Archivos del preprocesador de CSS "Stylus".
     * **sections/** Archivos de estilos para todas las secciones dle sitio.
     * **partials/** "Archivos de estilos para la barra de navegación y el pié de página."
@@ -81,7 +84,7 @@ Dependiendo de la sección que valla ser modificada, los archivos JSON contienen
 ```bash
 <h1 class="allies-cover-title helvneue-bold">{{en.allies.cover.title}}</h1>
 ```
-Empieza por el objeto **en** que define el idioma, siguiendo el árbol, continúa con el nombre de la vista: **allies**, enseguida la sección: **cover** y por último el elemento, que es el título: **title**.
+Comienza por el objeto: **en**, que define el idioma. Siguiendo el árbol, continúa con el nombre de la vista: **allies**, enseguida la sección: **cover** y por último el elemento, que es el título: **title**.
 
 Si se desea generar una iteración de elementos que son repetitivos podemos tomar el ejemplo de la misma plantilla de allies.njk
  ```bash
@@ -100,7 +103,7 @@ Si se desea generar una iteración de elementos que son repetitivos podemos toma
 </section>
 ```
 
-En este caso el objetivo es mostrar varios elementos dentro de un carrusel, entonces dentro de una sentencia for [Para más información sobre Nunjucks y su funcionamiento](https://mozilla.github.io/nunjucks/) hay que iterar los arreglos de la información contenida en los archivos JSON, destinada para esa sección.
+En este caso el objetivo es mostrar varios elementos dentro de un carrusel, entonces dentro de una sentencia **for** hay que iterar los arreglos de la información contenida en los archivos JSON, destinada para esa sección. [Para más información sobre Nunjucks y su funcionamiento](https://mozilla.github.io/nunjucks/)
 
 Puntos de suma importancia a tomar en cuenta:
 * **Links y rutas**: Por la forma en que se construyó el proyecto para tener un sitio multi idioma, todas las rutas que originalmente pueden considerarse sin **/** ahora deben llevarla, con excepción de si se va a evaluar un enlace en una condición. Ejemplos: **/es/index.njk**, **/en/allies.njk**, **/css/{{ projectFilesName }}.libs.css (dentro de base.njk)** y para evaluar enlaces: **es/index.njk**.
@@ -108,18 +111,21 @@ Puntos de suma importancia a tomar en cuenta:
 ```bash
 {% set view_name = "allies" %}
 ```
-Y la condición que pinta de color rosa Aliados (si se está posicionado en esa vista):
+Y la condición que ayuda a pintar de color rosa el enlace activo dentro de la barra de navegación:
 ```bash
-{% elif section == 'en/allies' %} /es/allies.html
+{% if view_name == nav.viewName %}active{% endif %}
 ```
-* **Cambio de idioma en la barra de navegación**: Para no llevar a una confusión, el único punto a tomar en cuenta es que en las condiciones evaluán si la vista está en inglés para que al hacer el cambio redireccione a su contraparte.
+* **Cambio de idioma en la barra de navegación**: Para no llevar a una confusión, el único punto a tomar en cuenta es que las condiciones evaluán si la vista está en inglés para que al hacer el cambio redireccione a su contraparte.
 
-* **Agregar más archivos Json**: Si se considera la opción de agregar más archivos JSON, es necesario agregar una tarea de gulp indicándoselo. La ruta del archivo es la siguiente: **src/gulptasks/html.js**.
+* **Agregar más archivos Json**: Si se considera la opción de agregar más archivos JSON, es necesario incluir una tarea de gulp indicándoselo. La ruta del archivo es la siguiente: **src/gulptasks/html.js**.
 ```bash
 .pipe(data(function() {
   return require('../src/locales/es.json')
 }))
 ```
+* **Definición de la ruta para el archivo particles-config.json**: Dentro de **src/gulptasks/scripts.js** se ha definido la ruta para este archivo. Esto para separarlo de la carpeta donde se encuentran los archivos **JSON** de los idiomas. Si se desea cambiar la ubicación, simplemente habra que eliminar el **pipe** dentro de **scripts.js** y agregarla a **html.js**
+
+* **alertify.js**: Este plugin sirve para mostrar las notificaciones al enviar un formulario. Si no está contemplado dentro del proyecto, es conveniente eliminarlo de las dependencias de **bower**. También modificar el archivo **src/js/app.js** que contiene la integración de los formularios y el uso de **alertify**.
 
 ## ¿Cómo generar los assets para producción?
 
